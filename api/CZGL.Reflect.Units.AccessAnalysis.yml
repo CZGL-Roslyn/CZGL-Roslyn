@@ -1,0 +1,892 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Units.AccessAnalysis
+  commentId: T:CZGL.Reflect.Units.AccessAnalysis
+  id: AccessAnalysis
+  parent: CZGL.Reflect.Units
+  children:
+  - CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.FieldInfo)
+  - CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.MethodBase)
+  - CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.PropertyInfo)
+  - CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Type)
+  - CZGL.Reflect.Units.AccessAnalysis.GetAccess``1(``0)
+  - CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.FieldInfo)
+  - CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.MethodBase)
+  - CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.PropertyInfo)
+  - CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Type)
+  - CZGL.Reflect.Units.AccessAnalysis.GetNestedAccess(System.Type)
+  - CZGL.Reflect.Units.AccessAnalysis.GetNestedAccessCode(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: AccessAnalysis
+  nameWithType: AccessAnalysis
+  fullName: CZGL.Reflect.Units.AccessAnalysis
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: AccessAnalysis
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 13
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n解析访问权限\n"
+  example: []
+  syntax:
+    content: public static class AccessAnalysis
+    content.vb: Public Module AccessAnalysis
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccess``1(``0)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetAccess``1(``0)
+  id: GetAccess``1(``0)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccess<T>(T)
+  nameWithType: AccessAnalysis.GetAccess<T>(T)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccess<T>(T)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccess
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 29
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获得成员的访问权限\n"
+  example: []
+  syntax:
+    content: >-
+      public static MemberAccess GetAccess<T>(T t)
+
+          where T : MemberInfo
+    parameters:
+    - id: t
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+      description: ''
+    content.vb: Public Shared Function GetAccess(Of T As MemberInfo)(t As T) As MemberAccess
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
+  nameWithType.vb: AccessAnalysis.GetAccess(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.Reflect.Units.AccessAnalysis.GetAccess(Of T)(T)
+  name.vb: GetAccess(Of T)(T)
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Type)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Type)
+  id: GetAccess(System.Type)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccess(Type)
+  nameWithType: AccessAnalysis.GetAccess(Type)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccess
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 49
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取一个能够在命名空间下直接定义的类型的访问权限\n<p>结构体、枚举、类、委托等</p>\n"
+  example: []
+  syntax:
+    content: public static MemberAccess GetAccess(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+      description: ''
+    content.vb: Public Shared Function GetAccess(type As Type) As MemberAccess
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Type)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Type)
+  id: GetAccessCode(System.Type)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccessCode(Type)
+  nameWithType: AccessAnalysis.GetAccessCode(Type)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccessCode
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 63
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取一个能够在命名空间下直接定义的类型的访问权限\n<p>结构体、枚举、类、委托等</p>\n"
+  example: []
+  syntax:
+    content: public static string GetAccessCode(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetAccessCode(type As Type) As String
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccess(System.Type)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetNestedAccess(System.Type)
+  id: GetNestedAccess(System.Type)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetNestedAccess(Type)
+  nameWithType: AccessAnalysis.GetNestedAccess(Type)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccess(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetNestedAccess
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 73
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取成员访问权限\n"
+  example: []
+  syntax:
+    content: public static MemberAccess GetNestedAccess(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+      description: ''
+    content.vb: Public Shared Function GetNestedAccess(type As Type) As MemberAccess
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccessCode(System.Type)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetNestedAccessCode(System.Type)
+  id: GetNestedAccessCode(System.Type)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetNestedAccessCode(Type)
+  nameWithType: AccessAnalysis.GetNestedAccessCode(Type)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccessCode(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetNestedAccessCode
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 92
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取成员访问权限\n"
+  example: []
+  syntax:
+    content: public static string GetNestedAccessCode(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetNestedAccessCode(type As Type) As String
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccessCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.MethodBase)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.MethodBase)
+  id: GetAccessCode(System.Reflection.MethodBase)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccessCode(MethodBase)
+  nameWithType: AccessAnalysis.GetAccessCode(MethodBase)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.MethodBase)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccessCode
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 102
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取成员访问权限\n"
+  example: []
+  syntax:
+    content: public static string GetAccessCode(MethodBase method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodBase
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetAccessCode(method As MethodBase) As String
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.MethodBase)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.MethodBase)
+  id: GetAccess(System.Reflection.MethodBase)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccess(MethodBase)
+  nameWithType: AccessAnalysis.GetAccess(MethodBase)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.MethodBase)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccess
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 112
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取成员访问权限\n"
+  example: []
+  syntax:
+    content: public static MemberAccess GetAccess(MethodBase method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodBase
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+      description: ''
+    content.vb: Public Shared Function GetAccess(method As MethodBase) As MemberAccess
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.FieldInfo)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.FieldInfo)
+  id: GetAccessCode(System.Reflection.FieldInfo)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccessCode(FieldInfo)
+  nameWithType: AccessAnalysis.GetAccessCode(FieldInfo)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.FieldInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccessCode
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 129
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取成员访问权限\n"
+  example: []
+  syntax:
+    content: public static string GetAccessCode(FieldInfo info)
+    parameters:
+    - id: info
+      type: System.Reflection.FieldInfo
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetAccessCode(info As FieldInfo) As String
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.FieldInfo)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.FieldInfo)
+  id: GetAccess(System.Reflection.FieldInfo)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccess(FieldInfo)
+  nameWithType: AccessAnalysis.GetAccess(FieldInfo)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.FieldInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccess
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 139
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取成员访问权限\n"
+  example: []
+  syntax:
+    content: public static MemberAccess GetAccess(FieldInfo info)
+    parameters:
+    - id: info
+      type: System.Reflection.FieldInfo
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+      description: ''
+    content.vb: Public Shared Function GetAccess(info As FieldInfo) As MemberAccess
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.PropertyInfo)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.PropertyInfo)
+  id: GetAccessCode(System.Reflection.PropertyInfo)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccessCode(PropertyInfo)
+  nameWithType: AccessAnalysis.GetAccessCode(PropertyInfo)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode(System.Reflection.PropertyInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccessCode
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 156
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取成员访问权限\n"
+  example: []
+  syntax:
+    content: public static string GetAccessCode(PropertyInfo property)
+    parameters:
+    - id: property
+      type: System.Reflection.PropertyInfo
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetAccessCode(property As PropertyInfo) As String
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.PropertyInfo)
+  commentId: M:CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.PropertyInfo)
+  id: GetAccess(System.Reflection.PropertyInfo)
+  parent: CZGL.Reflect.Units.AccessAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccess(PropertyInfo)
+  nameWithType: AccessAnalysis.GetAccess(PropertyInfo)
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccess(System.Reflection.PropertyInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccess
+    path: src/Src/CZGL.Reflect/Units/AccessAnalysis.cs
+    startLine: 166
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取成员访问权限\n"
+  example: []
+  syntax:
+    content: public static MemberAccess GetAccess(PropertyInfo property)
+    parameters:
+    - id: property
+      type: System.Reflection.PropertyInfo
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+      description: ''
+    content.vb: Public Shared Function GetAccess(property As PropertyInfo) As MemberAccess
+  overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CZGL.Reflect.Units
+  commentId: N:CZGL.Reflect.Units
+  name: CZGL.Reflect.Units
+  nameWithType: CZGL.Reflect.Units
+  fullName: CZGL.Reflect.Units
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
+  commentId: Overload:CZGL.Reflect.Units.AccessAnalysis.GetAccess
+  name: GetAccess
+  nameWithType: AccessAnalysis.GetAccess
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccess
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CZGL.Reflect.Shared.MemberAccess
+  commentId: T:CZGL.Reflect.Shared.MemberAccess
+  parent: CZGL.Reflect.Shared
+  name: MemberAccess
+  nameWithType: MemberAccess
+  fullName: CZGL.Reflect.Shared.MemberAccess
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode*
+  commentId: Overload:CZGL.Reflect.Units.AccessAnalysis.GetAccessCode
+  name: GetAccessCode
+  nameWithType: AccessAnalysis.GetAccessCode
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetAccessCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccess*
+  commentId: Overload:CZGL.Reflect.Units.AccessAnalysis.GetNestedAccess
+  name: GetNestedAccess
+  nameWithType: AccessAnalysis.GetNestedAccess
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccess
+- uid: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccessCode*
+  commentId: Overload:CZGL.Reflect.Units.AccessAnalysis.GetNestedAccessCode
+  name: GetNestedAccessCode
+  nameWithType: AccessAnalysis.GetNestedAccessCode
+  fullName: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccessCode
+- uid: System.Reflection.MethodBase
+  commentId: T:System.Reflection.MethodBase
+  parent: System.Reflection
+  isExternal: true
+  name: MethodBase
+  nameWithType: MethodBase
+  fullName: System.Reflection.MethodBase
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: System.Reflection.FieldInfo
+  commentId: T:System.Reflection.FieldInfo
+  parent: System.Reflection
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: System.Reflection.FieldInfo
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo

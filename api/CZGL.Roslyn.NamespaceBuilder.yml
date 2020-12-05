@@ -1,0 +1,2336 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.NamespaceBuilder
+  commentId: T:CZGL.Roslyn.NamespaceBuilder
+  id: NamespaceBuilder
+  parent: CZGL.Roslyn
+  children:
+  - CZGL.Roslyn.NamespaceBuilder.BuildSyntax
+  - CZGL.Roslyn.NamespaceBuilder.FromCode(System.String)
+  langs:
+  - csharp
+  - vb
+  name: NamespaceBuilder
+  nameWithType: NamespaceBuilder
+  fullName: CZGL.Roslyn.NamespaceBuilder
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/NamespaceBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: NamespaceBuilder
+    path: src/Src/CZGL.Roslyn/NamespaceBuilder.cs
+    startLine: 14
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n构建命名空间\n"
+  example: []
+  syntax:
+    content: 'public sealed class NamespaceBuilder : NamespaceTemplate<NamespaceBuilder>'
+    content.vb: >-
+      Public NotInheritable Class NamespaceBuilder
+
+          Inherits NamespaceTemplate(Of NamespaceBuilder)
+  inheritance:
+  - System.Object
+  - CZGL.Roslyn.Templates.BaseTemplate
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  inheritedMembers:
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}._TBuilder
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithName(System.String)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithRondomName
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithUsing(System.String)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithUsing(System.String[])
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithAutoUsing(System.Type)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateEnum
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateEnum(System.String)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateStruct
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateInterface
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateClass(CZGL.Roslyn.ClassBuilder)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateDelegate
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateEvent(CZGL.Roslyn.EventBuilder)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.EnumBuilder)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.StructBuilder)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.InterfaceBuilder)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.ClassBuilder)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.DelegateBuilder)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.EventBuilder)
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.ToFullCode
+  - CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.ToFormatCode
+  - CZGL.Roslyn.Templates.BaseTemplate._base
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - CZGL.Roslyn.NamespaceBuilder.CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CZGL.Roslyn.NamespaceBuilder.FromCode(System.String)
+  commentId: M:CZGL.Roslyn.NamespaceBuilder.FromCode(System.String)
+  id: FromCode(System.String)
+  parent: CZGL.Roslyn.NamespaceBuilder
+  langs:
+  - csharp
+  - vb
+  name: FromCode(String)
+  nameWithType: NamespaceBuilder.FromCode(String)
+  fullName: CZGL.Roslyn.NamespaceBuilder.FromCode(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/NamespaceBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: FromCode
+    path: src/Src/CZGL.Roslyn/NamespaceBuilder.cs
+    startLine: 35
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n通过代码直接生成\n"
+  example: []
+  syntax:
+    content: public static NamespaceBuilder FromCode(string Code)
+    parameters:
+    - id: Code
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.NamespaceBuilder
+      description: ''
+    content.vb: Public Shared Function FromCode(Code As String) As NamespaceBuilder
+  overload: CZGL.Roslyn.NamespaceBuilder.FromCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.NamespaceBuilder.BuildSyntax
+  commentId: M:CZGL.Roslyn.NamespaceBuilder.BuildSyntax
+  id: BuildSyntax
+  parent: CZGL.Roslyn.NamespaceBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildSyntax()
+  nameWithType: NamespaceBuilder.BuildSyntax()
+  fullName: CZGL.Roslyn.NamespaceBuilder.BuildSyntax()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/NamespaceBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: BuildSyntax
+    path: src/Src/CZGL.Roslyn/NamespaceBuilder.cs
+    startLine: 40
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  syntax:
+    content: public override NamespaceDeclarationSyntax BuildSyntax()
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.NamespaceDeclarationSyntax
+    content.vb: Public Overrides Function BuildSyntax As NamespaceDeclarationSyntax
+  overridden: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.BuildSyntax
+  overload: CZGL.Roslyn.NamespaceBuilder.BuildSyntax*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CZGL.Roslyn
+  commentId: N:CZGL.Roslyn
+  name: CZGL.Roslyn
+  nameWithType: CZGL.Roslyn
+  fullName: CZGL.Roslyn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CZGL.Roslyn.Templates.BaseTemplate
+  commentId: T:CZGL.Roslyn.Templates.BaseTemplate
+  parent: CZGL.Roslyn.Templates
+  name: BaseTemplate
+  nameWithType: BaseTemplate
+  fullName: CZGL.Roslyn.Templates.BaseTemplate
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  commentId: T:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  parent: CZGL.Roslyn.Templates
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1
+  name: NamespaceTemplate<NamespaceBuilder>
+  nameWithType: NamespaceTemplate<NamespaceBuilder>
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder)
+  name.vb: NamespaceTemplate(Of NamespaceBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1
+    name: NamespaceTemplate
+    nameWithType: NamespaceTemplate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.NamespaceBuilder
+    name: NamespaceBuilder
+    nameWithType: NamespaceBuilder
+    fullName: CZGL.Roslyn.NamespaceBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1
+    name: NamespaceTemplate
+    nameWithType: NamespaceTemplate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.NamespaceBuilder
+    name: NamespaceBuilder
+    nameWithType: NamespaceBuilder
+    fullName: CZGL.Roslyn.NamespaceBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}._TBuilder
+  commentId: F:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}._TBuilder
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1._TBuilder
+  name: _TBuilder
+  nameWithType: NamespaceTemplate<NamespaceBuilder>._TBuilder
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>._TBuilder
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder)._TBuilder
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder)._TBuilder
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithName(System.String)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithName(System.String)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithName(System.String)
+  name: WithName(String)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.WithName(String)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithName(System.String)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).WithName(String)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithName(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithName(System.String)
+    name: WithName
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.WithName
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithName(System.String)
+    name: WithName
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).WithName
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithRondomName
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithRondomName
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithRondomName
+  name: WithRondomName()
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.WithRondomName()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithRondomName()
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).WithRondomName()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithRondomName()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithRondomName
+    name: WithRondomName
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.WithRondomName
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithRondomName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithRondomName
+    name: WithRondomName
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).WithRondomName
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithRondomName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithUsing(System.String)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithUsing(System.String)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String)
+  name: WithUsing(String)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.WithUsing(String)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithUsing(System.String)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).WithUsing(String)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithUsing(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String)
+    name: WithUsing
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.WithUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String)
+    name: WithUsing
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).WithUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithUsing(System.String[])
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithUsing(System.String[])
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String[])
+  name: WithUsing(String[])
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.WithUsing(String[])
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithUsing(System.String[])
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).WithUsing(String())
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithUsing(System.String())
+  name.vb: WithUsing(String())
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String[])
+    name: WithUsing
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.WithUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String[])
+    name: WithUsing
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).WithUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithAutoUsing(System.Type)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.WithAutoUsing(System.Type)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithAutoUsing(System.Type)
+  name: WithAutoUsing(Type)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.WithAutoUsing(Type)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithAutoUsing(System.Type)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).WithAutoUsing(Type)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithAutoUsing(System.Type)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithAutoUsing(System.Type)
+    name: WithAutoUsing
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.WithAutoUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.WithAutoUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithAutoUsing(System.Type)
+    name: WithAutoUsing
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).WithAutoUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).WithAutoUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateEnum
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateEnum
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum
+  name: CreateEnum()
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateEnum()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateEnum()
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).CreateEnum()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateEnum()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum
+    name: CreateEnum
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateEnum
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateEnum
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum
+    name: CreateEnum
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).CreateEnum
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateEnum
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateEnum(System.String)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateEnum(System.String)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum(System.String)
+  name: CreateEnum(String)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateEnum(String)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateEnum(System.String)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).CreateEnum(String)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateEnum(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum(System.String)
+    name: CreateEnum
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateEnum
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateEnum
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum(System.String)
+    name: CreateEnum
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).CreateEnum
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateEnum
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateStruct
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateStruct
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateStruct
+  name: CreateStruct()
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateStruct()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateStruct()
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).CreateStruct()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateStruct()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateStruct
+    name: CreateStruct
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateStruct
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateStruct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateStruct
+    name: CreateStruct
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).CreateStruct
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateStruct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateInterface
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateInterface
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateInterface
+  name: CreateInterface()
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateInterface()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateInterface()
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).CreateInterface()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateInterface()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateInterface
+    name: CreateInterface
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateInterface
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateInterface
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateInterface
+    name: CreateInterface
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).CreateInterface
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateInterface
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateClass(CZGL.Roslyn.ClassBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateClass(CZGL.Roslyn.ClassBuilder)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateClass(CZGL.Roslyn.ClassBuilder)
+  name: CreateClass(ClassBuilder)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateClass(ClassBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateClass(CZGL.Roslyn.ClassBuilder)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).CreateClass(ClassBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateClass(CZGL.Roslyn.ClassBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateClass(CZGL.Roslyn.ClassBuilder)
+    name: CreateClass
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateClass
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateClass
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.ClassBuilder
+    name: ClassBuilder
+    nameWithType: ClassBuilder
+    fullName: CZGL.Roslyn.ClassBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateClass(CZGL.Roslyn.ClassBuilder)
+    name: CreateClass
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).CreateClass
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateClass
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.ClassBuilder
+    name: ClassBuilder
+    nameWithType: ClassBuilder
+    fullName: CZGL.Roslyn.ClassBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateDelegate
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateDelegate
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateDelegate
+  name: CreateDelegate()
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateDelegate()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateDelegate()
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).CreateDelegate()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateDelegate()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateDelegate
+    name: CreateDelegate
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateDelegate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateDelegate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateDelegate
+    name: CreateDelegate
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).CreateDelegate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateDelegate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateEvent(CZGL.Roslyn.EventBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.CreateEvent(CZGL.Roslyn.EventBuilder)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEvent(CZGL.Roslyn.EventBuilder)
+  name: CreateEvent(EventBuilder)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateEvent(EventBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateEvent(CZGL.Roslyn.EventBuilder)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).CreateEvent(EventBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateEvent(CZGL.Roslyn.EventBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEvent(CZGL.Roslyn.EventBuilder)
+    name: CreateEvent
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.CreateEvent
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.CreateEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EventBuilder
+    name: EventBuilder
+    nameWithType: EventBuilder
+    fullName: CZGL.Roslyn.EventBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEvent(CZGL.Roslyn.EventBuilder)
+    name: CreateEvent
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).CreateEvent
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).CreateEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EventBuilder
+    name: EventBuilder
+    nameWithType: EventBuilder
+    fullName: CZGL.Roslyn.EventBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.EnumBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.EnumBuilder)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EnumBuilder)
+  name: With(EnumBuilder)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.With(EnumBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With(CZGL.Roslyn.EnumBuilder)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).With(EnumBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With(CZGL.Roslyn.EnumBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EnumBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EnumBuilder
+    name: EnumBuilder
+    nameWithType: EnumBuilder
+    fullName: CZGL.Roslyn.EnumBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EnumBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EnumBuilder
+    name: EnumBuilder
+    nameWithType: EnumBuilder
+    fullName: CZGL.Roslyn.EnumBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+  name: With(String, Action<EnumBuilder>)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.With(String, Action<EnumBuilder>)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With(System.String, System.Action<CZGL.Roslyn.EnumBuilder>)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).With(String, Action(Of EnumBuilder))
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With(System.String, System.Action(Of CZGL.Roslyn.EnumBuilder))
+  name.vb: With(String, Action(Of EnumBuilder))
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+    name: With
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.EnumBuilder
+    name: EnumBuilder
+    nameWithType: EnumBuilder
+    fullName: CZGL.Roslyn.EnumBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+    name: With
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.EnumBuilder
+    name: EnumBuilder
+    nameWithType: EnumBuilder
+    fullName: CZGL.Roslyn.EnumBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.StructBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.StructBuilder)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.StructBuilder)
+  name: With(StructBuilder)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.With(StructBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With(CZGL.Roslyn.StructBuilder)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).With(StructBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With(CZGL.Roslyn.StructBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.StructBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.StructBuilder
+    name: StructBuilder
+    nameWithType: StructBuilder
+    fullName: CZGL.Roslyn.StructBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.StructBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.StructBuilder
+    name: StructBuilder
+    nameWithType: StructBuilder
+    fullName: CZGL.Roslyn.StructBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.InterfaceBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.InterfaceBuilder)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.InterfaceBuilder)
+  name: With(InterfaceBuilder)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.With(InterfaceBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With(CZGL.Roslyn.InterfaceBuilder)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).With(InterfaceBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With(CZGL.Roslyn.InterfaceBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.InterfaceBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.InterfaceBuilder
+    name: InterfaceBuilder
+    nameWithType: InterfaceBuilder
+    fullName: CZGL.Roslyn.InterfaceBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.InterfaceBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.InterfaceBuilder
+    name: InterfaceBuilder
+    nameWithType: InterfaceBuilder
+    fullName: CZGL.Roslyn.InterfaceBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.ClassBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.ClassBuilder)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.ClassBuilder)
+  name: With(ClassBuilder)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.With(ClassBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With(CZGL.Roslyn.ClassBuilder)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).With(ClassBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With(CZGL.Roslyn.ClassBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.ClassBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.ClassBuilder
+    name: ClassBuilder
+    nameWithType: ClassBuilder
+    fullName: CZGL.Roslyn.ClassBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.ClassBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.ClassBuilder
+    name: ClassBuilder
+    nameWithType: ClassBuilder
+    fullName: CZGL.Roslyn.ClassBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.DelegateBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.DelegateBuilder)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.DelegateBuilder)
+  name: With(DelegateBuilder)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.With(DelegateBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With(CZGL.Roslyn.DelegateBuilder)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).With(DelegateBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With(CZGL.Roslyn.DelegateBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.DelegateBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.DelegateBuilder
+    name: DelegateBuilder
+    nameWithType: DelegateBuilder
+    fullName: CZGL.Roslyn.DelegateBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.DelegateBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.DelegateBuilder
+    name: DelegateBuilder
+    nameWithType: DelegateBuilder
+    fullName: CZGL.Roslyn.DelegateBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.EventBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.With(CZGL.Roslyn.EventBuilder)
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EventBuilder)
+  name: With(EventBuilder)
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.With(EventBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With(CZGL.Roslyn.EventBuilder)
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).With(EventBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With(CZGL.Roslyn.EventBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EventBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EventBuilder
+    name: EventBuilder
+    nameWithType: EventBuilder
+    fullName: CZGL.Roslyn.EventBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EventBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EventBuilder
+    name: EventBuilder
+    nameWithType: EventBuilder
+    fullName: CZGL.Roslyn.EventBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.ToFullCode
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.ToFullCode
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFullCode
+  name: ToFullCode()
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.ToFullCode()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.ToFullCode()
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).ToFullCode()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).ToFullCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFullCode
+    name: ToFullCode
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.ToFullCode
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFullCode
+    name: ToFullCode
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).ToFullCode
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.ToFormatCode
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.ToFormatCode
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFormatCode
+  name: ToFormatCode()
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.ToFormatCode()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.ToFormatCode()
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).ToFormatCode()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).ToFormatCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFormatCode
+    name: ToFormatCode
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.ToFormatCode
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFormatCode
+    name: ToFormatCode
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).ToFormatCode
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.BaseTemplate._base
+  commentId: F:CZGL.Roslyn.Templates.BaseTemplate._base
+  parent: CZGL.Roslyn.Templates.BaseTemplate
+  name: _base
+  nameWithType: BaseTemplate._base
+  fullName: CZGL.Roslyn.Templates.BaseTemplate._base
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.NamespaceBuilder.CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing
+  commentId: M:CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing(CZGL.Roslyn.NamespaceBuilder)
+  parent: CZGL.Roslyn.Extensions.NamespaceExtensions
+  definition: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing(CZGL.Roslyn.NamespaceBuilder)
+  name: WithAutoUsing()
+  nameWithType: NamespaceExtensions.WithAutoUsing()
+  fullName: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing
+    name: WithAutoUsing
+    nameWithType: NamespaceExtensions.WithAutoUsing
+    fullName: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing
+    name: WithAutoUsing
+    nameWithType: NamespaceExtensions.WithAutoUsing
+    fullName: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Roslyn.Templates
+  commentId: N:CZGL.Roslyn.Templates
+  name: CZGL.Roslyn.Templates
+  nameWithType: CZGL.Roslyn.Templates
+  fullName: CZGL.Roslyn.Templates
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.NamespaceTemplate`1
+  name: NamespaceTemplate<TBuilder>
+  nameWithType: NamespaceTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>
+  nameWithType.vb: NamespaceTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder)
+  name.vb: NamespaceTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1
+    name: NamespaceTemplate
+    nameWithType: NamespaceTemplate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1
+    name: NamespaceTemplate
+    nameWithType: NamespaceTemplate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1._TBuilder
+  commentId: F:CZGL.Roslyn.Templates.NamespaceTemplate`1._TBuilder
+  name: _TBuilder
+  nameWithType: NamespaceTemplate<TBuilder>._TBuilder
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>._TBuilder
+  nameWithType.vb: NamespaceTemplate(Of TBuilder)._TBuilder
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder)._TBuilder
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithName(System.String)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.WithName(System.String)
+  isExternal: true
+  name: WithName(String)
+  nameWithType: NamespaceTemplate<TBuilder>.WithName(String)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithName(System.String)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).WithName(String)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithName(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithName(System.String)
+    name: WithName
+    nameWithType: NamespaceTemplate<TBuilder>.WithName
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithName(System.String)
+    name: WithName
+    nameWithType: NamespaceTemplate(Of TBuilder).WithName
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithRondomName
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.WithRondomName
+  name: WithRondomName()
+  nameWithType: NamespaceTemplate<TBuilder>.WithRondomName()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithRondomName()
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).WithRondomName()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithRondomName()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithRondomName
+    name: WithRondomName
+    nameWithType: NamespaceTemplate<TBuilder>.WithRondomName
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithRondomName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithRondomName
+    name: WithRondomName
+    nameWithType: NamespaceTemplate(Of TBuilder).WithRondomName
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithRondomName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String)
+  isExternal: true
+  name: WithUsing(String)
+  nameWithType: NamespaceTemplate<TBuilder>.WithUsing(String)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithUsing(System.String)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).WithUsing(String)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithUsing(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String)
+    name: WithUsing
+    nameWithType: NamespaceTemplate<TBuilder>.WithUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String)
+    name: WithUsing
+    nameWithType: NamespaceTemplate(Of TBuilder).WithUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String[])
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String[])
+  isExternal: true
+  name: WithUsing(String[])
+  nameWithType: NamespaceTemplate<TBuilder>.WithUsing(String[])
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithUsing(System.String[])
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).WithUsing(String())
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithUsing(System.String())
+  name.vb: WithUsing(String())
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String[])
+    name: WithUsing
+    nameWithType: NamespaceTemplate<TBuilder>.WithUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithUsing(System.String[])
+    name: WithUsing
+    nameWithType: NamespaceTemplate(Of TBuilder).WithUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithAutoUsing(System.Type)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.WithAutoUsing(System.Type)
+  isExternal: true
+  name: WithAutoUsing(Type)
+  nameWithType: NamespaceTemplate<TBuilder>.WithAutoUsing(Type)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithAutoUsing(System.Type)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).WithAutoUsing(Type)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithAutoUsing(System.Type)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithAutoUsing(System.Type)
+    name: WithAutoUsing
+    nameWithType: NamespaceTemplate<TBuilder>.WithAutoUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.WithAutoUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.WithAutoUsing(System.Type)
+    name: WithAutoUsing
+    nameWithType: NamespaceTemplate(Of TBuilder).WithAutoUsing
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).WithAutoUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum
+  name: CreateEnum()
+  nameWithType: NamespaceTemplate<TBuilder>.CreateEnum()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateEnum()
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).CreateEnum()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateEnum()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum
+    name: CreateEnum
+    nameWithType: NamespaceTemplate<TBuilder>.CreateEnum
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateEnum
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum
+    name: CreateEnum
+    nameWithType: NamespaceTemplate(Of TBuilder).CreateEnum
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateEnum
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum(System.String)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum(System.String)
+  isExternal: true
+  name: CreateEnum(String)
+  nameWithType: NamespaceTemplate<TBuilder>.CreateEnum(String)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateEnum(System.String)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).CreateEnum(String)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateEnum(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum(System.String)
+    name: CreateEnum
+    nameWithType: NamespaceTemplate<TBuilder>.CreateEnum
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateEnum
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEnum(System.String)
+    name: CreateEnum
+    nameWithType: NamespaceTemplate(Of TBuilder).CreateEnum
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateEnum
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateStruct
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateStruct
+  name: CreateStruct()
+  nameWithType: NamespaceTemplate<TBuilder>.CreateStruct()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateStruct()
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).CreateStruct()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateStruct()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateStruct
+    name: CreateStruct
+    nameWithType: NamespaceTemplate<TBuilder>.CreateStruct
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateStruct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateStruct
+    name: CreateStruct
+    nameWithType: NamespaceTemplate(Of TBuilder).CreateStruct
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateStruct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateInterface
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateInterface
+  name: CreateInterface()
+  nameWithType: NamespaceTemplate<TBuilder>.CreateInterface()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateInterface()
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).CreateInterface()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateInterface()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateInterface
+    name: CreateInterface
+    nameWithType: NamespaceTemplate<TBuilder>.CreateInterface
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateInterface
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateInterface
+    name: CreateInterface
+    nameWithType: NamespaceTemplate(Of TBuilder).CreateInterface
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateInterface
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateClass(CZGL.Roslyn.ClassBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateClass(CZGL.Roslyn.ClassBuilder)
+  name: CreateClass(ClassBuilder)
+  nameWithType: NamespaceTemplate<TBuilder>.CreateClass(ClassBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateClass(CZGL.Roslyn.ClassBuilder)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).CreateClass(ClassBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateClass(CZGL.Roslyn.ClassBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateClass(CZGL.Roslyn.ClassBuilder)
+    name: CreateClass
+    nameWithType: NamespaceTemplate<TBuilder>.CreateClass
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateClass
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.ClassBuilder
+    name: ClassBuilder
+    nameWithType: ClassBuilder
+    fullName: CZGL.Roslyn.ClassBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateClass(CZGL.Roslyn.ClassBuilder)
+    name: CreateClass
+    nameWithType: NamespaceTemplate(Of TBuilder).CreateClass
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateClass
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.ClassBuilder
+    name: ClassBuilder
+    nameWithType: ClassBuilder
+    fullName: CZGL.Roslyn.ClassBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateDelegate
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateDelegate
+  name: CreateDelegate()
+  nameWithType: NamespaceTemplate<TBuilder>.CreateDelegate()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateDelegate()
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).CreateDelegate()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateDelegate()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateDelegate
+    name: CreateDelegate
+    nameWithType: NamespaceTemplate<TBuilder>.CreateDelegate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateDelegate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateDelegate
+    name: CreateDelegate
+    nameWithType: NamespaceTemplate(Of TBuilder).CreateDelegate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateDelegate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEvent(CZGL.Roslyn.EventBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEvent(CZGL.Roslyn.EventBuilder)
+  name: CreateEvent(EventBuilder)
+  nameWithType: NamespaceTemplate<TBuilder>.CreateEvent(EventBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateEvent(CZGL.Roslyn.EventBuilder)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).CreateEvent(EventBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateEvent(CZGL.Roslyn.EventBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEvent(CZGL.Roslyn.EventBuilder)
+    name: CreateEvent
+    nameWithType: NamespaceTemplate<TBuilder>.CreateEvent
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.CreateEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EventBuilder
+    name: EventBuilder
+    nameWithType: EventBuilder
+    fullName: CZGL.Roslyn.EventBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.CreateEvent(CZGL.Roslyn.EventBuilder)
+    name: CreateEvent
+    nameWithType: NamespaceTemplate(Of TBuilder).CreateEvent
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).CreateEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EventBuilder
+    name: EventBuilder
+    nameWithType: EventBuilder
+    fullName: CZGL.Roslyn.EventBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EnumBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EnumBuilder)
+  name: With(EnumBuilder)
+  nameWithType: NamespaceTemplate<TBuilder>.With(EnumBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With(CZGL.Roslyn.EnumBuilder)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).With(EnumBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With(CZGL.Roslyn.EnumBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EnumBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<TBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EnumBuilder
+    name: EnumBuilder
+    nameWithType: EnumBuilder
+    fullName: CZGL.Roslyn.EnumBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EnumBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of TBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EnumBuilder
+    name: EnumBuilder
+    nameWithType: EnumBuilder
+    fullName: CZGL.Roslyn.EnumBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+  isExternal: true
+  name: With(String, Action<EnumBuilder>)
+  nameWithType: NamespaceTemplate<TBuilder>.With(String, Action<EnumBuilder>)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With(System.String, System.Action<CZGL.Roslyn.EnumBuilder>)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).With(String, Action(Of EnumBuilder))
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With(System.String, System.Action(Of CZGL.Roslyn.EnumBuilder))
+  name.vb: With(String, Action(Of EnumBuilder))
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+    name: With
+    nameWithType: NamespaceTemplate<TBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.EnumBuilder
+    name: EnumBuilder
+    nameWithType: EnumBuilder
+    fullName: CZGL.Roslyn.EnumBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(System.String,System.Action{CZGL.Roslyn.EnumBuilder})
+    name: With
+    nameWithType: NamespaceTemplate(Of TBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.EnumBuilder
+    name: EnumBuilder
+    nameWithType: EnumBuilder
+    fullName: CZGL.Roslyn.EnumBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.StructBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.StructBuilder)
+  name: With(StructBuilder)
+  nameWithType: NamespaceTemplate<TBuilder>.With(StructBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With(CZGL.Roslyn.StructBuilder)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).With(StructBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With(CZGL.Roslyn.StructBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.StructBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<TBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.StructBuilder
+    name: StructBuilder
+    nameWithType: StructBuilder
+    fullName: CZGL.Roslyn.StructBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.StructBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of TBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.StructBuilder
+    name: StructBuilder
+    nameWithType: StructBuilder
+    fullName: CZGL.Roslyn.StructBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.InterfaceBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.InterfaceBuilder)
+  name: With(InterfaceBuilder)
+  nameWithType: NamespaceTemplate<TBuilder>.With(InterfaceBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With(CZGL.Roslyn.InterfaceBuilder)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).With(InterfaceBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With(CZGL.Roslyn.InterfaceBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.InterfaceBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<TBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.InterfaceBuilder
+    name: InterfaceBuilder
+    nameWithType: InterfaceBuilder
+    fullName: CZGL.Roslyn.InterfaceBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.InterfaceBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of TBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.InterfaceBuilder
+    name: InterfaceBuilder
+    nameWithType: InterfaceBuilder
+    fullName: CZGL.Roslyn.InterfaceBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.ClassBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.ClassBuilder)
+  name: With(ClassBuilder)
+  nameWithType: NamespaceTemplate<TBuilder>.With(ClassBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With(CZGL.Roslyn.ClassBuilder)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).With(ClassBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With(CZGL.Roslyn.ClassBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.ClassBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<TBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.ClassBuilder
+    name: ClassBuilder
+    nameWithType: ClassBuilder
+    fullName: CZGL.Roslyn.ClassBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.ClassBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of TBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.ClassBuilder
+    name: ClassBuilder
+    nameWithType: ClassBuilder
+    fullName: CZGL.Roslyn.ClassBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.DelegateBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.DelegateBuilder)
+  name: With(DelegateBuilder)
+  nameWithType: NamespaceTemplate<TBuilder>.With(DelegateBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With(CZGL.Roslyn.DelegateBuilder)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).With(DelegateBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With(CZGL.Roslyn.DelegateBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.DelegateBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<TBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.DelegateBuilder
+    name: DelegateBuilder
+    nameWithType: DelegateBuilder
+    fullName: CZGL.Roslyn.DelegateBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.DelegateBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of TBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.DelegateBuilder
+    name: DelegateBuilder
+    nameWithType: DelegateBuilder
+    fullName: CZGL.Roslyn.DelegateBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EventBuilder)
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EventBuilder)
+  name: With(EventBuilder)
+  nameWithType: NamespaceTemplate<TBuilder>.With(EventBuilder)
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With(CZGL.Roslyn.EventBuilder)
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).With(EventBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With(CZGL.Roslyn.EventBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EventBuilder)
+    name: With
+    nameWithType: NamespaceTemplate<TBuilder>.With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EventBuilder
+    name: EventBuilder
+    nameWithType: EventBuilder
+    fullName: CZGL.Roslyn.EventBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.With(CZGL.Roslyn.EventBuilder)
+    name: With
+    nameWithType: NamespaceTemplate(Of TBuilder).With
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).With
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.EventBuilder
+    name: EventBuilder
+    nameWithType: EventBuilder
+    fullName: CZGL.Roslyn.EventBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFullCode
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFullCode
+  name: ToFullCode()
+  nameWithType: NamespaceTemplate<TBuilder>.ToFullCode()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.ToFullCode()
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).ToFullCode()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).ToFullCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFullCode
+    name: ToFullCode
+    nameWithType: NamespaceTemplate<TBuilder>.ToFullCode
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFullCode
+    name: ToFullCode
+    nameWithType: NamespaceTemplate(Of TBuilder).ToFullCode
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFormatCode
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFormatCode
+  name: ToFormatCode()
+  nameWithType: NamespaceTemplate<TBuilder>.ToFormatCode()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.ToFormatCode()
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).ToFormatCode()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).ToFormatCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFormatCode
+    name: ToFormatCode
+    nameWithType: NamespaceTemplate<TBuilder>.ToFormatCode
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.ToFormatCode
+    name: ToFormatCode
+    nameWithType: NamespaceTemplate(Of TBuilder).ToFormatCode
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing(CZGL.Roslyn.NamespaceBuilder)
+  commentId: M:CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing(CZGL.Roslyn.NamespaceBuilder)
+  name: WithAutoUsing(NamespaceBuilder)
+  nameWithType: NamespaceExtensions.WithAutoUsing(NamespaceBuilder)
+  fullName: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing(CZGL.Roslyn.NamespaceBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing(CZGL.Roslyn.NamespaceBuilder)
+    name: WithAutoUsing
+    nameWithType: NamespaceExtensions.WithAutoUsing
+    fullName: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.NamespaceBuilder
+    name: NamespaceBuilder
+    nameWithType: NamespaceBuilder
+    fullName: CZGL.Roslyn.NamespaceBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing(CZGL.Roslyn.NamespaceBuilder)
+    name: WithAutoUsing
+    nameWithType: NamespaceExtensions.WithAutoUsing
+    fullName: CZGL.Roslyn.Extensions.NamespaceExtensions.WithAutoUsing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.NamespaceBuilder
+    name: NamespaceBuilder
+    nameWithType: NamespaceBuilder
+    fullName: CZGL.Roslyn.NamespaceBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Extensions.NamespaceExtensions
+  commentId: T:CZGL.Roslyn.Extensions.NamespaceExtensions
+  parent: CZGL.Roslyn.Extensions
+  name: NamespaceExtensions
+  nameWithType: NamespaceExtensions
+  fullName: CZGL.Roslyn.Extensions.NamespaceExtensions
+- uid: CZGL.Roslyn.Extensions
+  commentId: N:CZGL.Roslyn.Extensions
+  name: CZGL.Roslyn.Extensions
+  nameWithType: CZGL.Roslyn.Extensions
+  fullName: CZGL.Roslyn.Extensions
+- uid: CZGL.Roslyn.NamespaceBuilder.FromCode*
+  commentId: Overload:CZGL.Roslyn.NamespaceBuilder.FromCode
+  name: FromCode
+  nameWithType: NamespaceBuilder.FromCode
+  fullName: CZGL.Roslyn.NamespaceBuilder.FromCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Roslyn.NamespaceBuilder
+  commentId: T:CZGL.Roslyn.NamespaceBuilder
+  parent: CZGL.Roslyn
+  name: NamespaceBuilder
+  nameWithType: NamespaceBuilder
+  fullName: CZGL.Roslyn.NamespaceBuilder
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.BuildSyntax
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}.BuildSyntax
+  parent: CZGL.Roslyn.Templates.NamespaceTemplate{CZGL.Roslyn.NamespaceBuilder}
+  definition: CZGL.Roslyn.Templates.NamespaceTemplate`1.BuildSyntax
+  name: BuildSyntax()
+  nameWithType: NamespaceTemplate<NamespaceBuilder>.BuildSyntax()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.BuildSyntax()
+  nameWithType.vb: NamespaceTemplate(Of NamespaceBuilder).BuildSyntax()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).BuildSyntax()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.BuildSyntax
+    name: BuildSyntax
+    nameWithType: NamespaceTemplate<NamespaceBuilder>.BuildSyntax
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<CZGL.Roslyn.NamespaceBuilder>.BuildSyntax
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.BuildSyntax
+    name: BuildSyntax
+    nameWithType: NamespaceTemplate(Of NamespaceBuilder).BuildSyntax
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of CZGL.Roslyn.NamespaceBuilder).BuildSyntax
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.NamespaceBuilder.BuildSyntax*
+  commentId: Overload:CZGL.Roslyn.NamespaceBuilder.BuildSyntax
+  name: BuildSyntax
+  nameWithType: NamespaceBuilder.BuildSyntax
+  fullName: CZGL.Roslyn.NamespaceBuilder.BuildSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.NamespaceDeclarationSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.NamespaceDeclarationSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: NamespaceDeclarationSyntax
+  nameWithType: NamespaceDeclarationSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.NamespaceDeclarationSyntax
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.BuildSyntax
+  commentId: M:CZGL.Roslyn.Templates.NamespaceTemplate`1.BuildSyntax
+  name: BuildSyntax()
+  nameWithType: NamespaceTemplate<TBuilder>.BuildSyntax()
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.BuildSyntax()
+  nameWithType.vb: NamespaceTemplate(Of TBuilder).BuildSyntax()
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).BuildSyntax()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.BuildSyntax
+    name: BuildSyntax
+    nameWithType: NamespaceTemplate<TBuilder>.BuildSyntax
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>.BuildSyntax
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1.BuildSyntax
+    name: BuildSyntax
+    nameWithType: NamespaceTemplate(Of TBuilder).BuildSyntax
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder).BuildSyntax
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax
+  commentId: N:Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: Microsoft.CodeAnalysis.CSharp.Syntax
+  nameWithType: Microsoft.CodeAnalysis.CSharp.Syntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax

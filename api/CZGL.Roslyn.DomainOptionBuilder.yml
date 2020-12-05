@@ -1,0 +1,734 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.DomainOptionBuilder
+  commentId: T:CZGL.Roslyn.DomainOptionBuilder
+  id: DomainOptionBuilder
+  parent: CZGL.Roslyn
+  children:
+  - CZGL.Roslyn.DomainOptionBuilder.WIthAllowUnsafe(System.Boolean)
+  - CZGL.Roslyn.DomainOptionBuilder.WithCheckOverflow(System.Boolean)
+  - CZGL.Roslyn.DomainOptionBuilder.WithDebug(System.Boolean)
+  - CZGL.Roslyn.DomainOptionBuilder.WithEnvironment(System.String[])
+  - CZGL.Roslyn.DomainOptionBuilder.WithKind(Microsoft.CodeAnalysis.OutputKind)
+  - CZGL.Roslyn.DomainOptionBuilder.WithLanguageVersion(Microsoft.CodeAnalysis.CSharp.LanguageVersion)
+  - CZGL.Roslyn.DomainOptionBuilder.WithPlatform(Microsoft.CodeAnalysis.Platform)
+  langs:
+  - csharp
+  - vb
+  name: DomainOptionBuilder
+  nameWithType: DomainOptionBuilder
+  fullName: CZGL.Roslyn.DomainOptionBuilder
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: DomainOptionBuilder
+    path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+    startLine: 12
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n程序集编译配置构建器\n"
+  example: []
+  syntax:
+    content: public class DomainOptionBuilder
+    content.vb: Public Class DomainOptionBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithKind(Microsoft.CodeAnalysis.OutputKind)
+  commentId: M:CZGL.Roslyn.DomainOptionBuilder.WithKind(Microsoft.CodeAnalysis.OutputKind)
+  id: WithKind(Microsoft.CodeAnalysis.OutputKind)
+  parent: CZGL.Roslyn.DomainOptionBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithKind(OutputKind)
+  nameWithType: DomainOptionBuilder.WithKind(OutputKind)
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithKind(Microsoft.CodeAnalysis.OutputKind)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithKind
+    path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+    startLine: 41
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n程序集要编译成何种项目\n<p>默认编译成动态库</p>\n"
+  example: []
+  syntax:
+    content: public DomainOptionBuilder WithKind(OutputKind kind = OutputKind.DynamicallyLinkedLibrary)
+    parameters:
+    - id: kind
+      type: Microsoft.CodeAnalysis.OutputKind
+      description: ''
+    return:
+      type: CZGL.Roslyn.DomainOptionBuilder
+      description: ''
+    content.vb: Public Function WithKind(kind As OutputKind = OutputKind.DynamicallyLinkedLibrary) As DomainOptionBuilder
+  overload: CZGL.Roslyn.DomainOptionBuilder.WithKind*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithDebug(System.Boolean)
+  commentId: M:CZGL.Roslyn.DomainOptionBuilder.WithDebug(System.Boolean)
+  id: WithDebug(System.Boolean)
+  parent: CZGL.Roslyn.DomainOptionBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithDebug(Boolean)
+  nameWithType: DomainOptionBuilder.WithDebug(Boolean)
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithDebug(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithDebug
+    path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+    startLine: 53
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n程序集是否使用 DEBUG 条件编译\n<p>默认使用 RELEASE 编译程序</p>\n"
+  example: []
+  syntax:
+    content: public DomainOptionBuilder WithDebug(bool isDebug = false)
+    parameters:
+    - id: isDebug
+      type: System.Boolean
+      description: ''
+    return:
+      type: CZGL.Roslyn.DomainOptionBuilder
+      description: ''
+    content.vb: Public Function WithDebug(isDebug As Boolean = False) As DomainOptionBuilder
+  overload: CZGL.Roslyn.DomainOptionBuilder.WithDebug*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.DomainOptionBuilder.WIthAllowUnsafe(System.Boolean)
+  commentId: M:CZGL.Roslyn.DomainOptionBuilder.WIthAllowUnsafe(System.Boolean)
+  id: WIthAllowUnsafe(System.Boolean)
+  parent: CZGL.Roslyn.DomainOptionBuilder
+  langs:
+  - csharp
+  - vb
+  name: WIthAllowUnsafe(Boolean)
+  nameWithType: DomainOptionBuilder.WIthAllowUnsafe(Boolean)
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WIthAllowUnsafe(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WIthAllowUnsafe
+    path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+    startLine: 64
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n是否允许项目使用不安全代码\n"
+  example: []
+  syntax:
+    content: public DomainOptionBuilder WIthAllowUnsafe(bool isAllow = false)
+    parameters:
+    - id: isAllow
+      type: System.Boolean
+      description: ''
+    return:
+      type: CZGL.Roslyn.DomainOptionBuilder
+      description: ''
+    content.vb: Public Function WIthAllowUnsafe(isAllow As Boolean = False) As DomainOptionBuilder
+  overload: CZGL.Roslyn.DomainOptionBuilder.WIthAllowUnsafe*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithPlatform(Microsoft.CodeAnalysis.Platform)
+  commentId: M:CZGL.Roslyn.DomainOptionBuilder.WithPlatform(Microsoft.CodeAnalysis.Platform)
+  id: WithPlatform(Microsoft.CodeAnalysis.Platform)
+  parent: CZGL.Roslyn.DomainOptionBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithPlatform(Platform)
+  nameWithType: DomainOptionBuilder.WithPlatform(Platform)
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithPlatform(Microsoft.CodeAnalysis.Platform)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithPlatform
+    path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+    startLine: 75
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n指定公共语言运行库（CLR）的哪个版本可以运行程序集\n"
+  example: []
+  syntax:
+    content: public DomainOptionBuilder WithPlatform(Platform platform = Platform.AnyCpu)
+    parameters:
+    - id: platform
+      type: Microsoft.CodeAnalysis.Platform
+      description: 默认为可移植的
+    return:
+      type: CZGL.Roslyn.DomainOptionBuilder
+      description: ''
+    content.vb: Public Function WithPlatform(platform As Platform = Platform.AnyCpu) As DomainOptionBuilder
+  overload: CZGL.Roslyn.DomainOptionBuilder.WithPlatform*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithCheckOverflow(System.Boolean)
+  commentId: M:CZGL.Roslyn.DomainOptionBuilder.WithCheckOverflow(System.Boolean)
+  id: WithCheckOverflow(System.Boolean)
+  parent: CZGL.Roslyn.DomainOptionBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithCheckOverflow(Boolean)
+  nameWithType: DomainOptionBuilder.WithCheckOverflow(Boolean)
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithCheckOverflow(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithCheckOverflow
+    path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+    startLine: 86
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n是否在默认情况下强制执行整数算术的边界检查\n"
+  example: []
+  syntax:
+    content: public DomainOptionBuilder WithCheckOverflow(bool checkOverflow = false)
+    parameters:
+    - id: checkOverflow
+      type: System.Boolean
+      description: ''
+    return:
+      type: CZGL.Roslyn.DomainOptionBuilder
+      description: ''
+    content.vb: Public Function WithCheckOverflow(checkOverflow As Boolean = False) As DomainOptionBuilder
+  overload: CZGL.Roslyn.DomainOptionBuilder.WithCheckOverflow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithLanguageVersion(Microsoft.CodeAnalysis.CSharp.LanguageVersion)
+  commentId: M:CZGL.Roslyn.DomainOptionBuilder.WithLanguageVersion(Microsoft.CodeAnalysis.CSharp.LanguageVersion)
+  id: WithLanguageVersion(Microsoft.CodeAnalysis.CSharp.LanguageVersion)
+  parent: CZGL.Roslyn.DomainOptionBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithLanguageVersion(LanguageVersion)
+  nameWithType: DomainOptionBuilder.WithLanguageVersion(LanguageVersion)
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithLanguageVersion(Microsoft.CodeAnalysis.CSharp.LanguageVersion)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithLanguageVersion
+    path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+    startLine: 98
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n要使用的语言版本\n<p>如果直接通过代码生成，代码版本任意；如果通过 API 生成，目前项目的语法只考虑到 7.3</p>\n"
+  example: []
+  syntax:
+    content: public DomainOptionBuilder WithLanguageVersion(LanguageVersion version = LanguageVersion.CSharp7_3)
+    parameters:
+    - id: version
+      type: Microsoft.CodeAnalysis.CSharp.LanguageVersion
+      description: ''
+    return:
+      type: CZGL.Roslyn.DomainOptionBuilder
+      description: ''
+    content.vb: Public Function WithLanguageVersion(version As LanguageVersion = LanguageVersion.CSharp7_3) As DomainOptionBuilder
+  overload: CZGL.Roslyn.DomainOptionBuilder.WithLanguageVersion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithEnvironment(System.String[])
+  commentId: M:CZGL.Roslyn.DomainOptionBuilder.WithEnvironment(System.String[])
+  id: WithEnvironment(System.String[])
+  parent: CZGL.Roslyn.DomainOptionBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithEnvironment(String[])
+  nameWithType: DomainOptionBuilder.WithEnvironment(String[])
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithEnvironment(System.String[])
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithEnvironment
+    path: src/Src/CZGL.Roslyn/DomainOptionBuilder.cs
+    startLine: 109
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n编译条件字符串\n"
+  example: []
+  syntax:
+    content: public DomainOptionBuilder WithEnvironment(params string[] environment)
+    parameters:
+    - id: environment
+      type: System.String[]
+      description: ''
+    return:
+      type: CZGL.Roslyn.DomainOptionBuilder
+      description: ''
+    content.vb: Public Function WithEnvironment(ParamArray environment As String()) As DomainOptionBuilder
+  overload: CZGL.Roslyn.DomainOptionBuilder.WithEnvironment*
+  nameWithType.vb: DomainOptionBuilder.WithEnvironment(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CZGL.Roslyn.DomainOptionBuilder.WithEnvironment(System.String())
+  name.vb: WithEnvironment(String())
+references:
+- uid: CZGL.Roslyn
+  commentId: N:CZGL.Roslyn
+  name: CZGL.Roslyn
+  nameWithType: CZGL.Roslyn
+  fullName: CZGL.Roslyn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithKind*
+  commentId: Overload:CZGL.Roslyn.DomainOptionBuilder.WithKind
+  name: WithKind
+  nameWithType: DomainOptionBuilder.WithKind
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithKind
+- uid: Microsoft.CodeAnalysis.OutputKind
+  commentId: T:Microsoft.CodeAnalysis.OutputKind
+  parent: Microsoft.CodeAnalysis
+  isExternal: true
+  name: OutputKind
+  nameWithType: OutputKind
+  fullName: Microsoft.CodeAnalysis.OutputKind
+- uid: CZGL.Roslyn.DomainOptionBuilder
+  commentId: T:CZGL.Roslyn.DomainOptionBuilder
+  parent: CZGL.Roslyn
+  name: DomainOptionBuilder
+  nameWithType: DomainOptionBuilder
+  fullName: CZGL.Roslyn.DomainOptionBuilder
+- uid: Microsoft.CodeAnalysis
+  commentId: N:Microsoft.CodeAnalysis
+  isExternal: true
+  name: Microsoft.CodeAnalysis
+  nameWithType: Microsoft.CodeAnalysis
+  fullName: Microsoft.CodeAnalysis
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithDebug*
+  commentId: Overload:CZGL.Roslyn.DomainOptionBuilder.WithDebug
+  name: WithDebug
+  nameWithType: DomainOptionBuilder.WithDebug
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithDebug
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CZGL.Roslyn.DomainOptionBuilder.WIthAllowUnsafe*
+  commentId: Overload:CZGL.Roslyn.DomainOptionBuilder.WIthAllowUnsafe
+  name: WIthAllowUnsafe
+  nameWithType: DomainOptionBuilder.WIthAllowUnsafe
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WIthAllowUnsafe
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithPlatform*
+  commentId: Overload:CZGL.Roslyn.DomainOptionBuilder.WithPlatform
+  name: WithPlatform
+  nameWithType: DomainOptionBuilder.WithPlatform
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithPlatform
+- uid: Microsoft.CodeAnalysis.Platform
+  commentId: T:Microsoft.CodeAnalysis.Platform
+  parent: Microsoft.CodeAnalysis
+  isExternal: true
+  name: Platform
+  nameWithType: Platform
+  fullName: Microsoft.CodeAnalysis.Platform
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithCheckOverflow*
+  commentId: Overload:CZGL.Roslyn.DomainOptionBuilder.WithCheckOverflow
+  name: WithCheckOverflow
+  nameWithType: DomainOptionBuilder.WithCheckOverflow
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithCheckOverflow
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithLanguageVersion*
+  commentId: Overload:CZGL.Roslyn.DomainOptionBuilder.WithLanguageVersion
+  name: WithLanguageVersion
+  nameWithType: DomainOptionBuilder.WithLanguageVersion
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithLanguageVersion
+- uid: Microsoft.CodeAnalysis.CSharp.LanguageVersion
+  commentId: T:Microsoft.CodeAnalysis.CSharp.LanguageVersion
+  parent: Microsoft.CodeAnalysis.CSharp
+  isExternal: true
+  name: LanguageVersion
+  nameWithType: LanguageVersion
+  fullName: Microsoft.CodeAnalysis.CSharp.LanguageVersion
+- uid: Microsoft.CodeAnalysis.CSharp
+  commentId: N:Microsoft.CodeAnalysis.CSharp
+  isExternal: true
+  name: Microsoft.CodeAnalysis.CSharp
+  nameWithType: Microsoft.CodeAnalysis.CSharp
+  fullName: Microsoft.CodeAnalysis.CSharp
+- uid: CZGL.Roslyn.DomainOptionBuilder.WithEnvironment*
+  commentId: Overload:CZGL.Roslyn.DomainOptionBuilder.WithEnvironment
+  name: WithEnvironment
+  nameWithType: DomainOptionBuilder.WithEnvironment
+  fullName: CZGL.Roslyn.DomainOptionBuilder.WithEnvironment
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

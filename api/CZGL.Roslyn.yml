@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn
+  commentId: N:CZGL.Roslyn
+  id: CZGL.Roslyn
+  children:
+  - CZGL.Roslyn.AttributeBuilder
+  - CZGL.Roslyn.ClassBuilder
+  - CZGL.Roslyn.CodeExtensions
+  - CZGL.Roslyn.CodeSyntax
+  - CZGL.Roslyn.CompilationBuilder
+  - CZGL.Roslyn.CtorBuilder
+  - CZGL.Roslyn.DelegateBuilder
+  - CZGL.Roslyn.DomainOptionBuilder
+  - CZGL.Roslyn.EnumBuilder
+  - CZGL.Roslyn.EventBuilder
+  - CZGL.Roslyn.FieldBuilder
+  - CZGL.Roslyn.FieldTemplate`1
+  - CZGL.Roslyn.GenericBuilder
+  - CZGL.Roslyn.InterfaceBuilder
+  - CZGL.Roslyn.MemberDefineNameAttribute
+  - CZGL.Roslyn.MethodBuilder
+  - CZGL.Roslyn.NamespaceBuilder
+  - CZGL.Roslyn.PropertyBuilder
+  - CZGL.Roslyn.StructBuilder
+  langs:
+  - csharp
+  - vb
+  name: CZGL.Roslyn
+  nameWithType: CZGL.Roslyn
+  fullName: CZGL.Roslyn
+  type: Namespace
+  assemblies:
+  - CZGL.Roslyn
+references:
+- uid: CZGL.Roslyn.AttributeBuilder
+  commentId: T:CZGL.Roslyn.AttributeBuilder
+  parent: CZGL.Roslyn
+  name: AttributeBuilder
+  nameWithType: AttributeBuilder
+  fullName: CZGL.Roslyn.AttributeBuilder
+- uid: CZGL.Roslyn.ClassBuilder
+  commentId: T:CZGL.Roslyn.ClassBuilder
+  parent: CZGL.Roslyn
+  name: ClassBuilder
+  nameWithType: ClassBuilder
+  fullName: CZGL.Roslyn.ClassBuilder
+- uid: CZGL.Roslyn.CodeExtensions
+  commentId: T:CZGL.Roslyn.CodeExtensions
+  name: CodeExtensions
+  nameWithType: CodeExtensions
+  fullName: CZGL.Roslyn.CodeExtensions
+- uid: CZGL.Roslyn.CodeSyntax
+  commentId: T:CZGL.Roslyn.CodeSyntax
+  name: CodeSyntax
+  nameWithType: CodeSyntax
+  fullName: CZGL.Roslyn.CodeSyntax
+- uid: CZGL.Roslyn.CompilationBuilder
+  commentId: T:CZGL.Roslyn.CompilationBuilder
+  parent: CZGL.Roslyn
+  name: CompilationBuilder
+  nameWithType: CompilationBuilder
+  fullName: CZGL.Roslyn.CompilationBuilder
+- uid: CZGL.Roslyn.CtorBuilder
+  commentId: T:CZGL.Roslyn.CtorBuilder
+  parent: CZGL.Roslyn
+  name: CtorBuilder
+  nameWithType: CtorBuilder
+  fullName: CZGL.Roslyn.CtorBuilder
+- uid: CZGL.Roslyn.DelegateBuilder
+  commentId: T:CZGL.Roslyn.DelegateBuilder
+  parent: CZGL.Roslyn
+  name: DelegateBuilder
+  nameWithType: DelegateBuilder
+  fullName: CZGL.Roslyn.DelegateBuilder
+- uid: CZGL.Roslyn.DomainOptionBuilder
+  commentId: T:CZGL.Roslyn.DomainOptionBuilder
+  parent: CZGL.Roslyn
+  name: DomainOptionBuilder
+  nameWithType: DomainOptionBuilder
+  fullName: CZGL.Roslyn.DomainOptionBuilder
+- uid: CZGL.Roslyn.EnumBuilder
+  commentId: T:CZGL.Roslyn.EnumBuilder
+  parent: CZGL.Roslyn
+  name: EnumBuilder
+  nameWithType: EnumBuilder
+  fullName: CZGL.Roslyn.EnumBuilder
+- uid: CZGL.Roslyn.EventBuilder
+  commentId: T:CZGL.Roslyn.EventBuilder
+  parent: CZGL.Roslyn
+  name: EventBuilder
+  nameWithType: EventBuilder
+  fullName: CZGL.Roslyn.EventBuilder
+- uid: CZGL.Roslyn.FieldBuilder
+  commentId: T:CZGL.Roslyn.FieldBuilder
+  parent: CZGL.Roslyn
+  name: FieldBuilder
+  nameWithType: FieldBuilder
+  fullName: CZGL.Roslyn.FieldBuilder
+- uid: CZGL.Roslyn.GenericBuilder
+  commentId: T:CZGL.Roslyn.GenericBuilder
+  parent: CZGL.Roslyn
+  name: GenericBuilder
+  nameWithType: GenericBuilder
+  fullName: CZGL.Roslyn.GenericBuilder
+- uid: CZGL.Roslyn.InterfaceBuilder
+  commentId: T:CZGL.Roslyn.InterfaceBuilder
+  parent: CZGL.Roslyn
+  name: InterfaceBuilder
+  nameWithType: InterfaceBuilder
+  fullName: CZGL.Roslyn.InterfaceBuilder
+- uid: CZGL.Roslyn.MethodBuilder
+  commentId: T:CZGL.Roslyn.MethodBuilder
+  parent: CZGL.Roslyn
+  name: MethodBuilder
+  nameWithType: MethodBuilder
+  fullName: CZGL.Roslyn.MethodBuilder
+- uid: CZGL.Roslyn.NamespaceBuilder
+  commentId: T:CZGL.Roslyn.NamespaceBuilder
+  parent: CZGL.Roslyn
+  name: NamespaceBuilder
+  nameWithType: NamespaceBuilder
+  fullName: CZGL.Roslyn.NamespaceBuilder
+- uid: CZGL.Roslyn.PropertyBuilder
+  commentId: T:CZGL.Roslyn.PropertyBuilder
+  parent: CZGL.Roslyn
+  name: PropertyBuilder
+  nameWithType: PropertyBuilder
+  fullName: CZGL.Roslyn.PropertyBuilder
+- uid: CZGL.Roslyn.MemberDefineNameAttribute
+  commentId: T:CZGL.Roslyn.MemberDefineNameAttribute
+  name: MemberDefineNameAttribute
+  nameWithType: MemberDefineNameAttribute
+  fullName: CZGL.Roslyn.MemberDefineNameAttribute
+- uid: CZGL.Roslyn.StructBuilder
+  commentId: T:CZGL.Roslyn.StructBuilder
+  parent: CZGL.Roslyn
+  name: StructBuilder
+  nameWithType: StructBuilder
+  fullName: CZGL.Roslyn.StructBuilder
+- uid: CZGL.Roslyn.FieldTemplate`1
+  commentId: T:CZGL.Roslyn.FieldTemplate`1
+  name: FieldTemplate<TBuilder>
+  nameWithType: FieldTemplate<TBuilder>
+  fullName: CZGL.Roslyn.FieldTemplate<TBuilder>
+  nameWithType.vb: FieldTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.FieldTemplate(Of TBuilder)
+  name.vb: FieldTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.FieldTemplate`1
+    name: FieldTemplate
+    nameWithType: FieldTemplate
+    fullName: CZGL.Roslyn.FieldTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.FieldTemplate`1
+    name: FieldTemplate
+    nameWithType: FieldTemplate
+    fullName: CZGL.Roslyn.FieldTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn
+  commentId: N:CZGL.Roslyn
+  name: CZGL.Roslyn
+  nameWithType: CZGL.Roslyn
+  fullName: CZGL.Roslyn

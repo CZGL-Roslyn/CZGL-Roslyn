@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Models.AttributeDefine
+  commentId: T:CZGL.Reflect.Models.AttributeDefine
+  id: AttributeDefine
+  parent: CZGL.Reflect.Models
+  children:
+  - CZGL.Reflect.Models.AttributeDefine.AttributeType
+  - CZGL.Reflect.Models.AttributeDefine.ConstructParams
+  - CZGL.Reflect.Models.AttributeDefine.Name
+  - CZGL.Reflect.Models.AttributeDefine.PropertyParams
+  langs:
+  - csharp
+  - vb
+  name: AttributeDefine
+  nameWithType: AttributeDefine
+  fullName: CZGL.Reflect.Models.AttributeDefine
+  type: Interface
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: AttributeDefine
+    path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+    startLine: 11
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Models
+  summary: "\n特性信息\n"
+  example: []
+  syntax:
+    content: public interface AttributeDefine
+    content.vb: Public Interface AttributeDefine
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CZGL.Reflect.Models.AttributeDefine.Name
+  commentId: P:CZGL.Reflect.Models.AttributeDefine.Name
+  id: Name
+  parent: CZGL.Reflect.Models.AttributeDefine
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AttributeDefine.Name
+  fullName: CZGL.Reflect.Models.AttributeDefine.Name
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Name
+    path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+    startLine: 16
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Models
+  summary: "\n特性的名称\n"
+  example: []
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: CZGL.Reflect.Models.AttributeDefine.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: CZGL.Reflect.Models.AttributeDefine.AttributeType
+  commentId: P:CZGL.Reflect.Models.AttributeDefine.AttributeType
+  id: AttributeType
+  parent: CZGL.Reflect.Models.AttributeDefine
+  langs:
+  - csharp
+  - vb
+  name: AttributeType
+  nameWithType: AttributeDefine.AttributeType
+  fullName: CZGL.Reflect.Models.AttributeDefine.AttributeType
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: AttributeType
+    path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+    startLine: 21
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Models
+  summary: "\n特性类型\n"
+  example: []
+  syntax:
+    content: Type AttributeType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: ReadOnly Property AttributeType As Type
+  overload: CZGL.Reflect.Models.AttributeDefine.AttributeType*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: CZGL.Reflect.Models.AttributeDefine.ConstructParams
+  commentId: P:CZGL.Reflect.Models.AttributeDefine.ConstructParams
+  id: ConstructParams
+  parent: CZGL.Reflect.Models.AttributeDefine
+  langs:
+  - csharp
+  - vb
+  name: ConstructParams
+  nameWithType: AttributeDefine.ConstructParams
+  fullName: CZGL.Reflect.Models.AttributeDefine.ConstructParams
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ConstructParams
+    path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+    startLine: 27
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Models
+  summary: "\n特性构造函数中的值\n<p>ArgumentType、Value 属性分别表示构造函数中参数和参数值</p>\n"
+  example: []
+  syntax:
+    content: CustomAttributeTypedArgument[] ConstructParams { get; }
+    parameters: []
+    return:
+      type: System.Reflection.CustomAttributeTypedArgument[]
+    content.vb: ReadOnly Property ConstructParams As CustomAttributeTypedArgument()
+  overload: CZGL.Reflect.Models.AttributeDefine.ConstructParams*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: CZGL.Reflect.Models.AttributeDefine.PropertyParams
+  commentId: P:CZGL.Reflect.Models.AttributeDefine.PropertyParams
+  id: PropertyParams
+  parent: CZGL.Reflect.Models.AttributeDefine
+  langs:
+  - csharp
+  - vb
+  name: PropertyParams
+  nameWithType: AttributeDefine.PropertyParams
+  fullName: CZGL.Reflect.Models.AttributeDefine.PropertyParams
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: PropertyParams
+    path: src/Src/CZGL.Reflect/Models/AttributeDefine.cs
+    startLine: 32
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Models
+  summary: "\n特性的属性\n"
+  example: []
+  syntax:
+    content: CustomAttributeTypedArgument[] PropertyParams { get; }
+    parameters: []
+    return:
+      type: System.Reflection.CustomAttributeTypedArgument[]
+    content.vb: ReadOnly Property PropertyParams As CustomAttributeTypedArgument()
+  overload: CZGL.Reflect.Models.AttributeDefine.PropertyParams*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: CZGL.Reflect.Models
+  commentId: N:CZGL.Reflect.Models
+  name: CZGL.Reflect.Models
+  nameWithType: CZGL.Reflect.Models
+  fullName: CZGL.Reflect.Models
+- uid: CZGL.Reflect.Models.AttributeDefine.Name*
+  commentId: Overload:CZGL.Reflect.Models.AttributeDefine.Name
+  name: Name
+  nameWithType: AttributeDefine.Name
+  fullName: CZGL.Reflect.Models.AttributeDefine.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Reflect.Models.AttributeDefine.AttributeType*
+  commentId: Overload:CZGL.Reflect.Models.AttributeDefine.AttributeType
+  name: AttributeType
+  nameWithType: AttributeDefine.AttributeType
+  fullName: CZGL.Reflect.Models.AttributeDefine.AttributeType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: CZGL.Reflect.Models.AttributeDefine.ConstructParams*
+  commentId: Overload:CZGL.Reflect.Models.AttributeDefine.ConstructParams
+  name: ConstructParams
+  nameWithType: AttributeDefine.ConstructParams
+  fullName: CZGL.Reflect.Models.AttributeDefine.ConstructParams
+- uid: System.Reflection.CustomAttributeTypedArgument[]
+  isExternal: true
+  name: CustomAttributeTypedArgument[]
+  nameWithType: CustomAttributeTypedArgument[]
+  fullName: System.Reflection.CustomAttributeTypedArgument[]
+  nameWithType.vb: CustomAttributeTypedArgument()
+  fullName.vb: System.Reflection.CustomAttributeTypedArgument()
+  name.vb: CustomAttributeTypedArgument()
+  spec.csharp:
+  - uid: System.Reflection.CustomAttributeTypedArgument
+    name: CustomAttributeTypedArgument
+    nameWithType: CustomAttributeTypedArgument
+    fullName: System.Reflection.CustomAttributeTypedArgument
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.CustomAttributeTypedArgument
+    name: CustomAttributeTypedArgument
+    nameWithType: CustomAttributeTypedArgument
+    fullName: System.Reflection.CustomAttributeTypedArgument
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: CZGL.Reflect.Models.AttributeDefine.PropertyParams*
+  commentId: Overload:CZGL.Reflect.Models.AttributeDefine.PropertyParams
+  name: PropertyParams
+  nameWithType: AttributeDefine.PropertyParams
+  fullName: CZGL.Reflect.Models.AttributeDefine.PropertyParams

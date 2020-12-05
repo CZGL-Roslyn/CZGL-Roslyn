@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Shared.EventKeyword
+  commentId: T:CZGL.Reflect.Shared.EventKeyword
+  id: EventKeyword
+  parent: CZGL.Reflect.Shared
+  children:
+  - CZGL.Reflect.Shared.EventKeyword.Abstract
+  - CZGL.Reflect.Shared.EventKeyword.Default
+  - CZGL.Reflect.Shared.EventKeyword.Sealed
+  - CZGL.Reflect.Shared.EventKeyword.Static
+  - CZGL.Reflect.Shared.EventKeyword.Virtual
+  langs:
+  - csharp
+  - vb
+  name: EventKeyword
+  nameWithType: EventKeyword
+  fullName: CZGL.Reflect.Shared.EventKeyword
+  type: Enum
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: EventKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+    startLine: 9
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n事件关键字\n"
+  example: []
+  syntax:
+    content: public enum EventKeyword
+    content.vb: Public Enum EventKeyword
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CZGL.Reflect.Shared.EventKeyword.Default
+  commentId: F:CZGL.Reflect.Shared.EventKeyword.Default
+  id: Default
+  parent: CZGL.Reflect.Shared.EventKeyword
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: EventKeyword.Default
+  fullName: CZGL.Reflect.Shared.EventKeyword.Default
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Default
+    path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+    startLine: 11
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Default = 0
+    return:
+      type: CZGL.Reflect.Shared.EventKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.EventKeyword.Static
+  commentId: F:CZGL.Reflect.Shared.EventKeyword.Static
+  id: Static
+  parent: CZGL.Reflect.Shared.EventKeyword
+  langs:
+  - csharp
+  - vb
+  name: Static
+  nameWithType: EventKeyword.Static
+  fullName: CZGL.Reflect.Shared.EventKeyword.Static
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Static
+    path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+    startLine: 14
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Static = 2
+    return:
+      type: CZGL.Reflect.Shared.EventKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.EventKeyword.Virtual
+  commentId: F:CZGL.Reflect.Shared.EventKeyword.Virtual
+  id: Virtual
+  parent: CZGL.Reflect.Shared.EventKeyword
+  langs:
+  - csharp
+  - vb
+  name: Virtual
+  nameWithType: EventKeyword.Virtual
+  fullName: CZGL.Reflect.Shared.EventKeyword.Virtual
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Virtual
+    path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+    startLine: 17
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Virtual = 4
+    return:
+      type: CZGL.Reflect.Shared.EventKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.EventKeyword.Abstract
+  commentId: F:CZGL.Reflect.Shared.EventKeyword.Abstract
+  id: Abstract
+  parent: CZGL.Reflect.Shared.EventKeyword
+  langs:
+  - csharp
+  - vb
+  name: Abstract
+  nameWithType: EventKeyword.Abstract
+  fullName: CZGL.Reflect.Shared.EventKeyword.Abstract
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Abstract
+    path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+    startLine: 20
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Abstract = 8
+    return:
+      type: CZGL.Reflect.Shared.EventKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.EventKeyword.Sealed
+  commentId: F:CZGL.Reflect.Shared.EventKeyword.Sealed
+  id: Sealed
+  parent: CZGL.Reflect.Shared.EventKeyword
+  langs:
+  - csharp
+  - vb
+  name: Sealed
+  nameWithType: EventKeyword.Sealed
+  fullName: CZGL.Reflect.Shared.EventKeyword.Sealed
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Sealed
+    path: src/Src/CZGL.CodeAnalysis.Shared/EventKeyword.cs
+    startLine: 23
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Sealed = 16
+    return:
+      type: CZGL.Reflect.Shared.EventKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.Shared.EventKeyword
+  commentId: T:CZGL.Reflect.Shared.EventKeyword
+  parent: CZGL.Reflect.Shared
+  name: EventKeyword
+  nameWithType: EventKeyword
+  fullName: CZGL.Reflect.Shared.EventKeyword

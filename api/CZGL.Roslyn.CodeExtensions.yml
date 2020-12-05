@@ -1,0 +1,1068 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.CodeExtensions
+  commentId: T:CZGL.Roslyn.CodeExtensions
+  id: CodeExtensions
+  parent: CZGL.Roslyn
+  children:
+  - CZGL.Roslyn.CodeExtensions.CodeNewAfter(System.String,System.String)
+  - CZGL.Roslyn.CodeExtensions.CodeNewBefore(System.String,System.String)
+  - CZGL.Roslyn.CodeExtensions.CodeNewLine(System.String)
+  - CZGL.Roslyn.CodeExtensions.CodeNewSpace(System.String)
+  - CZGL.Roslyn.CodeExtensions.Execute``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  - CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.HashSet{System.String})
+  - CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.IEnumerable{System.String},System.String)
+  - CZGL.Roslyn.CodeExtensions.WithUnixEOL(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CodeExtensions
+  nameWithType: CodeExtensions
+  fullName: CZGL.Roslyn.CodeExtensions
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CodeExtensions
+    path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+    startLine: 10
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n拼接代码拓展\n"
+  example: []
+  syntax:
+    content: public static class CodeExtensions
+    content.vb: Public Module CodeExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CZGL.Roslyn.CodeExtensions.WithUnixEOL(System.String)
+  commentId: M:CZGL.Roslyn.CodeExtensions.WithUnixEOL(System.String)
+  id: WithUnixEOL(System.String)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.CodeExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithUnixEOL(String)
+  nameWithType: CodeExtensions.WithUnixEOL(String)
+  fullName: CZGL.Roslyn.CodeExtensions.WithUnixEOL(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithUnixEOL
+    path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+    startLine: 18
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\nWindows 下 使用 \\n，Linux 下时，需要使用 \\r\\n 才算换行\n<p>或者使用 Environment.NewLine </p>\n"
+  example: []
+  syntax:
+    content: public static string WithUnixEOL(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithUnixEOL(source As String) As String
+  overload: CZGL.Roslyn.CodeExtensions.WithUnixEOL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.IEnumerable{System.String},System.String)
+  commentId: M:CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.IEnumerable{System.String},System.String)
+  id: Join(System.Collections.Generic.IEnumerable{System.String},System.String)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.CodeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Join(IEnumerable<String>, String)
+  nameWithType: CodeExtensions.Join(IEnumerable<String>, String)
+  fullName: CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.IEnumerable<System.String>, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Join
+    path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+    startLine: 26
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n将集合中的元素以某个字符结尾组合成字符串\n"
+  example: []
+  syntax:
+    content: public static string Join(this IEnumerable<string> source, string separator)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: 集合
+    - id: separator
+      type: System.String
+      description: 分隔符
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Join(source As IEnumerable(Of String), separator As String) As String
+  overload: CZGL.Roslyn.CodeExtensions.Join*
+  nameWithType.vb: CodeExtensions.Join(IEnumerable(Of String), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.IEnumerable(Of System.String), System.String)
+  name.vb: Join(IEnumerable(Of String), String)
+- uid: CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.HashSet{System.String})
+  commentId: M:CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.HashSet{System.String})
+  id: Join(System.Collections.Generic.HashSet{System.String})
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.CodeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Join(HashSet<String>)
+  nameWithType: CodeExtensions.Join(HashSet<String>)
+  fullName: CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.HashSet<System.String>)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Join
+    path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+    startLine: 33
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n将集合中的元素以 \\n 字符结尾组合成字符串\n"
+  example: []
+  syntax:
+    content: public static string Join(this HashSet<string> list)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.HashSet{System.String}
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Join(list As HashSet(Of String)) As String
+  overload: CZGL.Roslyn.CodeExtensions.Join*
+  nameWithType.vb: CodeExtensions.Join(HashSet(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.Roslyn.CodeExtensions.Join(System.Collections.Generic.HashSet(Of System.String))
+  name.vb: Join(HashSet(Of String))
+- uid: CZGL.Roslyn.CodeExtensions.CodeNewLine(System.String)
+  commentId: M:CZGL.Roslyn.CodeExtensions.CodeNewLine(System.String)
+  id: CodeNewLine(System.String)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.CodeExtensions
+  langs:
+  - csharp
+  - vb
+  name: CodeNewLine(String)
+  nameWithType: CodeExtensions.CodeNewLine(String)
+  fullName: CZGL.Roslyn.CodeExtensions.CodeNewLine(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CodeNewLine
+    path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+    startLine: 40
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n代码换行；如果源字符串为空，则不改变\n"
+  example: []
+  syntax:
+    content: public static string CodeNewLine(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CodeNewLine(source As String) As String
+  overload: CZGL.Roslyn.CodeExtensions.CodeNewLine*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeExtensions.CodeNewSpace(System.String)
+  commentId: M:CZGL.Roslyn.CodeExtensions.CodeNewSpace(System.String)
+  id: CodeNewSpace(System.String)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.CodeExtensions
+  langs:
+  - csharp
+  - vb
+  name: CodeNewSpace(String)
+  nameWithType: CodeExtensions.CodeNewSpace(String)
+  fullName: CZGL.Roslyn.CodeExtensions.CodeNewSpace(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CodeNewSpace
+    path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+    startLine: 52
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n代码加一个空格；如果源字符串为空，则不改变\n"
+  example: []
+  syntax:
+    content: public static string CodeNewSpace(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CodeNewSpace(source As String) As String
+  overload: CZGL.Roslyn.CodeExtensions.CodeNewSpace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeExtensions.CodeNewBefore(System.String,System.String)
+  commentId: M:CZGL.Roslyn.CodeExtensions.CodeNewBefore(System.String,System.String)
+  id: CodeNewBefore(System.String,System.String)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.CodeExtensions
+  langs:
+  - csharp
+  - vb
+  name: CodeNewBefore(String, String)
+  nameWithType: CodeExtensions.CodeNewBefore(String, String)
+  fullName: CZGL.Roslyn.CodeExtensions.CodeNewBefore(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CodeNewBefore
+    path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+    startLine: 64
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n如果源字符串为空，则不改变，如果不为空，则再前面加上符号\n"
+  example: []
+  syntax:
+    content: public static string CodeNewBefore(this string source, string separator = " ")
+    parameters:
+    - id: source
+      type: System.String
+      description: ''
+    - id: separator
+      type: System.String
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CodeNewBefore(source As String, separator As String = " ") As String
+  overload: CZGL.Roslyn.CodeExtensions.CodeNewBefore*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeExtensions.CodeNewAfter(System.String,System.String)
+  commentId: M:CZGL.Roslyn.CodeExtensions.CodeNewAfter(System.String,System.String)
+  id: CodeNewAfter(System.String,System.String)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.CodeExtensions
+  langs:
+  - csharp
+  - vb
+  name: CodeNewAfter(String, String)
+  nameWithType: CodeExtensions.CodeNewAfter(String, String)
+  fullName: CZGL.Roslyn.CodeExtensions.CodeNewAfter(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CodeNewAfter
+    path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+    startLine: 76
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n如果源字符串为空，则不改变，如果不为空，则再后面面加上符号\n"
+  example: []
+  syntax:
+    content: public static string CodeNewAfter(this string source, string separator = " ")
+    parameters:
+    - id: source
+      type: System.String
+      description: ''
+    - id: separator
+      type: System.String
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CodeNewAfter(source As String, separator As String = " ") As String
+  overload: CZGL.Roslyn.CodeExtensions.CodeNewAfter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeExtensions.Execute``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  commentId: M:CZGL.Roslyn.CodeExtensions.Execute``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  id: Execute``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.CodeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Execute<TSource>(IEnumerable<TSource>, Action<TSource>)
+  nameWithType: CodeExtensions.Execute<TSource>(IEnumerable<TSource>, Action<TSource>)
+  fullName: CZGL.Roslyn.CodeExtensions.Execute<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Action<TSource>)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Execute
+    path: src/Src/CZGL.Roslyn/CodeExtensions.cs
+    startLine: 90
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n每次等待时都执行任务\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<TSource> Execute<TSource>(this IEnumerable<TSource> source, Action<TSource> selector)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: selector
+      type: System.Action{{TSource}}
+      description: 要执行的任务
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Execute(Of TSource)(source As IEnumerable(Of TSource), selector As Action(Of TSource)) As IEnumerable(Of TSource)
+  overload: CZGL.Roslyn.CodeExtensions.Execute*
+  nameWithType.vb: CodeExtensions.Execute(Of TSource)(IEnumerable(Of TSource), Action(Of TSource))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.Roslyn.CodeExtensions.Execute(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Action(Of TSource))
+  name.vb: Execute(Of TSource)(IEnumerable(Of TSource), Action(Of TSource))
+references:
+- uid: CZGL.Roslyn
+  commentId: N:CZGL.Roslyn
+  name: CZGL.Roslyn
+  nameWithType: CZGL.Roslyn
+  fullName: CZGL.Roslyn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Roslyn.CodeExtensions.WithUnixEOL*
+  commentId: Overload:CZGL.Roslyn.CodeExtensions.WithUnixEOL
+  name: WithUnixEOL
+  nameWithType: CodeExtensions.WithUnixEOL
+  fullName: CZGL.Roslyn.CodeExtensions.WithUnixEOL
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Roslyn.CodeExtensions.Join*
+  commentId: Overload:CZGL.Roslyn.CodeExtensions.Join
+  name: Join
+  nameWithType: CodeExtensions.Join
+  fullName: CZGL.Roslyn.CodeExtensions.Join
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.HashSet{System.String}
+  commentId: T:System.Collections.Generic.HashSet{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<String>
+  nameWithType: HashSet<String>
+  fullName: System.Collections.Generic.HashSet<System.String>
+  nameWithType.vb: HashSet(Of String)
+  fullName.vb: System.Collections.Generic.HashSet(Of System.String)
+  name.vb: HashSet(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.CodeExtensions.CodeNewLine*
+  commentId: Overload:CZGL.Roslyn.CodeExtensions.CodeNewLine
+  name: CodeNewLine
+  nameWithType: CodeExtensions.CodeNewLine
+  fullName: CZGL.Roslyn.CodeExtensions.CodeNewLine
+- uid: CZGL.Roslyn.CodeExtensions.CodeNewSpace*
+  commentId: Overload:CZGL.Roslyn.CodeExtensions.CodeNewSpace
+  name: CodeNewSpace
+  nameWithType: CodeExtensions.CodeNewSpace
+  fullName: CZGL.Roslyn.CodeExtensions.CodeNewSpace
+- uid: CZGL.Roslyn.CodeExtensions.CodeNewBefore*
+  commentId: Overload:CZGL.Roslyn.CodeExtensions.CodeNewBefore
+  name: CodeNewBefore
+  nameWithType: CodeExtensions.CodeNewBefore
+  fullName: CZGL.Roslyn.CodeExtensions.CodeNewBefore
+- uid: CZGL.Roslyn.CodeExtensions.CodeNewAfter*
+  commentId: Overload:CZGL.Roslyn.CodeExtensions.CodeNewAfter
+  name: CodeNewAfter
+  nameWithType: CodeExtensions.CodeNewAfter
+  fullName: CZGL.Roslyn.CodeExtensions.CodeNewAfter
+- uid: CZGL.Roslyn.CodeExtensions.Execute*
+  commentId: Overload:CZGL.Roslyn.CodeExtensions.Execute
+  name: Execute
+  nameWithType: CodeExtensions.Execute
+  fullName: CZGL.Roslyn.CodeExtensions.Execute
+- uid: System.Collections.Generic.IEnumerable{{TSource}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TSource>
+  nameWithType: IEnumerable<TSource>
+  fullName: System.Collections.Generic.IEnumerable<TSource>
+  nameWithType.vb: IEnumerable(Of TSource)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TSource)
+  name.vb: IEnumerable(Of TSource)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{{TSource}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  name: Action<TSource>
+  nameWithType: Action<TSource>
+  fullName: System.Action<TSource>
+  nameWithType.vb: Action(Of TSource)
+  fullName.vb: System.Action(Of TSource)
+  name.vb: Action(Of TSource)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

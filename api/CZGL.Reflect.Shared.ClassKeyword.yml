@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Shared.ClassKeyword
+  commentId: T:CZGL.Reflect.Shared.ClassKeyword
+  id: ClassKeyword
+  parent: CZGL.Reflect.Shared
+  children:
+  - CZGL.Reflect.Shared.ClassKeyword.Abstract
+  - CZGL.Reflect.Shared.ClassKeyword.Default
+  - CZGL.Reflect.Shared.ClassKeyword.New
+  - CZGL.Reflect.Shared.ClassKeyword.Sealed
+  - CZGL.Reflect.Shared.ClassKeyword.Static
+  langs:
+  - csharp
+  - vb
+  name: ClassKeyword
+  nameWithType: ClassKeyword
+  fullName: CZGL.Reflect.Shared.ClassKeyword
+  type: Enum
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ClassKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+    startLine: 11
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n类的修饰符\n<p>密封类、静态类、抽象类</p>\n"
+  example: []
+  syntax:
+    content: public enum ClassKeyword
+    content.vb: Public Enum ClassKeyword
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CZGL.Reflect.Shared.ClassKeyword.Default
+  commentId: F:CZGL.Reflect.Shared.ClassKeyword.Default
+  id: Default
+  parent: CZGL.Reflect.Shared.ClassKeyword
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: ClassKeyword.Default
+  fullName: CZGL.Reflect.Shared.ClassKeyword.Default
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Default
+    path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+    startLine: 13
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Default = 0
+    return:
+      type: CZGL.Reflect.Shared.ClassKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.ClassKeyword.Sealed
+  commentId: F:CZGL.Reflect.Shared.ClassKeyword.Sealed
+  id: Sealed
+  parent: CZGL.Reflect.Shared.ClassKeyword
+  langs:
+  - csharp
+  - vb
+  name: Sealed
+  nameWithType: ClassKeyword.Sealed
+  fullName: CZGL.Reflect.Shared.ClassKeyword.Sealed
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Sealed
+    path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+    startLine: 16
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Sealed = 1
+    return:
+      type: CZGL.Reflect.Shared.ClassKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.ClassKeyword.Static
+  commentId: F:CZGL.Reflect.Shared.ClassKeyword.Static
+  id: Static
+  parent: CZGL.Reflect.Shared.ClassKeyword
+  langs:
+  - csharp
+  - vb
+  name: Static
+  nameWithType: ClassKeyword.Static
+  fullName: CZGL.Reflect.Shared.ClassKeyword.Static
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Static
+    path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+    startLine: 19
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Static = 2
+    return:
+      type: CZGL.Reflect.Shared.ClassKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.ClassKeyword.Abstract
+  commentId: F:CZGL.Reflect.Shared.ClassKeyword.Abstract
+  id: Abstract
+  parent: CZGL.Reflect.Shared.ClassKeyword
+  langs:
+  - csharp
+  - vb
+  name: Abstract
+  nameWithType: ClassKeyword.Abstract
+  fullName: CZGL.Reflect.Shared.ClassKeyword.Abstract
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Abstract
+    path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+    startLine: 22
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Abstract = 3
+    return:
+      type: CZGL.Reflect.Shared.ClassKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.ClassKeyword.New
+  commentId: F:CZGL.Reflect.Shared.ClassKeyword.New
+  id: New
+  parent: CZGL.Reflect.Shared.ClassKeyword
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: ClassKeyword.New
+  fullName: CZGL.Reflect.Shared.ClassKeyword.New
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: New
+    path: src/Src/CZGL.CodeAnalysis.Shared/ClassKeyword.cs
+    startLine: 28
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n只能定义在嵌套类中\n"
+  example: []
+  syntax:
+    content: New = 4
+    return:
+      type: CZGL.Reflect.Shared.ClassKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.Shared.ClassKeyword
+  commentId: T:CZGL.Reflect.Shared.ClassKeyword
+  parent: CZGL.Reflect.Shared
+  name: ClassKeyword
+  nameWithType: ClassKeyword
+  fullName: CZGL.Reflect.Shared.ClassKeyword

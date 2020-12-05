@@ -1,0 +1,464 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.TypeAnalysis
+  commentId: T:CZGL.Reflect.TypeAnalysis
+  id: TypeAnalysis
+  parent: CZGL.Reflect
+  children:
+  - CZGL.Reflect.TypeAnalysis.GetMemberType(System.Type)
+  - CZGL.Reflect.TypeAnalysis.GetValueType(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: TypeAnalysis
+  nameWithType: TypeAnalysis
+  fullName: CZGL.Reflect.TypeAnalysis
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/TypeAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: TypeAnalysis
+    path: src/Src/CZGL.Reflect/TypeAnalysis.cs
+    startLine: 8
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n类型解析器\n"
+  example: []
+  syntax:
+    content: public static class TypeAnalysis
+    content.vb: Public Module TypeAnalysis
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CZGL.Reflect.TypeAnalysis.GetMemberType(System.Type)
+  commentId: M:CZGL.Reflect.TypeAnalysis.GetMemberType(System.Type)
+  id: GetMemberType(System.Type)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.TypeAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetMemberType(Type)
+  nameWithType: TypeAnalysis.GetMemberType(Type)
+  fullName: CZGL.Reflect.TypeAnalysis.GetMemberType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/TypeAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetMemberType
+    path: src/Src/CZGL.Reflect/TypeAnalysis.cs
+    startLine: 16
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n判断 Type 和何种类型\n<p>接口、委托、类、值类型、枚举、结构体</p>\n"
+  example: []
+  syntax:
+    content: public static MemberType GetMemberType(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: CZGL.Reflect.Shared.MemberType
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetMemberType(type As Type) As MemberType
+  overload: CZGL.Reflect.TypeAnalysis.GetMemberType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.TypeAnalysis.GetValueType(System.Type)
+  commentId: M:CZGL.Reflect.TypeAnalysis.GetValueType(System.Type)
+  id: GetValueType(System.Type)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.TypeAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetValueType(Type)
+  nameWithType: TypeAnalysis.GetValueType(Type)
+  fullName: CZGL.Reflect.TypeAnalysis.GetValueType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/TypeAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetValueType
+    path: src/Src/CZGL.Reflect/TypeAnalysis.cs
+    startLine: 38
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n是否为值类型，是何种值类型\n<p>枚举、结构体、基础类型</p>\n"
+  example: []
+  syntax:
+    content: public static MemberType GetValueType(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.MemberType
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetValueType(type As Type) As MemberType
+  overload: CZGL.Reflect.TypeAnalysis.GetValueType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CZGL.Reflect
+  commentId: N:CZGL.Reflect
+  name: CZGL.Reflect
+  nameWithType: CZGL.Reflect
+  fullName: CZGL.Reflect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Reflect.TypeAnalysis.GetMemberType*
+  commentId: Overload:CZGL.Reflect.TypeAnalysis.GetMemberType
+  name: GetMemberType
+  nameWithType: TypeAnalysis.GetMemberType
+  fullName: CZGL.Reflect.TypeAnalysis.GetMemberType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: CZGL.Reflect.Shared.MemberType
+  commentId: T:CZGL.Reflect.Shared.MemberType
+  parent: CZGL.Reflect.Shared
+  name: MemberType
+  nameWithType: MemberType
+  fullName: CZGL.Reflect.Shared.MemberType
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.TypeAnalysis.GetValueType*
+  commentId: Overload:CZGL.Reflect.TypeAnalysis.GetValueType
+  name: GetValueType
+  nameWithType: TypeAnalysis.GetValueType
+  fullName: CZGL.Reflect.TypeAnalysis.GetValueType

@@ -1,0 +1,645 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.RoslynTool.AttributeTool
+  commentId: T:CZGL.RoslynTool.AttributeTool
+  id: AttributeTool
+  parent: CZGL.RoslynTool
+  children:
+  - CZGL.RoslynTool.AttributeTool.CreateAttributeList(System.String)
+  - CZGL.RoslynTool.AttributeTool.CreateAttributeList(System.String[])
+  - CZGL.RoslynTool.AttributeTool.CreateAttributeListSyntax(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax[])
+  langs:
+  - csharp
+  - vb
+  name: AttributeTool
+  nameWithType: AttributeTool
+  fullName: CZGL.RoslynTool.AttributeTool
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.RoslynTool/AttributeTool.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: AttributeTool
+    path: src/Src/CZGL.RoslynTool/AttributeTool.cs
+    startLine: 9
+  assemblies:
+  - CZGL.RoslynTool
+  namespace: CZGL.RoslynTool
+  syntax:
+    content: public class AttributeTool
+    content.vb: Public Class AttributeTool
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CZGL.RoslynTool.AttributeTool.CreateAttributeListSyntax(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax[])
+  commentId: M:CZGL.RoslynTool.AttributeTool.CreateAttributeListSyntax(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax[])
+  id: CreateAttributeListSyntax(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax[])
+  parent: CZGL.RoslynTool.AttributeTool
+  langs:
+  - csharp
+  - vb
+  name: CreateAttributeListSyntax(AttributeSyntax[])
+  nameWithType: AttributeTool.CreateAttributeListSyntax(AttributeSyntax[])
+  fullName: CZGL.RoslynTool.AttributeTool.CreateAttributeListSyntax(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax[])
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.RoslynTool/AttributeTool.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateAttributeListSyntax
+    path: src/Src/CZGL.RoslynTool/AttributeTool.cs
+    startLine: 16
+  assemblies:
+  - CZGL.RoslynTool
+  namespace: CZGL.RoslynTool
+  summary: "\n构建 AttributeListSyntax\n"
+  example: []
+  syntax:
+    content: public static AttributeListSyntax CreateAttributeListSyntax(AttributeSyntax[] syntaxes)
+    parameters:
+    - id: syntaxes
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax[]
+      description: ''
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+      description: ''
+    content.vb: Public Shared Function CreateAttributeListSyntax(syntaxes As AttributeSyntax()) As AttributeListSyntax
+  overload: CZGL.RoslynTool.AttributeTool.CreateAttributeListSyntax*
+  nameWithType.vb: AttributeTool.CreateAttributeListSyntax(AttributeSyntax())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.RoslynTool.AttributeTool.CreateAttributeListSyntax(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax())
+  name.vb: CreateAttributeListSyntax(AttributeSyntax())
+- uid: CZGL.RoslynTool.AttributeTool.CreateAttributeList(System.String)
+  commentId: M:CZGL.RoslynTool.AttributeTool.CreateAttributeList(System.String)
+  id: CreateAttributeList(System.String)
+  parent: CZGL.RoslynTool.AttributeTool
+  langs:
+  - csharp
+  - vb
+  name: CreateAttributeList(String)
+  nameWithType: AttributeTool.CreateAttributeList(String)
+  fullName: CZGL.RoslynTool.AttributeTool.CreateAttributeList(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.RoslynTool/AttributeTool.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateAttributeList
+    path: src/Src/CZGL.RoslynTool/AttributeTool.cs
+    startLine: 38
+  assemblies:
+  - CZGL.RoslynTool
+  namespace: CZGL.RoslynTool
+  summary: "\n字符串生成特性\n"
+  example:
+  - "\n<pre><code>&quot;[Display(Name = \\&quot;a\\&quot;)]&quot;</code></pre>\n"
+  syntax:
+    content: public static AttributeListSyntax CreateAttributeList(string attrCode)
+    parameters:
+    - id: attrCode
+      type: System.String
+      description: ''
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+      description: ''
+    content.vb: Public Shared Function CreateAttributeList(attrCode As String) As AttributeListSyntax
+  overload: CZGL.RoslynTool.AttributeTool.CreateAttributeList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.RoslynTool.AttributeTool.CreateAttributeList(System.String[])
+  commentId: M:CZGL.RoslynTool.AttributeTool.CreateAttributeList(System.String[])
+  id: CreateAttributeList(System.String[])
+  parent: CZGL.RoslynTool.AttributeTool
+  langs:
+  - csharp
+  - vb
+  name: CreateAttributeList(String[])
+  nameWithType: AttributeTool.CreateAttributeList(String[])
+  fullName: CZGL.RoslynTool.AttributeTool.CreateAttributeList(System.String[])
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.RoslynTool/AttributeTool.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateAttributeList
+    path: src/Src/CZGL.RoslynTool/AttributeTool.cs
+    startLine: 63
+  assemblies:
+  - CZGL.RoslynTool
+  namespace: CZGL.RoslynTool
+  summary: "\n字符串生成特性列表\n<p>\n<example>\n<pre><code>string[] code = new string[]\n{\n    &quot;[Display(Name = \\&quot;a\\&quot;)]&quot;,\n    &quot;[Display(Name = \\&quot;b\\&quot;)]&quot;\n};\nCbuilder.reateAttributeList(code);</code></pre>\n</example>\n</p>\n"
+  example: []
+  syntax:
+    content: public static SyntaxList<AttributeListSyntax> CreateAttributeList(params string[] attrsCode)
+    parameters:
+    - id: attrsCode
+      type: System.String[]
+    return:
+      type: Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+      description: ''
+    content.vb: Public Shared Function CreateAttributeList(ParamArray attrsCode As String()) As SyntaxList(Of AttributeListSyntax)
+  overload: CZGL.RoslynTool.AttributeTool.CreateAttributeList*
+  nameWithType.vb: AttributeTool.CreateAttributeList(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.RoslynTool.AttributeTool.CreateAttributeList(System.String())
+  name.vb: CreateAttributeList(String())
+references:
+- uid: CZGL.RoslynTool
+  commentId: N:CZGL.RoslynTool
+  name: CZGL.RoslynTool
+  nameWithType: CZGL.RoslynTool
+  fullName: CZGL.RoslynTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.RoslynTool.AttributeTool.CreateAttributeListSyntax*
+  commentId: Overload:CZGL.RoslynTool.AttributeTool.CreateAttributeListSyntax
+  name: CreateAttributeListSyntax
+  nameWithType: AttributeTool.CreateAttributeListSyntax
+  fullName: CZGL.RoslynTool.AttributeTool.CreateAttributeListSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax[]
+  isExternal: true
+  name: AttributeSyntax[]
+  nameWithType: AttributeSyntax[]
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax[]
+  nameWithType.vb: AttributeSyntax()
+  fullName.vb: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax()
+  name.vb: AttributeSyntax()
+  spec.csharp:
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax
+    name: AttributeSyntax
+    nameWithType: AttributeSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax
+    name: AttributeSyntax
+    nameWithType: AttributeSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: AttributeListSyntax
+  nameWithType: AttributeListSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax
+  commentId: N:Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: Microsoft.CodeAnalysis.CSharp.Syntax
+  nameWithType: Microsoft.CodeAnalysis.CSharp.Syntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax
+- uid: CZGL.RoslynTool.AttributeTool.CreateAttributeList*
+  commentId: Overload:CZGL.RoslynTool.AttributeTool.CreateAttributeList
+  name: CreateAttributeList
+  nameWithType: AttributeTool.CreateAttributeList
+  fullName: CZGL.RoslynTool.AttributeTool.CreateAttributeList
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+  commentId: T:Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+  parent: Microsoft.CodeAnalysis
+  definition: Microsoft.CodeAnalysis.SyntaxList`1
+  name: SyntaxList<AttributeListSyntax>
+  nameWithType: SyntaxList<AttributeListSyntax>
+  fullName: Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax>
+  nameWithType.vb: SyntaxList(Of AttributeListSyntax)
+  fullName.vb: Microsoft.CodeAnalysis.SyntaxList(Of Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax)
+  name.vb: SyntaxList(Of AttributeListSyntax)
+  spec.csharp:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    name: AttributeListSyntax
+    nameWithType: AttributeListSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    name: AttributeListSyntax
+    nameWithType: AttributeListSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.CodeAnalysis.SyntaxList`1
+  commentId: T:Microsoft.CodeAnalysis.SyntaxList`1
+  isExternal: true
+  name: SyntaxList<TNode>
+  nameWithType: SyntaxList<TNode>
+  fullName: Microsoft.CodeAnalysis.SyntaxList<TNode>
+  nameWithType.vb: SyntaxList(Of TNode)
+  fullName.vb: Microsoft.CodeAnalysis.SyntaxList(Of TNode)
+  name.vb: SyntaxList(Of TNode)
+  spec.csharp:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TNode
+    nameWithType: TNode
+    fullName: TNode
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TNode
+    nameWithType: TNode
+    fullName: TNode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.CodeAnalysis
+  commentId: N:Microsoft.CodeAnalysis
+  isExternal: true
+  name: Microsoft.CodeAnalysis
+  nameWithType: Microsoft.CodeAnalysis
+  fullName: Microsoft.CodeAnalysis

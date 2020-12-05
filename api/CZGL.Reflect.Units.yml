@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Units
+  commentId: N:CZGL.Reflect.Units
+  id: CZGL.Reflect.Units
+  children:
+  - CZGL.Reflect.Units.AccessAnalysis
+  - CZGL.Reflect.Units.AttributeAnalysis
+  - CZGL.Reflect.Units.GenericeConstraintInfo
+  - CZGL.Reflect.Units.KeywordAnalysis
+  langs:
+  - csharp
+  - vb
+  name: CZGL.Reflect.Units
+  nameWithType: CZGL.Reflect.Units
+  fullName: CZGL.Reflect.Units
+  type: Namespace
+  assemblies:
+  - CZGL.Reflect
+references:
+- uid: CZGL.Reflect.Units.AccessAnalysis
+  commentId: T:CZGL.Reflect.Units.AccessAnalysis
+  name: AccessAnalysis
+  nameWithType: AccessAnalysis
+  fullName: CZGL.Reflect.Units.AccessAnalysis
+- uid: CZGL.Reflect.Units.AttributeAnalysis
+  commentId: T:CZGL.Reflect.Units.AttributeAnalysis
+  name: AttributeAnalysis
+  nameWithType: AttributeAnalysis
+  fullName: CZGL.Reflect.Units.AttributeAnalysis
+- uid: CZGL.Reflect.Units.GenericeConstraintInfo
+  commentId: T:CZGL.Reflect.Units.GenericeConstraintInfo
+  name: GenericeConstraintInfo
+  nameWithType: GenericeConstraintInfo
+  fullName: CZGL.Reflect.Units.GenericeConstraintInfo
+- uid: CZGL.Reflect.Units.KeywordAnalysis
+  commentId: T:CZGL.Reflect.Units.KeywordAnalysis
+  name: KeywordAnalysis
+  nameWithType: KeywordAnalysis
+  fullName: CZGL.Reflect.Units.KeywordAnalysis

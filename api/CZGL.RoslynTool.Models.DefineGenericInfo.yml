@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.RoslynTool.Models.DefineGenericInfo
+  commentId: T:CZGL.RoslynTool.Models.DefineGenericInfo
+  id: DefineGenericInfo
+  parent: CZGL.RoslynTool.Models
+  children:
+  - CZGL.RoslynTool.Models.DefineGenericInfo.ConstraintClauseSyntax
+  - CZGL.RoslynTool.Models.DefineGenericInfo.Name
+  - CZGL.RoslynTool.Models.DefineGenericInfo.Parameter
+  langs:
+  - csharp
+  - vb
+  name: DefineGenericInfo
+  nameWithType: DefineGenericInfo
+  fullName: CZGL.RoslynTool.Models.DefineGenericInfo
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.RoslynTool/Models/DefineGenericInfo.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: DefineGenericInfo
+    path: src/Src/CZGL.RoslynTool/Models/DefineGenericInfo.cs
+    startLine: 8
+  assemblies:
+  - CZGL.RoslynTool
+  namespace: CZGL.RoslynTool.Models
+  syntax:
+    content: public class DefineGenericInfo
+    content.vb: Public Class DefineGenericInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CZGL.RoslynTool.Models.DefineGenericInfo.Name
+  commentId: P:CZGL.RoslynTool.Models.DefineGenericInfo.Name
+  id: Name
+  parent: CZGL.RoslynTool.Models.DefineGenericInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DefineGenericInfo.Name
+  fullName: CZGL.RoslynTool.Models.DefineGenericInfo.Name
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.RoslynTool/Models/DefineGenericInfo.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Name
+    path: src/Src/CZGL.RoslynTool/Models/DefineGenericInfo.cs
+    startLine: 13
+  assemblies:
+  - CZGL.RoslynTool
+  namespace: CZGL.RoslynTool.Models
+  summary: "\n泛型的名称\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CZGL.RoslynTool.Models.DefineGenericInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CZGL.RoslynTool.Models.DefineGenericInfo.Parameter
+  commentId: P:CZGL.RoslynTool.Models.DefineGenericInfo.Parameter
+  id: Parameter
+  parent: CZGL.RoslynTool.Models.DefineGenericInfo
+  langs:
+  - csharp
+  - vb
+  name: Parameter
+  nameWithType: DefineGenericInfo.Parameter
+  fullName: CZGL.RoslynTool.Models.DefineGenericInfo.Parameter
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.RoslynTool/Models/DefineGenericInfo.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Parameter
+    path: src/Src/CZGL.RoslynTool/Models/DefineGenericInfo.cs
+    startLine: 18
+  assemblies:
+  - CZGL.RoslynTool
+  namespace: CZGL.RoslynTool.Models
+  summary: "\n泛型参数类型\n"
+  example: []
+  syntax:
+    content: public TypeParameterSyntax Parameter { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterSyntax
+    content.vb: Public Property Parameter As TypeParameterSyntax
+  overload: CZGL.RoslynTool.Models.DefineGenericInfo.Parameter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CZGL.RoslynTool.Models.DefineGenericInfo.ConstraintClauseSyntax
+  commentId: P:CZGL.RoslynTool.Models.DefineGenericInfo.ConstraintClauseSyntax
+  id: ConstraintClauseSyntax
+  parent: CZGL.RoslynTool.Models.DefineGenericInfo
+  langs:
+  - csharp
+  - vb
+  name: ConstraintClauseSyntax
+  nameWithType: DefineGenericInfo.ConstraintClauseSyntax
+  fullName: CZGL.RoslynTool.Models.DefineGenericInfo.ConstraintClauseSyntax
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.RoslynTool/Models/DefineGenericInfo.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ConstraintClauseSyntax
+    path: src/Src/CZGL.RoslynTool/Models/DefineGenericInfo.cs
+    startLine: 23
+  assemblies:
+  - CZGL.RoslynTool
+  namespace: CZGL.RoslynTool.Models
+  summary: "\n泛型约束\n"
+  example: []
+  syntax:
+    content: public List<TypeParameterConstraintClauseSyntax> ConstraintClauseSyntax { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax}
+    content.vb: Public Property ConstraintClauseSyntax As List(Of TypeParameterConstraintClauseSyntax)
+  overload: CZGL.RoslynTool.Models.DefineGenericInfo.ConstraintClauseSyntax*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CZGL.RoslynTool.Models
+  commentId: N:CZGL.RoslynTool.Models
+  name: CZGL.RoslynTool.Models
+  nameWithType: CZGL.RoslynTool.Models
+  fullName: CZGL.RoslynTool.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.RoslynTool.Models.DefineGenericInfo.Name*
+  commentId: Overload:CZGL.RoslynTool.Models.DefineGenericInfo.Name
+  name: Name
+  nameWithType: DefineGenericInfo.Name
+  fullName: CZGL.RoslynTool.Models.DefineGenericInfo.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.RoslynTool.Models.DefineGenericInfo.Parameter*
+  commentId: Overload:CZGL.RoslynTool.Models.DefineGenericInfo.Parameter
+  name: Parameter
+  nameWithType: DefineGenericInfo.Parameter
+  fullName: CZGL.RoslynTool.Models.DefineGenericInfo.Parameter
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: TypeParameterSyntax
+  nameWithType: TypeParameterSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax
+  commentId: N:Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: Microsoft.CodeAnalysis.CSharp.Syntax
+  nameWithType: Microsoft.CodeAnalysis.CSharp.Syntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax
+- uid: CZGL.RoslynTool.Models.DefineGenericInfo.ConstraintClauseSyntax*
+  commentId: Overload:CZGL.RoslynTool.Models.DefineGenericInfo.ConstraintClauseSyntax
+  name: ConstraintClauseSyntax
+  nameWithType: DefineGenericInfo.ConstraintClauseSyntax
+  fullName: CZGL.RoslynTool.Models.DefineGenericInfo.ConstraintClauseSyntax
+- uid: System.Collections.Generic.List{Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax}
+  commentId: T:System.Collections.Generic.List{Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TypeParameterConstraintClauseSyntax>
+  nameWithType: List<TypeParameterConstraintClauseSyntax>
+  fullName: System.Collections.Generic.List<Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax>
+  nameWithType.vb: List(Of TypeParameterConstraintClauseSyntax)
+  fullName.vb: System.Collections.Generic.List(Of Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax)
+  name.vb: List(Of TypeParameterConstraintClauseSyntax)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+    name: TypeParameterConstraintClauseSyntax
+    nameWithType: TypeParameterConstraintClauseSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+    name: TypeParameterConstraintClauseSyntax
+    nameWithType: TypeParameterConstraintClauseSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

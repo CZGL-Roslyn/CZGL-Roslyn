@@ -1,0 +1,1141 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.MethodInfoAnalysis
+  commentId: T:CZGL.Reflect.MethodInfoAnalysis
+  id: MethodInfoAnalysis
+  parent: CZGL.Reflect
+  children:
+  - CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod(System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo})
+  - CZGL.Reflect.MethodInfoAnalysis.GetAccess(System.Reflection.MethodInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.GetGenericeName(System.Reflection.MethodInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.GetKeyword(System.Reflection.MethodInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.GetParams(System.Reflection.MethodInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.GetParamType(System.Reflection.ParameterInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.GetReturn(System.Reflection.MethodInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.HasValue(System.Reflection.ParameterInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.InRefOut(System.Reflection.ParameterInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.IsAsync(System.Reflection.MethodInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.IsNew(System.Reflection.MethodInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly(System.Reflection.MethodInfo)
+  - CZGL.Reflect.MethodInfoAnalysis.IsRuntime(System.Reflection.MethodInfo)
+  langs:
+  - csharp
+  - vb
+  name: MethodInfoAnalysis
+  nameWithType: MethodInfoAnalysis
+  fullName: CZGL.Reflect.MethodInfoAnalysis
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: MethodInfoAnalysis
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 11
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  syntax:
+    content: public static class MethodInfoAnalysis
+    content.vb: Public Module MethodInfoAnalysis
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CZGL.Reflect.MethodInfoAnalysis.IsNew(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.IsNew(System.Reflection.MethodInfo)
+  id: IsNew(System.Reflection.MethodInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: IsNew(MethodInfo)
+  nameWithType: MethodInfoAnalysis.IsNew(MethodInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.IsNew(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: IsNew
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 19
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n判断一个方法是否为 new 方法\n<p>不支持 new virtual</p>\n"
+  example: []
+  syntax:
+    content: public static bool IsNew(this MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNew(method As MethodInfo) As Boolean
+  overload: CZGL.Reflect.MethodInfoAnalysis.IsNew*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.IsRuntime(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.IsRuntime(System.Reflection.MethodInfo)
+  id: IsRuntime(System.Reflection.MethodInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: IsRuntime(MethodInfo)
+  nameWithType: MethodInfoAnalysis.IsRuntime(MethodInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.IsRuntime(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: IsRuntime
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 49
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n是否属于 runtime 的 MethodInfo\n"
+  example: []
+  syntax:
+    content: public static bool IsRuntime(this MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsRuntime(method As MethodInfo) As Boolean
+  overload: CZGL.Reflect.MethodInfoAnalysis.IsRuntime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod(System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo})
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod(System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo})
+  id: ExcludeSystemMethod(System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo})
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: ExcludeSystemMethod(IEnumerable<MethodInfo>)
+  nameWithType: MethodInfoAnalysis.ExcludeSystemMethod(IEnumerable<MethodInfo>)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod(System.Collections.Generic.IEnumerable<System.Reflection.MethodInfo>)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ExcludeSystemMethod
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 60
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n去除属于 runtime 的 MethodInfo\n<p>编译器在编译时会加入很多 runtime 方法，这些不是程序员编写的代码</p>\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<MethodInfo> ExcludeSystemMethod(this IEnumerable<MethodInfo> methodInfos)
+    parameters:
+    - id: methodInfos
+      type: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ExcludeSystemMethod(methodInfos As IEnumerable(Of MethodInfo)) As IEnumerable(Of MethodInfo)
+  overload: CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod*
+  nameWithType.vb: MethodInfoAnalysis.ExcludeSystemMethod(IEnumerable(Of MethodInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod(System.Collections.Generic.IEnumerable(Of System.Reflection.MethodInfo))
+  name.vb: ExcludeSystemMethod(IEnumerable(Of MethodInfo))
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetAccess(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.GetAccess(System.Reflection.MethodInfo)
+  id: GetAccess(System.Reflection.MethodInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccess(MethodInfo)
+  nameWithType: MethodInfoAnalysis.GetAccess(MethodInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetAccess(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccess
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 75
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n识别方法的访问权限\n"
+  example: []
+  syntax:
+    content: public static MemberAccess GetAccess(this MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAccess(method As MethodInfo) As MemberAccess
+  overload: CZGL.Reflect.MethodInfoAnalysis.GetAccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetKeyword(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.GetKeyword(System.Reflection.MethodInfo)
+  id: GetKeyword(System.Reflection.MethodInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetKeyword(MethodInfo)
+  nameWithType: MethodInfoAnalysis.GetKeyword(MethodInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetKeyword(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetKeyword
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 79
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  syntax:
+    content: public static MethodKeyword GetKeyword(this MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+    return:
+      type: CZGL.Reflect.Shared.MethodKeyword
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetKeyword(method As MethodInfo) As MethodKeyword
+  overload: CZGL.Reflect.MethodInfoAnalysis.GetKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.IsAsync(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.IsAsync(System.Reflection.MethodInfo)
+  id: IsAsync(System.Reflection.MethodInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: IsAsync(MethodInfo)
+  nameWithType: MethodInfoAnalysis.IsAsync(MethodInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.IsAsync(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: IsAsync
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 87
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n是否异步方法\n"
+  example: []
+  syntax:
+    content: public static bool IsAsync(this MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsAsync(method As MethodInfo) As Boolean
+  overload: CZGL.Reflect.MethodInfoAnalysis.IsAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetReturn(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.GetReturn(System.Reflection.MethodInfo)
+  id: GetReturn(System.Reflection.MethodInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetReturn(MethodInfo)
+  nameWithType: MethodInfoAnalysis.GetReturn(MethodInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetReturn(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetReturn
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 96
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n获取返回类型字符串\n"
+  example: []
+  syntax:
+    content: public static string GetReturn(this MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetReturn(method As MethodInfo) As String
+  overload: CZGL.Reflect.MethodInfoAnalysis.GetReturn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetGenericeName(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.GetGenericeName(System.Reflection.MethodInfo)
+  id: GetGenericeName(System.Reflection.MethodInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetGenericeName(MethodInfo)
+  nameWithType: MethodInfoAnalysis.GetGenericeName(MethodInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetGenericeName(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetGenericeName
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 152
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n判断方法是否为泛型方法，并且返回泛型名称\n"
+  example: []
+  syntax:
+    content: public static string GetGenericeName(this MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetGenericeName(method As MethodInfo) As String
+  overload: CZGL.Reflect.MethodInfoAnalysis.GetGenericeName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetParams(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.GetParams(System.Reflection.MethodInfo)
+  id: GetParams(System.Reflection.MethodInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetParams(MethodInfo)
+  nameWithType: MethodInfoAnalysis.GetParams(MethodInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetParams(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetParams
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 175
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n解析方法的参数并返回字符串\n"
+  example: []
+  syntax:
+    content: public static string GetParams(this MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetParams(method As MethodInfo) As String
+  overload: CZGL.Reflect.MethodInfoAnalysis.GetParams*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.InRefOut(System.Reflection.ParameterInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.InRefOut(System.Reflection.ParameterInfo)
+  id: InRefOut(System.Reflection.ParameterInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: InRefOut(ParameterInfo)
+  nameWithType: MethodInfoAnalysis.InRefOut(ParameterInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.InRefOut(System.Reflection.ParameterInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: InRefOut
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 201
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n判断参数是 in、out、ref、params 哪种修饰符\n"
+  example: []
+  syntax:
+    content: public static string InRefOut(this ParameterInfo parameter)
+    parameters:
+    - id: parameter
+      type: System.Reflection.ParameterInfo
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InRefOut(parameter As ParameterInfo) As String
+  overload: CZGL.Reflect.MethodInfoAnalysis.InRefOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetParamType(System.Reflection.ParameterInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.GetParamType(System.Reflection.ParameterInfo)
+  id: GetParamType(System.Reflection.ParameterInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetParamType(ParameterInfo)
+  nameWithType: MethodInfoAnalysis.GetParamType(ParameterInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetParamType(System.Reflection.ParameterInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetParamType
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 221
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n获取参数的类型\n"
+  example: []
+  syntax:
+    content: public static string GetParamType(this ParameterInfo parameter)
+    parameters:
+    - id: parameter
+      type: System.Reflection.ParameterInfo
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetParamType(parameter As ParameterInfo) As String
+  overload: CZGL.Reflect.MethodInfoAnalysis.GetParamType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.HasValue(System.Reflection.ParameterInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.HasValue(System.Reflection.ParameterInfo)
+  id: HasValue(System.Reflection.ParameterInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: HasValue(ParameterInfo)
+  nameWithType: MethodInfoAnalysis.HasValue(ParameterInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.HasValue(System.Reflection.ParameterInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: HasValue
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 234
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n是否为可选参数，是否有默认值\n"
+  example: []
+  syntax:
+    content: public static string HasValue(this ParameterInfo parameter)
+    parameters:
+    - id: parameter
+      type: System.Reflection.ParameterInfo
+      description: ''
+    return:
+      type: System.String
+      description: 为空则不是可选参数， 没有默认值
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasValue(parameter As ParameterInfo) As String
+  overload: CZGL.Reflect.MethodInfoAnalysis.HasValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly(System.Reflection.MethodInfo)
+  id: IsRefReadOnly(System.Reflection.MethodInfo)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.MethodInfoAnalysis
+  langs:
+  - csharp
+  - vb
+  name: IsRefReadOnly(MethodInfo)
+  nameWithType: MethodInfoAnalysis.IsRefReadOnly(MethodInfo)
+  fullName: CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: IsRefReadOnly
+    path: src/Src/CZGL.Reflect/MethodInfoAnalysis.cs
+    startLine: 249
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n是否为 ref readonly 方法\n"
+  example: []
+  syntax:
+    content: public static bool IsRefReadOnly(this MethodInfo method)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodInfo
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsRefReadOnly(method As MethodInfo) As Boolean
+  overload: CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CZGL.Reflect
+  commentId: N:CZGL.Reflect
+  name: CZGL.Reflect
+  nameWithType: CZGL.Reflect
+  fullName: CZGL.Reflect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Reflect.MethodInfoAnalysis.IsNew*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.IsNew
+  name: IsNew
+  nameWithType: MethodInfoAnalysis.IsNew
+  fullName: CZGL.Reflect.MethodInfoAnalysis.IsNew
+- uid: System.Reflection.MethodInfo
+  commentId: T:System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: true
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: CZGL.Reflect.MethodInfoAnalysis.IsRuntime*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.IsRuntime
+  name: IsRuntime
+  nameWithType: MethodInfoAnalysis.IsRuntime
+  fullName: CZGL.Reflect.MethodInfoAnalysis.IsRuntime
+- uid: CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod
+  name: ExcludeSystemMethod
+  nameWithType: MethodInfoAnalysis.ExcludeSystemMethod
+  fullName: CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<MethodInfo>
+  nameWithType: IEnumerable<MethodInfo>
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.MethodInfo>
+  nameWithType.vb: IEnumerable(Of MethodInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.MethodInfo)
+  name.vb: IEnumerable(Of MethodInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.MethodInfo
+    name: MethodInfo
+    nameWithType: MethodInfo
+    fullName: System.Reflection.MethodInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.MethodInfo
+    name: MethodInfo
+    nameWithType: MethodInfo
+    fullName: System.Reflection.MethodInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetAccess*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.GetAccess
+  name: GetAccess
+  nameWithType: MethodInfoAnalysis.GetAccess
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetAccess
+- uid: CZGL.Reflect.Shared.MemberAccess
+  commentId: T:CZGL.Reflect.Shared.MemberAccess
+  parent: CZGL.Reflect.Shared
+  name: MemberAccess
+  nameWithType: MemberAccess
+  fullName: CZGL.Reflect.Shared.MemberAccess
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetKeyword*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.GetKeyword
+  name: GetKeyword
+  nameWithType: MethodInfoAnalysis.GetKeyword
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetKeyword
+- uid: CZGL.Reflect.Shared.MethodKeyword
+  commentId: T:CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.Reflect.Shared
+  name: MethodKeyword
+  nameWithType: MethodKeyword
+  fullName: CZGL.Reflect.Shared.MethodKeyword
+- uid: CZGL.Reflect.MethodInfoAnalysis.IsAsync*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.IsAsync
+  name: IsAsync
+  nameWithType: MethodInfoAnalysis.IsAsync
+  fullName: CZGL.Reflect.MethodInfoAnalysis.IsAsync
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetReturn*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.GetReturn
+  name: GetReturn
+  nameWithType: MethodInfoAnalysis.GetReturn
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetReturn
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetGenericeName*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.GetGenericeName
+  name: GetGenericeName
+  nameWithType: MethodInfoAnalysis.GetGenericeName
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetGenericeName
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetParams*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.GetParams
+  name: GetParams
+  nameWithType: MethodInfoAnalysis.GetParams
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetParams
+- uid: CZGL.Reflect.MethodInfoAnalysis.InRefOut*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.InRefOut
+  name: InRefOut
+  nameWithType: MethodInfoAnalysis.InRefOut
+  fullName: CZGL.Reflect.MethodInfoAnalysis.InRefOut
+- uid: System.Reflection.ParameterInfo
+  commentId: T:System.Reflection.ParameterInfo
+  parent: System.Reflection
+  isExternal: true
+  name: ParameterInfo
+  nameWithType: ParameterInfo
+  fullName: System.Reflection.ParameterInfo
+- uid: CZGL.Reflect.MethodInfoAnalysis.GetParamType*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.GetParamType
+  name: GetParamType
+  nameWithType: MethodInfoAnalysis.GetParamType
+  fullName: CZGL.Reflect.MethodInfoAnalysis.GetParamType
+- uid: CZGL.Reflect.MethodInfoAnalysis.HasValue*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.HasValue
+  name: HasValue
+  nameWithType: MethodInfoAnalysis.HasValue
+  fullName: CZGL.Reflect.MethodInfoAnalysis.HasValue
+- uid: CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly*
+  commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly
+  name: IsRefReadOnly
+  nameWithType: MethodInfoAnalysis.IsRefReadOnly
+  fullName: CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly

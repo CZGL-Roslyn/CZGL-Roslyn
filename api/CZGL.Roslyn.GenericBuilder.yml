@@ -1,0 +1,1736 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.GenericBuilder
+  commentId: T:CZGL.Roslyn.GenericBuilder
+  id: GenericBuilder
+  parent: CZGL.Roslyn
+  children:
+  - CZGL.Roslyn.GenericBuilder.BuildTypeParameterListSyntax
+  - CZGL.Roslyn.GenericBuilder.ToConstraintListSyntax
+  - CZGL.Roslyn.GenericBuilder.ToConstraintSyntax
+  - CZGL.Roslyn.GenericBuilder.ToFormatCode
+  - CZGL.Roslyn.GenericBuilder.ToFullCode
+  - CZGL.Roslyn.GenericBuilder.ToFullCodeName(System.String)
+  - CZGL.Roslyn.GenericBuilder.WithBase(System.String)
+  - CZGL.Roslyn.GenericBuilder.WithClass
+  - CZGL.Roslyn.GenericBuilder.WithInterface(System.String)
+  - CZGL.Roslyn.GenericBuilder.WithInterface(System.String[])
+  - CZGL.Roslyn.GenericBuilder.WithNew
+  - CZGL.Roslyn.GenericBuilder.WithNotnull
+  - CZGL.Roslyn.GenericBuilder.WithStruct
+  - CZGL.Roslyn.GenericBuilder.WithTo(System.String)
+  - CZGL.Roslyn.GenericBuilder.WithUnmanaged
+  langs:
+  - csharp
+  - vb
+  name: GenericBuilder
+  nameWithType: GenericBuilder
+  fullName: CZGL.Roslyn.GenericBuilder
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GenericBuilder
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 19
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n泛型构建器，\n可为类、委托、方法等构建泛型参数以及约束\n"
+  example: []
+  syntax:
+    content: 'public sealed class GenericBuilder : GenericTemplate<GenericBuilder>'
+    content.vb: >-
+      Public NotInheritable Class GenericBuilder
+
+          Inherits GenericTemplate(Of GenericBuilder)
+  inheritance:
+  - System.Object
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  inheritedMembers:
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}._generic
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ParamCode
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WhereCode
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}._TBuilder
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}._this
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ObjectName
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithCreate(System.String)
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithEnd
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithTransformParam(System.String)
+  - CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithTransformConstraint(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CZGL.Roslyn.GenericBuilder.WithStruct
+  commentId: M:CZGL.Roslyn.GenericBuilder.WithStruct
+  id: WithStruct
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithStruct()
+  nameWithType: GenericBuilder.WithStruct()
+  fullName: CZGL.Roslyn.GenericBuilder.WithStruct()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithStruct
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 40
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n为泛型参数添加结构体约束\n<p>不能与其它约束同时使用</p>\n"
+  example: []
+  syntax:
+    content: public GenericTemplate<GenericBuilder> WithStruct()
+    return:
+      type: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+      description: ''
+    content.vb: Public Function WithStruct As GenericTemplate(Of GenericBuilder)
+  overload: CZGL.Roslyn.GenericBuilder.WithStruct*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.WithUnmanaged
+  commentId: M:CZGL.Roslyn.GenericBuilder.WithUnmanaged
+  id: WithUnmanaged
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithUnmanaged()
+  nameWithType: GenericBuilder.WithUnmanaged()
+  fullName: CZGL.Roslyn.GenericBuilder.WithUnmanaged()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithUnmanaged
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 52
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n为泛型参数添加非托管资源约束\n<p>不能与其它约束同时使用</p>\n"
+  example: []
+  syntax:
+    content: public GenericTemplate<GenericBuilder> WithUnmanaged()
+    return:
+      type: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+      description: ''
+    content.vb: Public Function WithUnmanaged As GenericTemplate(Of GenericBuilder)
+  overload: CZGL.Roslyn.GenericBuilder.WithUnmanaged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.WithClass
+  commentId: M:CZGL.Roslyn.GenericBuilder.WithClass
+  id: WithClass
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithClass()
+  nameWithType: GenericBuilder.WithClass()
+  fullName: CZGL.Roslyn.GenericBuilder.WithClass()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithClass
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 64
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n为泛型参数添加 Class 约束\n<p>必须放在开头，不能与 notnull、{基类} 约束一起使用</p>\n"
+  example: []
+  syntax:
+    content: public GenericBuilder WithClass()
+    return:
+      type: CZGL.Roslyn.GenericBuilder
+      description: ''
+    content.vb: Public Function WithClass As GenericBuilder
+  overload: CZGL.Roslyn.GenericBuilder.WithClass*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.WithNotnull
+  commentId: M:CZGL.Roslyn.GenericBuilder.WithNotnull
+  id: WithNotnull
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithNotnull()
+  nameWithType: GenericBuilder.WithNotnull()
+  fullName: CZGL.Roslyn.GenericBuilder.WithNotnull()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithNotnull
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 76
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n为泛型参数添加 notnull 约束\n<p>必须放在开头，不能与 class、{基类} 约束一起使用</p>\n"
+  example: []
+  syntax:
+    content: public GenericBuilder WithNotnull()
+    return:
+      type: CZGL.Roslyn.GenericBuilder
+      description: ''
+    content.vb: Public Function WithNotnull As GenericBuilder
+  overload: CZGL.Roslyn.GenericBuilder.WithNotnull*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.WithBase(System.String)
+  commentId: M:CZGL.Roslyn.GenericBuilder.WithBase(System.String)
+  id: WithBase(System.String)
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithBase(String)
+  nameWithType: GenericBuilder.WithBase(String)
+  fullName: CZGL.Roslyn.GenericBuilder.WithBase(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithBase
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 88
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n为泛型参数添加 基类 约束\n<p>必须放在开头，不能与 class、notnull 约束一起使用</p>\n"
+  example: []
+  syntax:
+    content: public GenericBuilder WithBase(string baseName)
+    parameters:
+    - id: baseName
+      type: System.String
+    return:
+      type: CZGL.Roslyn.GenericBuilder
+      description: ''
+    content.vb: Public Function WithBase(baseName As String) As GenericBuilder
+  overload: CZGL.Roslyn.GenericBuilder.WithBase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.WithInterface(System.String)
+  commentId: M:CZGL.Roslyn.GenericBuilder.WithInterface(System.String)
+  id: WithInterface(System.String)
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithInterface(String)
+  nameWithType: GenericBuilder.WithInterface(String)
+  fullName: CZGL.Roslyn.GenericBuilder.WithInterface(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithInterface
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 103
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n为泛型参数添加接口约束\n<p>位置不限，个数不限</p>\n"
+  example: []
+  syntax:
+    content: public GenericBuilder WithInterface(string interfaceName)
+    parameters:
+    - id: interfaceName
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.GenericBuilder
+      description: ''
+    content.vb: Public Function WithInterface(interfaceName As String) As GenericBuilder
+  overload: CZGL.Roslyn.GenericBuilder.WithInterface*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.WithInterface(System.String[])
+  commentId: M:CZGL.Roslyn.GenericBuilder.WithInterface(System.String[])
+  id: WithInterface(System.String[])
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithInterface(String[])
+  nameWithType: GenericBuilder.WithInterface(String[])
+  fullName: CZGL.Roslyn.GenericBuilder.WithInterface(System.String[])
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithInterface
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 118
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n为泛型参数添加接口约束\n<p>位置不限，个数不限</p>\n"
+  example: []
+  syntax:
+    content: public GenericBuilder WithInterface(params string[] interfaceNames)
+    parameters:
+    - id: interfaceNames
+      type: System.String[]
+    return:
+      type: CZGL.Roslyn.GenericBuilder
+      description: ''
+    content.vb: Public Function WithInterface(ParamArray interfaceNames As String()) As GenericBuilder
+  overload: CZGL.Roslyn.GenericBuilder.WithInterface*
+  nameWithType.vb: GenericBuilder.WithInterface(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CZGL.Roslyn.GenericBuilder.WithInterface(System.String())
+  name.vb: WithInterface(String())
+- uid: CZGL.Roslyn.GenericBuilder.WithTo(System.String)
+  commentId: M:CZGL.Roslyn.GenericBuilder.WithTo(System.String)
+  id: WithTo(System.String)
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithTo(String)
+  nameWithType: GenericBuilder.WithTo(String)
+  fullName: CZGL.Roslyn.GenericBuilder.WithTo(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithTo
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 133
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n为泛型参数继承参数约束,即 T:U 约束\n<p>位置不限，个数不限</p>\n"
+  example: []
+  syntax:
+    content: public GenericBuilder WithTo(string u)
+    parameters:
+    - id: u
+      type: System.String
+      description: 前面已经出现的泛型参数
+    return:
+      type: CZGL.Roslyn.GenericBuilder
+      description: ''
+    content.vb: Public Function WithTo(u As String) As GenericBuilder
+  overload: CZGL.Roslyn.GenericBuilder.WithTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.WithNew
+  commentId: M:CZGL.Roslyn.GenericBuilder.WithNew
+  id: WithNew
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithNew()
+  nameWithType: GenericBuilder.WithNew()
+  fullName: CZGL.Roslyn.GenericBuilder.WithNew()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithNew
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 146
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n添加 new() 约束\n"
+  example: []
+  syntax:
+    content: public GenericTemplate<GenericBuilder> WithNew()
+    return:
+      type: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+      description: ''
+    content.vb: Public Function WithNew As GenericTemplate(Of GenericBuilder)
+  overload: CZGL.Roslyn.GenericBuilder.WithNew*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.BuildTypeParameterListSyntax
+  commentId: M:CZGL.Roslyn.GenericBuilder.BuildTypeParameterListSyntax
+  id: BuildTypeParameterListSyntax
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildTypeParameterListSyntax()
+  nameWithType: GenericBuilder.BuildTypeParameterListSyntax()
+  fullName: CZGL.Roslyn.GenericBuilder.BuildTypeParameterListSyntax()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: BuildTypeParameterListSyntax
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 159
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n构建泛型参数列表\n"
+  example: []
+  syntax:
+    content: public TypeParameterListSyntax BuildTypeParameterListSyntax()
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterListSyntax
+      description: ''
+    content.vb: Public Function BuildTypeParameterListSyntax As TypeParameterListSyntax
+  overload: CZGL.Roslyn.GenericBuilder.BuildTypeParameterListSyntax*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.ToConstraintSyntax
+  commentId: M:CZGL.Roslyn.GenericBuilder.ToConstraintSyntax
+  id: ToConstraintSyntax
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToConstraintSyntax()
+  nameWithType: GenericBuilder.ToConstraintSyntax()
+  fullName: CZGL.Roslyn.GenericBuilder.ToConstraintSyntax()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToConstraintSyntax
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 194
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n将当前构建的泛型参数约束生成 Syntax\n"
+  example: []
+  syntax:
+    content: public TypeParameterConstraintClauseSyntax ToConstraintSyntax()
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+      description: ''
+    content.vb: Public Function ToConstraintSyntax As TypeParameterConstraintClauseSyntax
+  overload: CZGL.Roslyn.GenericBuilder.ToConstraintSyntax*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.ToConstraintListSyntax
+  commentId: M:CZGL.Roslyn.GenericBuilder.ToConstraintListSyntax
+  id: ToConstraintListSyntax
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToConstraintListSyntax()
+  nameWithType: GenericBuilder.ToConstraintListSyntax()
+  fullName: CZGL.Roslyn.GenericBuilder.ToConstraintListSyntax()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToConstraintListSyntax
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 218
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n生成完整的泛型约束列表\n"
+  example: []
+  syntax:
+    content: public SyntaxList<TypeParameterConstraintClauseSyntax> ToConstraintListSyntax()
+    return:
+      type: Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax}
+      description: ''
+    content.vb: Public Function ToConstraintListSyntax As SyntaxList(Of TypeParameterConstraintClauseSyntax)
+  overload: CZGL.Roslyn.GenericBuilder.ToConstraintListSyntax*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.ToFullCodeName(System.String)
+  commentId: M:CZGL.Roslyn.GenericBuilder.ToFullCodeName(System.String)
+  id: ToFullCodeName(System.String)
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToFullCodeName(String)
+  nameWithType: GenericBuilder.ToFullCodeName(String)
+  fullName: CZGL.Roslyn.GenericBuilder.ToFullCodeName(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToFullCodeName
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 228
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  syntax:
+    content: public string ToFullCodeName(string objectName)
+    parameters:
+    - id: objectName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToFullCodeName(objectName As String) As String
+  overload: CZGL.Roslyn.GenericBuilder.ToFullCodeName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.GenericBuilder.ToFullCode
+  commentId: M:CZGL.Roslyn.GenericBuilder.ToFullCode
+  id: ToFullCode
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToFullCode()
+  nameWithType: GenericBuilder.ToFullCode()
+  fullName: CZGL.Roslyn.GenericBuilder.ToFullCode()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToFullCode
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 271
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  syntax:
+    content: public override string ToFullCode()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToFullCode As String
+  overridden: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ToFullCode
+  overload: CZGL.Roslyn.GenericBuilder.ToFullCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CZGL.Roslyn.GenericBuilder.ToFormatCode
+  commentId: M:CZGL.Roslyn.GenericBuilder.ToFormatCode
+  id: ToFormatCode
+  parent: CZGL.Roslyn.GenericBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToFormatCode()
+  nameWithType: GenericBuilder.ToFormatCode()
+  fullName: CZGL.Roslyn.GenericBuilder.ToFormatCode()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToFormatCode
+    path: src/Src/CZGL.Roslyn/GenericBuilder.cs
+    startLine: 276
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  syntax:
+    content: public override string ToFormatCode()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToFormatCode As String
+  overridden: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ToFormatCode
+  overload: CZGL.Roslyn.GenericBuilder.ToFormatCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CZGL.Roslyn
+  commentId: N:CZGL.Roslyn
+  name: CZGL.Roslyn
+  nameWithType: CZGL.Roslyn
+  fullName: CZGL.Roslyn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  commentId: T:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  parent: CZGL.Roslyn.Templates
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1
+  name: GenericTemplate<GenericBuilder>
+  nameWithType: GenericTemplate<GenericBuilder>
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>
+  nameWithType.vb: GenericTemplate(Of GenericBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder)
+  name.vb: GenericTemplate(Of GenericBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}._generic
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}._generic
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1._generic
+  name: _generic
+  nameWithType: GenericTemplate<GenericBuilder>._generic
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>._generic
+  nameWithType.vb: GenericTemplate(Of GenericBuilder)._generic
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder)._generic
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ParamCode
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ParamCode
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1.ParamCode
+  name: ParamCode
+  nameWithType: GenericTemplate<GenericBuilder>.ParamCode
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.ParamCode
+  nameWithType.vb: GenericTemplate(Of GenericBuilder).ParamCode
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).ParamCode
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WhereCode
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WhereCode
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1.WhereCode
+  name: WhereCode
+  nameWithType: GenericTemplate<GenericBuilder>.WhereCode
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.WhereCode
+  nameWithType.vb: GenericTemplate(Of GenericBuilder).WhereCode
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).WhereCode
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}._TBuilder
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}._TBuilder
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1._TBuilder
+  name: _TBuilder
+  nameWithType: GenericTemplate<GenericBuilder>._TBuilder
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>._TBuilder
+  nameWithType.vb: GenericTemplate(Of GenericBuilder)._TBuilder
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder)._TBuilder
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}._this
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}._this
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1._this
+  name: _this
+  nameWithType: GenericTemplate<GenericBuilder>._this
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>._this
+  nameWithType.vb: GenericTemplate(Of GenericBuilder)._this
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder)._this
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ObjectName
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ObjectName
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1.ObjectName
+  name: ObjectName
+  nameWithType: GenericTemplate<GenericBuilder>.ObjectName
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.ObjectName
+  nameWithType.vb: GenericTemplate(Of GenericBuilder).ObjectName
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).ObjectName
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithCreate(System.String)
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithCreate(System.String)
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1.WithCreate(System.String)
+  name: WithCreate(String)
+  nameWithType: GenericTemplate<GenericBuilder>.WithCreate(String)
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.WithCreate(System.String)
+  nameWithType.vb: GenericTemplate(Of GenericBuilder).WithCreate(String)
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).WithCreate(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithCreate(System.String)
+    name: WithCreate
+    nameWithType: GenericTemplate<GenericBuilder>.WithCreate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.WithCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithCreate(System.String)
+    name: WithCreate
+    nameWithType: GenericTemplate(Of GenericBuilder).WithCreate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).WithCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithEnd
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithEnd
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1.WithEnd
+  name: WithEnd()
+  nameWithType: GenericTemplate<GenericBuilder>.WithEnd()
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.WithEnd()
+  nameWithType.vb: GenericTemplate(Of GenericBuilder).WithEnd()
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).WithEnd()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithEnd
+    name: WithEnd
+    nameWithType: GenericTemplate<GenericBuilder>.WithEnd
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.WithEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithEnd
+    name: WithEnd
+    nameWithType: GenericTemplate(Of GenericBuilder).WithEnd
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).WithEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithTransformParam(System.String)
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithTransformParam(System.String)
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformParam(System.String)
+  name: WithTransformParam(String)
+  nameWithType: GenericTemplate<GenericBuilder>.WithTransformParam(String)
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.WithTransformParam(System.String)
+  nameWithType.vb: GenericTemplate(Of GenericBuilder).WithTransformParam(String)
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).WithTransformParam(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformParam(System.String)
+    name: WithTransformParam
+    nameWithType: GenericTemplate<GenericBuilder>.WithTransformParam
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.WithTransformParam
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformParam(System.String)
+    name: WithTransformParam
+    nameWithType: GenericTemplate(Of GenericBuilder).WithTransformParam
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).WithTransformParam
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithTransformConstraint(System.String)
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.WithTransformConstraint(System.String)
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformConstraint(System.String)
+  name: WithTransformConstraint(String)
+  nameWithType: GenericTemplate<GenericBuilder>.WithTransformConstraint(String)
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.WithTransformConstraint(System.String)
+  nameWithType.vb: GenericTemplate(Of GenericBuilder).WithTransformConstraint(String)
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).WithTransformConstraint(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformConstraint(System.String)
+    name: WithTransformConstraint
+    nameWithType: GenericTemplate<GenericBuilder>.WithTransformConstraint
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.WithTransformConstraint
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformConstraint(System.String)
+    name: WithTransformConstraint
+    nameWithType: GenericTemplate(Of GenericBuilder).WithTransformConstraint
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).WithTransformConstraint
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.GenericTemplate`1
+  parent: CZGL.Roslyn.Templates
+  name: GenericTemplate<TBuilder>
+  nameWithType: GenericTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>
+  nameWithType.vb: GenericTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder)
+  name.vb: GenericTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates
+  commentId: N:CZGL.Roslyn.Templates
+  name: CZGL.Roslyn.Templates
+  nameWithType: CZGL.Roslyn.Templates
+  fullName: CZGL.Roslyn.Templates
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1._generic
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate`1._generic
+  name: _generic
+  nameWithType: GenericTemplate<TBuilder>._generic
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>._generic
+  nameWithType.vb: GenericTemplate(Of TBuilder)._generic
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder)._generic
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1.ParamCode
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate`1.ParamCode
+  name: ParamCode
+  nameWithType: GenericTemplate<TBuilder>.ParamCode
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.ParamCode
+  nameWithType.vb: GenericTemplate(Of TBuilder).ParamCode
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).ParamCode
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1.WhereCode
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate`1.WhereCode
+  name: WhereCode
+  nameWithType: GenericTemplate<TBuilder>.WhereCode
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.WhereCode
+  nameWithType.vb: GenericTemplate(Of TBuilder).WhereCode
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).WhereCode
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1._TBuilder
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate`1._TBuilder
+  name: _TBuilder
+  nameWithType: GenericTemplate<TBuilder>._TBuilder
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>._TBuilder
+  nameWithType.vb: GenericTemplate(Of TBuilder)._TBuilder
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder)._TBuilder
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1._this
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate`1._this
+  name: _this
+  nameWithType: GenericTemplate<TBuilder>._this
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>._this
+  nameWithType.vb: GenericTemplate(Of TBuilder)._this
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder)._this
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1.ObjectName
+  commentId: F:CZGL.Roslyn.Templates.GenericTemplate`1.ObjectName
+  name: ObjectName
+  nameWithType: GenericTemplate<TBuilder>.ObjectName
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.ObjectName
+  nameWithType.vb: GenericTemplate(Of TBuilder).ObjectName
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).ObjectName
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithCreate(System.String)
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate`1.WithCreate(System.String)
+  isExternal: true
+  name: WithCreate(String)
+  nameWithType: GenericTemplate<TBuilder>.WithCreate(String)
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.WithCreate(System.String)
+  nameWithType.vb: GenericTemplate(Of TBuilder).WithCreate(String)
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).WithCreate(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithCreate(System.String)
+    name: WithCreate
+    nameWithType: GenericTemplate<TBuilder>.WithCreate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.WithCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithCreate(System.String)
+    name: WithCreate
+    nameWithType: GenericTemplate(Of TBuilder).WithCreate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).WithCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithEnd
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate`1.WithEnd
+  name: WithEnd()
+  nameWithType: GenericTemplate<TBuilder>.WithEnd()
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.WithEnd()
+  nameWithType.vb: GenericTemplate(Of TBuilder).WithEnd()
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).WithEnd()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithEnd
+    name: WithEnd
+    nameWithType: GenericTemplate<TBuilder>.WithEnd
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.WithEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithEnd
+    name: WithEnd
+    nameWithType: GenericTemplate(Of TBuilder).WithEnd
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).WithEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformParam(System.String)
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformParam(System.String)
+  isExternal: true
+  name: WithTransformParam(String)
+  nameWithType: GenericTemplate<TBuilder>.WithTransformParam(String)
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.WithTransformParam(System.String)
+  nameWithType.vb: GenericTemplate(Of TBuilder).WithTransformParam(String)
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).WithTransformParam(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformParam(System.String)
+    name: WithTransformParam
+    nameWithType: GenericTemplate<TBuilder>.WithTransformParam
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.WithTransformParam
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformParam(System.String)
+    name: WithTransformParam
+    nameWithType: GenericTemplate(Of TBuilder).WithTransformParam
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).WithTransformParam
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformConstraint(System.String)
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformConstraint(System.String)
+  isExternal: true
+  name: WithTransformConstraint(String)
+  nameWithType: GenericTemplate<TBuilder>.WithTransformConstraint(String)
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.WithTransformConstraint(System.String)
+  nameWithType.vb: GenericTemplate(Of TBuilder).WithTransformConstraint(String)
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).WithTransformConstraint(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformConstraint(System.String)
+    name: WithTransformConstraint
+    nameWithType: GenericTemplate<TBuilder>.WithTransformConstraint
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.WithTransformConstraint
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.WithTransformConstraint(System.String)
+    name: WithTransformConstraint
+    nameWithType: GenericTemplate(Of TBuilder).WithTransformConstraint
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).WithTransformConstraint
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.GenericBuilder.WithStruct*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.WithStruct
+  name: WithStruct
+  nameWithType: GenericBuilder.WithStruct
+  fullName: CZGL.Roslyn.GenericBuilder.WithStruct
+- uid: CZGL.Roslyn.GenericBuilder.WithUnmanaged*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.WithUnmanaged
+  name: WithUnmanaged
+  nameWithType: GenericBuilder.WithUnmanaged
+  fullName: CZGL.Roslyn.GenericBuilder.WithUnmanaged
+- uid: CZGL.Roslyn.GenericBuilder.WithClass*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.WithClass
+  name: WithClass
+  nameWithType: GenericBuilder.WithClass
+  fullName: CZGL.Roslyn.GenericBuilder.WithClass
+- uid: CZGL.Roslyn.GenericBuilder
+  commentId: T:CZGL.Roslyn.GenericBuilder
+  parent: CZGL.Roslyn
+  name: GenericBuilder
+  nameWithType: GenericBuilder
+  fullName: CZGL.Roslyn.GenericBuilder
+- uid: CZGL.Roslyn.GenericBuilder.WithNotnull*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.WithNotnull
+  name: WithNotnull
+  nameWithType: GenericBuilder.WithNotnull
+  fullName: CZGL.Roslyn.GenericBuilder.WithNotnull
+- uid: CZGL.Roslyn.GenericBuilder.WithBase*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.WithBase
+  name: WithBase
+  nameWithType: GenericBuilder.WithBase
+  fullName: CZGL.Roslyn.GenericBuilder.WithBase
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Roslyn.GenericBuilder.WithInterface*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.WithInterface
+  name: WithInterface
+  nameWithType: GenericBuilder.WithInterface
+  fullName: CZGL.Roslyn.GenericBuilder.WithInterface
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: CZGL.Roslyn.GenericBuilder.WithTo*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.WithTo
+  name: WithTo
+  nameWithType: GenericBuilder.WithTo
+  fullName: CZGL.Roslyn.GenericBuilder.WithTo
+- uid: CZGL.Roslyn.GenericBuilder.WithNew*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.WithNew
+  name: WithNew
+  nameWithType: GenericBuilder.WithNew
+  fullName: CZGL.Roslyn.GenericBuilder.WithNew
+- uid: CZGL.Roslyn.GenericBuilder.BuildTypeParameterListSyntax*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.BuildTypeParameterListSyntax
+  name: BuildTypeParameterListSyntax
+  nameWithType: GenericBuilder.BuildTypeParameterListSyntax
+  fullName: CZGL.Roslyn.GenericBuilder.BuildTypeParameterListSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterListSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterListSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: TypeParameterListSyntax
+  nameWithType: TypeParameterListSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterListSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax
+  commentId: N:Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: Microsoft.CodeAnalysis.CSharp.Syntax
+  nameWithType: Microsoft.CodeAnalysis.CSharp.Syntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax
+- uid: CZGL.Roslyn.GenericBuilder.ToConstraintSyntax*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.ToConstraintSyntax
+  name: ToConstraintSyntax
+  nameWithType: GenericBuilder.ToConstraintSyntax
+  fullName: CZGL.Roslyn.GenericBuilder.ToConstraintSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: TypeParameterConstraintClauseSyntax
+  nameWithType: TypeParameterConstraintClauseSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+- uid: CZGL.Roslyn.GenericBuilder.ToConstraintListSyntax*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.ToConstraintListSyntax
+  name: ToConstraintListSyntax
+  nameWithType: GenericBuilder.ToConstraintListSyntax
+  fullName: CZGL.Roslyn.GenericBuilder.ToConstraintListSyntax
+- uid: Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax}
+  commentId: T:Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax}
+  parent: Microsoft.CodeAnalysis
+  definition: Microsoft.CodeAnalysis.SyntaxList`1
+  name: SyntaxList<TypeParameterConstraintClauseSyntax>
+  nameWithType: SyntaxList<TypeParameterConstraintClauseSyntax>
+  fullName: Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax>
+  nameWithType.vb: SyntaxList(Of TypeParameterConstraintClauseSyntax)
+  fullName.vb: Microsoft.CodeAnalysis.SyntaxList(Of Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax)
+  name.vb: SyntaxList(Of TypeParameterConstraintClauseSyntax)
+  spec.csharp:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+    name: TypeParameterConstraintClauseSyntax
+    nameWithType: TypeParameterConstraintClauseSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+    name: TypeParameterConstraintClauseSyntax
+    nameWithType: TypeParameterConstraintClauseSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.CodeAnalysis.SyntaxList`1
+  commentId: T:Microsoft.CodeAnalysis.SyntaxList`1
+  isExternal: true
+  name: SyntaxList<TNode>
+  nameWithType: SyntaxList<TNode>
+  fullName: Microsoft.CodeAnalysis.SyntaxList<TNode>
+  nameWithType.vb: SyntaxList(Of TNode)
+  fullName.vb: Microsoft.CodeAnalysis.SyntaxList(Of TNode)
+  name.vb: SyntaxList(Of TNode)
+  spec.csharp:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TNode
+    nameWithType: TNode
+    fullName: TNode
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TNode
+    nameWithType: TNode
+    fullName: TNode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.CodeAnalysis
+  commentId: N:Microsoft.CodeAnalysis
+  isExternal: true
+  name: Microsoft.CodeAnalysis
+  nameWithType: Microsoft.CodeAnalysis
+  fullName: Microsoft.CodeAnalysis
+- uid: CZGL.Roslyn.GenericBuilder.ToFullCodeName*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.ToFullCodeName
+  name: ToFullCodeName
+  nameWithType: GenericBuilder.ToFullCodeName
+  fullName: CZGL.Roslyn.GenericBuilder.ToFullCodeName
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ToFullCode
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ToFullCode
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1.ToFullCode
+  name: ToFullCode()
+  nameWithType: GenericTemplate<GenericBuilder>.ToFullCode()
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.ToFullCode()
+  nameWithType.vb: GenericTemplate(Of GenericBuilder).ToFullCode()
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).ToFullCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFullCode
+    name: ToFullCode
+    nameWithType: GenericTemplate<GenericBuilder>.ToFullCode
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFullCode
+    name: ToFullCode
+    nameWithType: GenericTemplate(Of GenericBuilder).ToFullCode
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.GenericBuilder.ToFullCode*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.ToFullCode
+  name: ToFullCode
+  nameWithType: GenericBuilder.ToFullCode
+  fullName: CZGL.Roslyn.GenericBuilder.ToFullCode
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFullCode
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate`1.ToFullCode
+  name: ToFullCode()
+  nameWithType: GenericTemplate<TBuilder>.ToFullCode()
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.ToFullCode()
+  nameWithType.vb: GenericTemplate(Of TBuilder).ToFullCode()
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).ToFullCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFullCode
+    name: ToFullCode
+    nameWithType: GenericTemplate<TBuilder>.ToFullCode
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFullCode
+    name: ToFullCode
+    nameWithType: GenericTemplate(Of TBuilder).ToFullCode
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ToFormatCode
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}.ToFormatCode
+  parent: CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}
+  definition: CZGL.Roslyn.Templates.GenericTemplate`1.ToFormatCode
+  name: ToFormatCode()
+  nameWithType: GenericTemplate<GenericBuilder>.ToFormatCode()
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.ToFormatCode()
+  nameWithType.vb: GenericTemplate(Of GenericBuilder).ToFormatCode()
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).ToFormatCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFormatCode
+    name: ToFormatCode
+    nameWithType: GenericTemplate<GenericBuilder>.ToFormatCode
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>.ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFormatCode
+    name: ToFormatCode
+    nameWithType: GenericTemplate(Of GenericBuilder).ToFormatCode
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder).ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.GenericBuilder.ToFormatCode*
+  commentId: Overload:CZGL.Roslyn.GenericBuilder.ToFormatCode
+  name: ToFormatCode
+  nameWithType: GenericBuilder.ToFormatCode
+  fullName: CZGL.Roslyn.GenericBuilder.ToFormatCode
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFormatCode
+  commentId: M:CZGL.Roslyn.Templates.GenericTemplate`1.ToFormatCode
+  name: ToFormatCode()
+  nameWithType: GenericTemplate<TBuilder>.ToFormatCode()
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.ToFormatCode()
+  nameWithType.vb: GenericTemplate(Of TBuilder).ToFormatCode()
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).ToFormatCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFormatCode
+    name: ToFormatCode
+    nameWithType: GenericTemplate<TBuilder>.ToFormatCode
+    fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>.ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1.ToFormatCode
+    name: ToFormatCode
+    nameWithType: GenericTemplate(Of TBuilder).ToFormatCode
+    fullName: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder).ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

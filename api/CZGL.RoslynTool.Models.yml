@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.RoslynTool.Models
+  commentId: N:CZGL.RoslynTool.Models
+  id: CZGL.RoslynTool.Models
+  children:
+  - CZGL.RoslynTool.Models.DefineGenericInfo
+  langs:
+  - csharp
+  - vb
+  name: CZGL.RoslynTool.Models
+  nameWithType: CZGL.RoslynTool.Models
+  fullName: CZGL.RoslynTool.Models
+  type: Namespace
+  assemblies:
+  - CZGL.RoslynTool
+references:
+- uid: CZGL.RoslynTool.Models.DefineGenericInfo
+  commentId: T:CZGL.RoslynTool.Models.DefineGenericInfo
+  name: DefineGenericInfo
+  nameWithType: DefineGenericInfo
+  fullName: CZGL.RoslynTool.Models.DefineGenericInfo

@@ -1,0 +1,487 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.Templates.BaseTemplate
+  commentId: T:CZGL.Roslyn.Templates.BaseTemplate
+  id: BaseTemplate
+  parent: CZGL.Roslyn.Templates
+  children:
+  - CZGL.Roslyn.Templates.BaseTemplate._base
+  - CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+  - CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+  langs:
+  - csharp
+  - vb
+  name: BaseTemplate
+  nameWithType: BaseTemplate
+  fullName: CZGL.Roslyn.Templates.BaseTemplate
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/Templates/BaseTemplate.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: BaseTemplate
+    path: src/Src/CZGL.Roslyn/Templates/BaseTemplate.cs
+    startLine: 7
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.Templates
+  syntax:
+    content: public abstract class BaseTemplate
+    content.vb: Public MustInherit Class BaseTemplate
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CZGL.Roslyn.Templates.MemberTemplate`1
+  - CZGL.Roslyn.Templates.NamespaceTemplate`1
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CZGL.Roslyn.Templates.BaseTemplate._base
+  commentId: F:CZGL.Roslyn.Templates.BaseTemplate._base
+  id: _base
+  parent: CZGL.Roslyn.Templates.BaseTemplate
+  langs:
+  - csharp
+  - vb
+  name: _base
+  nameWithType: BaseTemplate._base
+  fullName: CZGL.Roslyn.Templates.BaseTemplate._base
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/Templates/BaseTemplate.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: _base
+    path: src/Src/CZGL.Roslyn/Templates/BaseTemplate.cs
+    startLine: 12
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.Templates
+  summary: "\n所有结构共有的属性，如名称\n"
+  example: []
+  syntax:
+    content: protected readonly BaseState _base
+    return:
+      type: CZGL.Roslyn.States.BaseState
+    content.vb: Protected ReadOnly _base As BaseState
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+  commentId: M:CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+  id: ToFullCode
+  parent: CZGL.Roslyn.Templates.BaseTemplate
+  langs:
+  - csharp
+  - vb
+  name: ToFullCode()
+  nameWithType: BaseTemplate.ToFullCode()
+  fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/Templates/BaseTemplate.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToFullCode
+    path: src/Src/CZGL.Roslyn/Templates/BaseTemplate.cs
+    startLine: 48
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.Templates
+  summary: "\n完整输出代码\n<p>不会对代码进行检查，直接输出当前已经定义的代码</p>\n"
+  example: []
+  syntax:
+    content: public abstract string ToFullCode()
+    return:
+      type: System.String
+      description: 代码 <xref href="System.String" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public MustOverride Function ToFullCode As String
+  overload: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+  commentId: M:CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+  id: ToFormatCode
+  parent: CZGL.Roslyn.Templates.BaseTemplate
+  langs:
+  - csharp
+  - vb
+  name: ToFormatCode()
+  nameWithType: BaseTemplate.ToFormatCode()
+  fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/Templates/BaseTemplate.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToFormatCode
+    path: src/Src/CZGL.Roslyn/Templates/BaseTemplate.cs
+    startLine: 55
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.Templates
+  summary: "\n完整输出格式化代码\n<p>会对代码进行语法树分析，检查代码是否有问题。如果无问题，再格式化代码输出</p>\n"
+  example: []
+  syntax:
+    content: public abstract string ToFormatCode()
+    return:
+      type: System.String
+      description: 代码 <xref href="System.String" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public MustOverride Function ToFormatCode As String
+  overload: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: CZGL.Roslyn.Templates
+  commentId: N:CZGL.Roslyn.Templates
+  name: CZGL.Roslyn.Templates
+  nameWithType: CZGL.Roslyn.Templates
+  fullName: CZGL.Roslyn.Templates
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Roslyn.States.BaseState
+  commentId: T:CZGL.Roslyn.States.BaseState
+  parent: CZGL.Roslyn.States
+  name: BaseState
+  nameWithType: BaseState
+  fullName: CZGL.Roslyn.States.BaseState
+- uid: CZGL.Roslyn.States
+  commentId: N:CZGL.Roslyn.States
+  name: CZGL.Roslyn.States
+  nameWithType: CZGL.Roslyn.States
+  fullName: CZGL.Roslyn.States
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode*
+  commentId: Overload:CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+  name: ToFullCode
+  nameWithType: BaseTemplate.ToFullCode
+  fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+- uid: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode*
+  commentId: Overload:CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+  name: ToFormatCode
+  nameWithType: BaseTemplate.ToFormatCode
+  fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode

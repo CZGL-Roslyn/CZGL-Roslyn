@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.Extensions
+  commentId: N:CZGL.Roslyn.Extensions
+  id: CZGL.Roslyn.Extensions
+  children:
+  - CZGL.Roslyn.Extensions.FieldBuilderExtension
+  - CZGL.Roslyn.Extensions.MemberExtensions
+  - CZGL.Roslyn.Extensions.NamespaceExtensions
+  langs:
+  - csharp
+  - vb
+  name: CZGL.Roslyn.Extensions
+  nameWithType: CZGL.Roslyn.Extensions
+  fullName: CZGL.Roslyn.Extensions
+  type: Namespace
+  assemblies:
+  - CZGL.Roslyn.Extensions
+references:
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  commentId: T:CZGL.Roslyn.Extensions.FieldBuilderExtension
+  parent: CZGL.Roslyn.Extensions
+  name: FieldBuilderExtension
+  nameWithType: FieldBuilderExtension
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension
+- uid: CZGL.Roslyn.Extensions.MemberExtensions
+  commentId: T:CZGL.Roslyn.Extensions.MemberExtensions
+  name: MemberExtensions
+  nameWithType: MemberExtensions
+  fullName: CZGL.Roslyn.Extensions.MemberExtensions
+- uid: CZGL.Roslyn.Extensions.NamespaceExtensions
+  commentId: T:CZGL.Roslyn.Extensions.NamespaceExtensions
+  parent: CZGL.Roslyn.Extensions
+  name: NamespaceExtensions
+  nameWithType: NamespaceExtensions
+  fullName: CZGL.Roslyn.Extensions.NamespaceExtensions
+- uid: CZGL.Roslyn.Extensions
+  commentId: N:CZGL.Roslyn.Extensions
+  name: CZGL.Roslyn.Extensions
+  nameWithType: CZGL.Roslyn.Extensions
+  fullName: CZGL.Roslyn.Extensions

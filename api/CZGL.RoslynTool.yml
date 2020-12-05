@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.RoslynTool
+  commentId: N:CZGL.RoslynTool
+  id: CZGL.RoslynTool
+  children:
+  - CZGL.RoslynTool.AttributeTool
+  langs:
+  - csharp
+  - vb
+  name: CZGL.RoslynTool
+  nameWithType: CZGL.RoslynTool
+  fullName: CZGL.RoslynTool
+  type: Namespace
+  assemblies:
+  - CZGL.RoslynTool
+references:
+- uid: CZGL.RoslynTool.AttributeTool
+  commentId: T:CZGL.RoslynTool.AttributeTool
+  name: AttributeTool
+  nameWithType: AttributeTool
+  fullName: CZGL.RoslynTool.AttributeTool

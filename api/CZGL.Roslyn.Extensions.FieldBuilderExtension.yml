@@ -1,0 +1,600 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  commentId: T:CZGL.Roslyn.Extensions.FieldBuilderExtension
+  id: FieldBuilderExtension
+  parent: CZGL.Roslyn.Extensions
+  children:
+  - CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+  - CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+  - CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  - CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1(CZGL.Roslyn.FieldBuilder)
+  langs:
+  - csharp
+  - vb
+  name: FieldBuilderExtension
+  nameWithType: FieldBuilderExtension
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: FieldBuilderExtension
+    path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+    startLine: 12
+  assemblies:
+  - CZGL.Roslyn.Extensions
+  namespace: CZGL.Roslyn.Extensions
+  summary: "\n字段构建器拓展方法\n"
+  example: []
+  syntax:
+    content: public static class FieldBuilderExtension
+    content.vb: Public Module FieldBuilderExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  id: WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  langs:
+  - csharp
+  - vb
+  name: WithCopy(FieldBuilder, FieldInfo, Boolean, Boolean)
+  nameWithType: FieldBuilderExtension.WithCopy(FieldBuilder, FieldInfo, Boolean, Boolean)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder, System.Reflection.FieldInfo, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithCopy
+    path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+    startLine: 22
+  assemblies:
+  - CZGL.Roslyn.Extensions
+  namespace: CZGL.Roslyn.Extensions
+  summary: "\n克隆一个字段\n"
+  example: []
+  syntax:
+    content: public static FieldBuilder WithCopy(this FieldBuilder fieldBuilder, FieldInfo field, bool copyAttribute = false, bool copyName = false)
+    parameters:
+    - id: fieldBuilder
+      type: CZGL.Roslyn.FieldBuilder
+    - id: field
+      type: System.Reflection.FieldInfo
+      description: ''
+    - id: copyAttribute
+      type: System.Boolean
+      description: 是否克隆特性注解，默认不克隆
+    - id: copyName
+      type: System.Boolean
+      description: 是否连名称一起克隆，默认不克隆
+    return:
+      type: CZGL.Roslyn.FieldBuilder
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithCopy(fieldBuilder As FieldBuilder, field As FieldInfo, copyAttribute As Boolean = False, copyName As Boolean = False) As FieldBuilder
+  overload: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1(CZGL.Roslyn.FieldBuilder)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1(CZGL.Roslyn.FieldBuilder)
+  id: WithType``1(CZGL.Roslyn.FieldBuilder)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  langs:
+  - csharp
+  - vb
+  name: WithType<T>(FieldBuilder)
+  nameWithType: FieldBuilderExtension.WithType<T>(FieldBuilder)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType<T>(CZGL.Roslyn.FieldBuilder)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: WithType
+    path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+    startLine: 45
+  assemblies:
+  - CZGL.Roslyn.Extensions
+  namespace: CZGL.Roslyn.Extensions
+  syntax:
+    content: public static FieldBuilder WithType<T>(this FieldBuilder field)
+    parameters:
+    - id: field
+      type: CZGL.Roslyn.FieldBuilder
+    typeParameters:
+    - id: T
+    return:
+      type: CZGL.Roslyn.FieldBuilder
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithType(Of T)(field As FieldBuilder) As FieldBuilder
+  overload: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType*
+  nameWithType.vb: FieldBuilderExtension.WithType(Of T)(FieldBuilder)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType(Of T)(CZGL.Roslyn.FieldBuilder)
+  name.vb: WithType(Of T)(FieldBuilder)
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+  id: Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  langs:
+  - csharp
+  - vb
+  name: Create(FieldBuilder, FieldInfo)
+  nameWithType: FieldBuilderExtension.Create(FieldBuilder, FieldInfo)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder, System.Reflection.FieldInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Create
+    path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+    startLine: 75
+  assemblies:
+  - CZGL.Roslyn.Extensions
+  namespace: CZGL.Roslyn.Extensions
+  syntax:
+    content: public static FieldDeclarationSyntax Create(this FieldBuilder builder, FieldInfo info)
+    parameters:
+    - id: builder
+      type: CZGL.Roslyn.FieldBuilder
+    - id: info
+      type: System.Reflection.FieldInfo
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Create(builder As FieldBuilder, info As FieldInfo) As FieldDeclarationSyntax
+  overload: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+  id: Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+  isExtensionMethod: true
+  parent: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  langs:
+  - csharp
+  - vb
+  name: Create(FieldBuilder, MemberInfo)
+  nameWithType: FieldBuilderExtension.Create(FieldBuilder, MemberInfo)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder, System.Reflection.MemberInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Create
+    path: src/Src/CZGL.Roslyn.Extensions/FieldBuilderExtension.cs
+    startLine: 81
+  assemblies:
+  - CZGL.Roslyn.Extensions
+  namespace: CZGL.Roslyn.Extensions
+  syntax:
+    content: public static FieldDeclarationSyntax Create(this FieldBuilder builder, MemberInfo info)
+    parameters:
+    - id: builder
+      type: CZGL.Roslyn.FieldBuilder
+    - id: info
+      type: System.Reflection.MemberInfo
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Create(builder As FieldBuilder, info As MemberInfo) As FieldDeclarationSyntax
+  overload: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CZGL.Roslyn.Extensions
+  commentId: N:CZGL.Roslyn.Extensions
+  name: CZGL.Roslyn.Extensions
+  nameWithType: CZGL.Roslyn.Extensions
+  fullName: CZGL.Roslyn.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy*
+  commentId: Overload:CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy
+  name: WithCopy
+  nameWithType: FieldBuilderExtension.WithCopy
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy
+- uid: CZGL.Roslyn.FieldBuilder
+  commentId: T:CZGL.Roslyn.FieldBuilder
+  parent: CZGL.Roslyn
+  name: FieldBuilder
+  nameWithType: FieldBuilder
+  fullName: CZGL.Roslyn.FieldBuilder
+- uid: System.Reflection.FieldInfo
+  commentId: T:System.Reflection.FieldInfo
+  parent: System.Reflection
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: System.Reflection.FieldInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CZGL.Roslyn
+  commentId: N:CZGL.Roslyn
+  name: CZGL.Roslyn
+  nameWithType: CZGL.Roslyn
+  fullName: CZGL.Roslyn
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType*
+  commentId: Overload:CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType
+  name: WithType
+  nameWithType: FieldBuilderExtension.WithType
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create*
+  commentId: Overload:CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+  name: Create
+  nameWithType: FieldBuilderExtension.Create
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: FieldDeclarationSyntax
+  nameWithType: FieldDeclarationSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax
+  commentId: N:Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: Microsoft.CodeAnalysis.CSharp.Syntax
+  nameWithType: Microsoft.CodeAnalysis.CSharp.Syntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax
+- uid: System.Reflection.MemberInfo
+  commentId: T:System.Reflection.MemberInfo
+  parent: System.Reflection
+  isExternal: true
+  name: MemberInfo
+  nameWithType: MemberInfo
+  fullName: System.Reflection.MemberInfo

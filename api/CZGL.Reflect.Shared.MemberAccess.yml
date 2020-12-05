@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Shared.MemberAccess
+  commentId: T:CZGL.Reflect.Shared.MemberAccess
+  id: MemberAccess
+  parent: CZGL.Reflect.Shared
+  children:
+  - CZGL.Reflect.Shared.MemberAccess.Default
+  - CZGL.Reflect.Shared.MemberAccess.Internal
+  - CZGL.Reflect.Shared.MemberAccess.Private
+  - CZGL.Reflect.Shared.MemberAccess.PrivateProtected
+  - CZGL.Reflect.Shared.MemberAccess.Protected
+  - CZGL.Reflect.Shared.MemberAccess.ProtectedInternal
+  - CZGL.Reflect.Shared.MemberAccess.Public
+  langs:
+  - csharp
+  - vb
+  name: MemberAccess
+  nameWithType: MemberAccess
+  fullName: CZGL.Reflect.Shared.MemberAccess
+  type: Enum
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: MemberAccess
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+    startLine: 11
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n命名空间中所有种类的成员的访问修饰符\n<p>接口，枚举，嵌套类、属性、字段、方法等</p>\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum MemberAccess
+    content.vb: >-
+      <Flags>
+
+      Public Enum MemberAccess
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CZGL.Reflect.Shared.MemberAccess.Default
+  commentId: F:CZGL.Reflect.Shared.MemberAccess.Default
+  id: Default
+  parent: CZGL.Reflect.Shared.MemberAccess
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: MemberAccess.Default
+  fullName: CZGL.Reflect.Shared.MemberAccess.Default
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Default
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+    startLine: 14
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Default = 0
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.MemberAccess.Internal
+  commentId: F:CZGL.Reflect.Shared.MemberAccess.Internal
+  id: Internal
+  parent: CZGL.Reflect.Shared.MemberAccess
+  langs:
+  - csharp
+  - vb
+  name: Internal
+  nameWithType: MemberAccess.Internal
+  fullName: CZGL.Reflect.Shared.MemberAccess.Internal
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Internal
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+    startLine: 17
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Internal = 1
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.MemberAccess.Public
+  commentId: F:CZGL.Reflect.Shared.MemberAccess.Public
+  id: Public
+  parent: CZGL.Reflect.Shared.MemberAccess
+  langs:
+  - csharp
+  - vb
+  name: Public
+  nameWithType: MemberAccess.Public
+  fullName: CZGL.Reflect.Shared.MemberAccess.Public
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Public
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+    startLine: 20
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Public = 2
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.MemberAccess.Protected
+  commentId: F:CZGL.Reflect.Shared.MemberAccess.Protected
+  id: Protected
+  parent: CZGL.Reflect.Shared.MemberAccess
+  langs:
+  - csharp
+  - vb
+  name: Protected
+  nameWithType: MemberAccess.Protected
+  fullName: CZGL.Reflect.Shared.MemberAccess.Protected
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Protected
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+    startLine: 23
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Protected = 4
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.MemberAccess.Private
+  commentId: F:CZGL.Reflect.Shared.MemberAccess.Private
+  id: Private
+  parent: CZGL.Reflect.Shared.MemberAccess
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: MemberAccess.Private
+  fullName: CZGL.Reflect.Shared.MemberAccess.Private
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Private
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+    startLine: 26
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Private = 8
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.MemberAccess.ProtectedInternal
+  commentId: F:CZGL.Reflect.Shared.MemberAccess.ProtectedInternal
+  id: ProtectedInternal
+  parent: CZGL.Reflect.Shared.MemberAccess
+  langs:
+  - csharp
+  - vb
+  name: ProtectedInternal
+  nameWithType: MemberAccess.ProtectedInternal
+  fullName: CZGL.Reflect.Shared.MemberAccess.ProtectedInternal
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ProtectedInternal
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+    startLine: 29
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: ProtectedInternal = 5
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.MemberAccess.PrivateProtected
+  commentId: F:CZGL.Reflect.Shared.MemberAccess.PrivateProtected
+  id: PrivateProtected
+  parent: CZGL.Reflect.Shared.MemberAccess
+  langs:
+  - csharp
+  - vb
+  name: PrivateProtected
+  nameWithType: MemberAccess.PrivateProtected
+  fullName: CZGL.Reflect.Shared.MemberAccess.PrivateProtected
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: PrivateProtected
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberAccess.cs
+    startLine: 35
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: PrivateProtected = 12
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.Shared.MemberAccess
+  commentId: T:CZGL.Reflect.Shared.MemberAccess
+  parent: CZGL.Reflect.Shared
+  name: MemberAccess
+  nameWithType: MemberAccess
+  fullName: CZGL.Reflect.Shared.MemberAccess

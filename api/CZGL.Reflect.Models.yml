@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Models
+  commentId: N:CZGL.Reflect.Models
+  id: CZGL.Reflect.Models
+  children:
+  - CZGL.Reflect.Models.AttributeAnalysisInfo
+  - CZGL.Reflect.Models.AttributeDefine
+  langs:
+  - csharp
+  - vb
+  name: CZGL.Reflect.Models
+  nameWithType: CZGL.Reflect.Models
+  fullName: CZGL.Reflect.Models
+  type: Namespace
+  assemblies:
+  - CZGL.Reflect
+references:
+- uid: CZGL.Reflect.Models.AttributeAnalysisInfo
+  commentId: T:CZGL.Reflect.Models.AttributeAnalysisInfo
+  name: AttributeAnalysisInfo
+  nameWithType: AttributeAnalysisInfo
+  fullName: CZGL.Reflect.Models.AttributeAnalysisInfo
+- uid: CZGL.Reflect.Models.AttributeDefine
+  commentId: T:CZGL.Reflect.Models.AttributeDefine
+  parent: CZGL.Reflect.Models
+  name: AttributeDefine
+  nameWithType: AttributeDefine
+  fullName: CZGL.Reflect.Models.AttributeDefine
+- uid: CZGL.Reflect.Models
+  commentId: N:CZGL.Reflect.Models
+  name: CZGL.Reflect.Models
+  nameWithType: CZGL.Reflect.Models
+  fullName: CZGL.Reflect.Models

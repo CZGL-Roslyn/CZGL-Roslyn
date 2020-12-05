@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect
+  commentId: N:CZGL.Reflect
+  id: CZGL.Reflect
+  children:
+  - CZGL.Reflect.ClassAnalysis
+  - CZGL.Reflect.FiledAnalysis
+  - CZGL.Reflect.GenericeAnalysis
+  - CZGL.Reflect.MethodInfoAnalysis
+  - CZGL.Reflect.PropertyAnalysis
+  - CZGL.Reflect.TypeAnalysis
+  - CZGL.Reflect.TypeDictionary
+  langs:
+  - csharp
+  - vb
+  name: CZGL.Reflect
+  nameWithType: CZGL.Reflect
+  fullName: CZGL.Reflect
+  type: Namespace
+  assemblies:
+  - CZGL.Reflect
+references:
+- uid: CZGL.Reflect.ClassAnalysis
+  commentId: T:CZGL.Reflect.ClassAnalysis
+  name: ClassAnalysis
+  nameWithType: ClassAnalysis
+  fullName: CZGL.Reflect.ClassAnalysis
+- uid: CZGL.Reflect.FiledAnalysis
+  commentId: T:CZGL.Reflect.FiledAnalysis
+  name: FiledAnalysis
+  nameWithType: FiledAnalysis
+  fullName: CZGL.Reflect.FiledAnalysis
+- uid: CZGL.Reflect.GenericeAnalysis
+  commentId: T:CZGL.Reflect.GenericeAnalysis
+  name: GenericeAnalysis
+  nameWithType: GenericeAnalysis
+  fullName: CZGL.Reflect.GenericeAnalysis
+- uid: CZGL.Reflect.MethodInfoAnalysis
+  commentId: T:CZGL.Reflect.MethodInfoAnalysis
+  name: MethodInfoAnalysis
+  nameWithType: MethodInfoAnalysis
+  fullName: CZGL.Reflect.MethodInfoAnalysis
+- uid: CZGL.Reflect.PropertyAnalysis
+  commentId: T:CZGL.Reflect.PropertyAnalysis
+  name: PropertyAnalysis
+  nameWithType: PropertyAnalysis
+  fullName: CZGL.Reflect.PropertyAnalysis
+- uid: CZGL.Reflect.TypeAnalysis
+  commentId: T:CZGL.Reflect.TypeAnalysis
+  name: TypeAnalysis
+  nameWithType: TypeAnalysis
+  fullName: CZGL.Reflect.TypeAnalysis
+- uid: CZGL.Reflect.TypeDictionary
+  commentId: T:CZGL.Reflect.TypeDictionary
+  name: TypeDictionary
+  nameWithType: TypeDictionary
+  fullName: CZGL.Reflect.TypeDictionary

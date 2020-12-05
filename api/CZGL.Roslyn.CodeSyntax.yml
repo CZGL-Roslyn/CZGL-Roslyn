@@ -1,0 +1,1671 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.CodeSyntax
+  commentId: T:CZGL.Roslyn.CodeSyntax
+  id: CodeSyntax
+  parent: CZGL.Roslyn
+  children:
+  - CZGL.Roslyn.CodeSyntax.CreateAttribute(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateAttributeList(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax)
+  - CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax})
+  - CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.String[])
+  - CZGL.Roslyn.CodeSyntax.CreateClass(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateCodeAttribute(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateCompilation(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateCompilation(System.String,System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateCtor(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateDelegate(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateEnum(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateEvent(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateField(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateGeneric
+  - CZGL.Roslyn.CodeSyntax.CreateGeneric(System.String,System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateInterface(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateMethod(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateNamespace(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateProperty(System.String)
+  - CZGL.Roslyn.CodeSyntax.CreateStruct(System.String)
+  - CZGL.Roslyn.CodeSyntax.NamespaceTransform
+  langs:
+  - csharp
+  - vb
+  name: CodeSyntax
+  nameWithType: CodeSyntax
+  fullName: CZGL.Roslyn.CodeSyntax
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CodeSyntax
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 14
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n代码工具\n"
+  example: []
+  syntax:
+    content: public static class CodeSyntax
+    content.vb: Public Module CodeSyntax
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CZGL.Roslyn.CodeSyntax.CreateNamespace(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateNamespace(System.String)
+  id: CreateNamespace(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateNamespace(String)
+  nameWithType: CodeSyntax.CreateNamespace(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateNamespace(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateNamespace
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 24
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建一个命名空间\n"
+  example: []
+  syntax:
+    content: public static NamespaceBuilder CreateNamespace(string namespaceName)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: 命名空间名称
+    return:
+      type: CZGL.Roslyn.NamespaceBuilder
+      description: ''
+    content.vb: Public Shared Function CreateNamespace(namespaceName As String) As NamespaceBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateNamespace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.NamespaceTransform
+  commentId: M:CZGL.Roslyn.CodeSyntax.NamespaceTransform
+  id: NamespaceTransform
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: NamespaceTransform()
+  nameWithType: CodeSyntax.NamespaceTransform()
+  fullName: CZGL.Roslyn.CodeSyntax.NamespaceTransform()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: NamespaceTransform
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 29
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  syntax:
+    content: public static NamespaceBuilder NamespaceTransform()
+    return:
+      type: CZGL.Roslyn.NamespaceBuilder
+    content.vb: Public Shared Function NamespaceTransform As NamespaceBuilder
+  overload: CZGL.Roslyn.CodeSyntax.NamespaceTransform*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.String[])
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.String[])
+  id: CreateAttributeList(System.String[])
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateAttributeList(String[])
+  nameWithType: CodeSyntax.CreateAttributeList(String[])
+  fullName: CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.String[])
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateAttributeList
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 56
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n字符串生成特性列表\n<p>\n<example>\n<pre><code>string[] code = new string[]\n{\n    &quot;[Display(Name = \\&quot;a\\&quot;)]&quot;,\n    &quot;[Display(Name = \\&quot;b\\&quot;)]&quot;\n};\nCbuilder.reateAttributeList(code);</code></pre>\n</example>\n</p>\n"
+  example: []
+  syntax:
+    content: public static SyntaxList<AttributeListSyntax> CreateAttributeList(params string[] attrsCode)
+    parameters:
+    - id: attrsCode
+      type: System.String[]
+    return:
+      type: Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+      description: ''
+    content.vb: Public Shared Function CreateAttributeList(ParamArray attrsCode As String()) As SyntaxList(Of AttributeListSyntax)
+  overload: CZGL.Roslyn.CodeSyntax.CreateAttributeList*
+  nameWithType.vb: CodeSyntax.CreateAttributeList(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.String())
+  name.vb: CreateAttributeList(String())
+- uid: CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax})
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax})
+  id: CreateAttributeList(System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax})
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateAttributeList(IEnumerable<AttributeListSyntax>)
+  nameWithType: CodeSyntax.CreateAttributeList(IEnumerable<AttributeListSyntax>)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax>)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateAttributeList
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 77
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n生成特性列表\n"
+  example: []
+  syntax:
+    content: public static SyntaxList<AttributeListSyntax> CreateAttributeList(IEnumerable<AttributeListSyntax> list)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+      description: ''
+    return:
+      type: Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+      description: ''
+    content.vb: Public Shared Function CreateAttributeList(list As IEnumerable(Of AttributeListSyntax)) As SyntaxList(Of AttributeListSyntax)
+  overload: CZGL.Roslyn.CodeSyntax.CreateAttributeList*
+  nameWithType.vb: CodeSyntax.CreateAttributeList(IEnumerable(Of AttributeListSyntax))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.Collections.Generic.IEnumerable(Of Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax))
+  name.vb: CreateAttributeList(IEnumerable(Of AttributeListSyntax))
+- uid: CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.String)
+  id: CreateAttributeList(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateAttributeList(String)
+  nameWithType: CodeSyntax.CreateAttributeList(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateAttributeList(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateAttributeList
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 93
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n字符串生成特性\n"
+  example:
+  - "\n<pre><code>&quot;[Display(Name = \\&quot;a\\&quot;)]&quot;</code></pre>\n"
+  syntax:
+    content: public static AttributeListSyntax CreateAttributeList(string attrCode)
+    parameters:
+    - id: attrCode
+      type: System.String
+      description: ''
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+      description: ''
+    content.vb: Public Shared Function CreateAttributeList(attrCode As String) As AttributeListSyntax
+  overload: CZGL.Roslyn.CodeSyntax.CreateAttributeList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateAttributeList(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateAttributeList(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax)
+  id: CreateAttributeList(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateAttributeList(AttributeSyntax)
+  nameWithType: CodeSyntax.CreateAttributeList(AttributeSyntax)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateAttributeList(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateAttributeList
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 111
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n字符串生成特性\n"
+  example:
+  - "\n<pre><code>&quot;[Display(Name = \\&quot;a\\&quot;)]&quot;</code></pre>\n"
+  syntax:
+    content: public static AttributeListSyntax CreateAttributeList(AttributeSyntax attrbuteSyntax)
+    parameters:
+    - id: attrbuteSyntax
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax
+      description: ''
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+      description: ''
+    content.vb: Public Shared Function CreateAttributeList(attrbuteSyntax As AttributeSyntax) As AttributeListSyntax
+  overload: CZGL.Roslyn.CodeSyntax.CreateAttributeList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateCodeAttribute(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateCodeAttribute(System.String)
+  id: CreateCodeAttribute(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateCodeAttribute(String)
+  nameWithType: CodeSyntax.CreateCodeAttribute(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateCodeAttribute(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateCodeAttribute
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 127
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n字符串生成特性\n"
+  example:
+  - "\n<pre><code>&quot;[Display(Name = \\&quot;a\\&quot;)]&quot;</code></pre>\n"
+  syntax:
+    content: public static AttributeSyntax CreateCodeAttribute(string attrCode)
+    parameters:
+    - id: attrCode
+      type: System.String
+      description: ''
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax
+      description: ''
+    content.vb: Public Shared Function CreateCodeAttribute(attrCode As String) As AttributeSyntax
+  overload: CZGL.Roslyn.CodeSyntax.CreateCodeAttribute*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateEnum(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateEnum(System.String)
+  id: CreateEnum(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateEnum(String)
+  nameWithType: CodeSyntax.CreateEnum(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateEnum(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateEnum
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 145
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建枚举\n"
+  example: []
+  syntax:
+    content: public static EnumBuilder CreateEnum(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: 枚举名称
+    return:
+      type: CZGL.Roslyn.EnumBuilder
+      description: ''
+    content.vb: Public Shared Function CreateEnum(name As String) As EnumBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateEnum*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateGeneric
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateGeneric
+  id: CreateGeneric
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateGeneric()
+  nameWithType: CodeSyntax.CreateGeneric()
+  fullName: CZGL.Roslyn.CodeSyntax.CreateGeneric()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateGeneric
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 155
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建泛型构建器\n"
+  example: []
+  syntax:
+    content: public static GenericBuilder CreateGeneric()
+    return:
+      type: CZGL.Roslyn.GenericBuilder
+      description: ''
+    content.vb: Public Shared Function CreateGeneric As GenericBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateGeneric*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateGeneric(System.String,System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateGeneric(System.String,System.String)
+  id: CreateGeneric(System.String,System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateGeneric(String, String)
+  nameWithType: CodeSyntax.CreateGeneric(String, String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateGeneric(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateGeneric
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 179
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n通过代码构建泛型参数以及约束\n<p>\nstring paramList = @&quot;T1,T2,T3,T4&quot;;\nstring constraintList = @&quot;\n        where T1 : struct\n        where T2 : class\n        where T3 : notnull\n        where T4 : unmanaged\n        where T5 : new()\n        where T6 : Model_泛型类4\n        where T7 : IEnumerable<int></int>\n        where T8 : T2\n&quot;; \n</p>\n"
+  example: []
+  syntax:
+    content: public static GenericBuilder CreateGeneric(string paramList, string constraintList)
+    parameters:
+    - id: paramList
+      type: System.String
+      description: ''
+    - id: constraintList
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.GenericBuilder
+      description: ''
+    content.vb: Public Shared Function CreateGeneric(paramList As String, constraintList As String) As GenericBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateGeneric*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateField(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateField(System.String)
+  id: CreateField(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateField(String)
+  nameWithType: CodeSyntax.CreateField(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateField(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateField
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 189
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建字段\n"
+  example: []
+  syntax:
+    content: public static FieldBuilder CreateField(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.FieldBuilder
+      description: ''
+    content.vb: Public Shared Function CreateField(name As String) As FieldBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateField*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateProperty(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateProperty(System.String)
+  id: CreateProperty(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateProperty(String)
+  nameWithType: CodeSyntax.CreateProperty(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateProperty(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateProperty
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 199
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建属性\n"
+  example: []
+  syntax:
+    content: public static PropertyBuilder CreateProperty(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.PropertyBuilder
+      description: ''
+    content.vb: Public Shared Function CreateProperty(name As String) As PropertyBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateProperty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateDelegate(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateDelegate(System.String)
+  id: CreateDelegate(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateDelegate(String)
+  nameWithType: CodeSyntax.CreateDelegate(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateDelegate(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateDelegate
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 209
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建委托\n"
+  example: []
+  syntax:
+    content: public static DelegateBuilder CreateDelegate(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.DelegateBuilder
+      description: ''
+    content.vb: Public Shared Function CreateDelegate(name As String) As DelegateBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateDelegate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateEvent(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateEvent(System.String)
+  id: CreateEvent(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateEvent(String)
+  nameWithType: CodeSyntax.CreateEvent(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateEvent(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateEvent
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 219
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建事件\n"
+  example: []
+  syntax:
+    content: public static EventBuilder CreateEvent(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.EventBuilder
+      description: ''
+    content.vb: Public Shared Function CreateEvent(name As String) As EventBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateMethod(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateMethod(System.String)
+  id: CreateMethod(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateMethod(String)
+  nameWithType: CodeSyntax.CreateMethod(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateMethod(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateMethod
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 229
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建方法\n"
+  example: []
+  syntax:
+    content: public static MethodBuilder CreateMethod(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.MethodBuilder
+      description: ''
+    content.vb: Public Shared Function CreateMethod(name As String) As MethodBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateMethod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateCtor(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateCtor(System.String)
+  id: CreateCtor(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateCtor(String)
+  nameWithType: CodeSyntax.CreateCtor(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateCtor(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateCtor
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 239
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建构造函数\n"
+  example: []
+  syntax:
+    content: public static CtorBuilder CreateCtor(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.CtorBuilder
+      description: ''
+    content.vb: Public Shared Function CreateCtor(name As String) As CtorBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateCtor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateAttribute(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateAttribute(System.String)
+  id: CreateAttribute(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateAttribute(String)
+  nameWithType: CodeSyntax.CreateAttribute(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateAttribute(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateAttribute
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 249
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建特性\n"
+  example: []
+  syntax:
+    content: public static AttributeBuilder CreateAttribute(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.AttributeBuilder
+      description: ''
+    content.vb: Public Shared Function CreateAttribute(name As String) As AttributeBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateAttribute*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateClass(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateClass(System.String)
+  id: CreateClass(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateClass(String)
+  nameWithType: CodeSyntax.CreateClass(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateClass(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateClass
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 259
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n构建类\n"
+  example: []
+  syntax:
+    content: public static ClassBuilder CreateClass(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.ClassBuilder
+      description: ''
+    content.vb: Public Shared Function CreateClass(name As String) As ClassBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateClass*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateStruct(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateStruct(System.String)
+  id: CreateStruct(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateStruct(String)
+  nameWithType: CodeSyntax.CreateStruct(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateStruct(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateStruct
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 269
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n构建类\n"
+  example: []
+  syntax:
+    content: public static StructBuilder CreateStruct(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.StructBuilder
+      description: ''
+    content.vb: Public Shared Function CreateStruct(name As String) As StructBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateStruct*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateInterface(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateInterface(System.String)
+  id: CreateInterface(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateInterface(String)
+  nameWithType: CodeSyntax.CreateInterface(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateInterface(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateInterface
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 279
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n构建接口\n"
+  example: []
+  syntax:
+    content: public static InterfaceBuilder CreateInterface(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.InterfaceBuilder
+      description: ''
+    content.vb: Public Shared Function CreateInterface(name As String) As InterfaceBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateInterface*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateCompilation(System.String,System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateCompilation(System.String,System.String)
+  id: CreateCompilation(System.String,System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateCompilation(String, String)
+  nameWithType: CodeSyntax.CreateCompilation(String, String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateCompilation(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateCompilation
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 290
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建编译器\n"
+  example: []
+  syntax:
+    content: public static CompilationBuilder CreateCompilation(string path, string assemblyName)
+    parameters:
+    - id: path
+      type: System.String
+      description: dll 生成位置
+    - id: assemblyName
+      type: System.String
+      description: 程序集名称
+    return:
+      type: CZGL.Roslyn.CompilationBuilder
+      description: ''
+    content.vb: Public Shared Function CreateCompilation(path As String, assemblyName As String) As CompilationBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateCompilation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.CodeSyntax.CreateCompilation(System.String)
+  commentId: M:CZGL.Roslyn.CodeSyntax.CreateCompilation(System.String)
+  id: CreateCompilation(System.String)
+  parent: CZGL.Roslyn.CodeSyntax
+  langs:
+  - csharp
+  - vb
+  name: CreateCompilation(String)
+  nameWithType: CodeSyntax.CreateCompilation(String)
+  fullName: CZGL.Roslyn.CodeSyntax.CreateCompilation(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CreateCompilation
+    path: src/Src/CZGL.Roslyn/CodeSyntax.cs
+    startLine: 299
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n创建编译器\n"
+  example: []
+  syntax:
+    content: public static CompilationBuilder CreateCompilation(string assemblyName)
+    parameters:
+    - id: assemblyName
+      type: System.String
+    return:
+      type: CZGL.Roslyn.CompilationBuilder
+      description: ''
+    content.vb: Public Shared Function CreateCompilation(assemblyName As String) As CompilationBuilder
+  overload: CZGL.Roslyn.CodeSyntax.CreateCompilation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CZGL.Roslyn
+  commentId: N:CZGL.Roslyn
+  name: CZGL.Roslyn
+  nameWithType: CZGL.Roslyn
+  fullName: CZGL.Roslyn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Roslyn.CodeSyntax.CreateNamespace*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateNamespace
+  name: CreateNamespace
+  nameWithType: CodeSyntax.CreateNamespace
+  fullName: CZGL.Roslyn.CodeSyntax.CreateNamespace
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Roslyn.NamespaceBuilder
+  commentId: T:CZGL.Roslyn.NamespaceBuilder
+  parent: CZGL.Roslyn
+  name: NamespaceBuilder
+  nameWithType: NamespaceBuilder
+  fullName: CZGL.Roslyn.NamespaceBuilder
+- uid: CZGL.Roslyn.CodeSyntax.NamespaceTransform*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.NamespaceTransform
+  name: NamespaceTransform
+  nameWithType: CodeSyntax.NamespaceTransform
+  fullName: CZGL.Roslyn.CodeSyntax.NamespaceTransform
+- uid: CZGL.Roslyn.CodeSyntax.CreateAttributeList*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateAttributeList
+  name: CreateAttributeList
+  nameWithType: CodeSyntax.CreateAttributeList
+  fullName: CZGL.Roslyn.CodeSyntax.CreateAttributeList
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+  commentId: T:Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+  parent: Microsoft.CodeAnalysis
+  definition: Microsoft.CodeAnalysis.SyntaxList`1
+  name: SyntaxList<AttributeListSyntax>
+  nameWithType: SyntaxList<AttributeListSyntax>
+  fullName: Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax>
+  nameWithType.vb: SyntaxList(Of AttributeListSyntax)
+  fullName.vb: Microsoft.CodeAnalysis.SyntaxList(Of Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax)
+  name.vb: SyntaxList(Of AttributeListSyntax)
+  spec.csharp:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    name: AttributeListSyntax
+    nameWithType: AttributeListSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    name: AttributeListSyntax
+    nameWithType: AttributeListSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.CodeAnalysis.SyntaxList`1
+  commentId: T:Microsoft.CodeAnalysis.SyntaxList`1
+  isExternal: true
+  name: SyntaxList<TNode>
+  nameWithType: SyntaxList<TNode>
+  fullName: Microsoft.CodeAnalysis.SyntaxList<TNode>
+  nameWithType.vb: SyntaxList(Of TNode)
+  fullName.vb: Microsoft.CodeAnalysis.SyntaxList(Of TNode)
+  name.vb: SyntaxList(Of TNode)
+  spec.csharp:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TNode
+    nameWithType: TNode
+    fullName: TNode
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.CodeAnalysis.SyntaxList`1
+    name: SyntaxList
+    nameWithType: SyntaxList
+    fullName: Microsoft.CodeAnalysis.SyntaxList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TNode
+    nameWithType: TNode
+    fullName: TNode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.CodeAnalysis
+  commentId: N:Microsoft.CodeAnalysis
+  isExternal: true
+  name: Microsoft.CodeAnalysis
+  nameWithType: Microsoft.CodeAnalysis
+  fullName: Microsoft.CodeAnalysis
+- uid: System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+  commentId: T:System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<AttributeListSyntax>
+  nameWithType: IEnumerable<AttributeListSyntax>
+  fullName: System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax>
+  nameWithType.vb: IEnumerable(Of AttributeListSyntax)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax)
+  name.vb: IEnumerable(Of AttributeListSyntax)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    name: AttributeListSyntax
+    nameWithType: AttributeListSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    name: AttributeListSyntax
+    nameWithType: AttributeListSyntax
+    fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: AttributeListSyntax
+  nameWithType: AttributeListSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax
+  commentId: N:Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: Microsoft.CodeAnalysis.CSharp.Syntax
+  nameWithType: Microsoft.CodeAnalysis.CSharp.Syntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: AttributeSyntax
+  nameWithType: AttributeSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax
+- uid: CZGL.Roslyn.CodeSyntax.CreateCodeAttribute*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateCodeAttribute
+  name: CreateCodeAttribute
+  nameWithType: CodeSyntax.CreateCodeAttribute
+  fullName: CZGL.Roslyn.CodeSyntax.CreateCodeAttribute
+- uid: CZGL.Roslyn.CodeSyntax.CreateEnum*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateEnum
+  name: CreateEnum
+  nameWithType: CodeSyntax.CreateEnum
+  fullName: CZGL.Roslyn.CodeSyntax.CreateEnum
+- uid: CZGL.Roslyn.EnumBuilder
+  commentId: T:CZGL.Roslyn.EnumBuilder
+  parent: CZGL.Roslyn
+  name: EnumBuilder
+  nameWithType: EnumBuilder
+  fullName: CZGL.Roslyn.EnumBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateGeneric*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateGeneric
+  name: CreateGeneric
+  nameWithType: CodeSyntax.CreateGeneric
+  fullName: CZGL.Roslyn.CodeSyntax.CreateGeneric
+- uid: CZGL.Roslyn.GenericBuilder
+  commentId: T:CZGL.Roslyn.GenericBuilder
+  parent: CZGL.Roslyn
+  name: GenericBuilder
+  nameWithType: GenericBuilder
+  fullName: CZGL.Roslyn.GenericBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateField*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateField
+  name: CreateField
+  nameWithType: CodeSyntax.CreateField
+  fullName: CZGL.Roslyn.CodeSyntax.CreateField
+- uid: CZGL.Roslyn.FieldBuilder
+  commentId: T:CZGL.Roslyn.FieldBuilder
+  parent: CZGL.Roslyn
+  name: FieldBuilder
+  nameWithType: FieldBuilder
+  fullName: CZGL.Roslyn.FieldBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateProperty*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateProperty
+  name: CreateProperty
+  nameWithType: CodeSyntax.CreateProperty
+  fullName: CZGL.Roslyn.CodeSyntax.CreateProperty
+- uid: CZGL.Roslyn.PropertyBuilder
+  commentId: T:CZGL.Roslyn.PropertyBuilder
+  parent: CZGL.Roslyn
+  name: PropertyBuilder
+  nameWithType: PropertyBuilder
+  fullName: CZGL.Roslyn.PropertyBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateDelegate*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateDelegate
+  name: CreateDelegate
+  nameWithType: CodeSyntax.CreateDelegate
+  fullName: CZGL.Roslyn.CodeSyntax.CreateDelegate
+- uid: CZGL.Roslyn.DelegateBuilder
+  commentId: T:CZGL.Roslyn.DelegateBuilder
+  parent: CZGL.Roslyn
+  name: DelegateBuilder
+  nameWithType: DelegateBuilder
+  fullName: CZGL.Roslyn.DelegateBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateEvent*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateEvent
+  name: CreateEvent
+  nameWithType: CodeSyntax.CreateEvent
+  fullName: CZGL.Roslyn.CodeSyntax.CreateEvent
+- uid: CZGL.Roslyn.EventBuilder
+  commentId: T:CZGL.Roslyn.EventBuilder
+  parent: CZGL.Roslyn
+  name: EventBuilder
+  nameWithType: EventBuilder
+  fullName: CZGL.Roslyn.EventBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateMethod*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateMethod
+  name: CreateMethod
+  nameWithType: CodeSyntax.CreateMethod
+  fullName: CZGL.Roslyn.CodeSyntax.CreateMethod
+- uid: CZGL.Roslyn.MethodBuilder
+  commentId: T:CZGL.Roslyn.MethodBuilder
+  parent: CZGL.Roslyn
+  name: MethodBuilder
+  nameWithType: MethodBuilder
+  fullName: CZGL.Roslyn.MethodBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateCtor*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateCtor
+  name: CreateCtor
+  nameWithType: CodeSyntax.CreateCtor
+  fullName: CZGL.Roslyn.CodeSyntax.CreateCtor
+- uid: CZGL.Roslyn.CtorBuilder
+  commentId: T:CZGL.Roslyn.CtorBuilder
+  parent: CZGL.Roslyn
+  name: CtorBuilder
+  nameWithType: CtorBuilder
+  fullName: CZGL.Roslyn.CtorBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateAttribute*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateAttribute
+  name: CreateAttribute
+  nameWithType: CodeSyntax.CreateAttribute
+  fullName: CZGL.Roslyn.CodeSyntax.CreateAttribute
+- uid: CZGL.Roslyn.AttributeBuilder
+  commentId: T:CZGL.Roslyn.AttributeBuilder
+  parent: CZGL.Roslyn
+  name: AttributeBuilder
+  nameWithType: AttributeBuilder
+  fullName: CZGL.Roslyn.AttributeBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateClass*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateClass
+  name: CreateClass
+  nameWithType: CodeSyntax.CreateClass
+  fullName: CZGL.Roslyn.CodeSyntax.CreateClass
+- uid: CZGL.Roslyn.ClassBuilder
+  commentId: T:CZGL.Roslyn.ClassBuilder
+  parent: CZGL.Roslyn
+  name: ClassBuilder
+  nameWithType: ClassBuilder
+  fullName: CZGL.Roslyn.ClassBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateStruct*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateStruct
+  name: CreateStruct
+  nameWithType: CodeSyntax.CreateStruct
+  fullName: CZGL.Roslyn.CodeSyntax.CreateStruct
+- uid: CZGL.Roslyn.StructBuilder
+  commentId: T:CZGL.Roslyn.StructBuilder
+  parent: CZGL.Roslyn
+  name: StructBuilder
+  nameWithType: StructBuilder
+  fullName: CZGL.Roslyn.StructBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateInterface*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateInterface
+  name: CreateInterface
+  nameWithType: CodeSyntax.CreateInterface
+  fullName: CZGL.Roslyn.CodeSyntax.CreateInterface
+- uid: CZGL.Roslyn.InterfaceBuilder
+  commentId: T:CZGL.Roslyn.InterfaceBuilder
+  parent: CZGL.Roslyn
+  name: InterfaceBuilder
+  nameWithType: InterfaceBuilder
+  fullName: CZGL.Roslyn.InterfaceBuilder
+- uid: CZGL.Roslyn.CodeSyntax.CreateCompilation*
+  commentId: Overload:CZGL.Roslyn.CodeSyntax.CreateCompilation
+  name: CreateCompilation
+  nameWithType: CodeSyntax.CreateCompilation
+  fullName: CZGL.Roslyn.CodeSyntax.CreateCompilation
+- uid: CZGL.Roslyn.CompilationBuilder
+  commentId: T:CZGL.Roslyn.CompilationBuilder
+  parent: CZGL.Roslyn
+  name: CompilationBuilder
+  nameWithType: CompilationBuilder
+  fullName: CZGL.Roslyn.CompilationBuilder

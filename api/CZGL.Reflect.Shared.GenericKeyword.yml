@@ -1,0 +1,408 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Shared.GenericKeyword
+  commentId: T:CZGL.Reflect.Shared.GenericKeyword
+  id: GenericKeyword
+  parent: CZGL.Reflect.Shared
+  children:
+  - CZGL.Reflect.Shared.GenericKeyword.BaseClass
+  - CZGL.Reflect.Shared.GenericKeyword.Class
+  - CZGL.Reflect.Shared.GenericKeyword.ClassNull
+  - CZGL.Reflect.Shared.GenericKeyword.Interface
+  - CZGL.Reflect.Shared.GenericKeyword.New
+  - CZGL.Reflect.Shared.GenericKeyword.NoConstrant
+  - CZGL.Reflect.Shared.GenericKeyword.Notnull
+  - CZGL.Reflect.Shared.GenericKeyword.Struct
+  - CZGL.Reflect.Shared.GenericKeyword.TU
+  - CZGL.Reflect.Shared.GenericKeyword.Unmanaged
+  langs:
+  - csharp
+  - vb
+  name: GenericKeyword
+  nameWithType: GenericKeyword
+  fullName: CZGL.Reflect.Shared.GenericKeyword
+  type: Enum
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GenericKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 9
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n泛型约束类型\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum GenericKeyword
+    content.vb: >-
+      <Flags>
+
+      Public Enum GenericKeyword
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CZGL.Reflect.Shared.GenericKeyword.NoConstrant
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.NoConstrant
+  id: NoConstrant
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: NoConstrant
+  nameWithType: GenericKeyword.NoConstrant
+  fullName: CZGL.Reflect.Shared.GenericKeyword.NoConstrant
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: NoConstrant
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 15
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n无任何约束\n"
+  example: []
+  syntax:
+    content: NoConstrant = 0
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.GenericKeyword.Struct
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.Struct
+  id: Struct
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: Struct
+  nameWithType: GenericKeyword.Struct
+  fullName: CZGL.Reflect.Shared.GenericKeyword.Struct
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Struct
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 21
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n值类型约束\n<p>不能与其它约束一起使用</p>\n"
+  example: []
+  syntax:
+    content: Struct = 1
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.GenericKeyword.Class
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.Class
+  id: Class
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: Class
+  nameWithType: GenericKeyword.Class
+  fullName: CZGL.Reflect.Shared.GenericKeyword.Class
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Class
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 27
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n引用类型约束\n<p>必须放到开头</p>\n"
+  example: []
+  syntax:
+    content: Class = 2
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.GenericKeyword.Notnull
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.Notnull
+  id: Notnull
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: Notnull
+  nameWithType: GenericKeyword.Notnull
+  fullName: CZGL.Reflect.Shared.GenericKeyword.Notnull
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Notnull
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 33
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n非空约束\n<p>必须放到开头</p>\n"
+  example: []
+  syntax:
+    content: Notnull = 4
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.GenericKeyword.Unmanaged
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.Unmanaged
+  id: Unmanaged
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: Unmanaged
+  nameWithType: GenericKeyword.Unmanaged
+  fullName: CZGL.Reflect.Shared.GenericKeyword.Unmanaged
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Unmanaged
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 39
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n不可为 null 的非托管类型\n<p>不能与其它约束一起使用</p>\n"
+  example: []
+  syntax:
+    content: Unmanaged = 8
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.GenericKeyword.New
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.New
+  id: New
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: GenericKeyword.New
+  fullName: CZGL.Reflect.Shared.GenericKeyword.New
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: New
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 45
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n具有无参数构造函数\n<p>必须放在最后</p>\n"
+  example: []
+  syntax:
+    content: New = 16
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.GenericKeyword.BaseClass
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.BaseClass
+  id: BaseClass
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: BaseClass
+  nameWithType: GenericKeyword.BaseClass
+  fullName: CZGL.Reflect.Shared.GenericKeyword.BaseClass
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: BaseClass
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 51
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n必须继承基类\n<p>必须放在开头</p>\n"
+  example: []
+  syntax:
+    content: BaseClass = 32
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.GenericKeyword.Interface
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.Interface
+  id: Interface
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: Interface
+  nameWithType: GenericKeyword.Interface
+  fullName: CZGL.Reflect.Shared.GenericKeyword.Interface
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Interface
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 57
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n必须继承接口\n<p>不限定</p>\n"
+  example: []
+  syntax:
+    content: Interface = 64
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.GenericKeyword.TU
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.TU
+  id: TU
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: TU
+  nameWithType: GenericKeyword.TU
+  fullName: CZGL.Reflect.Shared.GenericKeyword.TU
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: TU
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 63
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n参数必须是为 U 提供的参数或派生自为 U 提供的参数\n<p>不限定</p>\n"
+  example: []
+  syntax:
+    content: TU = 128
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.GenericKeyword.ClassNull
+  commentId: F:CZGL.Reflect.Shared.GenericKeyword.ClassNull
+  id: ClassNull
+  parent: CZGL.Reflect.Shared.GenericKeyword
+  langs:
+  - csharp
+  - vb
+  name: ClassNull
+  nameWithType: GenericKeyword.ClassNull
+  fullName: CZGL.Reflect.Shared.GenericKeyword.ClassNull
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ClassNull
+    path: src/Src/CZGL.CodeAnalysis.Shared/GenericKeyword.cs
+    startLine: 68
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n类型参数必须是可为 null 或不可为 null 的引用类型\n"
+  example: []
+  syntax:
+    content: ClassNull = 256
+    return:
+      type: CZGL.Reflect.Shared.GenericKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.Shared.GenericKeyword
+  commentId: T:CZGL.Reflect.Shared.GenericKeyword
+  parent: CZGL.Reflect.Shared
+  name: GenericKeyword
+  nameWithType: GenericKeyword
+  fullName: CZGL.Reflect.Shared.GenericKeyword

@@ -1,0 +1,201 @@
+### YamlMime:TableOfContent
+- uid: CZGL.Reflect
+  name: CZGL.Reflect
+  items:
+  - uid: CZGL.Reflect.ClassAnalysis
+    name: ClassAnalysis
+  - uid: CZGL.Reflect.FiledAnalysis
+    name: FiledAnalysis
+  - uid: CZGL.Reflect.GenericeAnalysis
+    name: GenericeAnalysis
+  - uid: CZGL.Reflect.MethodInfoAnalysis
+    name: MethodInfoAnalysis
+  - uid: CZGL.Reflect.PropertyAnalysis
+    name: PropertyAnalysis
+  - uid: CZGL.Reflect.TypeAnalysis
+    name: TypeAnalysis
+  - uid: CZGL.Reflect.TypeDictionary
+    name: TypeDictionary
+- uid: CZGL.Reflect.Models
+  name: CZGL.Reflect.Models
+  items:
+  - uid: CZGL.Reflect.Models.AttributeAnalysisInfo
+    name: AttributeAnalysisInfo
+  - uid: CZGL.Reflect.Models.AttributeDefine
+    name: AttributeDefine
+- uid: CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  items:
+  - uid: CZGL.Reflect.Shared.ClassKeyword
+    name: ClassKeyword
+  - uid: CZGL.Reflect.Shared.ConstraintLocation
+    name: ConstraintLocation
+  - uid: CZGL.Reflect.Shared.EnumCache
+    name: EnumCache
+  - uid: CZGL.Reflect.Shared.EnumCache`1
+    name: EnumCache<T>
+    name.vb: EnumCache(Of T)
+  - uid: CZGL.Reflect.Shared.EventKeyword
+    name: EventKeyword
+  - uid: CZGL.Reflect.Shared.FieldKeyword
+    name: FieldKeyword
+  - uid: CZGL.Reflect.Shared.GenericKeyword
+    name: GenericKeyword
+  - uid: CZGL.Reflect.Shared.MemberAccess
+    name: MemberAccess
+  - uid: CZGL.Reflect.Shared.MemberDefineNameAttribute
+    name: MemberDefineNameAttribute
+  - uid: CZGL.Reflect.Shared.MemberType
+    name: MemberType
+  - uid: CZGL.Reflect.Shared.MethodKeyword
+    name: MethodKeyword
+  - uid: CZGL.Reflect.Shared.NamespaceAccess
+    name: NamespaceAccess
+  - uid: CZGL.Reflect.Shared.PropertyKeyword
+    name: PropertyKeyword
+  - uid: CZGL.Reflect.Shared.StructKeyword
+    name: StructKeyword
+- uid: CZGL.Reflect.Units
+  name: CZGL.Reflect.Units
+  items:
+  - uid: CZGL.Reflect.Units.AccessAnalysis
+    name: AccessAnalysis
+  - uid: CZGL.Reflect.Units.AttributeAnalysis
+    name: AttributeAnalysis
+  - uid: CZGL.Reflect.Units.GenericeConstraintInfo
+    name: GenericeConstraintInfo
+  - uid: CZGL.Reflect.Units.KeywordAnalysis
+    name: KeywordAnalysis
+- uid: CZGL.Roslyn
+  name: CZGL.Roslyn
+  items:
+  - uid: CZGL.Roslyn.AttributeBuilder
+    name: AttributeBuilder
+  - uid: CZGL.Roslyn.ClassBuilder
+    name: ClassBuilder
+  - uid: CZGL.Roslyn.CodeExtensions
+    name: CodeExtensions
+  - uid: CZGL.Roslyn.CodeSyntax
+    name: CodeSyntax
+  - uid: CZGL.Roslyn.CompilationBuilder
+    name: CompilationBuilder
+  - uid: CZGL.Roslyn.CtorBuilder
+    name: CtorBuilder
+  - uid: CZGL.Roslyn.DelegateBuilder
+    name: DelegateBuilder
+  - uid: CZGL.Roslyn.DomainOptionBuilder
+    name: DomainOptionBuilder
+  - uid: CZGL.Roslyn.EnumBuilder
+    name: EnumBuilder
+  - uid: CZGL.Roslyn.EventBuilder
+    name: EventBuilder
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+  - uid: CZGL.Roslyn.FieldTemplate`1
+    name: FieldTemplate<TBuilder>
+    name.vb: FieldTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+  - uid: CZGL.Roslyn.InterfaceBuilder
+    name: InterfaceBuilder
+  - uid: CZGL.Roslyn.MemberDefineNameAttribute
+    name: MemberDefineNameAttribute
+  - uid: CZGL.Roslyn.MethodBuilder
+    name: MethodBuilder
+  - uid: CZGL.Roslyn.NamespaceBuilder
+    name: NamespaceBuilder
+  - uid: CZGL.Roslyn.PropertyBuilder
+    name: PropertyBuilder
+  - uid: CZGL.Roslyn.StructBuilder
+    name: StructBuilder
+- uid: CZGL.Roslyn.Extensions
+  name: CZGL.Roslyn.Extensions
+  items:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension
+    name: FieldBuilderExtension
+  - uid: CZGL.Roslyn.Extensions.MemberExtensions
+    name: MemberExtensions
+  - uid: CZGL.Roslyn.Extensions.NamespaceExtensions
+    name: NamespaceExtensions
+- uid: CZGL.Roslyn.States
+  name: CZGL.Roslyn.States
+  items:
+  - uid: CZGL.Roslyn.States.AttributeState
+    name: AttributeState
+  - uid: CZGL.Roslyn.States.BaseState
+    name: BaseState
+  - uid: CZGL.Roslyn.States.ClassState
+    name: ClassState
+  - uid: CZGL.Roslyn.States.CompilationState
+    name: CompilationState
+  - uid: CZGL.Roslyn.States.CtorState
+    name: CtorState
+  - uid: CZGL.Roslyn.States.EnumState
+    name: EnumState
+  - uid: CZGL.Roslyn.States.FieldState
+    name: FieldState
+  - uid: CZGL.Roslyn.States.FuncState
+    name: FuncState
+  - uid: CZGL.Roslyn.States.GenericState
+    name: GenericState
+  - uid: CZGL.Roslyn.States.MemberState
+    name: MemberState
+  - uid: CZGL.Roslyn.States.MethodState
+    name: MethodState
+  - uid: CZGL.Roslyn.States.NamespaceState
+    name: NamespaceState
+  - uid: CZGL.Roslyn.States.PropertyState
+    name: PropertyState
+  - uid: CZGL.Roslyn.States.VariableState
+    name: VariableState
+- uid: CZGL.Roslyn.Templates
+  name: CZGL.Roslyn.Templates
+  items:
+  - uid: CZGL.Roslyn.Templates.AttrbuteTemplate`1
+    name: AttrbuteTemplate<TBuilder>
+    name.vb: AttrbuteTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.BaseTemplate
+    name: BaseTemplate
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1
+    name: ClassTemplate<TBuilder>
+    name.vb: ClassTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.CtorTemplate`1
+    name: CtorTemplate<TBuilder>
+    name.vb: CtorTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.EnumTemplate`1
+    name: EnumTemplate<TBuilder>
+    name.vb: EnumTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1
+    name: EventTemplate<TBuilder>
+    name.vb: EventTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.FuncTemplate`1
+    name: FuncTemplate<TBuilder>
+    name.vb: FuncTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate<TBuilder>
+    name.vb: GenericTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1
+    name: MemberTemplate<TBuilder>
+    name.vb: MemberTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.MethodTemplate`1
+    name: MethodTemplate<TBuilder>
+    name.vb: MethodTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1
+    name: NamespaceTemplate<TBuilder>
+    name.vb: NamespaceTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.PropertyTemplate`1
+    name: PropertyTemplate<TBuilder>
+    name.vb: PropertyTemplate(Of TBuilder)
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1
+    name: VariableTemplate<TBuilder>
+    name.vb: VariableTemplate(Of TBuilder)
+- uid: CZGL.RoslynTool
+  name: CZGL.RoslynTool
+  items:
+  - uid: CZGL.RoslynTool.AttributeTool
+    name: AttributeTool
+- uid: CZGL.RoslynTool.Models
+  name: CZGL.RoslynTool.Models
+  items:
+  - uid: CZGL.RoslynTool.Models.DefineGenericInfo
+    name: DefineGenericInfo

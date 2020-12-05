@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Shared.PropertyKeyword
+  commentId: T:CZGL.Reflect.Shared.PropertyKeyword
+  id: PropertyKeyword
+  parent: CZGL.Reflect.Shared
+  children:
+  - CZGL.Reflect.Shared.PropertyKeyword.Abstract
+  - CZGL.Reflect.Shared.PropertyKeyword.Default
+  - CZGL.Reflect.Shared.PropertyKeyword.New
+  - CZGL.Reflect.Shared.PropertyKeyword.NewStatic
+  - CZGL.Reflect.Shared.PropertyKeyword.NewVirtual
+  - CZGL.Reflect.Shared.PropertyKeyword.Override
+  - CZGL.Reflect.Shared.PropertyKeyword.SealedOverride
+  - CZGL.Reflect.Shared.PropertyKeyword.Static
+  - CZGL.Reflect.Shared.PropertyKeyword.Virtual
+  langs:
+  - csharp
+  - vb
+  name: PropertyKeyword
+  nameWithType: PropertyKeyword
+  fullName: CZGL.Reflect.Shared.PropertyKeyword
+  type: Enum
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: PropertyKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 9
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n属性可用的关键字\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum PropertyKeyword
+    content.vb: >-
+      <Flags>
+
+      Public Enum PropertyKeyword
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CZGL.Reflect.Shared.PropertyKeyword.Default
+  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Default
+  id: Default
+  parent: CZGL.Reflect.Shared.PropertyKeyword
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: PropertyKeyword.Default
+  fullName: CZGL.Reflect.Shared.PropertyKeyword.Default
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Default
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 12
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Default = 0
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.PropertyKeyword.Static
+  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Static
+  id: Static
+  parent: CZGL.Reflect.Shared.PropertyKeyword
+  langs:
+  - csharp
+  - vb
+  name: Static
+  nameWithType: PropertyKeyword.Static
+  fullName: CZGL.Reflect.Shared.PropertyKeyword.Static
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Static
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 15
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Static = 2
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.PropertyKeyword.Abstract
+  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Abstract
+  id: Abstract
+  parent: CZGL.Reflect.Shared.PropertyKeyword
+  langs:
+  - csharp
+  - vb
+  name: Abstract
+  nameWithType: PropertyKeyword.Abstract
+  fullName: CZGL.Reflect.Shared.PropertyKeyword.Abstract
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Abstract
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 18
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Abstract = 8
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.PropertyKeyword.Virtual
+  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Virtual
+  id: Virtual
+  parent: CZGL.Reflect.Shared.PropertyKeyword
+  langs:
+  - csharp
+  - vb
+  name: Virtual
+  nameWithType: PropertyKeyword.Virtual
+  fullName: CZGL.Reflect.Shared.PropertyKeyword.Virtual
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Virtual
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 21
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Virtual = 16
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.PropertyKeyword.Override
+  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Override
+  id: Override
+  parent: CZGL.Reflect.Shared.PropertyKeyword
+  langs:
+  - csharp
+  - vb
+  name: Override
+  nameWithType: PropertyKeyword.Override
+  fullName: CZGL.Reflect.Shared.PropertyKeyword.Override
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Override
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 24
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Override = 32
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.PropertyKeyword.SealedOverride
+  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.SealedOverride
+  id: SealedOverride
+  parent: CZGL.Reflect.Shared.PropertyKeyword
+  langs:
+  - csharp
+  - vb
+  name: SealedOverride
+  nameWithType: PropertyKeyword.SealedOverride
+  fullName: CZGL.Reflect.Shared.PropertyKeyword.SealedOverride
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: SealedOverride
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 27
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: SealedOverride = 64
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.PropertyKeyword.New
+  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.New
+  id: New
+  parent: CZGL.Reflect.Shared.PropertyKeyword
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: PropertyKeyword.New
+  fullName: CZGL.Reflect.Shared.PropertyKeyword.New
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: New
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 30
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: New = 128
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.PropertyKeyword.NewVirtual
+  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.NewVirtual
+  id: NewVirtual
+  parent: CZGL.Reflect.Shared.PropertyKeyword
+  langs:
+  - csharp
+  - vb
+  name: NewVirtual
+  nameWithType: PropertyKeyword.NewVirtual
+  fullName: CZGL.Reflect.Shared.PropertyKeyword.NewVirtual
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: NewVirtual
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 36
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n暂不支持识别此类修饰符\n"
+  example: []
+  syntax:
+    content: NewVirtual = 144
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.PropertyKeyword.NewStatic
+  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.NewStatic
+  id: NewStatic
+  parent: CZGL.Reflect.Shared.PropertyKeyword
+  langs:
+  - csharp
+  - vb
+  name: NewStatic
+  nameWithType: PropertyKeyword.NewStatic
+  fullName: CZGL.Reflect.Shared.PropertyKeyword.NewStatic
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: NewStatic
+    path: src/Src/CZGL.CodeAnalysis.Shared/PropertyKeyword.cs
+    startLine: 40
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: NewStatic = 130
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.Shared.PropertyKeyword
+  commentId: T:CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.Reflect.Shared
+  name: PropertyKeyword
+  nameWithType: PropertyKeyword
+  fullName: CZGL.Reflect.Shared.PropertyKeyword

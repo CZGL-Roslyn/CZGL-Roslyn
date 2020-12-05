@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Shared.FieldKeyword
+  commentId: T:CZGL.Reflect.Shared.FieldKeyword
+  id: FieldKeyword
+  parent: CZGL.Reflect.Shared
+  children:
+  - CZGL.Reflect.Shared.FieldKeyword.Const
+  - CZGL.Reflect.Shared.FieldKeyword.Default
+  - CZGL.Reflect.Shared.FieldKeyword.Readonly
+  - CZGL.Reflect.Shared.FieldKeyword.Static
+  - CZGL.Reflect.Shared.FieldKeyword.StaticReadonly
+  - CZGL.Reflect.Shared.FieldKeyword.Volatile
+  - CZGL.Reflect.Shared.FieldKeyword.VolatileStatic
+  langs:
+  - csharp
+  - vb
+  name: FieldKeyword
+  nameWithType: FieldKeyword
+  fullName: CZGL.Reflect.Shared.FieldKeyword
+  type: Enum
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: FieldKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+    startLine: 9
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n字段的关键字\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum FieldKeyword
+    content.vb: >-
+      <Flags>
+
+      Public Enum FieldKeyword
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CZGL.Reflect.Shared.FieldKeyword.Default
+  commentId: F:CZGL.Reflect.Shared.FieldKeyword.Default
+  id: Default
+  parent: CZGL.Reflect.Shared.FieldKeyword
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: FieldKeyword.Default
+  fullName: CZGL.Reflect.Shared.FieldKeyword.Default
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Default
+    path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+    startLine: 12
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Default = 0
+    return:
+      type: CZGL.Reflect.Shared.FieldKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.FieldKeyword.Const
+  commentId: F:CZGL.Reflect.Shared.FieldKeyword.Const
+  id: Const
+  parent: CZGL.Reflect.Shared.FieldKeyword
+  langs:
+  - csharp
+  - vb
+  name: Const
+  nameWithType: FieldKeyword.Const
+  fullName: CZGL.Reflect.Shared.FieldKeyword.Const
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Const
+    path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+    startLine: 15
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Const = 1
+    return:
+      type: CZGL.Reflect.Shared.FieldKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.FieldKeyword.Static
+  commentId: F:CZGL.Reflect.Shared.FieldKeyword.Static
+  id: Static
+  parent: CZGL.Reflect.Shared.FieldKeyword
+  langs:
+  - csharp
+  - vb
+  name: Static
+  nameWithType: FieldKeyword.Static
+  fullName: CZGL.Reflect.Shared.FieldKeyword.Static
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Static
+    path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+    startLine: 18
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Static = 2
+    return:
+      type: CZGL.Reflect.Shared.FieldKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.FieldKeyword.Readonly
+  commentId: F:CZGL.Reflect.Shared.FieldKeyword.Readonly
+  id: Readonly
+  parent: CZGL.Reflect.Shared.FieldKeyword
+  langs:
+  - csharp
+  - vb
+  name: Readonly
+  nameWithType: FieldKeyword.Readonly
+  fullName: CZGL.Reflect.Shared.FieldKeyword.Readonly
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Readonly
+    path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+    startLine: 21
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Readonly = 4
+    return:
+      type: CZGL.Reflect.Shared.FieldKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.FieldKeyword.StaticReadonly
+  commentId: F:CZGL.Reflect.Shared.FieldKeyword.StaticReadonly
+  id: StaticReadonly
+  parent: CZGL.Reflect.Shared.FieldKeyword
+  langs:
+  - csharp
+  - vb
+  name: StaticReadonly
+  nameWithType: FieldKeyword.StaticReadonly
+  fullName: CZGL.Reflect.Shared.FieldKeyword.StaticReadonly
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: StaticReadonly
+    path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+    startLine: 24
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: StaticReadonly = 6
+    return:
+      type: CZGL.Reflect.Shared.FieldKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.FieldKeyword.Volatile
+  commentId: F:CZGL.Reflect.Shared.FieldKeyword.Volatile
+  id: Volatile
+  parent: CZGL.Reflect.Shared.FieldKeyword
+  langs:
+  - csharp
+  - vb
+  name: Volatile
+  nameWithType: FieldKeyword.Volatile
+  fullName: CZGL.Reflect.Shared.FieldKeyword.Volatile
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Volatile
+    path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+    startLine: 27
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Volatile = 12
+    return:
+      type: CZGL.Reflect.Shared.FieldKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.FieldKeyword.VolatileStatic
+  commentId: F:CZGL.Reflect.Shared.FieldKeyword.VolatileStatic
+  id: VolatileStatic
+  parent: CZGL.Reflect.Shared.FieldKeyword
+  langs:
+  - csharp
+  - vb
+  name: VolatileStatic
+  nameWithType: FieldKeyword.VolatileStatic
+  fullName: CZGL.Reflect.Shared.FieldKeyword.VolatileStatic
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: VolatileStatic
+    path: src/Src/CZGL.CodeAnalysis.Shared/FieldKeyword.cs
+    startLine: 29
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: VolatileStatic = 24
+    return:
+      type: CZGL.Reflect.Shared.FieldKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.Shared.FieldKeyword
+  commentId: T:CZGL.Reflect.Shared.FieldKeyword
+  parent: CZGL.Reflect.Shared
+  name: FieldKeyword
+  nameWithType: FieldKeyword
+  fullName: CZGL.Reflect.Shared.FieldKeyword

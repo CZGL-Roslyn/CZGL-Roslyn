@@ -1,0 +1,692 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.States.CompilationState
+  commentId: T:CZGL.Roslyn.States.CompilationState
+  id: CompilationState
+  parent: CZGL.Roslyn.States
+  children:
+  - CZGL.Roslyn.States.CompilationState.Assemblies
+  - CZGL.Roslyn.States.CompilationState.AssemblyName
+  - CZGL.Roslyn.States.CompilationState.Namespaces
+  - CZGL.Roslyn.States.CompilationState.Path
+  - CZGL.Roslyn.States.CompilationState.UseAutoAssembly
+  langs:
+  - csharp
+  - vb
+  name: CompilationState
+  nameWithType: CompilationState
+  fullName: CZGL.Roslyn.States.CompilationState
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: CompilationState
+    path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+    startLine: 7
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.States
+  syntax:
+    content: public class CompilationState
+    content.vb: Public Class CompilationState
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CZGL.Roslyn.States.CompilationState.AssemblyName
+  commentId: P:CZGL.Roslyn.States.CompilationState.AssemblyName
+  id: AssemblyName
+  parent: CZGL.Roslyn.States.CompilationState
+  langs:
+  - csharp
+  - vb
+  name: AssemblyName
+  nameWithType: CompilationState.AssemblyName
+  fullName: CZGL.Roslyn.States.CompilationState.AssemblyName
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: AssemblyName
+    path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+    startLine: 9
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.States
+  syntax:
+    content: public string AssemblyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AssemblyName As String
+  overload: CZGL.Roslyn.States.CompilationState.AssemblyName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.States.CompilationState.Path
+  commentId: P:CZGL.Roslyn.States.CompilationState.Path
+  id: Path
+  parent: CZGL.Roslyn.States.CompilationState
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: CompilationState.Path
+  fullName: CZGL.Roslyn.States.CompilationState.Path
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Path
+    path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+    startLine: 10
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.States
+  syntax:
+    content: public string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Path As String
+  overload: CZGL.Roslyn.States.CompilationState.Path*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.States.CompilationState.Namespaces
+  commentId: P:CZGL.Roslyn.States.CompilationState.Namespaces
+  id: Namespaces
+  parent: CZGL.Roslyn.States.CompilationState
+  langs:
+  - csharp
+  - vb
+  name: Namespaces
+  nameWithType: CompilationState.Namespaces
+  fullName: CZGL.Roslyn.States.CompilationState.Namespaces
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Namespaces
+    path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+    startLine: 11
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.States
+  syntax:
+    content: public HashSet<NamespaceBuilder> Namespaces { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.HashSet{CZGL.Roslyn.NamespaceBuilder}
+    content.vb: Public ReadOnly Property Namespaces As HashSet(Of NamespaceBuilder)
+  overload: CZGL.Roslyn.States.CompilationState.Namespaces*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CZGL.Roslyn.States.CompilationState.UseAutoAssembly
+  commentId: P:CZGL.Roslyn.States.CompilationState.UseAutoAssembly
+  id: UseAutoAssembly
+  parent: CZGL.Roslyn.States.CompilationState
+  langs:
+  - csharp
+  - vb
+  name: UseAutoAssembly
+  nameWithType: CompilationState.UseAutoAssembly
+  fullName: CZGL.Roslyn.States.CompilationState.UseAutoAssembly
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: UseAutoAssembly
+    path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+    startLine: 13
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.States
+  syntax:
+    content: public bool UseAutoAssembly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseAutoAssembly As Boolean
+  overload: CZGL.Roslyn.States.CompilationState.UseAutoAssembly*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.States.CompilationState.Assemblies
+  commentId: P:CZGL.Roslyn.States.CompilationState.Assemblies
+  id: Assemblies
+  parent: CZGL.Roslyn.States.CompilationState
+  langs:
+  - csharp
+  - vb
+  name: Assemblies
+  nameWithType: CompilationState.Assemblies
+  fullName: CZGL.Roslyn.States.CompilationState.Assemblies
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Assemblies
+    path: src/Src/CZGL.Roslyn/States/CompilationState.cs
+    startLine: 14
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn.States
+  syntax:
+    content: public HashSet<Assembly> Assemblies { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.HashSet{System.Reflection.Assembly}
+    content.vb: Public ReadOnly Property Assemblies As HashSet(Of Assembly)
+  overload: CZGL.Roslyn.States.CompilationState.Assemblies*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CZGL.Roslyn.States
+  commentId: N:CZGL.Roslyn.States
+  name: CZGL.Roslyn.States
+  nameWithType: CZGL.Roslyn.States
+  fullName: CZGL.Roslyn.States
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Roslyn.States.CompilationState.AssemblyName*
+  commentId: Overload:CZGL.Roslyn.States.CompilationState.AssemblyName
+  name: AssemblyName
+  nameWithType: CompilationState.AssemblyName
+  fullName: CZGL.Roslyn.States.CompilationState.AssemblyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Roslyn.States.CompilationState.Path*
+  commentId: Overload:CZGL.Roslyn.States.CompilationState.Path
+  name: Path
+  nameWithType: CompilationState.Path
+  fullName: CZGL.Roslyn.States.CompilationState.Path
+- uid: CZGL.Roslyn.States.CompilationState.Namespaces*
+  commentId: Overload:CZGL.Roslyn.States.CompilationState.Namespaces
+  name: Namespaces
+  nameWithType: CompilationState.Namespaces
+  fullName: CZGL.Roslyn.States.CompilationState.Namespaces
+- uid: System.Collections.Generic.HashSet{CZGL.Roslyn.NamespaceBuilder}
+  commentId: T:System.Collections.Generic.HashSet{CZGL.Roslyn.NamespaceBuilder}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<NamespaceBuilder>
+  nameWithType: HashSet<NamespaceBuilder>
+  fullName: System.Collections.Generic.HashSet<CZGL.Roslyn.NamespaceBuilder>
+  nameWithType.vb: HashSet(Of NamespaceBuilder)
+  fullName.vb: System.Collections.Generic.HashSet(Of CZGL.Roslyn.NamespaceBuilder)
+  name.vb: HashSet(Of NamespaceBuilder)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.NamespaceBuilder
+    name: NamespaceBuilder
+    nameWithType: NamespaceBuilder
+    fullName: CZGL.Roslyn.NamespaceBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.NamespaceBuilder
+    name: NamespaceBuilder
+    nameWithType: NamespaceBuilder
+    fullName: CZGL.Roslyn.NamespaceBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: CZGL.Roslyn.States.CompilationState.UseAutoAssembly*
+  commentId: Overload:CZGL.Roslyn.States.CompilationState.UseAutoAssembly
+  name: UseAutoAssembly
+  nameWithType: CompilationState.UseAutoAssembly
+  fullName: CZGL.Roslyn.States.CompilationState.UseAutoAssembly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CZGL.Roslyn.States.CompilationState.Assemblies*
+  commentId: Overload:CZGL.Roslyn.States.CompilationState.Assemblies
+  name: Assemblies
+  nameWithType: CompilationState.Assemblies
+  fullName: CZGL.Roslyn.States.CompilationState.Assemblies
+- uid: System.Collections.Generic.HashSet{System.Reflection.Assembly}
+  commentId: T:System.Collections.Generic.HashSet{System.Reflection.Assembly}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<Assembly>
+  nameWithType: HashSet<Assembly>
+  fullName: System.Collections.Generic.HashSet<System.Reflection.Assembly>
+  nameWithType.vb: HashSet(Of Assembly)
+  fullName.vb: System.Collections.Generic.HashSet(Of System.Reflection.Assembly)
+  name.vb: HashSet(Of Assembly)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    nameWithType: Assembly
+    fullName: System.Reflection.Assembly
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    nameWithType: Assembly
+    fullName: System.Reflection.Assembly
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

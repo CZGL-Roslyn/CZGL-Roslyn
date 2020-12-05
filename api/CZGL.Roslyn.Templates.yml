@@ -1,0 +1,473 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.Templates
+  commentId: N:CZGL.Roslyn.Templates
+  id: CZGL.Roslyn.Templates
+  children:
+  - CZGL.Roslyn.Templates.AttrbuteTemplate`1
+  - CZGL.Roslyn.Templates.BaseTemplate
+  - CZGL.Roslyn.Templates.ClassTemplate`1
+  - CZGL.Roslyn.Templates.CtorTemplate`1
+  - CZGL.Roslyn.Templates.EnumTemplate`1
+  - CZGL.Roslyn.Templates.EventTemplate`1
+  - CZGL.Roslyn.Templates.FuncTemplate`1
+  - CZGL.Roslyn.Templates.GenericTemplate`1
+  - CZGL.Roslyn.Templates.MemberTemplate`1
+  - CZGL.Roslyn.Templates.MethodTemplate`1
+  - CZGL.Roslyn.Templates.NamespaceTemplate`1
+  - CZGL.Roslyn.Templates.PropertyTemplate`1
+  - CZGL.Roslyn.Templates.VariableTemplate`1
+  langs:
+  - csharp
+  - vb
+  name: CZGL.Roslyn.Templates
+  nameWithType: CZGL.Roslyn.Templates
+  fullName: CZGL.Roslyn.Templates
+  type: Namespace
+  assemblies:
+  - CZGL.Roslyn
+references:
+- uid: CZGL.Roslyn.Templates.AttrbuteTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.AttrbuteTemplate`1
+  name: AttrbuteTemplate<TBuilder>
+  nameWithType: AttrbuteTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.AttrbuteTemplate<TBuilder>
+  nameWithType.vb: AttrbuteTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.AttrbuteTemplate(Of TBuilder)
+  name.vb: AttrbuteTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.AttrbuteTemplate`1
+    name: AttrbuteTemplate
+    nameWithType: AttrbuteTemplate
+    fullName: CZGL.Roslyn.Templates.AttrbuteTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.AttrbuteTemplate`1
+    name: AttrbuteTemplate
+    nameWithType: AttrbuteTemplate
+    fullName: CZGL.Roslyn.Templates.AttrbuteTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.BaseTemplate
+  commentId: T:CZGL.Roslyn.Templates.BaseTemplate
+  parent: CZGL.Roslyn.Templates
+  name: BaseTemplate
+  nameWithType: BaseTemplate
+  fullName: CZGL.Roslyn.Templates.BaseTemplate
+- uid: CZGL.Roslyn.Templates.ClassTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.ClassTemplate`1
+  name: ClassTemplate<TBuilder>
+  nameWithType: ClassTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>
+  nameWithType.vb: ClassTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder)
+  name.vb: ClassTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1
+    name: ClassTemplate
+    nameWithType: ClassTemplate
+    fullName: CZGL.Roslyn.Templates.ClassTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1
+    name: ClassTemplate
+    nameWithType: ClassTemplate
+    fullName: CZGL.Roslyn.Templates.ClassTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.CtorTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.CtorTemplate`1
+  name: CtorTemplate<TBuilder>
+  nameWithType: CtorTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.CtorTemplate<TBuilder>
+  nameWithType.vb: CtorTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.CtorTemplate(Of TBuilder)
+  name.vb: CtorTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.CtorTemplate`1
+    name: CtorTemplate
+    nameWithType: CtorTemplate
+    fullName: CZGL.Roslyn.Templates.CtorTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.CtorTemplate`1
+    name: CtorTemplate
+    nameWithType: CtorTemplate
+    fullName: CZGL.Roslyn.Templates.CtorTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.EnumTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.EnumTemplate`1
+  name: EnumTemplate<TBuilder>
+  nameWithType: EnumTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.EnumTemplate<TBuilder>
+  nameWithType.vb: EnumTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.EnumTemplate(Of TBuilder)
+  name.vb: EnumTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.EnumTemplate`1
+    name: EnumTemplate
+    nameWithType: EnumTemplate
+    fullName: CZGL.Roslyn.Templates.EnumTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.EnumTemplate`1
+    name: EnumTemplate
+    nameWithType: EnumTemplate
+    fullName: CZGL.Roslyn.Templates.EnumTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.EventTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.EventTemplate`1
+  name: EventTemplate<TBuilder>
+  nameWithType: EventTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.EventTemplate<TBuilder>
+  nameWithType.vb: EventTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.EventTemplate(Of TBuilder)
+  name.vb: EventTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1
+    name: EventTemplate
+    nameWithType: EventTemplate
+    fullName: CZGL.Roslyn.Templates.EventTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1
+    name: EventTemplate
+    nameWithType: EventTemplate
+    fullName: CZGL.Roslyn.Templates.EventTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.FuncTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.FuncTemplate`1
+  name: FuncTemplate<TBuilder>
+  nameWithType: FuncTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.FuncTemplate<TBuilder>
+  nameWithType.vb: FuncTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.FuncTemplate(Of TBuilder)
+  name.vb: FuncTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.FuncTemplate`1
+    name: FuncTemplate
+    nameWithType: FuncTemplate
+    fullName: CZGL.Roslyn.Templates.FuncTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.FuncTemplate`1
+    name: FuncTemplate
+    nameWithType: FuncTemplate
+    fullName: CZGL.Roslyn.Templates.FuncTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.GenericTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.GenericTemplate`1
+  parent: CZGL.Roslyn.Templates
+  name: GenericTemplate<TBuilder>
+  nameWithType: GenericTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.GenericTemplate<TBuilder>
+  nameWithType.vb: GenericTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.GenericTemplate(Of TBuilder)
+  name.vb: GenericTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.MemberTemplate`1
+  name: MemberTemplate<TBuilder>
+  nameWithType: MemberTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>
+  nameWithType.vb: MemberTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder)
+  name.vb: MemberTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1
+    name: MemberTemplate
+    nameWithType: MemberTemplate
+    fullName: CZGL.Roslyn.Templates.MemberTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1
+    name: MemberTemplate
+    nameWithType: MemberTemplate
+    fullName: CZGL.Roslyn.Templates.MemberTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MethodTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.MethodTemplate`1
+  name: MethodTemplate<TBuilder>
+  nameWithType: MethodTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.MethodTemplate<TBuilder>
+  nameWithType.vb: MethodTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.MethodTemplate(Of TBuilder)
+  name.vb: MethodTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MethodTemplate`1
+    name: MethodTemplate
+    nameWithType: MethodTemplate
+    fullName: CZGL.Roslyn.Templates.MethodTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MethodTemplate`1
+    name: MethodTemplate
+    nameWithType: MethodTemplate
+    fullName: CZGL.Roslyn.Templates.MethodTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.NamespaceTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.NamespaceTemplate`1
+  name: NamespaceTemplate<TBuilder>
+  nameWithType: NamespaceTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.NamespaceTemplate<TBuilder>
+  nameWithType.vb: NamespaceTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.NamespaceTemplate(Of TBuilder)
+  name.vb: NamespaceTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1
+    name: NamespaceTemplate
+    nameWithType: NamespaceTemplate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.NamespaceTemplate`1
+    name: NamespaceTemplate
+    nameWithType: NamespaceTemplate
+    fullName: CZGL.Roslyn.Templates.NamespaceTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.PropertyTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.PropertyTemplate`1
+  name: PropertyTemplate<TBuilder>
+  nameWithType: PropertyTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.PropertyTemplate<TBuilder>
+  nameWithType.vb: PropertyTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.PropertyTemplate(Of TBuilder)
+  name.vb: PropertyTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.PropertyTemplate`1
+    name: PropertyTemplate
+    nameWithType: PropertyTemplate
+    fullName: CZGL.Roslyn.Templates.PropertyTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.PropertyTemplate`1
+    name: PropertyTemplate
+    nameWithType: PropertyTemplate
+    fullName: CZGL.Roslyn.Templates.PropertyTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.VariableTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.VariableTemplate`1
+  name: VariableTemplate<TBuilder>
+  nameWithType: VariableTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<TBuilder>
+  nameWithType.vb: VariableTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of TBuilder)
+  name.vb: VariableTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1
+    name: VariableTemplate
+    nameWithType: VariableTemplate
+    fullName: CZGL.Roslyn.Templates.VariableTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1
+    name: VariableTemplate
+    nameWithType: VariableTemplate
+    fullName: CZGL.Roslyn.Templates.VariableTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates
+  commentId: N:CZGL.Roslyn.Templates
+  name: CZGL.Roslyn.Templates
+  nameWithType: CZGL.Roslyn.Templates
+  fullName: CZGL.Roslyn.Templates

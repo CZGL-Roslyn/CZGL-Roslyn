@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Shared.StructKeyword
+  commentId: T:CZGL.Reflect.Shared.StructKeyword
+  id: StructKeyword
+  parent: CZGL.Reflect.Shared
+  children:
+  - CZGL.Reflect.Shared.StructKeyword.Default
+  - CZGL.Reflect.Shared.StructKeyword.Readonly
+  langs:
+  - csharp
+  - vb
+  name: StructKeyword
+  nameWithType: StructKeyword
+  fullName: CZGL.Reflect.Shared.StructKeyword
+  type: Enum
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/StructKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: StructKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/StructKeyword.cs
+    startLine: 9
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n结构体访问修饰符\n"
+  example: []
+  syntax:
+    content: public enum StructKeyword
+    content.vb: Public Enum StructKeyword
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CZGL.Reflect.Shared.StructKeyword.Default
+  commentId: F:CZGL.Reflect.Shared.StructKeyword.Default
+  id: Default
+  parent: CZGL.Reflect.Shared.StructKeyword
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: StructKeyword.Default
+  fullName: CZGL.Reflect.Shared.StructKeyword.Default
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/StructKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Default
+    path: src/Src/CZGL.CodeAnalysis.Shared/StructKeyword.cs
+    startLine: 11
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  syntax:
+    content: Default = 0
+    return:
+      type: CZGL.Reflect.Shared.StructKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.Reflect.Shared.StructKeyword.Readonly
+  commentId: F:CZGL.Reflect.Shared.StructKeyword.Readonly
+  id: Readonly
+  parent: CZGL.Reflect.Shared.StructKeyword
+  langs:
+  - csharp
+  - vb
+  name: Readonly
+  nameWithType: StructKeyword.Readonly
+  fullName: CZGL.Reflect.Shared.StructKeyword.Readonly
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/StructKeyword.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Readonly
+    path: src/Src/CZGL.CodeAnalysis.Shared/StructKeyword.cs
+    startLine: 17
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.Reflect.Shared
+  summary: "\n只能定义在嵌套类中\n"
+  example: []
+  syntax:
+    content: Readonly = 1
+    return:
+      type: CZGL.Reflect.Shared.StructKeyword
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.Shared.StructKeyword
+  commentId: T:CZGL.Reflect.Shared.StructKeyword
+  parent: CZGL.Reflect.Shared
+  name: StructKeyword
+  nameWithType: StructKeyword
+  fullName: CZGL.Reflect.Shared.StructKeyword

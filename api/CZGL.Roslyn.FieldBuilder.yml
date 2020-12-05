@@ -1,0 +1,3138 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Roslyn.FieldBuilder
+  commentId: T:CZGL.Roslyn.FieldBuilder
+  id: FieldBuilder
+  parent: CZGL.Roslyn
+  children:
+  - CZGL.Roslyn.FieldBuilder.BuildCodeSyntax
+  - CZGL.Roslyn.FieldBuilder.BuildSyntax
+  - CZGL.Roslyn.FieldBuilder.BuildSyntax(System.String,System.String[])
+  - CZGL.Roslyn.FieldBuilder.FromCode(System.String)
+  - CZGL.Roslyn.FieldBuilder.ToFormatCode
+  - CZGL.Roslyn.FieldBuilder.ToFullCode
+  langs:
+  - csharp
+  - vb
+  name: FieldBuilder
+  nameWithType: FieldBuilder
+  fullName: CZGL.Roslyn.FieldBuilder
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: FieldBuilder
+    path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+    startLine: 15
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n字段构建器\n"
+  example: []
+  syntax:
+    content: 'public sealed class FieldBuilder : FieldTemplate<FieldBuilder>'
+    content.vb: >-
+      Public NotInheritable Class FieldBuilder
+
+          Inherits FieldTemplate(Of FieldBuilder)
+  inheritance:
+  - System.Object
+  - CZGL.Roslyn.Templates.BaseTemplate
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  - CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}
+  - CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}
+  inheritedMembers:
+  - CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}._this
+  - CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  - CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}._variable
+  - CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}.WithKeyword(System.String)
+  - CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}.WithType(System.String)
+  - CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}.WithInit(System.String)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}._member
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}._TBuilder
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.Name
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAttributes(System.String[])
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAttribute(System.String)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.GetAttributes
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAccess(System.String)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithName(System.String)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithRondomName
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.ClearAttribute
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(CZGL.Roslyn.GenericBuilder)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.String,System.String)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+  - CZGL.Roslyn.Templates.BaseTemplate._base
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - CZGL.Roslyn.FieldBuilder.CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  - CZGL.Roslyn.FieldBuilder.CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1
+  - CZGL.Roslyn.FieldBuilder.CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.FieldInfo)
+  - CZGL.Roslyn.FieldBuilder.CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.MemberInfo)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CZGL.Roslyn.FieldBuilder.BuildSyntax(System.String,System.String[])
+  commentId: M:CZGL.Roslyn.FieldBuilder.BuildSyntax(System.String,System.String[])
+  id: BuildSyntax(System.String,System.String[])
+  parent: CZGL.Roslyn.FieldBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildSyntax(String, String[])
+  nameWithType: FieldBuilder.BuildSyntax(String, String[])
+  fullName: CZGL.Roslyn.FieldBuilder.BuildSyntax(System.String, System.String[])
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: BuildSyntax
+    path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+    startLine: 33
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n通过代码直接生成\n"
+  example: []
+  syntax:
+    content: public static FieldDeclarationSyntax BuildSyntax(string Code, string[] attrs = null)
+    parameters:
+    - id: Code
+      type: System.String
+      description: 字段
+    - id: attrs
+      type: System.String[]
+      description: 特性注解列表
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+      description: ''
+    content.vb: Public Shared Function BuildSyntax(Code As String, attrs As String() = Nothing) As FieldDeclarationSyntax
+  overload: CZGL.Roslyn.FieldBuilder.BuildSyntax*
+  nameWithType.vb: FieldBuilder.BuildSyntax(String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.Roslyn.FieldBuilder.BuildSyntax(System.String, System.String())
+  name.vb: BuildSyntax(String, String())
+- uid: CZGL.Roslyn.FieldBuilder.BuildSyntax
+  commentId: M:CZGL.Roslyn.FieldBuilder.BuildSyntax
+  id: BuildSyntax
+  parent: CZGL.Roslyn.FieldBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildSyntax()
+  nameWithType: FieldBuilder.BuildSyntax()
+  fullName: CZGL.Roslyn.FieldBuilder.BuildSyntax()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: BuildSyntax
+    path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+    startLine: 58
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n获取字段语法树\n<p>如果使用字符串代码一次性构建，请使用 <xref href=\"CZGL.Roslyn.FieldBuilder.BuildCodeSyntax\" data-throw-if-not-resolved=\"false\"></xref> 方法</p>\n"
+  example: []
+  syntax:
+    content: public FieldDeclarationSyntax BuildSyntax()
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+      description: ''
+    content.vb: Public Function BuildSyntax As FieldDeclarationSyntax
+  overload: CZGL.Roslyn.FieldBuilder.BuildSyntax*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.FieldBuilder.BuildCodeSyntax
+  commentId: M:CZGL.Roslyn.FieldBuilder.BuildCodeSyntax
+  id: BuildCodeSyntax
+  parent: CZGL.Roslyn.FieldBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildCodeSyntax()
+  nameWithType: FieldBuilder.BuildCodeSyntax()
+  fullName: CZGL.Roslyn.FieldBuilder.BuildCodeSyntax()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: BuildCodeSyntax
+    path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+    startLine: 97
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n获取变量语法树\n"
+  example: []
+  syntax:
+    content: public LocalDeclarationStatementSyntax BuildCodeSyntax()
+    return:
+      type: Microsoft.CodeAnalysis.CSharp.Syntax.LocalDeclarationStatementSyntax
+      description: ''
+    content.vb: Public Function BuildCodeSyntax As LocalDeclarationStatementSyntax
+  overload: CZGL.Roslyn.FieldBuilder.BuildCodeSyntax*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CZGL.Roslyn.FieldBuilder.FromCode(System.String)
+  commentId: M:CZGL.Roslyn.FieldBuilder.FromCode(System.String)
+  id: FromCode(System.String)
+  parent: CZGL.Roslyn.FieldBuilder
+  langs:
+  - csharp
+  - vb
+  name: FromCode(String)
+  nameWithType: FieldBuilder.FromCode(String)
+  fullName: CZGL.Roslyn.FieldBuilder.FromCode(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: FromCode
+    path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+    startLine: 113
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  summary: "\n通过代码直接生成\n"
+  example: []
+  syntax:
+    content: public static FieldBuilder FromCode(string code)
+    parameters:
+    - id: code
+      type: System.String
+      description: ''
+    return:
+      type: CZGL.Roslyn.FieldBuilder
+      description: ''
+    content.vb: Public Shared Function FromCode(code As String) As FieldBuilder
+  overload: CZGL.Roslyn.FieldBuilder.FromCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Roslyn.FieldBuilder.ToFormatCode
+  commentId: M:CZGL.Roslyn.FieldBuilder.ToFormatCode
+  id: ToFormatCode
+  parent: CZGL.Roslyn.FieldBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToFormatCode()
+  nameWithType: FieldBuilder.ToFormatCode()
+  fullName: CZGL.Roslyn.FieldBuilder.ToFormatCode()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToFormatCode
+    path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+    startLine: 124
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  syntax:
+    content: public override string ToFormatCode()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToFormatCode As String
+  overridden: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+  overload: CZGL.Roslyn.FieldBuilder.ToFormatCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CZGL.Roslyn.FieldBuilder.ToFullCode
+  commentId: M:CZGL.Roslyn.FieldBuilder.ToFullCode
+  id: ToFullCode
+  parent: CZGL.Roslyn.FieldBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToFullCode()
+  nameWithType: FieldBuilder.ToFullCode()
+  fullName: CZGL.Roslyn.FieldBuilder.ToFullCode()
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToFullCode
+    path: src/Src/CZGL.Roslyn/FiledBuilder.cs
+    startLine: 132
+  assemblies:
+  - CZGL.Roslyn
+  namespace: CZGL.Roslyn
+  syntax:
+    content: public override string ToFullCode()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToFullCode As String
+  overridden: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+  overload: CZGL.Roslyn.FieldBuilder.ToFullCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CZGL.Roslyn
+  commentId: N:CZGL.Roslyn
+  name: CZGL.Roslyn
+  nameWithType: CZGL.Roslyn
+  fullName: CZGL.Roslyn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CZGL.Roslyn.Templates.BaseTemplate
+  commentId: T:CZGL.Roslyn.Templates.BaseTemplate
+  parent: CZGL.Roslyn.Templates
+  name: BaseTemplate
+  nameWithType: BaseTemplate
+  fullName: CZGL.Roslyn.Templates.BaseTemplate
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  commentId: T:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  parent: CZGL.Roslyn.Templates
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1
+  name: MemberTemplate<FieldBuilder>
+  nameWithType: MemberTemplate<FieldBuilder>
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>
+  nameWithType.vb: MemberTemplate(Of FieldBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder)
+  name.vb: MemberTemplate(Of FieldBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1
+    name: MemberTemplate
+    nameWithType: MemberTemplate
+    fullName: CZGL.Roslyn.Templates.MemberTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1
+    name: MemberTemplate
+    nameWithType: MemberTemplate
+    fullName: CZGL.Roslyn.Templates.MemberTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}
+  commentId: T:CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}
+  parent: CZGL.Roslyn.Templates
+  definition: CZGL.Roslyn.Templates.VariableTemplate`1
+  name: VariableTemplate<FieldBuilder>
+  nameWithType: VariableTemplate<FieldBuilder>
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<CZGL.Roslyn.FieldBuilder>
+  nameWithType.vb: VariableTemplate(Of FieldBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of CZGL.Roslyn.FieldBuilder)
+  name.vb: VariableTemplate(Of FieldBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1
+    name: VariableTemplate
+    nameWithType: VariableTemplate
+    fullName: CZGL.Roslyn.Templates.VariableTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1
+    name: VariableTemplate
+    nameWithType: VariableTemplate
+    fullName: CZGL.Roslyn.Templates.VariableTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}
+  commentId: T:CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}
+  parent: CZGL.Roslyn
+  definition: CZGL.Roslyn.FieldTemplate`1
+  name: FieldTemplate<FieldBuilder>
+  nameWithType: FieldTemplate<FieldBuilder>
+  fullName: CZGL.Roslyn.FieldTemplate<CZGL.Roslyn.FieldBuilder>
+  nameWithType.vb: FieldTemplate(Of FieldBuilder)
+  fullName.vb: CZGL.Roslyn.FieldTemplate(Of CZGL.Roslyn.FieldBuilder)
+  name.vb: FieldTemplate(Of FieldBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.FieldTemplate`1
+    name: FieldTemplate
+    nameWithType: FieldTemplate
+    fullName: CZGL.Roslyn.FieldTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.FieldTemplate`1
+    name: FieldTemplate
+    nameWithType: FieldTemplate
+    fullName: CZGL.Roslyn.FieldTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}._this
+  commentId: F:CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}._this
+  parent: CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.FieldTemplate`1._this
+  name: _this
+  nameWithType: FieldTemplate<FieldBuilder>._this
+  fullName: CZGL.Roslyn.FieldTemplate<CZGL.Roslyn.FieldBuilder>._this
+  nameWithType.vb: FieldTemplate(Of FieldBuilder)._this
+  fullName.vb: CZGL.Roslyn.FieldTemplate(Of CZGL.Roslyn.FieldBuilder)._this
+- uid: CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  commentId: M:CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  parent: CZGL.Roslyn.FieldTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.FieldTemplate`1.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  name: WithKeyword(FieldKeyword)
+  nameWithType: FieldTemplate<FieldBuilder>.WithKeyword(FieldKeyword)
+  fullName: CZGL.Roslyn.FieldTemplate<CZGL.Roslyn.FieldBuilder>.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  nameWithType.vb: FieldTemplate(Of FieldBuilder).WithKeyword(FieldKeyword)
+  fullName.vb: CZGL.Roslyn.FieldTemplate(Of CZGL.Roslyn.FieldBuilder).WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  spec.csharp:
+  - uid: CZGL.Roslyn.FieldTemplate`1.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+    name: WithKeyword
+    nameWithType: FieldTemplate<FieldBuilder>.WithKeyword
+    fullName: CZGL.Roslyn.FieldTemplate<CZGL.Roslyn.FieldBuilder>.WithKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Reflect.Shared.FieldKeyword
+    name: FieldKeyword
+    nameWithType: FieldKeyword
+    fullName: CZGL.Reflect.Shared.FieldKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.FieldTemplate`1.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+    name: WithKeyword
+    nameWithType: FieldTemplate(Of FieldBuilder).WithKeyword
+    fullName: CZGL.Roslyn.FieldTemplate(Of CZGL.Roslyn.FieldBuilder).WithKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Reflect.Shared.FieldKeyword
+    name: FieldKeyword
+    nameWithType: FieldKeyword
+    fullName: CZGL.Reflect.Shared.FieldKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}._variable
+  commentId: F:CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}._variable
+  parent: CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.VariableTemplate`1._variable
+  name: _variable
+  nameWithType: VariableTemplate<FieldBuilder>._variable
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<CZGL.Roslyn.FieldBuilder>._variable
+  nameWithType.vb: VariableTemplate(Of FieldBuilder)._variable
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of CZGL.Roslyn.FieldBuilder)._variable
+- uid: CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}.WithKeyword(System.String)
+  commentId: M:CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}.WithKeyword(System.String)
+  parent: CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.VariableTemplate`1.WithKeyword(System.String)
+  name: WithKeyword(String)
+  nameWithType: VariableTemplate<FieldBuilder>.WithKeyword(String)
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<CZGL.Roslyn.FieldBuilder>.WithKeyword(System.String)
+  nameWithType.vb: VariableTemplate(Of FieldBuilder).WithKeyword(String)
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of CZGL.Roslyn.FieldBuilder).WithKeyword(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithKeyword(System.String)
+    name: WithKeyword
+    nameWithType: VariableTemplate<FieldBuilder>.WithKeyword
+    fullName: CZGL.Roslyn.Templates.VariableTemplate<CZGL.Roslyn.FieldBuilder>.WithKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithKeyword(System.String)
+    name: WithKeyword
+    nameWithType: VariableTemplate(Of FieldBuilder).WithKeyword
+    fullName: CZGL.Roslyn.Templates.VariableTemplate(Of CZGL.Roslyn.FieldBuilder).WithKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}.WithType(System.String)
+  commentId: M:CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}.WithType(System.String)
+  parent: CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.VariableTemplate`1.WithType(System.String)
+  name: WithType(String)
+  nameWithType: VariableTemplate<FieldBuilder>.WithType(String)
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<CZGL.Roslyn.FieldBuilder>.WithType(System.String)
+  nameWithType.vb: VariableTemplate(Of FieldBuilder).WithType(String)
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of CZGL.Roslyn.FieldBuilder).WithType(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithType(System.String)
+    name: WithType
+    nameWithType: VariableTemplate<FieldBuilder>.WithType
+    fullName: CZGL.Roslyn.Templates.VariableTemplate<CZGL.Roslyn.FieldBuilder>.WithType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithType(System.String)
+    name: WithType
+    nameWithType: VariableTemplate(Of FieldBuilder).WithType
+    fullName: CZGL.Roslyn.Templates.VariableTemplate(Of CZGL.Roslyn.FieldBuilder).WithType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}.WithInit(System.String)
+  commentId: M:CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}.WithInit(System.String)
+  parent: CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.VariableTemplate`1.WithInit(System.String)
+  name: WithInit(String)
+  nameWithType: VariableTemplate<FieldBuilder>.WithInit(String)
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<CZGL.Roslyn.FieldBuilder>.WithInit(System.String)
+  nameWithType.vb: VariableTemplate(Of FieldBuilder).WithInit(String)
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of CZGL.Roslyn.FieldBuilder).WithInit(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithInit(System.String)
+    name: WithInit
+    nameWithType: VariableTemplate<FieldBuilder>.WithInit
+    fullName: CZGL.Roslyn.Templates.VariableTemplate<CZGL.Roslyn.FieldBuilder>.WithInit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithInit(System.String)
+    name: WithInit
+    nameWithType: VariableTemplate(Of FieldBuilder).WithInit
+    fullName: CZGL.Roslyn.Templates.VariableTemplate(Of CZGL.Roslyn.FieldBuilder).WithInit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}._member
+  commentId: F:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}._member
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1._member
+  name: _member
+  nameWithType: MemberTemplate<FieldBuilder>._member
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>._member
+  nameWithType.vb: MemberTemplate(Of FieldBuilder)._member
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder)._member
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}._TBuilder
+  commentId: F:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}._TBuilder
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1._TBuilder
+  name: _TBuilder
+  nameWithType: MemberTemplate<FieldBuilder>._TBuilder
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>._TBuilder
+  nameWithType.vb: MemberTemplate(Of FieldBuilder)._TBuilder
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder)._TBuilder
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.Name
+  commentId: P:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.Name
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.Name
+  name: Name
+  nameWithType: MemberTemplate<FieldBuilder>.Name
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.Name
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).Name
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).Name
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAttributes(System.String[])
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAttributes(System.String[])
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttributes(System.String[])
+  name: WithAttributes(String[])
+  nameWithType: MemberTemplate<FieldBuilder>.WithAttributes(String[])
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithAttributes(System.String[])
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithAttributes(String())
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithAttributes(System.String())
+  name.vb: WithAttributes(String())
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttributes(System.String[])
+    name: WithAttributes
+    nameWithType: MemberTemplate<FieldBuilder>.WithAttributes
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithAttributes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttributes(System.String[])
+    name: WithAttributes
+    nameWithType: MemberTemplate(Of FieldBuilder).WithAttributes
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithAttributes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAttribute(System.String)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAttribute(System.String)
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttribute(System.String)
+  name: WithAttribute(String)
+  nameWithType: MemberTemplate<FieldBuilder>.WithAttribute(String)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithAttribute(System.String)
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithAttribute(String)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithAttribute(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttribute(System.String)
+    name: WithAttribute
+    nameWithType: MemberTemplate<FieldBuilder>.WithAttribute
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttribute(System.String)
+    name: WithAttribute
+    nameWithType: MemberTemplate(Of FieldBuilder).WithAttribute
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.GetAttributes
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.GetAttributes
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.GetAttributes
+  name: GetAttributes()
+  nameWithType: MemberTemplate<FieldBuilder>.GetAttributes()
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.GetAttributes()
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).GetAttributes()
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).GetAttributes()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.GetAttributes
+    name: GetAttributes
+    nameWithType: MemberTemplate<FieldBuilder>.GetAttributes
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.GetAttributes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.GetAttributes
+    name: GetAttributes
+    nameWithType: MemberTemplate(Of FieldBuilder).GetAttributes
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).GetAttributes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  name: WithAccess(MemberAccess)
+  nameWithType: MemberTemplate<FieldBuilder>.WithAccess(MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithAccess(MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+    name: WithAccess
+    nameWithType: MemberTemplate<FieldBuilder>.WithAccess
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Reflect.Shared.MemberAccess
+    name: MemberAccess
+    nameWithType: MemberAccess
+    fullName: CZGL.Reflect.Shared.MemberAccess
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+    name: WithAccess
+    nameWithType: MemberTemplate(Of FieldBuilder).WithAccess
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Reflect.Shared.MemberAccess
+    name: MemberAccess
+    nameWithType: MemberAccess
+    fullName: CZGL.Reflect.Shared.MemberAccess
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAccess(System.String)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithAccess(System.String)
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
+  name: WithAccess(String)
+  nameWithType: MemberTemplate<FieldBuilder>.WithAccess(String)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithAccess(System.String)
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithAccess(String)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithAccess(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
+    name: WithAccess
+    nameWithType: MemberTemplate<FieldBuilder>.WithAccess
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
+    name: WithAccess
+    nameWithType: MemberTemplate(Of FieldBuilder).WithAccess
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithName(System.String)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithName(System.String)
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithName(System.String)
+  name: WithName(String)
+  nameWithType: MemberTemplate<FieldBuilder>.WithName(String)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithName(System.String)
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithName(String)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithName(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithName(System.String)
+    name: WithName
+    nameWithType: MemberTemplate<FieldBuilder>.WithName
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithName(System.String)
+    name: WithName
+    nameWithType: MemberTemplate(Of FieldBuilder).WithName
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithRondomName
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithRondomName
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithRondomName
+  name: WithRondomName()
+  nameWithType: MemberTemplate<FieldBuilder>.WithRondomName()
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithRondomName()
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithRondomName()
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithRondomName()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithRondomName
+    name: WithRondomName
+    nameWithType: MemberTemplate<FieldBuilder>.WithRondomName
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithRondomName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithRondomName
+    name: WithRondomName
+    nameWithType: MemberTemplate(Of FieldBuilder).WithRondomName
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithRondomName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.ClearAttribute
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.ClearAttribute
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.ClearAttribute
+  name: ClearAttribute()
+  nameWithType: MemberTemplate<FieldBuilder>.ClearAttribute()
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.ClearAttribute()
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).ClearAttribute()
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).ClearAttribute()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.ClearAttribute
+    name: ClearAttribute
+    nameWithType: MemberTemplate<FieldBuilder>.ClearAttribute
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.ClearAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.ClearAttribute
+    name: ClearAttribute
+    nameWithType: MemberTemplate(Of FieldBuilder).ClearAttribute
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).ClearAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  name: WithGeneric(Action<GenericTemplate<GenericBuilder>>)
+  nameWithType: MemberTemplate<FieldBuilder>.WithGeneric(Action<GenericTemplate<GenericBuilder>>)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric(System.Action<CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>>)
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithGeneric(Action(Of GenericTemplate(Of GenericBuilder)))
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric(System.Action(Of CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder)))
+  name.vb: WithGeneric(Action(Of GenericTemplate(Of GenericBuilder)))
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+    name: WithGeneric
+    nameWithType: MemberTemplate<FieldBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of FieldBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  name: WithGeneric(Func<GenericTemplate<GenericBuilder>, GenericTemplate<GenericBuilder>>)
+  nameWithType: MemberTemplate<FieldBuilder>.WithGeneric(Func<GenericTemplate<GenericBuilder>, GenericTemplate<GenericBuilder>>)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric(System.Func<CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>, CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>>)
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithGeneric(Func(Of GenericTemplate(Of GenericBuilder), GenericTemplate(Of GenericBuilder)))
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric(System.Func(Of CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder), CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder)))
+  name.vb: WithGeneric(Func(Of GenericTemplate(Of GenericBuilder), GenericTemplate(Of GenericBuilder)))
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+    name: WithGeneric
+    nameWithType: MemberTemplate<FieldBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of FieldBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(CZGL.Roslyn.GenericBuilder)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(CZGL.Roslyn.GenericBuilder)
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(CZGL.Roslyn.GenericBuilder)
+  name: WithGeneric(GenericBuilder)
+  nameWithType: MemberTemplate<FieldBuilder>.WithGeneric(GenericBuilder)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric(CZGL.Roslyn.GenericBuilder)
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithGeneric(GenericBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric(CZGL.Roslyn.GenericBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(CZGL.Roslyn.GenericBuilder)
+    name: WithGeneric
+    nameWithType: MemberTemplate<FieldBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(CZGL.Roslyn.GenericBuilder)
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of FieldBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.String,System.String)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.String,System.String)
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String)
+  name: WithGeneric(String, String)
+  nameWithType: MemberTemplate<FieldBuilder>.WithGeneric(String, String)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric(System.String, System.String)
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithGeneric(String, String)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric(System.String, System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String)
+    name: WithGeneric
+    nameWithType: MemberTemplate<FieldBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String)
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of FieldBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+  parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.FieldBuilder}
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+  name: WithGeneric(String, String, GenericBuilder)
+  nameWithType: MemberTemplate<FieldBuilder>.WithGeneric(String, String, GenericBuilder)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric(System.String, System.String, CZGL.Roslyn.GenericBuilder)
+  nameWithType.vb: MemberTemplate(Of FieldBuilder).WithGeneric(String, String, GenericBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric(System.String, System.String, CZGL.Roslyn.GenericBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+    name: WithGeneric
+    nameWithType: MemberTemplate<FieldBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.FieldBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of FieldBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.FieldBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.BaseTemplate._base
+  commentId: F:CZGL.Roslyn.Templates.BaseTemplate._base
+  parent: CZGL.Roslyn.Templates.BaseTemplate
+  name: _base
+  nameWithType: BaseTemplate._base
+  fullName: CZGL.Roslyn.Templates.BaseTemplate._base
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldBuilder.CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  parent: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  definition: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  name: WithCopy(FieldInfo, Boolean, Boolean)
+  nameWithType: FieldBuilderExtension.WithCopy(FieldInfo, Boolean, Boolean)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(System.Reflection.FieldInfo, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+    name: WithCopy
+    nameWithType: FieldBuilderExtension.WithCopy
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+    name: WithCopy
+    nameWithType: FieldBuilderExtension.WithCopy
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldBuilder.CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1(CZGL.Roslyn.FieldBuilder)
+  parent: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  definition: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1(CZGL.Roslyn.FieldBuilder)
+  name: WithType<T>()
+  nameWithType: FieldBuilderExtension.WithType<T>()
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType<T>()
+  nameWithType.vb: FieldBuilderExtension.WithType(Of T)()
+  fullName.vb: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType(Of T)()
+  name.vb: WithType(Of T)()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1
+    name: WithType<T>
+    nameWithType: FieldBuilderExtension.WithType<T>
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1
+    name: WithType(Of T)
+    nameWithType: FieldBuilderExtension.WithType(Of T)
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldBuilder.CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.FieldInfo)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+  parent: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  definition: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+  name: Create(FieldInfo)
+  nameWithType: FieldBuilderExtension.Create(FieldInfo)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.FieldInfo)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.FieldInfo)
+    name: Create
+    nameWithType: FieldBuilderExtension.Create
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.FieldInfo)
+    name: Create
+    nameWithType: FieldBuilderExtension.Create
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldBuilder.CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.MemberInfo)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+  parent: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  definition: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+  name: Create(MemberInfo)
+  nameWithType: FieldBuilderExtension.Create(MemberInfo)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.MemberInfo)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.MemberInfo)
+    name: Create
+    nameWithType: FieldBuilderExtension.Create
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(System.Reflection.MemberInfo)
+    name: Create
+    nameWithType: FieldBuilderExtension.Create
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Roslyn.Templates
+  commentId: N:CZGL.Roslyn.Templates
+  name: CZGL.Roslyn.Templates
+  nameWithType: CZGL.Roslyn.Templates
+  fullName: CZGL.Roslyn.Templates
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.MemberTemplate`1
+  name: MemberTemplate<TBuilder>
+  nameWithType: MemberTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>
+  nameWithType.vb: MemberTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder)
+  name.vb: MemberTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1
+    name: MemberTemplate
+    nameWithType: MemberTemplate
+    fullName: CZGL.Roslyn.Templates.MemberTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1
+    name: MemberTemplate
+    nameWithType: MemberTemplate
+    fullName: CZGL.Roslyn.Templates.MemberTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.VariableTemplate`1
+  commentId: T:CZGL.Roslyn.Templates.VariableTemplate`1
+  name: VariableTemplate<TBuilder>
+  nameWithType: VariableTemplate<TBuilder>
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<TBuilder>
+  nameWithType.vb: VariableTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of TBuilder)
+  name.vb: VariableTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1
+    name: VariableTemplate
+    nameWithType: VariableTemplate
+    fullName: CZGL.Roslyn.Templates.VariableTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1
+    name: VariableTemplate
+    nameWithType: VariableTemplate
+    fullName: CZGL.Roslyn.Templates.VariableTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldTemplate`1
+  commentId: T:CZGL.Roslyn.FieldTemplate`1
+  name: FieldTemplate<TBuilder>
+  nameWithType: FieldTemplate<TBuilder>
+  fullName: CZGL.Roslyn.FieldTemplate<TBuilder>
+  nameWithType.vb: FieldTemplate(Of TBuilder)
+  fullName.vb: CZGL.Roslyn.FieldTemplate(Of TBuilder)
+  name.vb: FieldTemplate(Of TBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.FieldTemplate`1
+    name: FieldTemplate
+    nameWithType: FieldTemplate
+    fullName: CZGL.Roslyn.FieldTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Roslyn.FieldTemplate`1
+    name: FieldTemplate
+    nameWithType: FieldTemplate
+    fullName: CZGL.Roslyn.FieldTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldTemplate`1._this
+  commentId: F:CZGL.Roslyn.FieldTemplate`1._this
+  name: _this
+  nameWithType: FieldTemplate<TBuilder>._this
+  fullName: CZGL.Roslyn.FieldTemplate<TBuilder>._this
+  nameWithType.vb: FieldTemplate(Of TBuilder)._this
+  fullName.vb: CZGL.Roslyn.FieldTemplate(Of TBuilder)._this
+- uid: CZGL.Roslyn.FieldTemplate`1.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  commentId: M:CZGL.Roslyn.FieldTemplate`1.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  name: WithKeyword(FieldKeyword)
+  nameWithType: FieldTemplate<TBuilder>.WithKeyword(FieldKeyword)
+  fullName: CZGL.Roslyn.FieldTemplate<TBuilder>.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  nameWithType.vb: FieldTemplate(Of TBuilder).WithKeyword(FieldKeyword)
+  fullName.vb: CZGL.Roslyn.FieldTemplate(Of TBuilder).WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+  spec.csharp:
+  - uid: CZGL.Roslyn.FieldTemplate`1.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+    name: WithKeyword
+    nameWithType: FieldTemplate<TBuilder>.WithKeyword
+    fullName: CZGL.Roslyn.FieldTemplate<TBuilder>.WithKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Reflect.Shared.FieldKeyword
+    name: FieldKeyword
+    nameWithType: FieldKeyword
+    fullName: CZGL.Reflect.Shared.FieldKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.FieldTemplate`1.WithKeyword(CZGL.Reflect.Shared.FieldKeyword)
+    name: WithKeyword
+    nameWithType: FieldTemplate(Of TBuilder).WithKeyword
+    fullName: CZGL.Roslyn.FieldTemplate(Of TBuilder).WithKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Reflect.Shared.FieldKeyword
+    name: FieldKeyword
+    nameWithType: FieldKeyword
+    fullName: CZGL.Reflect.Shared.FieldKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.VariableTemplate`1._variable
+  commentId: F:CZGL.Roslyn.Templates.VariableTemplate`1._variable
+  name: _variable
+  nameWithType: VariableTemplate<TBuilder>._variable
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<TBuilder>._variable
+  nameWithType.vb: VariableTemplate(Of TBuilder)._variable
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of TBuilder)._variable
+- uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithKeyword(System.String)
+  commentId: M:CZGL.Roslyn.Templates.VariableTemplate`1.WithKeyword(System.String)
+  isExternal: true
+  name: WithKeyword(String)
+  nameWithType: VariableTemplate<TBuilder>.WithKeyword(String)
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<TBuilder>.WithKeyword(System.String)
+  nameWithType.vb: VariableTemplate(Of TBuilder).WithKeyword(String)
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of TBuilder).WithKeyword(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithKeyword(System.String)
+    name: WithKeyword
+    nameWithType: VariableTemplate<TBuilder>.WithKeyword
+    fullName: CZGL.Roslyn.Templates.VariableTemplate<TBuilder>.WithKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithKeyword(System.String)
+    name: WithKeyword
+    nameWithType: VariableTemplate(Of TBuilder).WithKeyword
+    fullName: CZGL.Roslyn.Templates.VariableTemplate(Of TBuilder).WithKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithType(System.String)
+  commentId: M:CZGL.Roslyn.Templates.VariableTemplate`1.WithType(System.String)
+  isExternal: true
+  name: WithType(String)
+  nameWithType: VariableTemplate<TBuilder>.WithType(String)
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<TBuilder>.WithType(System.String)
+  nameWithType.vb: VariableTemplate(Of TBuilder).WithType(String)
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of TBuilder).WithType(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithType(System.String)
+    name: WithType
+    nameWithType: VariableTemplate<TBuilder>.WithType
+    fullName: CZGL.Roslyn.Templates.VariableTemplate<TBuilder>.WithType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithType(System.String)
+    name: WithType
+    nameWithType: VariableTemplate(Of TBuilder).WithType
+    fullName: CZGL.Roslyn.Templates.VariableTemplate(Of TBuilder).WithType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithInit(System.String)
+  commentId: M:CZGL.Roslyn.Templates.VariableTemplate`1.WithInit(System.String)
+  isExternal: true
+  name: WithInit(String)
+  nameWithType: VariableTemplate<TBuilder>.WithInit(String)
+  fullName: CZGL.Roslyn.Templates.VariableTemplate<TBuilder>.WithInit(System.String)
+  nameWithType.vb: VariableTemplate(Of TBuilder).WithInit(String)
+  fullName.vb: CZGL.Roslyn.Templates.VariableTemplate(Of TBuilder).WithInit(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithInit(System.String)
+    name: WithInit
+    nameWithType: VariableTemplate<TBuilder>.WithInit
+    fullName: CZGL.Roslyn.Templates.VariableTemplate<TBuilder>.WithInit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.VariableTemplate`1.WithInit(System.String)
+    name: WithInit
+    nameWithType: VariableTemplate(Of TBuilder).WithInit
+    fullName: CZGL.Roslyn.Templates.VariableTemplate(Of TBuilder).WithInit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1._member
+  commentId: F:CZGL.Roslyn.Templates.MemberTemplate`1._member
+  name: _member
+  nameWithType: MemberTemplate<TBuilder>._member
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>._member
+  nameWithType.vb: MemberTemplate(Of TBuilder)._member
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder)._member
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1._TBuilder
+  commentId: F:CZGL.Roslyn.Templates.MemberTemplate`1._TBuilder
+  name: _TBuilder
+  nameWithType: MemberTemplate<TBuilder>._TBuilder
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>._TBuilder
+  nameWithType.vb: MemberTemplate(Of TBuilder)._TBuilder
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder)._TBuilder
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.Name
+  commentId: P:CZGL.Roslyn.Templates.MemberTemplate`1.Name
+  name: Name
+  nameWithType: MemberTemplate<TBuilder>.Name
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.Name
+  nameWithType.vb: MemberTemplate(Of TBuilder).Name
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).Name
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttributes(System.String[])
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAttributes(System.String[])
+  isExternal: true
+  name: WithAttributes(String[])
+  nameWithType: MemberTemplate<TBuilder>.WithAttributes(String[])
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAttributes(System.String[])
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithAttributes(String())
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAttributes(System.String())
+  name.vb: WithAttributes(String())
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttributes(System.String[])
+    name: WithAttributes
+    nameWithType: MemberTemplate<TBuilder>.WithAttributes
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAttributes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttributes(System.String[])
+    name: WithAttributes
+    nameWithType: MemberTemplate(Of TBuilder).WithAttributes
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAttributes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttribute(System.String)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAttribute(System.String)
+  isExternal: true
+  name: WithAttribute(String)
+  nameWithType: MemberTemplate<TBuilder>.WithAttribute(String)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAttribute(System.String)
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithAttribute(String)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAttribute(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttribute(System.String)
+    name: WithAttribute
+    nameWithType: MemberTemplate<TBuilder>.WithAttribute
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAttribute(System.String)
+    name: WithAttribute
+    nameWithType: MemberTemplate(Of TBuilder).WithAttribute
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.GetAttributes
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.GetAttributes
+  name: GetAttributes()
+  nameWithType: MemberTemplate<TBuilder>.GetAttributes()
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.GetAttributes()
+  nameWithType.vb: MemberTemplate(Of TBuilder).GetAttributes()
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).GetAttributes()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.GetAttributes
+    name: GetAttributes
+    nameWithType: MemberTemplate<TBuilder>.GetAttributes
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.GetAttributes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.GetAttributes
+    name: GetAttributes
+    nameWithType: MemberTemplate(Of TBuilder).GetAttributes
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).GetAttributes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  name: WithAccess(MemberAccess)
+  nameWithType: MemberTemplate<TBuilder>.WithAccess(MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+    name: WithAccess
+    nameWithType: MemberTemplate<TBuilder>.WithAccess
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Reflect.Shared.MemberAccess
+    name: MemberAccess
+    nameWithType: MemberAccess
+    fullName: CZGL.Reflect.Shared.MemberAccess
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+    name: WithAccess
+    nameWithType: MemberTemplate(Of TBuilder).WithAccess
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Reflect.Shared.MemberAccess
+    name: MemberAccess
+    nameWithType: MemberAccess
+    fullName: CZGL.Reflect.Shared.MemberAccess
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
+  isExternal: true
+  name: WithAccess(String)
+  nameWithType: MemberTemplate<TBuilder>.WithAccess(String)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(System.String)
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithAccess(String)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
+    name: WithAccess
+    nameWithType: MemberTemplate<TBuilder>.WithAccess
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
+    name: WithAccess
+    nameWithType: MemberTemplate(Of TBuilder).WithAccess
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithName(System.String)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithName(System.String)
+  isExternal: true
+  name: WithName(String)
+  nameWithType: MemberTemplate<TBuilder>.WithName(String)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithName(System.String)
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithName(String)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithName(System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithName(System.String)
+    name: WithName
+    nameWithType: MemberTemplate<TBuilder>.WithName
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithName(System.String)
+    name: WithName
+    nameWithType: MemberTemplate(Of TBuilder).WithName
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithRondomName
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithRondomName
+  name: WithRondomName()
+  nameWithType: MemberTemplate<TBuilder>.WithRondomName()
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithRondomName()
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithRondomName()
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithRondomName()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithRondomName
+    name: WithRondomName
+    nameWithType: MemberTemplate<TBuilder>.WithRondomName
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithRondomName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithRondomName
+    name: WithRondomName
+    nameWithType: MemberTemplate(Of TBuilder).WithRondomName
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithRondomName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.ClearAttribute
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.ClearAttribute
+  name: ClearAttribute()
+  nameWithType: MemberTemplate<TBuilder>.ClearAttribute()
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.ClearAttribute()
+  nameWithType.vb: MemberTemplate(Of TBuilder).ClearAttribute()
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).ClearAttribute()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.ClearAttribute
+    name: ClearAttribute
+    nameWithType: MemberTemplate<TBuilder>.ClearAttribute
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.ClearAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.ClearAttribute
+    name: ClearAttribute
+    nameWithType: MemberTemplate(Of TBuilder).ClearAttribute
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).ClearAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  isExternal: true
+  name: WithGeneric(Action<GenericTemplate<GenericBuilder>>)
+  nameWithType: MemberTemplate<TBuilder>.WithGeneric(Action<GenericTemplate<GenericBuilder>>)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric(System.Action<CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>>)
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithGeneric(Action(Of GenericTemplate(Of GenericBuilder)))
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric(System.Action(Of CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder)))
+  name.vb: WithGeneric(Action(Of GenericTemplate(Of GenericBuilder)))
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+    name: WithGeneric
+    nameWithType: MemberTemplate<TBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of TBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+  isExternal: true
+  name: WithGeneric(Func<GenericTemplate<GenericBuilder>, GenericTemplate<GenericBuilder>>)
+  nameWithType: MemberTemplate<TBuilder>.WithGeneric(Func<GenericTemplate<GenericBuilder>, GenericTemplate<GenericBuilder>>)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric(System.Func<CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>, CZGL.Roslyn.Templates.GenericTemplate<CZGL.Roslyn.GenericBuilder>>)
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithGeneric(Func(Of GenericTemplate(Of GenericBuilder), GenericTemplate(Of GenericBuilder)))
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric(System.Func(Of CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder), CZGL.Roslyn.Templates.GenericTemplate(Of CZGL.Roslyn.GenericBuilder)))
+  name.vb: WithGeneric(Func(Of GenericTemplate(Of GenericBuilder), GenericTemplate(Of GenericBuilder)))
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+    name: WithGeneric
+    nameWithType: MemberTemplate<TBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.Func{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder},CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of TBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CZGL.Roslyn.Templates.GenericTemplate`1
+    name: GenericTemplate
+    nameWithType: GenericTemplate
+    fullName: CZGL.Roslyn.Templates.GenericTemplate
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(CZGL.Roslyn.GenericBuilder)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(CZGL.Roslyn.GenericBuilder)
+  name: WithGeneric(GenericBuilder)
+  nameWithType: MemberTemplate<TBuilder>.WithGeneric(GenericBuilder)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric(CZGL.Roslyn.GenericBuilder)
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithGeneric(GenericBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric(CZGL.Roslyn.GenericBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(CZGL.Roslyn.GenericBuilder)
+    name: WithGeneric
+    nameWithType: MemberTemplate<TBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(CZGL.Roslyn.GenericBuilder)
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of TBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String)
+  isExternal: true
+  name: WithGeneric(String, String)
+  nameWithType: MemberTemplate<TBuilder>.WithGeneric(String, String)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric(System.String, System.String)
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithGeneric(String, String)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric(System.String, System.String)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String)
+    name: WithGeneric
+    nameWithType: MemberTemplate<TBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String)
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of TBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+  isExternal: true
+  name: WithGeneric(String, String, GenericBuilder)
+  nameWithType: MemberTemplate<TBuilder>.WithGeneric(String, String, GenericBuilder)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric(System.String, System.String, CZGL.Roslyn.GenericBuilder)
+  nameWithType.vb: MemberTemplate(Of TBuilder).WithGeneric(String, String, GenericBuilder)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric(System.String, System.String, CZGL.Roslyn.GenericBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+    name: WithGeneric
+    nameWithType: MemberTemplate<TBuilder>.WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithGeneric(System.String,System.String,CZGL.Roslyn.GenericBuilder@)
+    name: WithGeneric
+    nameWithType: MemberTemplate(Of TBuilder).WithGeneric
+    fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithGeneric
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CZGL.Roslyn.GenericBuilder
+    name: GenericBuilder
+    nameWithType: GenericBuilder
+    fullName: CZGL.Roslyn.GenericBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+  isExternal: true
+  name: WithCopy(FieldBuilder, FieldInfo, Boolean, Boolean)
+  nameWithType: FieldBuilderExtension.WithCopy(FieldBuilder, FieldInfo, Boolean, Boolean)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder, System.Reflection.FieldInfo, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+    name: WithCopy
+    nameWithType: FieldBuilderExtension.WithCopy
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo,System.Boolean,System.Boolean)
+    name: WithCopy
+    nameWithType: FieldBuilderExtension.WithCopy
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithCopy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension
+  commentId: T:CZGL.Roslyn.Extensions.FieldBuilderExtension
+  parent: CZGL.Roslyn.Extensions
+  name: FieldBuilderExtension
+  nameWithType: FieldBuilderExtension
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1(CZGL.Roslyn.FieldBuilder)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1(CZGL.Roslyn.FieldBuilder)
+  name: WithType<T>(FieldBuilder)
+  nameWithType: FieldBuilderExtension.WithType<T>(FieldBuilder)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType<T>(CZGL.Roslyn.FieldBuilder)
+  nameWithType.vb: FieldBuilderExtension.WithType(Of T)(FieldBuilder)
+  fullName.vb: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType(Of T)(CZGL.Roslyn.FieldBuilder)
+  name.vb: WithType(Of T)(FieldBuilder)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1(CZGL.Roslyn.FieldBuilder)
+    name: WithType<T>
+    nameWithType: FieldBuilderExtension.WithType<T>
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType``1(CZGL.Roslyn.FieldBuilder)
+    name: WithType(Of T)
+    nameWithType: FieldBuilderExtension.WithType(Of T)
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.WithType(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+  isExternal: true
+  name: Create(FieldBuilder, FieldInfo)
+  nameWithType: FieldBuilderExtension.Create(FieldBuilder, FieldInfo)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder, System.Reflection.FieldInfo)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+    name: Create
+    nameWithType: FieldBuilderExtension.Create
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.FieldInfo)
+    name: Create
+    nameWithType: FieldBuilderExtension.Create
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+  commentId: M:CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+  isExternal: true
+  name: Create(FieldBuilder, MemberInfo)
+  nameWithType: FieldBuilderExtension.Create(FieldBuilder, MemberInfo)
+  fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder, System.Reflection.MemberInfo)
+  spec.csharp:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+    name: Create
+    nameWithType: FieldBuilderExtension.Create
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create(CZGL.Roslyn.FieldBuilder,System.Reflection.MemberInfo)
+    name: Create
+    nameWithType: FieldBuilderExtension.Create
+    fullName: CZGL.Roslyn.Extensions.FieldBuilderExtension.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.Roslyn.FieldBuilder
+    name: FieldBuilder
+    nameWithType: FieldBuilder
+    fullName: CZGL.Roslyn.FieldBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.Extensions
+  commentId: N:CZGL.Roslyn.Extensions
+  name: CZGL.Roslyn.Extensions
+  nameWithType: CZGL.Roslyn.Extensions
+  fullName: CZGL.Roslyn.Extensions
+- uid: CZGL.Roslyn.FieldBuilder.BuildSyntax*
+  commentId: Overload:CZGL.Roslyn.FieldBuilder.BuildSyntax
+  name: BuildSyntax
+  nameWithType: FieldBuilder.BuildSyntax
+  fullName: CZGL.Roslyn.FieldBuilder.BuildSyntax
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: FieldDeclarationSyntax
+  nameWithType: FieldDeclarationSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax
+  commentId: N:Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: Microsoft.CodeAnalysis.CSharp.Syntax
+  nameWithType: Microsoft.CodeAnalysis.CSharp.Syntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax
+- uid: CZGL.Roslyn.FieldBuilder.BuildCodeSyntax
+  commentId: M:CZGL.Roslyn.FieldBuilder.BuildCodeSyntax
+  isExternal: true
+- uid: CZGL.Roslyn.FieldBuilder.BuildCodeSyntax*
+  commentId: Overload:CZGL.Roslyn.FieldBuilder.BuildCodeSyntax
+  name: BuildCodeSyntax
+  nameWithType: FieldBuilder.BuildCodeSyntax
+  fullName: CZGL.Roslyn.FieldBuilder.BuildCodeSyntax
+- uid: Microsoft.CodeAnalysis.CSharp.Syntax.LocalDeclarationStatementSyntax
+  commentId: T:Microsoft.CodeAnalysis.CSharp.Syntax.LocalDeclarationStatementSyntax
+  parent: Microsoft.CodeAnalysis.CSharp.Syntax
+  isExternal: true
+  name: LocalDeclarationStatementSyntax
+  nameWithType: LocalDeclarationStatementSyntax
+  fullName: Microsoft.CodeAnalysis.CSharp.Syntax.LocalDeclarationStatementSyntax
+- uid: CZGL.Roslyn.FieldBuilder.FromCode*
+  commentId: Overload:CZGL.Roslyn.FieldBuilder.FromCode
+  name: FromCode
+  nameWithType: FieldBuilder.FromCode
+  fullName: CZGL.Roslyn.FieldBuilder.FromCode
+- uid: CZGL.Roslyn.FieldBuilder
+  commentId: T:CZGL.Roslyn.FieldBuilder
+  parent: CZGL.Roslyn
+  name: FieldBuilder
+  nameWithType: FieldBuilder
+  fullName: CZGL.Roslyn.FieldBuilder
+- uid: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+  commentId: M:CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+  parent: CZGL.Roslyn.Templates.BaseTemplate
+  name: ToFormatCode()
+  nameWithType: BaseTemplate.ToFormatCode()
+  fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+    name: ToFormatCode
+    nameWithType: BaseTemplate.ToFormatCode
+    fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+    name: ToFormatCode
+    nameWithType: BaseTemplate.ToFormatCode
+    fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFormatCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldBuilder.ToFormatCode*
+  commentId: Overload:CZGL.Roslyn.FieldBuilder.ToFormatCode
+  name: ToFormatCode
+  nameWithType: FieldBuilder.ToFormatCode
+  fullName: CZGL.Roslyn.FieldBuilder.ToFormatCode
+- uid: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+  commentId: M:CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+  parent: CZGL.Roslyn.Templates.BaseTemplate
+  name: ToFullCode()
+  nameWithType: BaseTemplate.ToFullCode()
+  fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode()
+  spec.csharp:
+  - uid: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+    name: ToFullCode
+    nameWithType: BaseTemplate.ToFullCode
+    fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+    name: ToFullCode
+    nameWithType: BaseTemplate.ToFullCode
+    fullName: CZGL.Roslyn.Templates.BaseTemplate.ToFullCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Roslyn.FieldBuilder.ToFullCode*
+  commentId: Overload:CZGL.Roslyn.FieldBuilder.ToFullCode
+  name: ToFullCode
+  nameWithType: FieldBuilder.ToFullCode
+  fullName: CZGL.Roslyn.FieldBuilder.ToFullCode

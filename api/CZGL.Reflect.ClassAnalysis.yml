@@ -1,0 +1,873 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.ClassAnalysis
+  commentId: T:CZGL.Reflect.ClassAnalysis
+  id: ClassAnalysis
+  parent: CZGL.Reflect
+  children:
+  - CZGL.Reflect.ClassAnalysis.GetAccess(System.Type)
+  - CZGL.Reflect.ClassAnalysis.GetGenericeName(System.Type)
+  - CZGL.Reflect.ClassAnalysis.GetGenericeParam(System.Type)
+  - CZGL.Reflect.ClassAnalysis.GetKeyword(System.Type)
+  - CZGL.Reflect.ClassAnalysis.IsCanInherited(System.Type)
+  - CZGL.Reflect.ClassAnalysis.IsInherite(System.Type)
+  - CZGL.Reflect.ClassAnalysis.IsNew(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: ClassAnalysis
+  nameWithType: ClassAnalysis
+  fullName: CZGL.Reflect.ClassAnalysis
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ClassAnalysis
+    path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+    startLine: 13
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n解析一个类型\n"
+  example: []
+  syntax:
+    content: public static class ClassAnalysis
+    content.vb: Public Module ClassAnalysis
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CZGL.Reflect.ClassAnalysis.GetAccess(System.Type)
+  commentId: M:CZGL.Reflect.ClassAnalysis.GetAccess(System.Type)
+  id: GetAccess(System.Type)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.ClassAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetAccess(Type)
+  nameWithType: ClassAnalysis.GetAccess(Type)
+  fullName: CZGL.Reflect.ClassAnalysis.GetAccess(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetAccess
+    path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+    startLine: 20
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n获取访问权限\n"
+  example: []
+  syntax:
+    content: public static MemberAccess GetAccess(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.MemberAccess
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAccess(type As Type) As MemberAccess
+  overload: CZGL.Reflect.ClassAnalysis.GetAccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.ClassAnalysis.GetKeyword(System.Type)
+  commentId: M:CZGL.Reflect.ClassAnalysis.GetKeyword(System.Type)
+  id: GetKeyword(System.Type)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.ClassAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetKeyword(Type)
+  nameWithType: ClassAnalysis.GetKeyword(Type)
+  fullName: CZGL.Reflect.ClassAnalysis.GetKeyword(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetKeyword
+    path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+    startLine: 30
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n获取修饰符关键字\n"
+  example: []
+  syntax:
+    content: public static ClassKeyword GetKeyword(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.ClassKeyword
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetKeyword(type As Type) As ClassKeyword
+  overload: CZGL.Reflect.ClassAnalysis.GetKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.ClassAnalysis.IsCanInherited(System.Type)
+  commentId: M:CZGL.Reflect.ClassAnalysis.IsCanInherited(System.Type)
+  id: IsCanInherited(System.Type)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.ClassAnalysis
+  langs:
+  - csharp
+  - vb
+  name: IsCanInherited(Type)
+  nameWithType: ClassAnalysis.IsCanInherited(Type)
+  fullName: CZGL.Reflect.ClassAnalysis.IsCanInherited(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: IsCanInherited
+    path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+    startLine: 40
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n类能否被继承\n"
+  example: []
+  syntax:
+    content: public static bool IsCanInherited(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsCanInherited(type As Type) As Boolean
+  overload: CZGL.Reflect.ClassAnalysis.IsCanInherited*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.ClassAnalysis.GetGenericeName(System.Type)
+  commentId: M:CZGL.Reflect.ClassAnalysis.GetGenericeName(System.Type)
+  id: GetGenericeName(System.Type)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.ClassAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetGenericeName(Type)
+  nameWithType: ClassAnalysis.GetGenericeName(Type)
+  fullName: CZGL.Reflect.ClassAnalysis.GetGenericeName(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetGenericeName
+    path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+    startLine: 56
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n获取泛型类的名称\n"
+  example: []
+  syntax:
+    content: public static string GetGenericeName(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetGenericeName(type As Type) As String
+  overload: CZGL.Reflect.ClassAnalysis.GetGenericeName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.ClassAnalysis.IsInherite(System.Type)
+  commentId: M:CZGL.Reflect.ClassAnalysis.IsInherite(System.Type)
+  id: IsInherite(System.Type)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.ClassAnalysis
+  langs:
+  - csharp
+  - vb
+  name: IsInherite(Type)
+  nameWithType: ClassAnalysis.IsInherite(Type)
+  fullName: CZGL.Reflect.ClassAnalysis.IsInherite(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: IsInherite
+    path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+    startLine: 67
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n是否有继承\n<p>是否有继承接口等</p>\n"
+  example: []
+  syntax:
+    content: public static bool IsInherite(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsInherite(type As Type) As Boolean
+  overload: CZGL.Reflect.ClassAnalysis.IsInherite*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.ClassAnalysis.GetGenericeParam(System.Type)
+  commentId: M:CZGL.Reflect.ClassAnalysis.GetGenericeParam(System.Type)
+  id: GetGenericeParam(System.Type)
+  isExtensionMethod: true
+  parent: CZGL.Reflect.ClassAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetGenericeParam(Type)
+  nameWithType: ClassAnalysis.GetGenericeParam(Type)
+  fullName: CZGL.Reflect.ClassAnalysis.GetGenericeParam(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetGenericeParam
+    path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+    startLine: 83
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n解析出一个类的分析参数以及泛型约束\n"
+  example: []
+  syntax:
+    content: public static Dictionary<string, IEnumerable<GenericeConstraintInfo>> GetGenericeParam(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.IEnumerable{CZGL.Reflect.Units.GenericeConstraintInfo}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetGenericeParam(type As Type) As Dictionary(Of String, IEnumerable(Of GenericeConstraintInfo))
+  overload: CZGL.Reflect.ClassAnalysis.GetGenericeParam*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.ClassAnalysis.IsNew(System.Type)
+  commentId: M:CZGL.Reflect.ClassAnalysis.IsNew(System.Type)
+  id: IsNew(System.Type)
+  parent: CZGL.Reflect.ClassAnalysis
+  langs:
+  - csharp
+  - vb
+  name: IsNew(Type)
+  nameWithType: ClassAnalysis.IsNew(Type)
+  fullName: CZGL.Reflect.ClassAnalysis.IsNew(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: IsNew
+    path: src/Src/CZGL.Reflect/ClassAnalysis.cs
+    startLine: 93
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect
+  summary: "\n判断此类(嵌套类)是否是 new\n"
+  example: []
+  syntax:
+    content: public static bool IsNew(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsNew(type As Type) As Boolean
+  overload: CZGL.Reflect.ClassAnalysis.IsNew*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CZGL.Reflect
+  commentId: N:CZGL.Reflect
+  name: CZGL.Reflect
+  nameWithType: CZGL.Reflect
+  fullName: CZGL.Reflect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Reflect.ClassAnalysis.GetAccess*
+  commentId: Overload:CZGL.Reflect.ClassAnalysis.GetAccess
+  name: GetAccess
+  nameWithType: ClassAnalysis.GetAccess
+  fullName: CZGL.Reflect.ClassAnalysis.GetAccess
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: CZGL.Reflect.Shared.MemberAccess
+  commentId: T:CZGL.Reflect.Shared.MemberAccess
+  parent: CZGL.Reflect.Shared
+  name: MemberAccess
+  nameWithType: MemberAccess
+  fullName: CZGL.Reflect.Shared.MemberAccess
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.ClassAnalysis.GetKeyword*
+  commentId: Overload:CZGL.Reflect.ClassAnalysis.GetKeyword
+  name: GetKeyword
+  nameWithType: ClassAnalysis.GetKeyword
+  fullName: CZGL.Reflect.ClassAnalysis.GetKeyword
+- uid: CZGL.Reflect.Shared.ClassKeyword
+  commentId: T:CZGL.Reflect.Shared.ClassKeyword
+  parent: CZGL.Reflect.Shared
+  name: ClassKeyword
+  nameWithType: ClassKeyword
+  fullName: CZGL.Reflect.Shared.ClassKeyword
+- uid: CZGL.Reflect.ClassAnalysis.IsCanInherited*
+  commentId: Overload:CZGL.Reflect.ClassAnalysis.IsCanInherited
+  name: IsCanInherited
+  nameWithType: ClassAnalysis.IsCanInherited
+  fullName: CZGL.Reflect.ClassAnalysis.IsCanInherited
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CZGL.Reflect.ClassAnalysis.GetGenericeName*
+  commentId: Overload:CZGL.Reflect.ClassAnalysis.GetGenericeName
+  name: GetGenericeName
+  nameWithType: ClassAnalysis.GetGenericeName
+  fullName: CZGL.Reflect.ClassAnalysis.GetGenericeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Reflect.ClassAnalysis.IsInherite*
+  commentId: Overload:CZGL.Reflect.ClassAnalysis.IsInherite
+  name: IsInherite
+  nameWithType: ClassAnalysis.IsInherite
+  fullName: CZGL.Reflect.ClassAnalysis.IsInherite
+- uid: CZGL.Reflect.ClassAnalysis.GetGenericeParam*
+  commentId: Overload:CZGL.Reflect.ClassAnalysis.GetGenericeParam
+  name: GetGenericeParam
+  nameWithType: ClassAnalysis.GetGenericeParam
+  fullName: CZGL.Reflect.ClassAnalysis.GetGenericeParam
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.IEnumerable{CZGL.Reflect.Units.GenericeConstraintInfo}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.IEnumerable{CZGL.Reflect.Units.GenericeConstraintInfo}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, IEnumerable<GenericeConstraintInfo>>
+  nameWithType: Dictionary<String, IEnumerable<GenericeConstraintInfo>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.IEnumerable<CZGL.Reflect.Units.GenericeConstraintInfo>>
+  nameWithType.vb: Dictionary(Of String, IEnumerable(Of GenericeConstraintInfo))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.IEnumerable(Of CZGL.Reflect.Units.GenericeConstraintInfo))
+  name.vb: Dictionary(Of String, IEnumerable(Of GenericeConstraintInfo))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CZGL.Reflect.Units.GenericeConstraintInfo
+    name: GenericeConstraintInfo
+    nameWithType: GenericeConstraintInfo
+    fullName: CZGL.Reflect.Units.GenericeConstraintInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CZGL.Reflect.Units.GenericeConstraintInfo
+    name: GenericeConstraintInfo
+    nameWithType: GenericeConstraintInfo
+    fullName: CZGL.Reflect.Units.GenericeConstraintInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: CZGL.Reflect.ClassAnalysis.IsNew*
+  commentId: Overload:CZGL.Reflect.ClassAnalysis.IsNew
+  name: IsNew
+  nameWithType: ClassAnalysis.IsNew
+  fullName: CZGL.Reflect.ClassAnalysis.IsNew

@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  id: CZGL.Reflect.Shared
+  children:
+  - CZGL.Reflect.Shared.ClassKeyword
+  - CZGL.Reflect.Shared.ConstraintLocation
+  - CZGL.Reflect.Shared.EnumCache
+  - CZGL.Reflect.Shared.EnumCache`1
+  - CZGL.Reflect.Shared.EventKeyword
+  - CZGL.Reflect.Shared.FieldKeyword
+  - CZGL.Reflect.Shared.GenericKeyword
+  - CZGL.Reflect.Shared.MemberAccess
+  - CZGL.Reflect.Shared.MemberDefineNameAttribute
+  - CZGL.Reflect.Shared.MemberType
+  - CZGL.Reflect.Shared.MethodKeyword
+  - CZGL.Reflect.Shared.NamespaceAccess
+  - CZGL.Reflect.Shared.PropertyKeyword
+  - CZGL.Reflect.Shared.StructKeyword
+  langs:
+  - csharp
+  - vb
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+  type: Namespace
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+references:
+- uid: CZGL.Reflect.Shared.ClassKeyword
+  commentId: T:CZGL.Reflect.Shared.ClassKeyword
+  parent: CZGL.Reflect.Shared
+  name: ClassKeyword
+  nameWithType: ClassKeyword
+  fullName: CZGL.Reflect.Shared.ClassKeyword
+- uid: CZGL.Reflect.Shared.ConstraintLocation
+  commentId: T:CZGL.Reflect.Shared.ConstraintLocation
+  parent: CZGL.Reflect.Shared
+  name: ConstraintLocation
+  nameWithType: ConstraintLocation
+  fullName: CZGL.Reflect.Shared.ConstraintLocation
+- uid: CZGL.Reflect.Shared.EnumCache
+  commentId: T:CZGL.Reflect.Shared.EnumCache
+  parent: CZGL.Reflect.Shared
+  name: EnumCache
+  nameWithType: EnumCache
+  fullName: CZGL.Reflect.Shared.EnumCache
+- uid: CZGL.Reflect.Shared.EnumCache`1
+  commentId: T:CZGL.Reflect.Shared.EnumCache`1
+  name: EnumCache<T>
+  nameWithType: EnumCache<T>
+  fullName: CZGL.Reflect.Shared.EnumCache<T>
+  nameWithType.vb: EnumCache(Of T)
+  fullName.vb: CZGL.Reflect.Shared.EnumCache(Of T)
+  name.vb: EnumCache(Of T)
+  spec.csharp:
+  - uid: CZGL.Reflect.Shared.EnumCache`1
+    name: EnumCache
+    nameWithType: EnumCache
+    fullName: CZGL.Reflect.Shared.EnumCache
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.Reflect.Shared.EnumCache`1
+    name: EnumCache
+    nameWithType: EnumCache
+    fullName: CZGL.Reflect.Shared.EnumCache
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.Reflect.Shared.EventKeyword
+  commentId: T:CZGL.Reflect.Shared.EventKeyword
+  parent: CZGL.Reflect.Shared
+  name: EventKeyword
+  nameWithType: EventKeyword
+  fullName: CZGL.Reflect.Shared.EventKeyword
+- uid: CZGL.Reflect.Shared.FieldKeyword
+  commentId: T:CZGL.Reflect.Shared.FieldKeyword
+  parent: CZGL.Reflect.Shared
+  name: FieldKeyword
+  nameWithType: FieldKeyword
+  fullName: CZGL.Reflect.Shared.FieldKeyword
+- uid: CZGL.Reflect.Shared.GenericKeyword
+  commentId: T:CZGL.Reflect.Shared.GenericKeyword
+  parent: CZGL.Reflect.Shared
+  name: GenericKeyword
+  nameWithType: GenericKeyword
+  fullName: CZGL.Reflect.Shared.GenericKeyword
+- uid: CZGL.Reflect.Shared.MemberAccess
+  commentId: T:CZGL.Reflect.Shared.MemberAccess
+  parent: CZGL.Reflect.Shared
+  name: MemberAccess
+  nameWithType: MemberAccess
+  fullName: CZGL.Reflect.Shared.MemberAccess
+- uid: CZGL.Reflect.Shared.MemberDefineNameAttribute
+  commentId: T:CZGL.Reflect.Shared.MemberDefineNameAttribute
+  name: MemberDefineNameAttribute
+  nameWithType: MemberDefineNameAttribute
+  fullName: CZGL.Reflect.Shared.MemberDefineNameAttribute
+- uid: CZGL.Reflect.Shared.MemberType
+  commentId: T:CZGL.Reflect.Shared.MemberType
+  parent: CZGL.Reflect.Shared
+  name: MemberType
+  nameWithType: MemberType
+  fullName: CZGL.Reflect.Shared.MemberType
+- uid: CZGL.Reflect.Shared.MethodKeyword
+  commentId: T:CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.Reflect.Shared
+  name: MethodKeyword
+  nameWithType: MethodKeyword
+  fullName: CZGL.Reflect.Shared.MethodKeyword
+- uid: CZGL.Reflect.Shared.NamespaceAccess
+  commentId: T:CZGL.Reflect.Shared.NamespaceAccess
+  parent: CZGL.Reflect.Shared
+  name: NamespaceAccess
+  nameWithType: NamespaceAccess
+  fullName: CZGL.Reflect.Shared.NamespaceAccess
+- uid: CZGL.Reflect.Shared.PropertyKeyword
+  commentId: T:CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.Reflect.Shared
+  name: PropertyKeyword
+  nameWithType: PropertyKeyword
+  fullName: CZGL.Reflect.Shared.PropertyKeyword
+- uid: CZGL.Reflect.Shared.StructKeyword
+  commentId: T:CZGL.Reflect.Shared.StructKeyword
+  parent: CZGL.Reflect.Shared
+  name: StructKeyword
+  nameWithType: StructKeyword
+  fullName: CZGL.Reflect.Shared.StructKeyword
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared

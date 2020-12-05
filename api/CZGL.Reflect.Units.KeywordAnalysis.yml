@@ -1,0 +1,696 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.Reflect.Units.KeywordAnalysis
+  commentId: T:CZGL.Reflect.Units.KeywordAnalysis
+  id: KeywordAnalysis
+  parent: CZGL.Reflect.Units
+  children:
+  - CZGL.Reflect.Units.KeywordAnalysis.GetClassKeyword(System.Type)
+  - CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeyword(System.Reflection.FieldInfo)
+  - CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeywordCode(System.Reflection.FieldInfo)
+  - CZGL.Reflect.Units.KeywordAnalysis.GetMethodKeyword(System.Reflection.MethodInfo)
+  - CZGL.Reflect.Units.KeywordAnalysis.GetPropertyKeyword(System.Reflection.PropertyInfo)
+  - CZGL.Reflect.Units.KeywordAnalysis.GetStructKeyword(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: KeywordAnalysis
+  nameWithType: KeywordAnalysis
+  fullName: CZGL.Reflect.Units.KeywordAnalysis
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: KeywordAnalysis
+    path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+    startLine: 14
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取成员修饰符\n"
+  example: []
+  syntax:
+    content: public class KeywordAnalysis
+    content.vb: Public Class KeywordAnalysis
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeyword(System.Reflection.FieldInfo)
+  commentId: M:CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeyword(System.Reflection.FieldInfo)
+  id: GetFieldKeyword(System.Reflection.FieldInfo)
+  parent: CZGL.Reflect.Units.KeywordAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetFieldKeyword(FieldInfo)
+  nameWithType: KeywordAnalysis.GetFieldKeyword(FieldInfo)
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeyword(System.Reflection.FieldInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetFieldKeyword
+    path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+    startLine: 21
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取字段修饰符\n"
+  example: []
+  syntax:
+    content: public static FieldKeyword GetFieldKeyword(FieldInfo info)
+    parameters:
+    - id: info
+      type: System.Reflection.FieldInfo
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.FieldKeyword
+      description: ''
+    content.vb: Public Shared Function GetFieldKeyword(info As FieldInfo) As FieldKeyword
+  overload: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeywordCode(System.Reflection.FieldInfo)
+  commentId: M:CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeywordCode(System.Reflection.FieldInfo)
+  id: GetFieldKeywordCode(System.Reflection.FieldInfo)
+  parent: CZGL.Reflect.Units.KeywordAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetFieldKeywordCode(FieldInfo)
+  nameWithType: KeywordAnalysis.GetFieldKeywordCode(FieldInfo)
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeywordCode(System.Reflection.FieldInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetFieldKeywordCode
+    path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+    startLine: 45
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取字段修饰符\n"
+  example: []
+  syntax:
+    content: public static string GetFieldKeywordCode(FieldInfo info)
+    parameters:
+    - id: info
+      type: System.Reflection.FieldInfo
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetFieldKeywordCode(info As FieldInfo) As String
+  overload: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeywordCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetMethodKeyword(System.Reflection.MethodInfo)
+  commentId: M:CZGL.Reflect.Units.KeywordAnalysis.GetMethodKeyword(System.Reflection.MethodInfo)
+  id: GetMethodKeyword(System.Reflection.MethodInfo)
+  parent: CZGL.Reflect.Units.KeywordAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetMethodKeyword(MethodInfo)
+  nameWithType: KeywordAnalysis.GetMethodKeyword(MethodInfo)
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetMethodKeyword(System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetMethodKeyword
+    path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+    startLine: 57
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n判断方法的访问修饰符\n<p>暂不支持 new static</p>\n"
+  example: []
+  syntax:
+    content: public static MethodKeyword GetMethodKeyword(MethodInfo info)
+    parameters:
+    - id: info
+      type: System.Reflection.MethodInfo
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.MethodKeyword
+      description: ''
+    content.vb: Public Shared Function GetMethodKeyword(info As MethodInfo) As MethodKeyword
+  overload: CZGL.Reflect.Units.KeywordAnalysis.GetMethodKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetPropertyKeyword(System.Reflection.PropertyInfo)
+  commentId: M:CZGL.Reflect.Units.KeywordAnalysis.GetPropertyKeyword(System.Reflection.PropertyInfo)
+  id: GetPropertyKeyword(System.Reflection.PropertyInfo)
+  parent: CZGL.Reflect.Units.KeywordAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyKeyword(PropertyInfo)
+  nameWithType: KeywordAnalysis.GetPropertyKeyword(PropertyInfo)
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetPropertyKeyword(System.Reflection.PropertyInfo)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetPropertyKeyword
+    path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+    startLine: 122
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取属性修饰符\n"
+  example: []
+  syntax:
+    content: public static PropertyKeyword GetPropertyKeyword(PropertyInfo info)
+    parameters:
+    - id: info
+      type: System.Reflection.PropertyInfo
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.PropertyKeyword
+      description: ''
+    content.vb: Public Shared Function GetPropertyKeyword(info As PropertyInfo) As PropertyKeyword
+  overload: CZGL.Reflect.Units.KeywordAnalysis.GetPropertyKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetClassKeyword(System.Type)
+  commentId: M:CZGL.Reflect.Units.KeywordAnalysis.GetClassKeyword(System.Type)
+  id: GetClassKeyword(System.Type)
+  parent: CZGL.Reflect.Units.KeywordAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetClassKeyword(Type)
+  nameWithType: KeywordAnalysis.GetClassKeyword(Type)
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetClassKeyword(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetClassKeyword
+    path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+    startLine: 136
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  summary: "\n获取类修饰符关键字\n"
+  example: []
+  syntax:
+    content: public static ClassKeyword GetClassKeyword(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: CZGL.Reflect.Shared.ClassKeyword
+      description: ''
+    content.vb: Public Shared Function GetClassKeyword(type As Type) As ClassKeyword
+  overload: CZGL.Reflect.Units.KeywordAnalysis.GetClassKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetStructKeyword(System.Type)
+  commentId: M:CZGL.Reflect.Units.KeywordAnalysis.GetStructKeyword(System.Type)
+  id: GetStructKeyword(System.Type)
+  parent: CZGL.Reflect.Units.KeywordAnalysis
+  langs:
+  - csharp
+  - vb
+  name: GetStructKeyword(Type)
+  nameWithType: KeywordAnalysis.GetStructKeyword(Type)
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetStructKeyword(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetStructKeyword
+    path: src/Src/CZGL.Reflect/Units/KeywordAnalysis.cs
+    startLine: 158
+  assemblies:
+  - CZGL.Reflect
+  namespace: CZGL.Reflect.Units
+  syntax:
+    content: public StructKeyword GetStructKeyword(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: CZGL.Reflect.Shared.StructKeyword
+    content.vb: Public Function GetStructKeyword(type As Type) As StructKeyword
+  overload: CZGL.Reflect.Units.KeywordAnalysis.GetStructKeyword*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CZGL.Reflect.Units
+  commentId: N:CZGL.Reflect.Units
+  name: CZGL.Reflect.Units
+  nameWithType: CZGL.Reflect.Units
+  fullName: CZGL.Reflect.Units
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeyword*
+  commentId: Overload:CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeyword
+  name: GetFieldKeyword
+  nameWithType: KeywordAnalysis.GetFieldKeyword
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeyword
+- uid: System.Reflection.FieldInfo
+  commentId: T:System.Reflection.FieldInfo
+  parent: System.Reflection
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: System.Reflection.FieldInfo
+- uid: CZGL.Reflect.Shared.FieldKeyword
+  commentId: T:CZGL.Reflect.Shared.FieldKeyword
+  parent: CZGL.Reflect.Shared
+  name: FieldKeyword
+  nameWithType: FieldKeyword
+  fullName: CZGL.Reflect.Shared.FieldKeyword
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: CZGL.Reflect.Shared
+  commentId: N:CZGL.Reflect.Shared
+  name: CZGL.Reflect.Shared
+  nameWithType: CZGL.Reflect.Shared
+  fullName: CZGL.Reflect.Shared
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeywordCode*
+  commentId: Overload:CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeywordCode
+  name: GetFieldKeywordCode
+  nameWithType: KeywordAnalysis.GetFieldKeywordCode
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetFieldKeywordCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetMethodKeyword*
+  commentId: Overload:CZGL.Reflect.Units.KeywordAnalysis.GetMethodKeyword
+  name: GetMethodKeyword
+  nameWithType: KeywordAnalysis.GetMethodKeyword
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetMethodKeyword
+- uid: System.Reflection.MethodInfo
+  commentId: T:System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: true
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: CZGL.Reflect.Shared.MethodKeyword
+  commentId: T:CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.Reflect.Shared
+  name: MethodKeyword
+  nameWithType: MethodKeyword
+  fullName: CZGL.Reflect.Shared.MethodKeyword
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetPropertyKeyword*
+  commentId: Overload:CZGL.Reflect.Units.KeywordAnalysis.GetPropertyKeyword
+  name: GetPropertyKeyword
+  nameWithType: KeywordAnalysis.GetPropertyKeyword
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetPropertyKeyword
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: CZGL.Reflect.Shared.PropertyKeyword
+  commentId: T:CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.Reflect.Shared
+  name: PropertyKeyword
+  nameWithType: PropertyKeyword
+  fullName: CZGL.Reflect.Shared.PropertyKeyword
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetClassKeyword*
+  commentId: Overload:CZGL.Reflect.Units.KeywordAnalysis.GetClassKeyword
+  name: GetClassKeyword
+  nameWithType: KeywordAnalysis.GetClassKeyword
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetClassKeyword
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: CZGL.Reflect.Shared.ClassKeyword
+  commentId: T:CZGL.Reflect.Shared.ClassKeyword
+  parent: CZGL.Reflect.Shared
+  name: ClassKeyword
+  nameWithType: ClassKeyword
+  fullName: CZGL.Reflect.Shared.ClassKeyword
+- uid: CZGL.Reflect.Units.KeywordAnalysis.GetStructKeyword*
+  commentId: Overload:CZGL.Reflect.Units.KeywordAnalysis.GetStructKeyword
+  name: GetStructKeyword
+  nameWithType: KeywordAnalysis.GetStructKeyword
+  fullName: CZGL.Reflect.Units.KeywordAnalysis.GetStructKeyword
+- uid: CZGL.Reflect.Shared.StructKeyword
+  commentId: T:CZGL.Reflect.Shared.StructKeyword
+  parent: CZGL.Reflect.Shared
+  name: StructKeyword
+  nameWithType: StructKeyword
+  fullName: CZGL.Reflect.Shared.StructKeyword
