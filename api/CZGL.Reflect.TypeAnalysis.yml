@@ -78,7 +78,7 @@ items:
     - id: type
       type: System.Type
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
       description: ''
     content.vb: >-
       <ExtensionAttribute>
@@ -123,7 +123,7 @@ items:
       type: System.Type
       description: ''
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
       description: ''
     content.vb: >-
       <ExtensionAttribute>
@@ -446,17 +446,17 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: CZGL.Reflect.Shared.MemberType
-  commentId: T:CZGL.Reflect.Shared.MemberType
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared.MemberType
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared
   name: MemberType
   nameWithType: MemberType
-  fullName: CZGL.Reflect.Shared.MemberType
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
+  fullName: CZGL.CodeAnalysis.Shared.MemberType
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
 - uid: CZGL.Reflect.TypeAnalysis.GetValueType*
   commentId: Overload:CZGL.Reflect.TypeAnalysis.GetValueType
   name: GetValueType

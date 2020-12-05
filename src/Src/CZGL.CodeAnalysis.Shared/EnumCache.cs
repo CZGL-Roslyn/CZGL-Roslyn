@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace CZGL.Reflect.Shared
+namespace CZGL.CodeAnalysis.Shared
 {
     /// <summary>
     /// 枚举信息缓存

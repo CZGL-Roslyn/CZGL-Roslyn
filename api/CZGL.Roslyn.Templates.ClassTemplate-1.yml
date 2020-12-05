@@ -7,7 +7,7 @@ items:
   children:
   - CZGL.Roslyn.Templates.ClassTemplate`1._class
   - CZGL.Roslyn.Templates.ClassTemplate`1.GetBuilder
-  - CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
   - CZGL.Roslyn.Templates.ClassTemplate`1.WithBaseClass(System.String)
   - CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor
   - CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor(System.Action{CZGL.Roslyn.CtorBuilder})
@@ -19,7 +19,7 @@ items:
   - CZGL.Roslyn.Templates.ClassTemplate`1.WithField(System.String,System.Action{CZGL.Roslyn.FieldBuilder})
   - CZGL.Roslyn.Templates.ClassTemplate`1.WithInterface(System.String)
   - CZGL.Roslyn.Templates.ClassTemplate`1.WithInterfaces(System.String[])
-  - CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  - CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
   - CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(System.String)
   - CZGL.Roslyn.Templates.ClassTemplate`1.WithMethod(System.Action{CZGL.Roslyn.MethodBuilder})
   - CZGL.Roslyn.Templates.ClassTemplate`1.WithMethod(System.String,System.Action{CZGL.Roslyn.MethodBuilder})
@@ -72,7 +72,7 @@ items:
   - CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.WithAttributes(System.String[])
   - CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.WithAttribute(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.GetAttributes
-  - CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.WithAccess(MemberAccess)
   - CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.WithAccess(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.ClearAttribute
   - CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
@@ -136,16 +136,16 @@ items:
   - Protected
   - ReadOnly
   fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder)._class
-- uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
-  commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
-  id: WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+- uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
+  commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
+  id: WithKeyword(ClassKeyword)
   parent: CZGL.Roslyn.Templates.ClassTemplate`1
   langs:
   - csharp
   - vb
   name: WithKeyword(ClassKeyword)
   nameWithType: ClassTemplate<TBuilder>.WithKeyword(ClassKeyword)
-  fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithKeyword(ClassKeyword)
   type: Method
   source:
     remote:
@@ -164,7 +164,7 @@ items:
     content: public virtual TBuilder WithKeyword(ClassKeyword keyword)
     parameters:
     - id: keyword
-      type: CZGL.Reflect.Shared.ClassKeyword
+      type: ClassKeyword
       description: ''
     return:
       type: '{TBuilder}'
@@ -178,7 +178,7 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithKeyword(ClassKeyword)
 - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(System.String)
   commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(System.String)
   id: WithKeyword(System.String)
@@ -434,16 +434,16 @@ items:
   - Overridable
   fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithInterfaces(System.String())
   name.vb: WithInterfaces(String())
-- uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
-  commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
-  id: WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+- uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
+  commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
+  id: WithAccess(NamespaceAccess)
   parent: CZGL.Roslyn.Templates.ClassTemplate`1
   langs:
   - csharp
   - vb
   name: WithAccess(NamespaceAccess)
   nameWithType: ClassTemplate<TBuilder>.WithAccess(NamespaceAccess)
-  fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithAccess(NamespaceAccess)
   type: Method
   source:
     remote:
@@ -459,21 +459,21 @@ items:
   summary: "\n设置访问修饰符(Access Modifiers)\n"
   example: []
   syntax:
-    content: public TBuilder WithAccess(NamespaceAccess access = NamespaceAccess.Internal)
+    content: public TBuilder WithAccess(NamespaceAccess access = null)
     parameters:
     - id: access
-      type: CZGL.Reflect.Shared.NamespaceAccess
+      type: NamespaceAccess
     return:
       type: '{TBuilder}'
       description: ''
-    content.vb: Public Function WithAccess(access As NamespaceAccess = NamespaceAccess.Internal) As TBuilder
+    content.vb: Public Function WithAccess(access As NamespaceAccess = Nothing) As TBuilder
   overload: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess*
   nameWithType.vb: ClassTemplate(Of TBuilder).WithAccess(NamespaceAccess)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithAccess(NamespaceAccess)
 - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor
   commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor
   id: WithCtor
@@ -1290,42 +1290,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{`0}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+- uid: CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}.WithAccess(MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{`0}.WithAccess(MemberAccess)
   parent: CZGL.Roslyn.Templates.MemberTemplate{{TBuilder}}
-  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
   name: WithAccess(MemberAccess)
   nameWithType: MemberTemplate<TBuilder>.WithAccess(MemberAccess)
-  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(MemberAccess)
   nameWithType.vb: MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
-  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate<TBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate(Of TBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2291,40 +2293,43 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  isExternal: true
   name: WithAccess(MemberAccess)
   nameWithType: MemberTemplate<TBuilder>.WithAccess(MemberAccess)
-  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(MemberAccess)
   nameWithType.vb: MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
-  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate<TBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate(Of TBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2774,23 +2779,18 @@ references:
   fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithKeyword
   nameWithType.vb: ClassTemplate(Of TBuilder).WithKeyword
   fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithKeyword
-- uid: CZGL.Reflect.Shared.ClassKeyword
-  commentId: T:CZGL.Reflect.Shared.ClassKeyword
-  parent: CZGL.Reflect.Shared
+- uid: ClassKeyword
+  commentId: '!:ClassKeyword'
+  isExternal: true
   name: ClassKeyword
   nameWithType: ClassKeyword
-  fullName: CZGL.Reflect.Shared.ClassKeyword
+  fullName: ClassKeyword
 - uid: '{TBuilder}'
   commentId: '!:TBuilder'
   definition: TBuilder
   name: TBuilder
   nameWithType: TBuilder
   fullName: TBuilder
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
 - uid: TBuilder
   name: TBuilder
   nameWithType: TBuilder
@@ -2870,12 +2870,11 @@ references:
   fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithAccess
   nameWithType.vb: ClassTemplate(Of TBuilder).WithAccess
   fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithAccess
-- uid: CZGL.Reflect.Shared.NamespaceAccess
-  commentId: T:CZGL.Reflect.Shared.NamespaceAccess
-  parent: CZGL.Reflect.Shared
+- uid: NamespaceAccess
+  isExternal: true
   name: NamespaceAccess
   nameWithType: NamespaceAccess
-  fullName: CZGL.Reflect.Shared.NamespaceAccess
+  fullName: NamespaceAccess
 - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor*
   commentId: Overload:CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor
   name: WithCtor

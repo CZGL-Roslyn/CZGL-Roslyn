@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CZGL.Reflect.Shared
+namespace CZGL.CodeAnalysis.Shared
 {
     /// <summary>
     /// 结构体访问修饰符

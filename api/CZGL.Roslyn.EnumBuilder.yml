@@ -41,7 +41,7 @@ items:
   - CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}
   inheritedMembers:
   - CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}._enum
-  - CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(NamespaceAccess)
   - CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}.WithField(System.String)
   - CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}.WithField(System.String,System.Action{CZGL.Roslyn.AttributeBuilder})
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}._member
@@ -50,7 +50,7 @@ items:
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithAttributes(System.String[])
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithAttribute(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.GetAttributes
-  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(MemberAccess)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithName(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithRondomName
@@ -287,42 +287,44 @@ references:
   fullName: CZGL.Roslyn.Templates.EnumTemplate<CZGL.Roslyn.EnumBuilder>._enum
   nameWithType.vb: EnumTemplate(Of EnumBuilder)._enum
   fullName.vb: CZGL.Roslyn.Templates.EnumTemplate(Of CZGL.Roslyn.EnumBuilder)._enum
-- uid: CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
-  commentId: M:CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+- uid: CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(NamespaceAccess)
+  commentId: M:CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(NamespaceAccess)
   parent: CZGL.Roslyn.Templates.EnumTemplate{CZGL.Roslyn.EnumBuilder}
-  definition: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  definition: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(NamespaceAccess)
   name: WithAccess(NamespaceAccess)
   nameWithType: EnumTemplate<EnumBuilder>.WithAccess(NamespaceAccess)
-  fullName: CZGL.Roslyn.Templates.EnumTemplate<CZGL.Roslyn.EnumBuilder>.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName: CZGL.Roslyn.Templates.EnumTemplate<CZGL.Roslyn.EnumBuilder>.WithAccess(NamespaceAccess)
   nameWithType.vb: EnumTemplate(Of EnumBuilder).WithAccess(NamespaceAccess)
-  fullName.vb: CZGL.Roslyn.Templates.EnumTemplate(Of CZGL.Roslyn.EnumBuilder).WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName.vb: CZGL.Roslyn.Templates.EnumTemplate(Of CZGL.Roslyn.EnumBuilder).WithAccess(NamespaceAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: EnumTemplate<EnumBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.EnumTemplate<CZGL.Roslyn.EnumBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: EnumTemplate(Of EnumBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.EnumTemplate(Of CZGL.Roslyn.EnumBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -592,42 +594,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}.WithAccess(MemberAccess)
   parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EnumBuilder}
-  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
   name: WithAccess(MemberAccess)
   nameWithType: MemberTemplate<EnumBuilder>.WithAccess(MemberAccess)
-  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.EnumBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.EnumBuilder>.WithAccess(MemberAccess)
   nameWithType.vb: MemberTemplate(Of EnumBuilder).WithAccess(MemberAccess)
-  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.EnumBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.EnumBuilder).WithAccess(MemberAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate<EnumBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.EnumBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate(Of EnumBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.EnumBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1515,40 +1519,43 @@ references:
   fullName: CZGL.Roslyn.Templates.EnumTemplate<TBuilder>._enum
   nameWithType.vb: EnumTemplate(Of TBuilder)._enum
   fullName.vb: CZGL.Roslyn.Templates.EnumTemplate(Of TBuilder)._enum
-- uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
-  commentId: M:CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+- uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(NamespaceAccess)
+  commentId: M:CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(NamespaceAccess)
+  isExternal: true
   name: WithAccess(NamespaceAccess)
   nameWithType: EnumTemplate<TBuilder>.WithAccess(NamespaceAccess)
-  fullName: CZGL.Roslyn.Templates.EnumTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName: CZGL.Roslyn.Templates.EnumTemplate<TBuilder>.WithAccess(NamespaceAccess)
   nameWithType.vb: EnumTemplate(Of TBuilder).WithAccess(NamespaceAccess)
-  fullName.vb: CZGL.Roslyn.Templates.EnumTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName.vb: CZGL.Roslyn.Templates.EnumTemplate(Of TBuilder).WithAccess(NamespaceAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: EnumTemplate<TBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.EnumTemplate<TBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.EnumTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: EnumTemplate(Of TBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.EnumTemplate(Of TBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1806,40 +1813,43 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  isExternal: true
   name: WithAccess(MemberAccess)
   nameWithType: MemberTemplate<TBuilder>.WithAccess(MemberAccess)
-  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(MemberAccess)
   nameWithType.vb: MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
-  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate<TBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate(Of TBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

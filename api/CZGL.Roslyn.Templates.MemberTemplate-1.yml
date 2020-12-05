@@ -10,7 +10,7 @@ items:
   - CZGL.Roslyn.Templates.MemberTemplate`1.ClearAttribute
   - CZGL.Roslyn.Templates.MemberTemplate`1.GetAttributes
   - CZGL.Roslyn.Templates.MemberTemplate`1.Name
-  - CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
   - CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate`1.WithAttribute(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate`1.WithAttributes(System.String[])
@@ -311,16 +311,16 @@ items:
   - Public
   - Overridable
   fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).GetAttributes()
-- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  id: WithAccess(CZGL.Reflect.Shared.MemberAccess)
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  id: WithAccess(MemberAccess)
   parent: CZGL.Roslyn.Templates.MemberTemplate`1
   langs:
   - csharp
   - vb
   name: WithAccess(MemberAccess)
   nameWithType: MemberTemplate<TBuilder>.WithAccess(MemberAccess)
-  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(MemberAccess)
   type: Method
   source:
     remote:
@@ -336,15 +336,15 @@ items:
   summary: "\n设置访问修饰符(Access Modifiers)\n"
   example: []
   syntax:
-    content: public virtual TBuilder WithAccess(MemberAccess access = MemberAccess.Default)
+    content: public virtual TBuilder WithAccess(MemberAccess access = null)
     parameters:
     - id: access
-      type: CZGL.Reflect.Shared.MemberAccess
+      type: MemberAccess
       description: 标记
     return:
       type: '{TBuilder}'
       description: ''
-    content.vb: Public Overridable Function WithAccess(access As MemberAccess = MemberAccess.Default) As TBuilder
+    content.vb: Public Overridable Function WithAccess(access As MemberAccess = Nothing) As TBuilder
   overload: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess*
   nameWithType.vb: MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
   modifiers.csharp:
@@ -353,7 +353,7 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
 - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
   commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(System.String)
   id: WithAccess(System.String)
@@ -1289,17 +1289,12 @@ references:
   fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess
   nameWithType.vb: MemberTemplate(Of TBuilder).WithAccess
   fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess
-- uid: CZGL.Reflect.Shared.MemberAccess
-  commentId: T:CZGL.Reflect.Shared.MemberAccess
-  parent: CZGL.Reflect.Shared
+- uid: MemberAccess
+  commentId: '!:MemberAccess'
+  isExternal: true
   name: MemberAccess
   nameWithType: MemberAccess
-  fullName: CZGL.Reflect.Shared.MemberAccess
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
+  fullName: MemberAccess
 - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithName*
   commentId: Overload:CZGL.Roslyn.Templates.MemberTemplate`1.WithName
   name: WithName

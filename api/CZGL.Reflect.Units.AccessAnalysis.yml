@@ -93,7 +93,7 @@ items:
     - id: T
       description: ''
     return:
-      type: CZGL.Reflect.Shared.MemberAccess
+      type: CZGL.CodeAnalysis.Shared.MemberAccess
       description: ''
     content.vb: Public Shared Function GetAccess(Of T As MemberInfo)(t As T) As MemberAccess
   overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
@@ -137,7 +137,7 @@ items:
       type: System.Type
       description: ''
     return:
-      type: CZGL.Reflect.Shared.MemberAccess
+      type: CZGL.CodeAnalysis.Shared.MemberAccess
       description: ''
     content.vb: Public Shared Function GetAccess(type As Type) As MemberAccess
   overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
@@ -219,7 +219,7 @@ items:
       type: System.Type
       description: ''
     return:
-      type: CZGL.Reflect.Shared.MemberAccess
+      type: CZGL.CodeAnalysis.Shared.MemberAccess
       description: ''
     content.vb: Public Shared Function GetNestedAccess(type As Type) As MemberAccess
   overload: CZGL.Reflect.Units.AccessAnalysis.GetNestedAccess*
@@ -340,7 +340,7 @@ items:
     - id: method
       type: System.Reflection.MethodBase
     return:
-      type: CZGL.Reflect.Shared.MemberAccess
+      type: CZGL.CodeAnalysis.Shared.MemberAccess
       description: ''
     content.vb: Public Shared Function GetAccess(method As MethodBase) As MemberAccess
   overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
@@ -420,7 +420,7 @@ items:
     - id: info
       type: System.Reflection.FieldInfo
     return:
-      type: CZGL.Reflect.Shared.MemberAccess
+      type: CZGL.CodeAnalysis.Shared.MemberAccess
       description: ''
     content.vb: Public Shared Function GetAccess(info As FieldInfo) As MemberAccess
   overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
@@ -500,7 +500,7 @@ items:
     - id: property
       type: System.Reflection.PropertyInfo
     return:
-      type: CZGL.Reflect.Shared.MemberAccess
+      type: CZGL.CodeAnalysis.Shared.MemberAccess
       description: ''
     content.vb: Public Shared Function GetAccess(property As PropertyInfo) As MemberAccess
   overload: CZGL.Reflect.Units.AccessAnalysis.GetAccess*
@@ -819,21 +819,21 @@ references:
   name: T
   nameWithType: T
   fullName: T
-- uid: CZGL.Reflect.Shared.MemberAccess
-  commentId: T:CZGL.Reflect.Shared.MemberAccess
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared.MemberAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberAccess
+  parent: CZGL.CodeAnalysis.Shared
   name: MemberAccess
   nameWithType: MemberAccess
-  fullName: CZGL.Reflect.Shared.MemberAccess
+  fullName: CZGL.CodeAnalysis.Shared.MemberAccess
 - uid: T
   name: T
   nameWithType: T
   fullName: T
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
 - uid: System.Type
   commentId: T:System.Type
   parent: System

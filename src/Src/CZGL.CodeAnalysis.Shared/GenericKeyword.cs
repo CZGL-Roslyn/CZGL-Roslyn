@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CZGL.Reflect.Shared
+namespace CZGL.CodeAnalysis.Shared
 {
     /// <summary>
     /// 泛型约束类型

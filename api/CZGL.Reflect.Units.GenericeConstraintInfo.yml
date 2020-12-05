@@ -5,7 +5,7 @@ items:
   id: GenericeConstraintInfo
   parent: CZGL.Reflect.Units
   children:
-  - CZGL.Reflect.Units.GenericeConstraintInfo.#ctor(CZGL.Reflect.Shared.GenericKeyword,CZGL.Reflect.Shared.ConstraintLocation,System.String)
+  - CZGL.Reflect.Units.GenericeConstraintInfo.#ctor(CZGL.CodeAnalysis.Shared.GenericKeyword,CZGL.CodeAnalysis.Shared.ConstraintLocation,System.String)
   - CZGL.Reflect.Units.GenericeConstraintInfo.Keyword
   - CZGL.Reflect.Units.GenericeConstraintInfo.Location
   - CZGL.Reflect.Units.GenericeConstraintInfo.Value
@@ -45,16 +45,16 @@ items:
   modifiers.vb:
   - Public
   - Structure
-- uid: CZGL.Reflect.Units.GenericeConstraintInfo.#ctor(CZGL.Reflect.Shared.GenericKeyword,CZGL.Reflect.Shared.ConstraintLocation,System.String)
-  commentId: M:CZGL.Reflect.Units.GenericeConstraintInfo.#ctor(CZGL.Reflect.Shared.GenericKeyword,CZGL.Reflect.Shared.ConstraintLocation,System.String)
-  id: '#ctor(CZGL.Reflect.Shared.GenericKeyword,CZGL.Reflect.Shared.ConstraintLocation,System.String)'
+- uid: CZGL.Reflect.Units.GenericeConstraintInfo.#ctor(CZGL.CodeAnalysis.Shared.GenericKeyword,CZGL.CodeAnalysis.Shared.ConstraintLocation,System.String)
+  commentId: M:CZGL.Reflect.Units.GenericeConstraintInfo.#ctor(CZGL.CodeAnalysis.Shared.GenericKeyword,CZGL.CodeAnalysis.Shared.ConstraintLocation,System.String)
+  id: '#ctor(CZGL.CodeAnalysis.Shared.GenericKeyword,CZGL.CodeAnalysis.Shared.ConstraintLocation,System.String)'
   parent: CZGL.Reflect.Units.GenericeConstraintInfo
   langs:
   - csharp
   - vb
   name: GenericeConstraintInfo(GenericKeyword, ConstraintLocation, String)
   nameWithType: GenericeConstraintInfo.GenericeConstraintInfo(GenericKeyword, ConstraintLocation, String)
-  fullName: CZGL.Reflect.Units.GenericeConstraintInfo.GenericeConstraintInfo(CZGL.Reflect.Shared.GenericKeyword, CZGL.Reflect.Shared.ConstraintLocation, System.String)
+  fullName: CZGL.Reflect.Units.GenericeConstraintInfo.GenericeConstraintInfo(CZGL.CodeAnalysis.Shared.GenericKeyword, CZGL.CodeAnalysis.Shared.ConstraintLocation, System.String)
   type: Constructor
   source:
     remote:
@@ -71,9 +71,9 @@ items:
     content: public GenericeConstraintInfo(GenericKeyword keyword, ConstraintLocation location, string value)
     parameters:
     - id: keyword
-      type: CZGL.Reflect.Shared.GenericKeyword
+      type: CZGL.CodeAnalysis.Shared.GenericKeyword
     - id: location
-      type: CZGL.Reflect.Shared.ConstraintLocation
+      type: CZGL.CodeAnalysis.Shared.ConstraintLocation
     - id: value
       type: System.String
     content.vb: Public Sub New(keyword As GenericKeyword, location As ConstraintLocation, value As String)
@@ -110,7 +110,7 @@ items:
     content: public GenericKeyword Keyword { get; }
     parameters: []
     return:
-      type: CZGL.Reflect.Shared.GenericKeyword
+      type: CZGL.CodeAnalysis.Shared.GenericKeyword
     content.vb: Public ReadOnly Property Keyword As GenericKeyword
   overload: CZGL.Reflect.Units.GenericeConstraintInfo.Keyword*
   modifiers.csharp:
@@ -147,7 +147,7 @@ items:
     content: public ConstraintLocation Location { get; }
     parameters: []
     return:
-      type: CZGL.Reflect.Shared.ConstraintLocation
+      type: CZGL.CodeAnalysis.Shared.ConstraintLocation
     content.vb: Public ReadOnly Property Location As ConstraintLocation
   overload: CZGL.Reflect.Units.GenericeConstraintInfo.Location*
   modifiers.csharp:
@@ -472,18 +472,18 @@ references:
   name: GenericeConstraintInfo
   nameWithType: GenericeConstraintInfo.GenericeConstraintInfo
   fullName: CZGL.Reflect.Units.GenericeConstraintInfo.GenericeConstraintInfo
-- uid: CZGL.Reflect.Shared.GenericKeyword
-  commentId: T:CZGL.Reflect.Shared.GenericKeyword
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared.GenericKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.GenericKeyword
+  parent: CZGL.CodeAnalysis.Shared
   name: GenericKeyword
   nameWithType: GenericKeyword
-  fullName: CZGL.Reflect.Shared.GenericKeyword
-- uid: CZGL.Reflect.Shared.ConstraintLocation
-  commentId: T:CZGL.Reflect.Shared.ConstraintLocation
-  parent: CZGL.Reflect.Shared
+  fullName: CZGL.CodeAnalysis.Shared.GenericKeyword
+- uid: CZGL.CodeAnalysis.Shared.ConstraintLocation
+  commentId: T:CZGL.CodeAnalysis.Shared.ConstraintLocation
+  parent: CZGL.CodeAnalysis.Shared
   name: ConstraintLocation
   nameWithType: ConstraintLocation
-  fullName: CZGL.Reflect.Shared.ConstraintLocation
+  fullName: CZGL.CodeAnalysis.Shared.ConstraintLocation
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -491,11 +491,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
 - uid: CZGL.Reflect.Units.GenericeConstraintInfo.Keyword*
   commentId: Overload:CZGL.Reflect.Units.GenericeConstraintInfo.Keyword
   name: Keyword

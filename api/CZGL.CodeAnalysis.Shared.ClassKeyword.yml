@@ -1,21 +1,21 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CZGL.Reflect.Shared.ClassKeyword
-  commentId: T:CZGL.Reflect.Shared.ClassKeyword
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.ClassKeyword
   id: ClassKeyword
-  parent: CZGL.Reflect.Shared
+  parent: CZGL.CodeAnalysis.Shared
   children:
-  - CZGL.Reflect.Shared.ClassKeyword.Abstract
-  - CZGL.Reflect.Shared.ClassKeyword.Default
-  - CZGL.Reflect.Shared.ClassKeyword.New
-  - CZGL.Reflect.Shared.ClassKeyword.Sealed
-  - CZGL.Reflect.Shared.ClassKeyword.Static
+  - CZGL.CodeAnalysis.Shared.ClassKeyword.Abstract
+  - CZGL.CodeAnalysis.Shared.ClassKeyword.Default
+  - CZGL.CodeAnalysis.Shared.ClassKeyword.New
+  - CZGL.CodeAnalysis.Shared.ClassKeyword.Sealed
+  - CZGL.CodeAnalysis.Shared.ClassKeyword.Static
   langs:
   - csharp
   - vb
   name: ClassKeyword
   nameWithType: ClassKeyword
-  fullName: CZGL.Reflect.Shared.ClassKeyword
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword
   type: Enum
   source:
     remote:
@@ -27,28 +27,28 @@ items:
     startLine: 11
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n类的修饰符\n<p>密封类、静态类、抽象类</p>\n"
   example: []
   syntax:
-    content: public enum ClassKeyword
-    content.vb: Public Enum ClassKeyword
+    content: 'public enum ClassKeyword : int'
+    content.vb: Public Enum ClassKeyword As Integer
   modifiers.csharp:
   - public
   - enum
   modifiers.vb:
   - Public
   - Enum
-- uid: CZGL.Reflect.Shared.ClassKeyword.Default
-  commentId: F:CZGL.Reflect.Shared.ClassKeyword.Default
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword.Default
+  commentId: F:CZGL.CodeAnalysis.Shared.ClassKeyword.Default
   id: Default
-  parent: CZGL.Reflect.Shared.ClassKeyword
+  parent: CZGL.CodeAnalysis.Shared.ClassKeyword
   langs:
   - csharp
   - vb
   name: Default
   nameWithType: ClassKeyword.Default
-  fullName: CZGL.Reflect.Shared.ClassKeyword.Default
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword.Default
   type: Field
   source:
     remote:
@@ -60,27 +60,28 @@ items:
     startLine: 13
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Default = 0
+    content: Default = null
     return:
-      type: CZGL.Reflect.Shared.ClassKeyword
+      type: CZGL.CodeAnalysis.Shared.ClassKeyword
+    content.vb: Default = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.ClassKeyword.Sealed
-  commentId: F:CZGL.Reflect.Shared.ClassKeyword.Sealed
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword.Sealed
+  commentId: F:CZGL.CodeAnalysis.Shared.ClassKeyword.Sealed
   id: Sealed
-  parent: CZGL.Reflect.Shared.ClassKeyword
+  parent: CZGL.CodeAnalysis.Shared.ClassKeyword
   langs:
   - csharp
   - vb
   name: Sealed
   nameWithType: ClassKeyword.Sealed
-  fullName: CZGL.Reflect.Shared.ClassKeyword.Sealed
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword.Sealed
   type: Field
   source:
     remote:
@@ -92,27 +93,28 @@ items:
     startLine: 16
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Sealed = 1
+    content: Sealed = null
     return:
-      type: CZGL.Reflect.Shared.ClassKeyword
+      type: CZGL.CodeAnalysis.Shared.ClassKeyword
+    content.vb: Sealed = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.ClassKeyword.Static
-  commentId: F:CZGL.Reflect.Shared.ClassKeyword.Static
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword.Static
+  commentId: F:CZGL.CodeAnalysis.Shared.ClassKeyword.Static
   id: Static
-  parent: CZGL.Reflect.Shared.ClassKeyword
+  parent: CZGL.CodeAnalysis.Shared.ClassKeyword
   langs:
   - csharp
   - vb
   name: Static
   nameWithType: ClassKeyword.Static
-  fullName: CZGL.Reflect.Shared.ClassKeyword.Static
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword.Static
   type: Field
   source:
     remote:
@@ -124,27 +126,28 @@ items:
     startLine: 19
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Static = 2
+    content: Static = null
     return:
-      type: CZGL.Reflect.Shared.ClassKeyword
+      type: CZGL.CodeAnalysis.Shared.ClassKeyword
+    content.vb: Static = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.ClassKeyword.Abstract
-  commentId: F:CZGL.Reflect.Shared.ClassKeyword.Abstract
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword.Abstract
+  commentId: F:CZGL.CodeAnalysis.Shared.ClassKeyword.Abstract
   id: Abstract
-  parent: CZGL.Reflect.Shared.ClassKeyword
+  parent: CZGL.CodeAnalysis.Shared.ClassKeyword
   langs:
   - csharp
   - vb
   name: Abstract
   nameWithType: ClassKeyword.Abstract
-  fullName: CZGL.Reflect.Shared.ClassKeyword.Abstract
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword.Abstract
   type: Field
   source:
     remote:
@@ -156,27 +159,28 @@ items:
     startLine: 22
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Abstract = 3
+    content: Abstract = null
     return:
-      type: CZGL.Reflect.Shared.ClassKeyword
+      type: CZGL.CodeAnalysis.Shared.ClassKeyword
+    content.vb: Abstract = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.ClassKeyword.New
-  commentId: F:CZGL.Reflect.Shared.ClassKeyword.New
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword.New
+  commentId: F:CZGL.CodeAnalysis.Shared.ClassKeyword.New
   id: New
-  parent: CZGL.Reflect.Shared.ClassKeyword
+  parent: CZGL.CodeAnalysis.Shared.ClassKeyword
   langs:
   - csharp
   - vb
   name: New
   nameWithType: ClassKeyword.New
-  fullName: CZGL.Reflect.Shared.ClassKeyword.New
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword.New
   type: Field
   source:
     remote:
@@ -188,13 +192,14 @@ items:
     startLine: 28
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n只能定义在嵌套类中\n"
   example: []
   syntax:
-    content: New = 4
+    content: New = null
     return:
-      type: CZGL.Reflect.Shared.ClassKeyword
+      type: CZGL.CodeAnalysis.Shared.ClassKeyword
+    content.vb: New = Nothing
   modifiers.csharp:
   - public
   - const
@@ -202,14 +207,14 @@ items:
   - Public
   - Const
 references:
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
-- uid: CZGL.Reflect.Shared.ClassKeyword
-  commentId: T:CZGL.Reflect.Shared.ClassKeyword
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.ClassKeyword
+  parent: CZGL.CodeAnalysis.Shared
   name: ClassKeyword
   nameWithType: ClassKeyword
-  fullName: CZGL.Reflect.Shared.ClassKeyword
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword

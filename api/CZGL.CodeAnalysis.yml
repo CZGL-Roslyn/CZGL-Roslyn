@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.CodeAnalysis
+  commentId: N:CZGL.CodeAnalysis
+  id: CZGL.CodeAnalysis
+  children:
+  - CZGL.CodeAnalysis.PropertyAnalysis
+  langs:
+  - csharp
+  - vb
+  name: CZGL.CodeAnalysis
+  nameWithType: CZGL.CodeAnalysis
+  fullName: CZGL.CodeAnalysis
+  type: Namespace
+  assemblies:
+  - CZGL.Reflect
+references:
+- uid: CZGL.CodeAnalysis.PropertyAnalysis
+  commentId: T:CZGL.CodeAnalysis.PropertyAnalysis
+  name: PropertyAnalysis
+  nameWithType: PropertyAnalysis
+  fullName: CZGL.CodeAnalysis.PropertyAnalysis

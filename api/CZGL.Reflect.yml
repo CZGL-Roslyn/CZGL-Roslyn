@@ -8,7 +8,6 @@ items:
   - CZGL.Reflect.FiledAnalysis
   - CZGL.Reflect.GenericeAnalysis
   - CZGL.Reflect.MethodInfoAnalysis
-  - CZGL.Reflect.PropertyAnalysis
   - CZGL.Reflect.TypeAnalysis
   - CZGL.Reflect.TypeDictionary
   langs:
@@ -41,11 +40,6 @@ references:
   name: MethodInfoAnalysis
   nameWithType: MethodInfoAnalysis
   fullName: CZGL.Reflect.MethodInfoAnalysis
-- uid: CZGL.Reflect.PropertyAnalysis
-  commentId: T:CZGL.Reflect.PropertyAnalysis
-  name: PropertyAnalysis
-  nameWithType: PropertyAnalysis
-  fullName: CZGL.Reflect.PropertyAnalysis
 - uid: CZGL.Reflect.TypeAnalysis
   commentId: T:CZGL.Reflect.TypeAnalysis
   name: TypeAnalysis

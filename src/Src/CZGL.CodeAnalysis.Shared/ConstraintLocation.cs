@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CZGL.Reflect.Shared
+namespace CZGL.CodeAnalysis.Shared
 {
     /// <summary>
     /// 此泛型必须排序的位置，解析泛型约束的标记

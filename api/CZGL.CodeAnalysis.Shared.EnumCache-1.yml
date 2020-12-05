@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.CodeAnalysis.Shared.EnumCache`1
+  commentId: T:CZGL.CodeAnalysis.Shared.EnumCache`1
+  id: EnumCache`1
+  parent: CZGL.CodeAnalysis.Shared
+  children:
+  - CZGL.CodeAnalysis.Shared.EnumCache`1.Get(`0)
+  langs:
+  - csharp
+  - vb
+  name: EnumCache<T>
+  nameWithType: EnumCache<T>
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache<T>
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache`.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: EnumCache
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache`.cs
+    startLine: 8
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n枚举代表值缓存\n"
+  example: []
+  syntax:
+    content: 'public class EnumCache<T> : EnumCache where T : Enum'
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: >-
+      Public Class EnumCache(Of T As  Enum)
+
+          Inherits EnumCache
+  inheritance:
+  - System.Object
+  - CZGL.CodeAnalysis.Shared.EnumCache
+  inheritedMembers:
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1({T})
+  - CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  nameWithType.vb: EnumCache(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: CZGL.CodeAnalysis.Shared.EnumCache(Of T)
+  name.vb: EnumCache(Of T)
+- uid: CZGL.CodeAnalysis.Shared.EnumCache`1.Get(`0)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache`1.Get(`0)
+  id: Get(`0)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache`1
+  langs:
+  - csharp
+  - vb
+  name: Get(T)
+  nameWithType: EnumCache<T>.Get(T)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache<T>.Get(T)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache`.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Get
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache`.cs
+    startLine: 15
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取枚举代表的值\n"
+  example: []
+  syntax:
+    content: public static string Get(T t)
+    parameters:
+    - id: t
+      type: '{T}'
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function Get(t As T) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache`1.Get*
+  nameWithType.vb: EnumCache(Of T).Get(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.CodeAnalysis.Shared.EnumCache(Of T).Get(T)
+references:
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CZGL.CodeAnalysis.Shared.EnumCache
+  commentId: T:CZGL.CodeAnalysis.Shared.EnumCache
+  parent: CZGL.CodeAnalysis.Shared
+  name: EnumCache
+  nameWithType: EnumCache
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: GetClassKeyword(ClassKeyword)
+  nameWithType: EnumCache.GetClassKeyword(ClassKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+    name: GetClassKeyword
+    nameWithType: EnumCache.GetClassKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.ClassKeyword
+    name: ClassKeyword
+    nameWithType: ClassKeyword
+    fullName: CZGL.CodeAnalysis.Shared.ClassKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+    name: GetClassKeyword
+    nameWithType: EnumCache.GetClassKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.ClassKeyword
+    name: ClassKeyword
+    nameWithType: ClassKeyword
+    fullName: CZGL.CodeAnalysis.Shared.ClassKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: GetEventKeyword(EventKeyword)
+  nameWithType: EnumCache.GetEventKeyword(EventKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+    name: GetEventKeyword
+    nameWithType: EnumCache.GetEventKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.EventKeyword
+    name: EventKeyword
+    nameWithType: EventKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EventKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+    name: GetEventKeyword
+    nameWithType: EnumCache.GetEventKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.EventKeyword
+    name: EventKeyword
+    nameWithType: EventKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EventKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: GetFieldKeyword(FieldKeyword)
+  nameWithType: EnumCache.GetFieldKeyword(FieldKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+    name: GetFieldKeyword
+    nameWithType: EnumCache.GetFieldKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.FieldKeyword
+    name: FieldKeyword
+    nameWithType: FieldKeyword
+    fullName: CZGL.CodeAnalysis.Shared.FieldKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+    name: GetFieldKeyword
+    nameWithType: EnumCache.GetFieldKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.FieldKeyword
+    name: FieldKeyword
+    nameWithType: FieldKeyword
+    fullName: CZGL.CodeAnalysis.Shared.FieldKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: GetGenericKeyword(GenericKeyword)
+  nameWithType: EnumCache.GetGenericKeyword(GenericKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+    name: GetGenericKeyword
+    nameWithType: EnumCache.GetGenericKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.GenericKeyword
+    name: GenericKeyword
+    nameWithType: GenericKeyword
+    fullName: CZGL.CodeAnalysis.Shared.GenericKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+    name: GetGenericKeyword
+    nameWithType: EnumCache.GetGenericKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.GenericKeyword
+    name: GenericKeyword
+    nameWithType: GenericKeyword
+    fullName: CZGL.CodeAnalysis.Shared.GenericKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: GetMemberAccess(MemberAccess)
+  nameWithType: EnumCache.GetMemberAccess(MemberAccess)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+    name: GetMemberAccess
+    nameWithType: EnumCache.GetMemberAccess
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.MemberAccess
+    name: MemberAccess
+    nameWithType: MemberAccess
+    fullName: CZGL.CodeAnalysis.Shared.MemberAccess
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+    name: GetMemberAccess
+    nameWithType: EnumCache.GetMemberAccess
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.MemberAccess
+    name: MemberAccess
+    nameWithType: MemberAccess
+    fullName: CZGL.CodeAnalysis.Shared.MemberAccess
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: GetMemberType(MemberType)
+  nameWithType: EnumCache.GetMemberType(MemberType)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+    name: GetMemberType
+    nameWithType: EnumCache.GetMemberType
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.MemberType
+    name: MemberType
+    nameWithType: MemberType
+    fullName: CZGL.CodeAnalysis.Shared.MemberType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+    name: GetMemberType
+    nameWithType: EnumCache.GetMemberType
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.MemberType
+    name: MemberType
+    nameWithType: MemberType
+    fullName: CZGL.CodeAnalysis.Shared.MemberType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: GetMethodKeyword(MethodKeyword)
+  nameWithType: EnumCache.GetMethodKeyword(MethodKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+    name: GetMethodKeyword
+    nameWithType: EnumCache.GetMethodKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+    name: MethodKeyword
+    nameWithType: MethodKeyword
+    fullName: CZGL.CodeAnalysis.Shared.MethodKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+    name: GetMethodKeyword
+    nameWithType: EnumCache.GetMethodKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+    name: MethodKeyword
+    nameWithType: MethodKeyword
+    fullName: CZGL.CodeAnalysis.Shared.MethodKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: GetNamespaceAccess(NamespaceAccess)
+  nameWithType: EnumCache.GetNamespaceAccess(NamespaceAccess)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+    name: GetNamespaceAccess
+    nameWithType: EnumCache.GetNamespaceAccess
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.NamespaceAccess
+    name: NamespaceAccess
+    nameWithType: NamespaceAccess
+    fullName: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+    name: GetNamespaceAccess
+    nameWithType: EnumCache.GetNamespaceAccess
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.NamespaceAccess
+    name: NamespaceAccess
+    nameWithType: NamespaceAccess
+    fullName: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: GetPropertyKeyword(PropertyKeyword)
+  nameWithType: EnumCache.GetPropertyKeyword(PropertyKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+    name: GetPropertyKeyword
+    nameWithType: EnumCache.GetPropertyKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    name: PropertyKeyword
+    nameWithType: PropertyKeyword
+    fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+    name: GetPropertyKeyword
+    nameWithType: EnumCache.GetPropertyKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    name: PropertyKeyword
+    nameWithType: PropertyKeyword
+    fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1({T})
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  definition: CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+  name: GetValue<T>(T)
+  nameWithType: EnumCache.GetValue<T>(T)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetValue<T>(T)
+  nameWithType.vb: EnumCache.GetValue(Of T)(T)
+  fullName.vb: CZGL.CodeAnalysis.Shared.EnumCache.GetValue(Of T)(T)
+  name.vb: GetValue(Of T)(T)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+    name: GetValue<T>
+    nameWithType: EnumCache.GetValue<T>
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+    name: GetValue(Of T)
+    nameWithType: EnumCache.GetValue(Of T)
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  name: ToPropertyKeyword(MethodKeyword)
+  nameWithType: EnumCache.ToPropertyKeyword(MethodKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+    name: ToPropertyKeyword
+    nameWithType: EnumCache.ToPropertyKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+    name: MethodKeyword
+    nameWithType: MethodKeyword
+    fullName: CZGL.CodeAnalysis.Shared.MethodKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+    name: ToPropertyKeyword
+    nameWithType: EnumCache.ToPropertyKeyword
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+    name: MethodKeyword
+    nameWithType: MethodKeyword
+    fullName: CZGL.CodeAnalysis.Shared.MethodKeyword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+  name: GetValue<T>(T)
+  nameWithType: EnumCache.GetValue<T>(T)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetValue<T>(T)
+  nameWithType.vb: EnumCache.GetValue(Of T)(T)
+  fullName.vb: CZGL.CodeAnalysis.Shared.EnumCache.GetValue(Of T)(T)
+  name.vb: GetValue(Of T)(T)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+    name: GetValue<T>
+    nameWithType: EnumCache.GetValue<T>
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+    name: GetValue(Of T)
+    nameWithType: EnumCache.GetValue(Of T)
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EnumCache`1.Get*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache`1.Get
+  name: Get
+  nameWithType: EnumCache<T>.Get
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache<T>.Get
+  nameWithType.vb: EnumCache(Of T).Get
+  fullName.vb: CZGL.CodeAnalysis.Shared.EnumCache(Of T).Get
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CZGL.Reflect.Shared.MemberType
-  commentId: T:CZGL.Reflect.Shared.MemberType
+- uid: CZGL.CodeAnalysis.Shared.MemberType
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberType
   id: MemberType
-  parent: CZGL.Reflect.Shared
+  parent: CZGL.CodeAnalysis.Shared
   children:
-  - CZGL.Reflect.Shared.MemberType.BaseValue
-  - CZGL.Reflect.Shared.MemberType.Class
-  - CZGL.Reflect.Shared.MemberType.Constructor
-  - CZGL.Reflect.Shared.MemberType.Delegate
-  - CZGL.Reflect.Shared.MemberType.Enum
-  - CZGL.Reflect.Shared.MemberType.Event
-  - CZGL.Reflect.Shared.MemberType.Field
-  - CZGL.Reflect.Shared.MemberType.Interface
-  - CZGL.Reflect.Shared.MemberType.Method
-  - CZGL.Reflect.Shared.MemberType.None
-  - CZGL.Reflect.Shared.MemberType.Property
-  - CZGL.Reflect.Shared.MemberType.Struct
+  - CZGL.CodeAnalysis.Shared.MemberType.BaseValue
+  - CZGL.CodeAnalysis.Shared.MemberType.Class
+  - CZGL.CodeAnalysis.Shared.MemberType.Constructor
+  - CZGL.CodeAnalysis.Shared.MemberType.Delegate
+  - CZGL.CodeAnalysis.Shared.MemberType.Enum
+  - CZGL.CodeAnalysis.Shared.MemberType.Event
+  - CZGL.CodeAnalysis.Shared.MemberType.Field
+  - CZGL.CodeAnalysis.Shared.MemberType.Interface
+  - CZGL.CodeAnalysis.Shared.MemberType.Method
+  - CZGL.CodeAnalysis.Shared.MemberType.None
+  - CZGL.CodeAnalysis.Shared.MemberType.Property
+  - CZGL.CodeAnalysis.Shared.MemberType.Struct
   langs:
   - csharp
   - vb
   name: MemberType
   nameWithType: MemberType
-  fullName: CZGL.Reflect.Shared.MemberType
+  fullName: CZGL.CodeAnalysis.Shared.MemberType
   type: Enum
   source:
     remote:
@@ -34,28 +34,28 @@ items:
     startLine: 9
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n何种成员\n"
   example: []
   syntax:
-    content: public enum MemberType
-    content.vb: Public Enum MemberType
+    content: 'public enum MemberType : int'
+    content.vb: Public Enum MemberType As Integer
   modifiers.csharp:
   - public
   - enum
   modifiers.vb:
   - Public
   - Enum
-- uid: CZGL.Reflect.Shared.MemberType.None
-  commentId: F:CZGL.Reflect.Shared.MemberType.None
+- uid: CZGL.CodeAnalysis.Shared.MemberType.None
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.None
   id: None
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: None
   nameWithType: MemberType.None
-  fullName: CZGL.Reflect.Shared.MemberType.None
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.None
   type: Field
   source:
     remote:
@@ -67,29 +67,29 @@ items:
     startLine: 14
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n不是目标类型\n"
   example: []
   syntax:
     content: None = 0
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Class
-  commentId: F:CZGL.Reflect.Shared.MemberType.Class
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Class
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Class
   id: Class
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Class
   nameWithType: MemberType.Class
-  fullName: CZGL.Reflect.Shared.MemberType.Class
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Class
   type: Field
   source:
     remote:
@@ -101,29 +101,29 @@ items:
     startLine: 19
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n类\n"
   example: []
   syntax:
     content: Class = 1
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Delegate
-  commentId: F:CZGL.Reflect.Shared.MemberType.Delegate
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Delegate
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Delegate
   id: Delegate
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Delegate
   nameWithType: MemberType.Delegate
-  fullName: CZGL.Reflect.Shared.MemberType.Delegate
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Delegate
   type: Field
   source:
     remote:
@@ -135,29 +135,29 @@ items:
     startLine: 24
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n委托\n"
   example: []
   syntax:
     content: Delegate = 2
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Struct
-  commentId: F:CZGL.Reflect.Shared.MemberType.Struct
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Struct
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Struct
   id: Struct
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Struct
   nameWithType: MemberType.Struct
-  fullName: CZGL.Reflect.Shared.MemberType.Struct
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Struct
   type: Field
   source:
     remote:
@@ -169,29 +169,29 @@ items:
     startLine: 29
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n结构体\n"
   example: []
   syntax:
     content: Struct = 3
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Interface
-  commentId: F:CZGL.Reflect.Shared.MemberType.Interface
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Interface
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Interface
   id: Interface
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Interface
   nameWithType: MemberType.Interface
-  fullName: CZGL.Reflect.Shared.MemberType.Interface
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Interface
   type: Field
   source:
     remote:
@@ -203,29 +203,29 @@ items:
     startLine: 33
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n接口\n"
   example: []
   syntax:
     content: Interface = 4
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.BaseValue
-  commentId: F:CZGL.Reflect.Shared.MemberType.BaseValue
+- uid: CZGL.CodeAnalysis.Shared.MemberType.BaseValue
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.BaseValue
   id: BaseValue
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: BaseValue
   nameWithType: MemberType.BaseValue
-  fullName: CZGL.Reflect.Shared.MemberType.BaseValue
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.BaseValue
   type: Field
   source:
     remote:
@@ -237,29 +237,29 @@ items:
     startLine: 39
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
-  summary: "\n基础类型\n<xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref>、<xref href=\"System.Boolean\" data-throw-if-not-resolved=\"false\"></xref>、<xref href=\"System.Byte\" data-throw-if-not-resolved=\"false\"></xref> 等简单值类型\n"
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n基础类型\n<see cref=\"!:System.Int32\"></see>、<see cref=\"!:System.Boolean\"></see>、<see cref=\"!:System.Byte\"></see> 等简单值类型\n"
   example: []
   syntax:
     content: BaseValue = 5
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Enum
-  commentId: F:CZGL.Reflect.Shared.MemberType.Enum
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Enum
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Enum
   id: Enum
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Enum
   nameWithType: MemberType.Enum
-  fullName: CZGL.Reflect.Shared.MemberType.Enum
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Enum
   type: Field
   source:
     remote:
@@ -271,27 +271,27 @@ items:
     startLine: 40
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
     content: Enum = 6
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Constructor
-  commentId: F:CZGL.Reflect.Shared.MemberType.Constructor
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Constructor
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Constructor
   id: Constructor
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Constructor
   nameWithType: MemberType.Constructor
-  fullName: CZGL.Reflect.Shared.MemberType.Constructor
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Constructor
   type: Field
   source:
     remote:
@@ -303,27 +303,27 @@ items:
     startLine: 41
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
     content: Constructor = 7
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Event
-  commentId: F:CZGL.Reflect.Shared.MemberType.Event
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Event
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Event
   id: Event
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Event
   nameWithType: MemberType.Event
-  fullName: CZGL.Reflect.Shared.MemberType.Event
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Event
   type: Field
   source:
     remote:
@@ -335,27 +335,27 @@ items:
     startLine: 42
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
     content: Event = 8
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Field
-  commentId: F:CZGL.Reflect.Shared.MemberType.Field
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Field
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Field
   id: Field
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Field
   nameWithType: MemberType.Field
-  fullName: CZGL.Reflect.Shared.MemberType.Field
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Field
   type: Field
   source:
     remote:
@@ -367,27 +367,27 @@ items:
     startLine: 43
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
     content: Field = 9
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Method
-  commentId: F:CZGL.Reflect.Shared.MemberType.Method
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Method
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Method
   id: Method
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Method
   nameWithType: MemberType.Method
-  fullName: CZGL.Reflect.Shared.MemberType.Method
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Method
   type: Field
   source:
     remote:
@@ -399,27 +399,27 @@ items:
     startLine: 44
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
     content: Method = 10
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MemberType.Property
-  commentId: F:CZGL.Reflect.Shared.MemberType.Property
+- uid: CZGL.CodeAnalysis.Shared.MemberType.Property
+  commentId: F:CZGL.CodeAnalysis.Shared.MemberType.Property
   id: Property
-  parent: CZGL.Reflect.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared.MemberType
   langs:
   - csharp
   - vb
   name: Property
   nameWithType: MemberType.Property
-  fullName: CZGL.Reflect.Shared.MemberType.Property
+  fullName: CZGL.CodeAnalysis.Shared.MemberType.Property
   type: Field
   source:
     remote:
@@ -431,11 +431,11 @@ items:
     startLine: 45
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
     content: Property = 11
     return:
-      type: CZGL.Reflect.Shared.MemberType
+      type: CZGL.CodeAnalysis.Shared.MemberType
   modifiers.csharp:
   - public
   - const
@@ -443,33 +443,14 @@ items:
   - Public
   - Const
 references:
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
-- uid: CZGL.Reflect.Shared.MemberType
-  commentId: T:CZGL.Reflect.Shared.MemberType
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+- uid: CZGL.CodeAnalysis.Shared.MemberType
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared
   name: MemberType
   nameWithType: MemberType
-  fullName: CZGL.Reflect.Shared.MemberType
-- uid: System.Int32
-  commentId: T:System.Int32
-  isExternal: true
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
-  commentId: T:System.Byte
-  isExternal: true
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  fullName: CZGL.CodeAnalysis.Shared.MemberType

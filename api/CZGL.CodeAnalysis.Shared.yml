@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  id: CZGL.CodeAnalysis.Shared
+  children:
+  - CZGL.CodeAnalysis.Shared.ClassKeyword
+  - CZGL.CodeAnalysis.Shared.ConstraintLocation
+  - CZGL.CodeAnalysis.Shared.EnumCache
+  - CZGL.CodeAnalysis.Shared.EnumCache`1
+  - CZGL.CodeAnalysis.Shared.EventKeyword
+  - CZGL.CodeAnalysis.Shared.FieldKeyword
+  - CZGL.CodeAnalysis.Shared.GenericKeyword
+  - CZGL.CodeAnalysis.Shared.MemberAccess
+  - CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute
+  - CZGL.CodeAnalysis.Shared.MemberType
+  - CZGL.CodeAnalysis.Shared.MethodKeyword
+  - CZGL.CodeAnalysis.Shared.NamespaceAccess
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword
+  - CZGL.CodeAnalysis.Shared.StructKeyword
+  langs:
+  - csharp
+  - vb
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+  type: Namespace
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+references:
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.ClassKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: ClassKeyword
+  nameWithType: ClassKeyword
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword
+- uid: CZGL.CodeAnalysis.Shared.ConstraintLocation
+  commentId: T:CZGL.CodeAnalysis.Shared.ConstraintLocation
+  parent: CZGL.CodeAnalysis.Shared
+  name: ConstraintLocation
+  nameWithType: ConstraintLocation
+  fullName: CZGL.CodeAnalysis.Shared.ConstraintLocation
+- uid: CZGL.CodeAnalysis.Shared.EnumCache
+  commentId: T:CZGL.CodeAnalysis.Shared.EnumCache
+  parent: CZGL.CodeAnalysis.Shared
+  name: EnumCache
+  nameWithType: EnumCache
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache
+- uid: CZGL.CodeAnalysis.Shared.EnumCache`1
+  commentId: T:CZGL.CodeAnalysis.Shared.EnumCache`1
+  name: EnumCache<T>
+  nameWithType: EnumCache<T>
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache<T>
+  nameWithType.vb: EnumCache(Of T)
+  fullName.vb: CZGL.CodeAnalysis.Shared.EnumCache(Of T)
+  name.vb: EnumCache(Of T)
+  spec.csharp:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache`1
+    name: EnumCache
+    nameWithType: EnumCache
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache`1
+    name: EnumCache
+    nameWithType: EnumCache
+    fullName: CZGL.CodeAnalysis.Shared.EnumCache
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CZGL.CodeAnalysis.Shared.EventKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.EventKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: EventKeyword
+  nameWithType: EventKeyword
+  fullName: CZGL.CodeAnalysis.Shared.EventKeyword
+- uid: CZGL.CodeAnalysis.Shared.FieldKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.FieldKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: FieldKeyword
+  nameWithType: FieldKeyword
+  fullName: CZGL.CodeAnalysis.Shared.FieldKeyword
+- uid: CZGL.CodeAnalysis.Shared.GenericKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.GenericKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: GenericKeyword
+  nameWithType: GenericKeyword
+  fullName: CZGL.CodeAnalysis.Shared.GenericKeyword
+- uid: CZGL.CodeAnalysis.Shared.MemberAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberAccess
+  parent: CZGL.CodeAnalysis.Shared
+  name: MemberAccess
+  nameWithType: MemberAccess
+  fullName: CZGL.CodeAnalysis.Shared.MemberAccess
+- uid: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute
+  name: MemberDefineNameAttribute
+  nameWithType: MemberDefineNameAttribute
+  fullName: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute
+- uid: CZGL.CodeAnalysis.Shared.MemberType
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared
+  name: MemberType
+  nameWithType: MemberType
+  fullName: CZGL.CodeAnalysis.Shared.MemberType
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: MethodKeyword
+  nameWithType: MethodKeyword
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword
+- uid: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.NamespaceAccess
+  parent: CZGL.CodeAnalysis.Shared
+  name: NamespaceAccess
+  nameWithType: NamespaceAccess
+  fullName: CZGL.CodeAnalysis.Shared.NamespaceAccess
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: PropertyKeyword
+  nameWithType: PropertyKeyword
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword
+- uid: CZGL.CodeAnalysis.Shared.StructKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.StructKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: StructKeyword
+  nameWithType: StructKeyword
+  fullName: CZGL.CodeAnalysis.Shared.StructKeyword
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared

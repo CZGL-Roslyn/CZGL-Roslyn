@@ -44,14 +44,14 @@ items:
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}
   inheritedMembers:
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}._class
-  - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithKeyword(ClassKeyword)
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithKeyword(System.String)
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithName(System.String)
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithRondomName
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithBaseClass(System.String)
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithInterface(System.String)
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithInterfaces(System.String[])
-  - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(NamespaceAccess)
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithCtor
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithCtor(System.Action{CZGL.Roslyn.CtorBuilder})
   - CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithCtorFromCode(System.String)
@@ -72,7 +72,7 @@ items:
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithAttributes(System.String[])
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithAttribute(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.GetAttributes
-  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(MemberAccess)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.ClearAttribute
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithGeneric(System.Action{CZGL.Roslyn.Templates.GenericTemplate{CZGL.Roslyn.GenericBuilder}})
@@ -425,42 +425,44 @@ references:
   fullName: CZGL.Roslyn.Templates.ClassTemplate<CZGL.Roslyn.StructBuilder>._class
   nameWithType.vb: ClassTemplate(Of StructBuilder)._class
   fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of CZGL.Roslyn.StructBuilder)._class
-- uid: CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
-  commentId: M:CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+- uid: CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithKeyword(ClassKeyword)
+  commentId: M:CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithKeyword(ClassKeyword)
   parent: CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}
-  definition: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  definition: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
   name: WithKeyword(ClassKeyword)
   nameWithType: ClassTemplate<StructBuilder>.WithKeyword(ClassKeyword)
-  fullName: CZGL.Roslyn.Templates.ClassTemplate<CZGL.Roslyn.StructBuilder>.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  fullName: CZGL.Roslyn.Templates.ClassTemplate<CZGL.Roslyn.StructBuilder>.WithKeyword(ClassKeyword)
   nameWithType.vb: ClassTemplate(Of StructBuilder).WithKeyword(ClassKeyword)
-  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of CZGL.Roslyn.StructBuilder).WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of CZGL.Roslyn.StructBuilder).WithKeyword(ClassKeyword)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
     name: WithKeyword
     nameWithType: ClassTemplate<StructBuilder>.WithKeyword
     fullName: CZGL.Roslyn.Templates.ClassTemplate<CZGL.Roslyn.StructBuilder>.WithKeyword
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.ClassKeyword
+  - uid: ClassKeyword
     name: ClassKeyword
     nameWithType: ClassKeyword
-    fullName: CZGL.Reflect.Shared.ClassKeyword
+    fullName: ClassKeyword
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
     name: WithKeyword
     nameWithType: ClassTemplate(Of StructBuilder).WithKeyword
     fullName: CZGL.Roslyn.Templates.ClassTemplate(Of CZGL.Roslyn.StructBuilder).WithKeyword
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.ClassKeyword
+  - uid: ClassKeyword
     name: ClassKeyword
     nameWithType: ClassKeyword
-    fullName: CZGL.Reflect.Shared.ClassKeyword
+    fullName: ClassKeyword
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -707,42 +709,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
-  commentId: M:CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+- uid: CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(NamespaceAccess)
+  commentId: M:CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(NamespaceAccess)
   parent: CZGL.Roslyn.Templates.ClassTemplate{CZGL.Roslyn.StructBuilder}
-  definition: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  definition: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
   name: WithAccess(NamespaceAccess)
   nameWithType: ClassTemplate<StructBuilder>.WithAccess(NamespaceAccess)
-  fullName: CZGL.Roslyn.Templates.ClassTemplate<CZGL.Roslyn.StructBuilder>.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName: CZGL.Roslyn.Templates.ClassTemplate<CZGL.Roslyn.StructBuilder>.WithAccess(NamespaceAccess)
   nameWithType.vb: ClassTemplate(Of StructBuilder).WithAccess(NamespaceAccess)
-  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of CZGL.Roslyn.StructBuilder).WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of CZGL.Roslyn.StructBuilder).WithAccess(NamespaceAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: ClassTemplate<StructBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.ClassTemplate<CZGL.Roslyn.StructBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: ClassTemplate(Of StructBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.ClassTemplate(Of CZGL.Roslyn.StructBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1638,42 +1642,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}.WithAccess(MemberAccess)
   parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.StructBuilder}
-  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
   name: WithAccess(MemberAccess)
   nameWithType: MemberTemplate<StructBuilder>.WithAccess(MemberAccess)
-  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.StructBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.StructBuilder>.WithAccess(MemberAccess)
   nameWithType.vb: MemberTemplate(Of StructBuilder).WithAccess(MemberAccess)
-  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.StructBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.StructBuilder).WithAccess(MemberAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate<StructBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.StructBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate(Of StructBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.StructBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2489,40 +2495,43 @@ references:
   fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>._class
   nameWithType.vb: ClassTemplate(Of TBuilder)._class
   fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder)._class
-- uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
-  commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+- uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
+  commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
+  isExternal: true
   name: WithKeyword(ClassKeyword)
   nameWithType: ClassTemplate<TBuilder>.WithKeyword(ClassKeyword)
-  fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithKeyword(ClassKeyword)
   nameWithType.vb: ClassTemplate(Of TBuilder).WithKeyword(ClassKeyword)
-  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithKeyword(ClassKeyword)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
     name: WithKeyword
     nameWithType: ClassTemplate<TBuilder>.WithKeyword
     fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithKeyword
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.ClassKeyword
+  - uid: ClassKeyword
     name: ClassKeyword
     nameWithType: ClassKeyword
-    fullName: CZGL.Reflect.Shared.ClassKeyword
+    fullName: ClassKeyword
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(CZGL.Reflect.Shared.ClassKeyword)
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)
     name: WithKeyword
     nameWithType: ClassTemplate(Of TBuilder).WithKeyword
     fullName: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithKeyword
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.ClassKeyword
+  - uid: ClassKeyword
     name: ClassKeyword
     nameWithType: ClassKeyword
-    fullName: CZGL.Reflect.Shared.ClassKeyword
+    fullName: ClassKeyword
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2762,40 +2771,43 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
-  commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+- uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
+  commentId: M:CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
+  isExternal: true
   name: WithAccess(NamespaceAccess)
   nameWithType: ClassTemplate<TBuilder>.WithAccess(NamespaceAccess)
-  fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithAccess(NamespaceAccess)
   nameWithType.vb: ClassTemplate(Of TBuilder).WithAccess(NamespaceAccess)
-  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName.vb: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithAccess(NamespaceAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: ClassTemplate<TBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.ClassTemplate<TBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: ClassTemplate(Of TBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.ClassTemplate(Of TBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -3663,40 +3675,43 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  isExternal: true
   name: WithAccess(MemberAccess)
   nameWithType: MemberTemplate<TBuilder>.WithAccess(MemberAccess)
-  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(MemberAccess)
   nameWithType.vb: MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
-  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate<TBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate(Of TBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

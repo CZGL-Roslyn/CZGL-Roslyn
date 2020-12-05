@@ -226,7 +226,7 @@ items:
       type: System.Reflection.MethodInfo
       description: ''
     return:
-      type: CZGL.Reflect.Shared.MemberAccess
+      type: CZGL.CodeAnalysis.Shared.MemberAccess
       description: ''
     content.vb: >-
       <ExtensionAttribute>
@@ -268,7 +268,7 @@ items:
     - id: method
       type: System.Reflection.MethodInfo
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
     content.vb: >-
       <ExtensionAttribute>
 
@@ -1063,28 +1063,28 @@ references:
   name: GetAccess
   nameWithType: MethodInfoAnalysis.GetAccess
   fullName: CZGL.Reflect.MethodInfoAnalysis.GetAccess
-- uid: CZGL.Reflect.Shared.MemberAccess
-  commentId: T:CZGL.Reflect.Shared.MemberAccess
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared.MemberAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberAccess
+  parent: CZGL.CodeAnalysis.Shared
   name: MemberAccess
   nameWithType: MemberAccess
-  fullName: CZGL.Reflect.Shared.MemberAccess
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
+  fullName: CZGL.CodeAnalysis.Shared.MemberAccess
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
 - uid: CZGL.Reflect.MethodInfoAnalysis.GetKeyword*
   commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.GetKeyword
   name: GetKeyword
   nameWithType: MethodInfoAnalysis.GetKeyword
   fullName: CZGL.Reflect.MethodInfoAnalysis.GetKeyword
-- uid: CZGL.Reflect.Shared.MethodKeyword
-  commentId: T:CZGL.Reflect.Shared.MethodKeyword
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared
   name: MethodKeyword
   nameWithType: MethodKeyword
-  fullName: CZGL.Reflect.Shared.MethodKeyword
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword
 - uid: CZGL.Reflect.MethodInfoAnalysis.IsAsync*
   commentId: Overload:CZGL.Reflect.MethodInfoAnalysis.IsAsync
   name: IsAsync

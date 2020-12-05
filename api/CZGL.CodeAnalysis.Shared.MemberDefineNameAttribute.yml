@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute
+  id: MemberDefineNameAttribute
+  parent: CZGL.CodeAnalysis.Shared
+  children:
+  - CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.Name
+  langs:
+  - csharp
+  - vb
+  name: MemberDefineNameAttribute
+  nameWithType: MemberDefineNameAttribute
+  fullName: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberDefineNameAttribute.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: MemberDefineNameAttribute
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberDefineNameAttribute.cs
+    startLine: 6
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  syntax:
+    content: 'public class MemberDefineNameAttribute : Attribute'
+    content.vb: >-
+      Public Class MemberDefineNameAttribute
+
+          Inherits Attribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.Name
+  commentId: P:CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.Name
+  id: Name
+  parent: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MemberDefineNameAttribute.Name
+  fullName: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.Name
+  type: Property
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/MemberDefineNameAttribute.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Name
+    path: src/Src/CZGL.CodeAnalysis.Shared/MemberDefineNameAttribute.cs
+    startLine: 9
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.Name*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.Name
+  name: Name
+  nameWithType: MemberDefineNameAttribute.Name
+  fullName: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

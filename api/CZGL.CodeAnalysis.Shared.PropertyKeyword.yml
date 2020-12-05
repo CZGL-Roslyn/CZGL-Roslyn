@@ -1,25 +1,25 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CZGL.Reflect.Shared.PropertyKeyword
-  commentId: T:CZGL.Reflect.Shared.PropertyKeyword
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.PropertyKeyword
   id: PropertyKeyword
-  parent: CZGL.Reflect.Shared
+  parent: CZGL.CodeAnalysis.Shared
   children:
-  - CZGL.Reflect.Shared.PropertyKeyword.Abstract
-  - CZGL.Reflect.Shared.PropertyKeyword.Default
-  - CZGL.Reflect.Shared.PropertyKeyword.New
-  - CZGL.Reflect.Shared.PropertyKeyword.NewStatic
-  - CZGL.Reflect.Shared.PropertyKeyword.NewVirtual
-  - CZGL.Reflect.Shared.PropertyKeyword.Override
-  - CZGL.Reflect.Shared.PropertyKeyword.SealedOverride
-  - CZGL.Reflect.Shared.PropertyKeyword.Static
-  - CZGL.Reflect.Shared.PropertyKeyword.Virtual
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword.Abstract
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword.Default
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword.New
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword.NewStatic
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword.NewVirtual
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword.Override
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword.SealedOverride
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword.Static
+  - CZGL.CodeAnalysis.Shared.PropertyKeyword.Virtual
   langs:
   - csharp
   - vb
   name: PropertyKeyword
   nameWithType: PropertyKeyword
-  fullName: CZGL.Reflect.Shared.PropertyKeyword
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword
   type: Enum
   source:
     remote:
@@ -31,38 +31,28 @@ items:
     startLine: 9
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n属性可用的关键字\n"
   example: []
   syntax:
-    content: >-
-      [Flags]
-
-      public enum PropertyKeyword
-    content.vb: >-
-      <Flags>
-
-      Public Enum PropertyKeyword
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+    content: 'public enum PropertyKeyword : int'
+    content.vb: Public Enum PropertyKeyword As Integer
   modifiers.csharp:
   - public
   - enum
   modifiers.vb:
   - Public
   - Enum
-- uid: CZGL.Reflect.Shared.PropertyKeyword.Default
-  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Default
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword.Default
+  commentId: F:CZGL.CodeAnalysis.Shared.PropertyKeyword.Default
   id: Default
-  parent: CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared.PropertyKeyword
   langs:
   - csharp
   - vb
   name: Default
   nameWithType: PropertyKeyword.Default
-  fullName: CZGL.Reflect.Shared.PropertyKeyword.Default
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword.Default
   type: Field
   source:
     remote:
@@ -74,27 +64,28 @@ items:
     startLine: 12
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Default = 0
+    content: Default = null
     return:
-      type: CZGL.Reflect.Shared.PropertyKeyword
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: Default = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.PropertyKeyword.Static
-  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Static
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword.Static
+  commentId: F:CZGL.CodeAnalysis.Shared.PropertyKeyword.Static
   id: Static
-  parent: CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared.PropertyKeyword
   langs:
   - csharp
   - vb
   name: Static
   nameWithType: PropertyKeyword.Static
-  fullName: CZGL.Reflect.Shared.PropertyKeyword.Static
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword.Static
   type: Field
   source:
     remote:
@@ -106,27 +97,28 @@ items:
     startLine: 15
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Static = 2
+    content: Static = null
     return:
-      type: CZGL.Reflect.Shared.PropertyKeyword
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: Static = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.PropertyKeyword.Abstract
-  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Abstract
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword.Abstract
+  commentId: F:CZGL.CodeAnalysis.Shared.PropertyKeyword.Abstract
   id: Abstract
-  parent: CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared.PropertyKeyword
   langs:
   - csharp
   - vb
   name: Abstract
   nameWithType: PropertyKeyword.Abstract
-  fullName: CZGL.Reflect.Shared.PropertyKeyword.Abstract
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword.Abstract
   type: Field
   source:
     remote:
@@ -138,27 +130,28 @@ items:
     startLine: 18
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Abstract = 8
+    content: Abstract = null
     return:
-      type: CZGL.Reflect.Shared.PropertyKeyword
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: Abstract = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.PropertyKeyword.Virtual
-  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Virtual
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword.Virtual
+  commentId: F:CZGL.CodeAnalysis.Shared.PropertyKeyword.Virtual
   id: Virtual
-  parent: CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared.PropertyKeyword
   langs:
   - csharp
   - vb
   name: Virtual
   nameWithType: PropertyKeyword.Virtual
-  fullName: CZGL.Reflect.Shared.PropertyKeyword.Virtual
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword.Virtual
   type: Field
   source:
     remote:
@@ -170,27 +163,28 @@ items:
     startLine: 21
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Virtual = 16
+    content: Virtual = null
     return:
-      type: CZGL.Reflect.Shared.PropertyKeyword
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: Virtual = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.PropertyKeyword.Override
-  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.Override
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword.Override
+  commentId: F:CZGL.CodeAnalysis.Shared.PropertyKeyword.Override
   id: Override
-  parent: CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared.PropertyKeyword
   langs:
   - csharp
   - vb
   name: Override
   nameWithType: PropertyKeyword.Override
-  fullName: CZGL.Reflect.Shared.PropertyKeyword.Override
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword.Override
   type: Field
   source:
     remote:
@@ -202,27 +196,28 @@ items:
     startLine: 24
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Override = 32
+    content: Override = null
     return:
-      type: CZGL.Reflect.Shared.PropertyKeyword
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: Override = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.PropertyKeyword.SealedOverride
-  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.SealedOverride
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword.SealedOverride
+  commentId: F:CZGL.CodeAnalysis.Shared.PropertyKeyword.SealedOverride
   id: SealedOverride
-  parent: CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared.PropertyKeyword
   langs:
   - csharp
   - vb
   name: SealedOverride
   nameWithType: PropertyKeyword.SealedOverride
-  fullName: CZGL.Reflect.Shared.PropertyKeyword.SealedOverride
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword.SealedOverride
   type: Field
   source:
     remote:
@@ -234,27 +229,28 @@ items:
     startLine: 27
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: SealedOverride = 64
+    content: SealedOverride = null
     return:
-      type: CZGL.Reflect.Shared.PropertyKeyword
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: SealedOverride = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.PropertyKeyword.New
-  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.New
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword.New
+  commentId: F:CZGL.CodeAnalysis.Shared.PropertyKeyword.New
   id: New
-  parent: CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared.PropertyKeyword
   langs:
   - csharp
   - vb
   name: New
   nameWithType: PropertyKeyword.New
-  fullName: CZGL.Reflect.Shared.PropertyKeyword.New
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword.New
   type: Field
   source:
     remote:
@@ -266,27 +262,28 @@ items:
     startLine: 30
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: New = 128
+    content: New = null
     return:
-      type: CZGL.Reflect.Shared.PropertyKeyword
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: New = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.PropertyKeyword.NewVirtual
-  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.NewVirtual
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword.NewVirtual
+  commentId: F:CZGL.CodeAnalysis.Shared.PropertyKeyword.NewVirtual
   id: NewVirtual
-  parent: CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared.PropertyKeyword
   langs:
   - csharp
   - vb
   name: NewVirtual
   nameWithType: PropertyKeyword.NewVirtual
-  fullName: CZGL.Reflect.Shared.PropertyKeyword.NewVirtual
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword.NewVirtual
   type: Field
   source:
     remote:
@@ -298,29 +295,30 @@ items:
     startLine: 36
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n暂不支持识别此类修饰符\n"
   example: []
   syntax:
-    content: NewVirtual = 144
+    content: NewVirtual = null
     return:
-      type: CZGL.Reflect.Shared.PropertyKeyword
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: NewVirtual = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.PropertyKeyword.NewStatic
-  commentId: F:CZGL.Reflect.Shared.PropertyKeyword.NewStatic
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword.NewStatic
+  commentId: F:CZGL.CodeAnalysis.Shared.PropertyKeyword.NewStatic
   id: NewStatic
-  parent: CZGL.Reflect.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared.PropertyKeyword
   langs:
   - csharp
   - vb
   name: NewStatic
   nameWithType: PropertyKeyword.NewStatic
-  fullName: CZGL.Reflect.Shared.PropertyKeyword.NewStatic
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword.NewStatic
   type: Field
   source:
     remote:
@@ -332,11 +330,12 @@ items:
     startLine: 40
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: NewStatic = 130
+    content: NewStatic = null
     return:
-      type: CZGL.Reflect.Shared.PropertyKeyword
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: NewStatic = Nothing
   modifiers.csharp:
   - public
   - const
@@ -344,14 +343,14 @@ items:
   - Public
   - Const
 references:
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
-- uid: CZGL.Reflect.Shared.PropertyKeyword
-  commentId: T:CZGL.Reflect.Shared.PropertyKeyword
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared
   name: PropertyKeyword
   nameWithType: PropertyKeyword
-  fullName: CZGL.Reflect.Shared.PropertyKeyword
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword

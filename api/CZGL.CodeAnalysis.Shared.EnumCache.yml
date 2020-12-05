@@ -1,0 +1,651 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.CodeAnalysis.Shared.EnumCache
+  commentId: T:CZGL.CodeAnalysis.Shared.EnumCache
+  id: EnumCache
+  parent: CZGL.CodeAnalysis.Shared
+  children:
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+  - CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+  - CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  langs:
+  - csharp
+  - vb
+  name: EnumCache
+  nameWithType: EnumCache
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache
+  type: Class
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: EnumCache
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 12
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n枚举信息缓存\n"
+  example: []
+  syntax:
+    content: 'public class EnumCache : object'
+    content.vb: >-
+      Public Class EnumCache
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CZGL.CodeAnalysis.Shared.EnumCache`1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+  id: GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetClassKeyword(ClassKeyword)
+  nameWithType: EnumCache.GetClassKeyword(ClassKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword(CZGL.CodeAnalysis.Shared.ClassKeyword)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetClassKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 28
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取 ClassKeyword 枚举代表的信息\n"
+  example: []
+  syntax:
+    content: public static string GetClassKeyword(ClassKeyword value)
+    parameters:
+    - id: value
+      type: CZGL.CodeAnalysis.Shared.ClassKeyword
+      description: 枚举
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetClassKeyword(value As ClassKeyword) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+  id: GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetEventKeyword(EventKeyword)
+  nameWithType: EnumCache.GetEventKeyword(EventKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword(CZGL.CodeAnalysis.Shared.EventKeyword)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetEventKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 44
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取 EventKeyword 枚举代表的信息\n"
+  example: []
+  syntax:
+    content: public static string GetEventKeyword(EventKeyword value)
+    parameters:
+    - id: value
+      type: CZGL.CodeAnalysis.Shared.EventKeyword
+      description: 枚举
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetEventKeyword(value As EventKeyword) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+  id: GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetFieldKeyword(FieldKeyword)
+  nameWithType: EnumCache.GetFieldKeyword(FieldKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword(CZGL.CodeAnalysis.Shared.FieldKeyword)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetFieldKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 59
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取 FieldKeyword 枚举代表的信息\n"
+  example: []
+  syntax:
+    content: public static string GetFieldKeyword(FieldKeyword value)
+    parameters:
+    - id: value
+      type: CZGL.CodeAnalysis.Shared.FieldKeyword
+      description: 枚举
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetFieldKeyword(value As FieldKeyword) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+  id: GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetGenericKeyword(GenericKeyword)
+  nameWithType: EnumCache.GetGenericKeyword(GenericKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword(CZGL.CodeAnalysis.Shared.GenericKeyword)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetGenericKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 74
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取 GenericKeyword 枚举代表的信息\n"
+  example: []
+  syntax:
+    content: public static string GetGenericKeyword(GenericKeyword value)
+    parameters:
+    - id: value
+      type: CZGL.CodeAnalysis.Shared.GenericKeyword
+      description: 枚举
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetGenericKeyword(value As GenericKeyword) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+  id: GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetMemberAccess(MemberAccess)
+  nameWithType: EnumCache.GetMemberAccess(MemberAccess)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess(CZGL.CodeAnalysis.Shared.MemberAccess)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetMemberAccess
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 90
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取 MemberAccess 枚举代表的信息\n"
+  example: []
+  syntax:
+    content: public static string GetMemberAccess(MemberAccess value)
+    parameters:
+    - id: value
+      type: CZGL.CodeAnalysis.Shared.MemberAccess
+      description: 枚举
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetMemberAccess(value As MemberAccess) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+  id: GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetMemberType(MemberType)
+  nameWithType: EnumCache.GetMemberType(MemberType)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType(CZGL.CodeAnalysis.Shared.MemberType)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetMemberType
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 106
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取 MemberType 枚举代表的信息\n"
+  example: []
+  syntax:
+    content: public static string GetMemberType(MemberType value)
+    parameters:
+    - id: value
+      type: CZGL.CodeAnalysis.Shared.MemberType
+      description: 枚举
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetMemberType(value As MemberType) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  id: GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetMethodKeyword(MethodKeyword)
+  nameWithType: EnumCache.GetMethodKeyword(MethodKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetMethodKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 122
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取 MethodKeyword 枚举代表的信息\n"
+  example: []
+  syntax:
+    content: public static string GetMethodKeyword(MethodKeyword value)
+    parameters:
+    - id: value
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+      description: 枚举
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetMethodKeyword(value As MethodKeyword) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+  id: GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetNamespaceAccess(NamespaceAccess)
+  nameWithType: EnumCache.GetNamespaceAccess(NamespaceAccess)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess(CZGL.CodeAnalysis.Shared.NamespaceAccess)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetNamespaceAccess
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 139
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取 NamespaceAccess 枚举代表的信息\n"
+  example: []
+  syntax:
+    content: public static string GetNamespaceAccess(NamespaceAccess value)
+    parameters:
+    - id: value
+      type: CZGL.CodeAnalysis.Shared.NamespaceAccess
+      description: 枚举
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetNamespaceAccess(value As NamespaceAccess) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+  id: GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyKeyword(PropertyKeyword)
+  nameWithType: EnumCache.GetPropertyKeyword(PropertyKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword(CZGL.CodeAnalysis.Shared.PropertyKeyword)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetPropertyKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 148
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  syntax:
+    content: public static string GetPropertyKeyword(PropertyKeyword value)
+    parameters:
+    - id: value
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetPropertyKeyword(value As PropertyKeyword) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.GetValue``1(``0)
+  id: GetValue``1(``0)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T>(T)
+  nameWithType: EnumCache.GetValue<T>(T)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetValue<T>(T)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: GetValue
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 159
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n获取某个枚举的代表的值\n"
+  example: []
+  syntax:
+    content: >-
+      public static string GetValue<T>(T value)
+
+          where T : Enum
+    parameters:
+    - id: value
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetValue(Of T As  Enum)(value As T) As String
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.GetValue*
+  nameWithType.vb: EnumCache.GetValue(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CZGL.CodeAnalysis.Shared.EnumCache.GetValue(Of T)(T)
+  name.vb: GetValue(Of T)(T)
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  commentId: M:CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  id: ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  parent: CZGL.CodeAnalysis.Shared.EnumCache
+  langs:
+  - csharp
+  - vb
+  name: ToPropertyKeyword(MethodKeyword)
+  nameWithType: EnumCache.ToPropertyKeyword(MethodKeyword)
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword(CZGL.CodeAnalysis.Shared.MethodKeyword)
+  type: Method
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: ToPropertyKeyword
+    path: src/Src/CZGL.CodeAnalysis.Shared/EnumCache.cs
+    startLine: 206
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  syntax:
+    content: public static PropertyKeyword ToPropertyKeyword(MethodKeyword keyword)
+    parameters:
+    - id: keyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    return:
+      type: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    content.vb: Public Shared Function ToPropertyKeyword(keyword As MethodKeyword) As PropertyKeyword
+  overload: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword
+  name: GetClassKeyword
+  nameWithType: EnumCache.GetClassKeyword
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetClassKeyword
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.ClassKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: ClassKeyword
+  nameWithType: ClassKeyword
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword
+  name: GetEventKeyword
+  nameWithType: EnumCache.GetEventKeyword
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetEventKeyword
+- uid: CZGL.CodeAnalysis.Shared.EventKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.EventKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: EventKeyword
+  nameWithType: EventKeyword
+  fullName: CZGL.CodeAnalysis.Shared.EventKeyword
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword
+  name: GetFieldKeyword
+  nameWithType: EnumCache.GetFieldKeyword
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetFieldKeyword
+- uid: CZGL.CodeAnalysis.Shared.FieldKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.FieldKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: FieldKeyword
+  nameWithType: FieldKeyword
+  fullName: CZGL.CodeAnalysis.Shared.FieldKeyword
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword
+  name: GetGenericKeyword
+  nameWithType: EnumCache.GetGenericKeyword
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetGenericKeyword
+- uid: CZGL.CodeAnalysis.Shared.GenericKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.GenericKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: GenericKeyword
+  nameWithType: GenericKeyword
+  fullName: CZGL.CodeAnalysis.Shared.GenericKeyword
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess
+  name: GetMemberAccess
+  nameWithType: EnumCache.GetMemberAccess
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberAccess
+- uid: CZGL.CodeAnalysis.Shared.MemberAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberAccess
+  parent: CZGL.CodeAnalysis.Shared
+  name: MemberAccess
+  nameWithType: MemberAccess
+  fullName: CZGL.CodeAnalysis.Shared.MemberAccess
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType
+  name: GetMemberType
+  nameWithType: EnumCache.GetMemberType
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMemberType
+- uid: CZGL.CodeAnalysis.Shared.MemberType
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberType
+  parent: CZGL.CodeAnalysis.Shared
+  name: MemberType
+  nameWithType: MemberType
+  fullName: CZGL.CodeAnalysis.Shared.MemberType
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword
+  name: GetMethodKeyword
+  nameWithType: EnumCache.GetMethodKeyword
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetMethodKeyword
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: MethodKeyword
+  nameWithType: MethodKeyword
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess
+  name: GetNamespaceAccess
+  nameWithType: EnumCache.GetNamespaceAccess
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetNamespaceAccess
+- uid: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.NamespaceAccess
+  parent: CZGL.CodeAnalysis.Shared
+  name: NamespaceAccess
+  nameWithType: NamespaceAccess
+  fullName: CZGL.CodeAnalysis.Shared.NamespaceAccess
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword
+  name: GetPropertyKeyword
+  nameWithType: EnumCache.GetPropertyKeyword
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetPropertyKeyword
+- uid: CZGL.CodeAnalysis.Shared.PropertyKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.PropertyKeyword
+  parent: CZGL.CodeAnalysis.Shared
+  name: PropertyKeyword
+  nameWithType: PropertyKeyword
+  fullName: CZGL.CodeAnalysis.Shared.PropertyKeyword
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.GetValue*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.GetValue
+  name: GetValue
+  nameWithType: EnumCache.GetValue
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.GetValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword*
+  commentId: Overload:CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword
+  name: ToPropertyKeyword
+  nameWithType: EnumCache.ToPropertyKeyword
+  fullName: CZGL.CodeAnalysis.Shared.EnumCache.ToPropertyKeyword

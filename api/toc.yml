@@ -1,4 +1,41 @@
 ### YamlMime:TableOfContent
+- uid: CZGL.CodeAnalysis
+  name: CZGL.CodeAnalysis
+  items:
+  - uid: CZGL.CodeAnalysis.PropertyAnalysis
+    name: PropertyAnalysis
+- uid: CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  items:
+  - uid: CZGL.CodeAnalysis.Shared.ClassKeyword
+    name: ClassKeyword
+  - uid: CZGL.CodeAnalysis.Shared.ConstraintLocation
+    name: ConstraintLocation
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache
+    name: EnumCache
+  - uid: CZGL.CodeAnalysis.Shared.EnumCache`1
+    name: EnumCache<T>
+    name.vb: EnumCache(Of T)
+  - uid: CZGL.CodeAnalysis.Shared.EventKeyword
+    name: EventKeyword
+  - uid: CZGL.CodeAnalysis.Shared.FieldKeyword
+    name: FieldKeyword
+  - uid: CZGL.CodeAnalysis.Shared.GenericKeyword
+    name: GenericKeyword
+  - uid: CZGL.CodeAnalysis.Shared.MemberAccess
+    name: MemberAccess
+  - uid: CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute
+    name: MemberDefineNameAttribute
+  - uid: CZGL.CodeAnalysis.Shared.MemberType
+    name: MemberType
+  - uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+    name: MethodKeyword
+  - uid: CZGL.CodeAnalysis.Shared.NamespaceAccess
+    name: NamespaceAccess
+  - uid: CZGL.CodeAnalysis.Shared.PropertyKeyword
+    name: PropertyKeyword
+  - uid: CZGL.CodeAnalysis.Shared.StructKeyword
+    name: StructKeyword
 - uid: CZGL.Reflect
   name: CZGL.Reflect
   items:
@@ -10,8 +47,6 @@
     name: GenericeAnalysis
   - uid: CZGL.Reflect.MethodInfoAnalysis
     name: MethodInfoAnalysis
-  - uid: CZGL.Reflect.PropertyAnalysis
-    name: PropertyAnalysis
   - uid: CZGL.Reflect.TypeAnalysis
     name: TypeAnalysis
   - uid: CZGL.Reflect.TypeDictionary
@@ -23,38 +58,6 @@
     name: AttributeAnalysisInfo
   - uid: CZGL.Reflect.Models.AttributeDefine
     name: AttributeDefine
-- uid: CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  items:
-  - uid: CZGL.Reflect.Shared.ClassKeyword
-    name: ClassKeyword
-  - uid: CZGL.Reflect.Shared.ConstraintLocation
-    name: ConstraintLocation
-  - uid: CZGL.Reflect.Shared.EnumCache
-    name: EnumCache
-  - uid: CZGL.Reflect.Shared.EnumCache`1
-    name: EnumCache<T>
-    name.vb: EnumCache(Of T)
-  - uid: CZGL.Reflect.Shared.EventKeyword
-    name: EventKeyword
-  - uid: CZGL.Reflect.Shared.FieldKeyword
-    name: FieldKeyword
-  - uid: CZGL.Reflect.Shared.GenericKeyword
-    name: GenericKeyword
-  - uid: CZGL.Reflect.Shared.MemberAccess
-    name: MemberAccess
-  - uid: CZGL.Reflect.Shared.MemberDefineNameAttribute
-    name: MemberDefineNameAttribute
-  - uid: CZGL.Reflect.Shared.MemberType
-    name: MemberType
-  - uid: CZGL.Reflect.Shared.MethodKeyword
-    name: MethodKeyword
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
-    name: NamespaceAccess
-  - uid: CZGL.Reflect.Shared.PropertyKeyword
-    name: PropertyKeyword
-  - uid: CZGL.Reflect.Shared.StructKeyword
-    name: StructKeyword
 - uid: CZGL.Reflect.Units
   name: CZGL.Reflect.Units
   items:

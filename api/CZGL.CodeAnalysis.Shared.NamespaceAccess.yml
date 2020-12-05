@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.NamespaceAccess
+  id: NamespaceAccess
+  parent: CZGL.CodeAnalysis.Shared
+  children:
+  - CZGL.CodeAnalysis.Shared.NamespaceAccess.Default
+  - CZGL.CodeAnalysis.Shared.NamespaceAccess.Internal
+  - CZGL.CodeAnalysis.Shared.NamespaceAccess.Public
+  langs:
+  - csharp
+  - vb
+  name: NamespaceAccess
+  nameWithType: NamespaceAccess
+  fullName: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  type: Enum
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/NamespaceAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: NamespaceAccess
+    path: src/Src/CZGL.CodeAnalysis.Shared/NamespaceAccess.cs
+    startLine: 9
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  summary: "\n命名空间中的成员修饰符\n<p>嵌套成员请使用 <xref href=\"CZGL.CodeAnalysis.Shared.MemberAccess\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+  example: []
+  syntax:
+    content: 'public enum NamespaceAccess : int'
+    content.vb: Public Enum NamespaceAccess As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CZGL.CodeAnalysis.Shared.NamespaceAccess.Default
+  commentId: F:CZGL.CodeAnalysis.Shared.NamespaceAccess.Default
+  id: Default
+  parent: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: NamespaceAccess.Default
+  fullName: CZGL.CodeAnalysis.Shared.NamespaceAccess.Default
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/NamespaceAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Default
+    path: src/Src/CZGL.CodeAnalysis.Shared/NamespaceAccess.cs
+    startLine: 11
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  syntax:
+    content: Default = null
+    return:
+      type: CZGL.CodeAnalysis.Shared.NamespaceAccess
+    content.vb: Default = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.CodeAnalysis.Shared.NamespaceAccess.Internal
+  commentId: F:CZGL.CodeAnalysis.Shared.NamespaceAccess.Internal
+  id: Internal
+  parent: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  langs:
+  - csharp
+  - vb
+  name: Internal
+  nameWithType: NamespaceAccess.Internal
+  fullName: CZGL.CodeAnalysis.Shared.NamespaceAccess.Internal
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/NamespaceAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Internal
+    path: src/Src/CZGL.CodeAnalysis.Shared/NamespaceAccess.cs
+    startLine: 14
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  syntax:
+    content: Internal = null
+    return:
+      type: CZGL.CodeAnalysis.Shared.NamespaceAccess
+    content.vb: Internal = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CZGL.CodeAnalysis.Shared.NamespaceAccess.Public
+  commentId: F:CZGL.CodeAnalysis.Shared.NamespaceAccess.Public
+  id: Public
+  parent: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  langs:
+  - csharp
+  - vb
+  name: Public
+  nameWithType: NamespaceAccess.Public
+  fullName: CZGL.CodeAnalysis.Shared.NamespaceAccess.Public
+  type: Field
+  source:
+    remote:
+      path: src/Src/CZGL.CodeAnalysis.Shared/NamespaceAccess.cs
+      branch: master
+      repo: https://github.com/CZGL-Roslyn/CZGL-Roslyn.git
+    id: Public
+    path: src/Src/CZGL.CodeAnalysis.Shared/NamespaceAccess.cs
+    startLine: 17
+  assemblies:
+  - CZGL.CodeAnalysis.Shared
+  namespace: CZGL.CodeAnalysis.Shared
+  syntax:
+    content: Public = null
+    return:
+      type: CZGL.CodeAnalysis.Shared.NamespaceAccess
+    content.vb: Public = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CZGL.CodeAnalysis.Shared.MemberAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberAccess
+  parent: CZGL.CodeAnalysis.Shared
+  name: MemberAccess
+  nameWithType: MemberAccess
+  fullName: CZGL.CodeAnalysis.Shared.MemberAccess
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+- uid: CZGL.CodeAnalysis.Shared.NamespaceAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.NamespaceAccess
+  parent: CZGL.CodeAnalysis.Shared
+  name: NamespaceAccess
+  nameWithType: NamespaceAccess
+  fullName: CZGL.CodeAnalysis.Shared.NamespaceAccess

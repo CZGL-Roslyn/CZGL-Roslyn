@@ -1,6 +1,6 @@
 using System;
 
-namespace CZGL.Reflect.Shared
+namespace CZGL.CodeAnalysis.Shared
 {
     /// <summary>
     /// 枚举代表值缓存

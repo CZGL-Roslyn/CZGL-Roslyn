@@ -1,25 +1,25 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CZGL.Reflect.Shared.MethodKeyword
-  commentId: T:CZGL.Reflect.Shared.MethodKeyword
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.MethodKeyword
   id: MethodKeyword
-  parent: CZGL.Reflect.Shared
+  parent: CZGL.CodeAnalysis.Shared
   children:
-  - CZGL.Reflect.Shared.MethodKeyword.Abstract
-  - CZGL.Reflect.Shared.MethodKeyword.Default
-  - CZGL.Reflect.Shared.MethodKeyword.New
-  - CZGL.Reflect.Shared.MethodKeyword.NewStatic
-  - CZGL.Reflect.Shared.MethodKeyword.NewVirtual
-  - CZGL.Reflect.Shared.MethodKeyword.Override
-  - CZGL.Reflect.Shared.MethodKeyword.SealedOverride
-  - CZGL.Reflect.Shared.MethodKeyword.Static
-  - CZGL.Reflect.Shared.MethodKeyword.Virtual
+  - CZGL.CodeAnalysis.Shared.MethodKeyword.Abstract
+  - CZGL.CodeAnalysis.Shared.MethodKeyword.Default
+  - CZGL.CodeAnalysis.Shared.MethodKeyword.New
+  - CZGL.CodeAnalysis.Shared.MethodKeyword.NewStatic
+  - CZGL.CodeAnalysis.Shared.MethodKeyword.NewVirtual
+  - CZGL.CodeAnalysis.Shared.MethodKeyword.Override
+  - CZGL.CodeAnalysis.Shared.MethodKeyword.SealedOverride
+  - CZGL.CodeAnalysis.Shared.MethodKeyword.Static
+  - CZGL.CodeAnalysis.Shared.MethodKeyword.Virtual
   langs:
   - csharp
   - vb
   name: MethodKeyword
   nameWithType: MethodKeyword
-  fullName: CZGL.Reflect.Shared.MethodKeyword
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword
   type: Enum
   source:
     remote:
@@ -31,28 +31,28 @@ items:
     startLine: 9
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n方法关键字\n"
   example: []
   syntax:
-    content: public enum MethodKeyword
-    content.vb: Public Enum MethodKeyword
+    content: 'public enum MethodKeyword : int'
+    content.vb: Public Enum MethodKeyword As Integer
   modifiers.csharp:
   - public
   - enum
   modifiers.vb:
   - Public
   - Enum
-- uid: CZGL.Reflect.Shared.MethodKeyword.Default
-  commentId: F:CZGL.Reflect.Shared.MethodKeyword.Default
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword.Default
+  commentId: F:CZGL.CodeAnalysis.Shared.MethodKeyword.Default
   id: Default
-  parent: CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared.MethodKeyword
   langs:
   - csharp
   - vb
   name: Default
   nameWithType: MethodKeyword.Default
-  fullName: CZGL.Reflect.Shared.MethodKeyword.Default
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword.Default
   type: Field
   source:
     remote:
@@ -64,27 +64,28 @@ items:
     startLine: 11
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Default = 0
+    content: Default = null
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    content.vb: Default = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MethodKeyword.Static
-  commentId: F:CZGL.Reflect.Shared.MethodKeyword.Static
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword.Static
+  commentId: F:CZGL.CodeAnalysis.Shared.MethodKeyword.Static
   id: Static
-  parent: CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared.MethodKeyword
   langs:
   - csharp
   - vb
   name: Static
   nameWithType: MethodKeyword.Static
-  fullName: CZGL.Reflect.Shared.MethodKeyword.Static
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword.Static
   type: Field
   source:
     remote:
@@ -96,27 +97,28 @@ items:
     startLine: 14
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Static = 2
+    content: Static = null
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    content.vb: Static = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MethodKeyword.Abstract
-  commentId: F:CZGL.Reflect.Shared.MethodKeyword.Abstract
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword.Abstract
+  commentId: F:CZGL.CodeAnalysis.Shared.MethodKeyword.Abstract
   id: Abstract
-  parent: CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared.MethodKeyword
   langs:
   - csharp
   - vb
   name: Abstract
   nameWithType: MethodKeyword.Abstract
-  fullName: CZGL.Reflect.Shared.MethodKeyword.Abstract
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword.Abstract
   type: Field
   source:
     remote:
@@ -128,27 +130,28 @@ items:
     startLine: 17
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Abstract = 8
+    content: Abstract = null
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    content.vb: Abstract = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MethodKeyword.Virtual
-  commentId: F:CZGL.Reflect.Shared.MethodKeyword.Virtual
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword.Virtual
+  commentId: F:CZGL.CodeAnalysis.Shared.MethodKeyword.Virtual
   id: Virtual
-  parent: CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared.MethodKeyword
   langs:
   - csharp
   - vb
   name: Virtual
   nameWithType: MethodKeyword.Virtual
-  fullName: CZGL.Reflect.Shared.MethodKeyword.Virtual
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword.Virtual
   type: Field
   source:
     remote:
@@ -160,27 +163,28 @@ items:
     startLine: 20
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Virtual = 16
+    content: Virtual = null
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    content.vb: Virtual = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MethodKeyword.Override
-  commentId: F:CZGL.Reflect.Shared.MethodKeyword.Override
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword.Override
+  commentId: F:CZGL.CodeAnalysis.Shared.MethodKeyword.Override
   id: Override
-  parent: CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared.MethodKeyword
   langs:
   - csharp
   - vb
   name: Override
   nameWithType: MethodKeyword.Override
-  fullName: CZGL.Reflect.Shared.MethodKeyword.Override
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword.Override
   type: Field
   source:
     remote:
@@ -192,27 +196,28 @@ items:
     startLine: 23
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: Override = 32
+    content: Override = null
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    content.vb: Override = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MethodKeyword.SealedOverride
-  commentId: F:CZGL.Reflect.Shared.MethodKeyword.SealedOverride
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword.SealedOverride
+  commentId: F:CZGL.CodeAnalysis.Shared.MethodKeyword.SealedOverride
   id: SealedOverride
-  parent: CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared.MethodKeyword
   langs:
   - csharp
   - vb
   name: SealedOverride
   nameWithType: MethodKeyword.SealedOverride
-  fullName: CZGL.Reflect.Shared.MethodKeyword.SealedOverride
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword.SealedOverride
   type: Field
   source:
     remote:
@@ -224,27 +229,28 @@ items:
     startLine: 26
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: SealedOverride = 64
+    content: SealedOverride = null
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    content.vb: SealedOverride = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MethodKeyword.New
-  commentId: F:CZGL.Reflect.Shared.MethodKeyword.New
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword.New
+  commentId: F:CZGL.CodeAnalysis.Shared.MethodKeyword.New
   id: New
-  parent: CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared.MethodKeyword
   langs:
   - csharp
   - vb
   name: New
   nameWithType: MethodKeyword.New
-  fullName: CZGL.Reflect.Shared.MethodKeyword.New
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword.New
   type: Field
   source:
     remote:
@@ -256,27 +262,28 @@ items:
     startLine: 29
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   syntax:
-    content: New = 128
+    content: New = null
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    content.vb: New = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MethodKeyword.NewVirtual
-  commentId: F:CZGL.Reflect.Shared.MethodKeyword.NewVirtual
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword.NewVirtual
+  commentId: F:CZGL.CodeAnalysis.Shared.MethodKeyword.NewVirtual
   id: NewVirtual
-  parent: CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared.MethodKeyword
   langs:
   - csharp
   - vb
   name: NewVirtual
   nameWithType: MethodKeyword.NewVirtual
-  fullName: CZGL.Reflect.Shared.MethodKeyword.NewVirtual
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword.NewVirtual
   type: Field
   source:
     remote:
@@ -288,29 +295,30 @@ items:
     startLine: 35
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n暂不支持识别此类修饰符\n"
   example: []
   syntax:
-    content: NewVirtual = 144
+    content: NewVirtual = null
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    content.vb: NewVirtual = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.MethodKeyword.NewStatic
-  commentId: F:CZGL.Reflect.Shared.MethodKeyword.NewStatic
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword.NewStatic
+  commentId: F:CZGL.CodeAnalysis.Shared.MethodKeyword.NewStatic
   id: NewStatic
-  parent: CZGL.Reflect.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared.MethodKeyword
   langs:
   - csharp
   - vb
   name: NewStatic
   nameWithType: MethodKeyword.NewStatic
-  fullName: CZGL.Reflect.Shared.MethodKeyword.NewStatic
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword.NewStatic
   type: Field
   source:
     remote:
@@ -322,13 +330,14 @@ items:
     startLine: 41
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n暂不支持识别此类修饰符\n"
   example: []
   syntax:
-    content: NewStatic = 130
+    content: NewStatic = null
     return:
-      type: CZGL.Reflect.Shared.MethodKeyword
+      type: CZGL.CodeAnalysis.Shared.MethodKeyword
+    content.vb: NewStatic = Nothing
   modifiers.csharp:
   - public
   - const
@@ -336,14 +345,14 @@ items:
   - Public
   - Const
 references:
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
-- uid: CZGL.Reflect.Shared.MethodKeyword
-  commentId: T:CZGL.Reflect.Shared.MethodKeyword
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+- uid: CZGL.CodeAnalysis.Shared.MethodKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.MethodKeyword
+  parent: CZGL.CodeAnalysis.Shared
   name: MethodKeyword
   nameWithType: MethodKeyword
-  fullName: CZGL.Reflect.Shared.MethodKeyword
+  fullName: CZGL.CodeAnalysis.Shared.MethodKeyword

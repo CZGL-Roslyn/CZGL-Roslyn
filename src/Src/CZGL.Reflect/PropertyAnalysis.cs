@@ -1,4 +1,4 @@
-﻿using CZGL.Reflect.Shared;
+﻿using CZGL.CodeAnalysis.Shared;
 using CZGL.Reflect.Units;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.ComponentModel;
 using System.Reflection;
 using System.Text;
 
-namespace CZGL.Reflect
+namespace CZGL.CodeAnalysis
 {
     public static class PropertyAnalysis
     {

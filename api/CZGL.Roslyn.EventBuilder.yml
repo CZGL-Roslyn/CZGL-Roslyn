@@ -43,8 +43,8 @@ items:
   - CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.EventBuilder}
   - CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}
   inheritedMembers:
-  - CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
-  - CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  - CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(NamespaceAccess)
+  - CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithKeyword(EventKeyword)
   - CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithDelegate(System.String)
   - CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.EventBuilder}._variable
   - CZGL.Roslyn.Templates.VariableTemplate{CZGL.Roslyn.EventBuilder}.WithKeyword(System.String)
@@ -56,7 +56,7 @@ items:
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithAttributes(System.String[])
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithAttribute(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.GetAttributes
-  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(MemberAccess)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithName(System.String)
   - CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithRondomName
@@ -411,81 +411,85 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
-  commentId: M:CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+- uid: CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(NamespaceAccess)
+  commentId: M:CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(NamespaceAccess)
   parent: CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}
-  definition: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  definition: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(NamespaceAccess)
   name: WithAccess(NamespaceAccess)
   nameWithType: EventTemplate<EventBuilder>.WithAccess(NamespaceAccess)
-  fullName: CZGL.Roslyn.Templates.EventTemplate<CZGL.Roslyn.EventBuilder>.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName: CZGL.Roslyn.Templates.EventTemplate<CZGL.Roslyn.EventBuilder>.WithAccess(NamespaceAccess)
   nameWithType.vb: EventTemplate(Of EventBuilder).WithAccess(NamespaceAccess)
-  fullName.vb: CZGL.Roslyn.Templates.EventTemplate(Of CZGL.Roslyn.EventBuilder).WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName.vb: CZGL.Roslyn.Templates.EventTemplate(Of CZGL.Roslyn.EventBuilder).WithAccess(NamespaceAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: EventTemplate<EventBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.EventTemplate<CZGL.Roslyn.EventBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: EventTemplate(Of EventBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.EventTemplate(Of CZGL.Roslyn.EventBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
-  commentId: M:CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+- uid: CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithKeyword(EventKeyword)
+  commentId: M:CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}.WithKeyword(EventKeyword)
   parent: CZGL.Roslyn.Templates.EventTemplate{CZGL.Roslyn.EventBuilder}
-  definition: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  definition: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(EventKeyword)
   name: WithKeyword(EventKeyword)
   nameWithType: EventTemplate<EventBuilder>.WithKeyword(EventKeyword)
-  fullName: CZGL.Roslyn.Templates.EventTemplate<CZGL.Roslyn.EventBuilder>.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  fullName: CZGL.Roslyn.Templates.EventTemplate<CZGL.Roslyn.EventBuilder>.WithKeyword(EventKeyword)
   nameWithType.vb: EventTemplate(Of EventBuilder).WithKeyword(EventKeyword)
-  fullName.vb: CZGL.Roslyn.Templates.EventTemplate(Of CZGL.Roslyn.EventBuilder).WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  fullName.vb: CZGL.Roslyn.Templates.EventTemplate(Of CZGL.Roslyn.EventBuilder).WithKeyword(EventKeyword)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(EventKeyword)
     name: WithKeyword
     nameWithType: EventTemplate<EventBuilder>.WithKeyword
     fullName: CZGL.Roslyn.Templates.EventTemplate<CZGL.Roslyn.EventBuilder>.WithKeyword
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.EventKeyword
+  - uid: EventKeyword
     name: EventKeyword
     nameWithType: EventKeyword
-    fullName: CZGL.Reflect.Shared.EventKeyword
+    fullName: EventKeyword
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(EventKeyword)
     name: WithKeyword
     nameWithType: EventTemplate(Of EventBuilder).WithKeyword
     fullName: CZGL.Roslyn.Templates.EventTemplate(Of CZGL.Roslyn.EventBuilder).WithKeyword
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.EventKeyword
+  - uid: EventKeyword
     name: EventKeyword
     nameWithType: EventKeyword
-    fullName: CZGL.Reflect.Shared.EventKeyword
+    fullName: EventKeyword
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -809,42 +813,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+- uid: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}.WithAccess(MemberAccess)
   parent: CZGL.Roslyn.Templates.MemberTemplate{CZGL.Roslyn.EventBuilder}
-  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  definition: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
   name: WithAccess(MemberAccess)
   nameWithType: MemberTemplate<EventBuilder>.WithAccess(MemberAccess)
-  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.EventBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.EventBuilder>.WithAccess(MemberAccess)
   nameWithType.vb: MemberTemplate(Of EventBuilder).WithAccess(MemberAccess)
-  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.EventBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.EventBuilder).WithAccess(MemberAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate<EventBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate<CZGL.Roslyn.EventBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate(Of EventBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate(Of CZGL.Roslyn.EventBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1761,77 +1767,83 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
-  commentId: M:CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+- uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(NamespaceAccess)
+  commentId: M:CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(NamespaceAccess)
+  isExternal: true
   name: WithAccess(NamespaceAccess)
   nameWithType: EventTemplate<TBuilder>.WithAccess(NamespaceAccess)
-  fullName: CZGL.Roslyn.Templates.EventTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName: CZGL.Roslyn.Templates.EventTemplate<TBuilder>.WithAccess(NamespaceAccess)
   nameWithType.vb: EventTemplate(Of TBuilder).WithAccess(NamespaceAccess)
-  fullName.vb: CZGL.Roslyn.Templates.EventTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  fullName.vb: CZGL.Roslyn.Templates.EventTemplate(Of TBuilder).WithAccess(NamespaceAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: EventTemplate<TBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.EventTemplate<TBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(CZGL.Reflect.Shared.NamespaceAccess)
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithAccess(NamespaceAccess)
     name: WithAccess
     nameWithType: EventTemplate(Of TBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.EventTemplate(Of TBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.NamespaceAccess
+  - uid: NamespaceAccess
     name: NamespaceAccess
     nameWithType: NamespaceAccess
-    fullName: CZGL.Reflect.Shared.NamespaceAccess
+    fullName: NamespaceAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
-  commentId: M:CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+- uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(EventKeyword)
+  commentId: M:CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(EventKeyword)
+  isExternal: true
   name: WithKeyword(EventKeyword)
   nameWithType: EventTemplate<TBuilder>.WithKeyword(EventKeyword)
-  fullName: CZGL.Roslyn.Templates.EventTemplate<TBuilder>.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  fullName: CZGL.Roslyn.Templates.EventTemplate<TBuilder>.WithKeyword(EventKeyword)
   nameWithType.vb: EventTemplate(Of TBuilder).WithKeyword(EventKeyword)
-  fullName.vb: CZGL.Roslyn.Templates.EventTemplate(Of TBuilder).WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  fullName.vb: CZGL.Roslyn.Templates.EventTemplate(Of TBuilder).WithKeyword(EventKeyword)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(EventKeyword)
     name: WithKeyword
     nameWithType: EventTemplate<TBuilder>.WithKeyword
     fullName: CZGL.Roslyn.Templates.EventTemplate<TBuilder>.WithKeyword
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.EventKeyword
+  - uid: EventKeyword
     name: EventKeyword
     nameWithType: EventKeyword
-    fullName: CZGL.Reflect.Shared.EventKeyword
+    fullName: EventKeyword
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(CZGL.Reflect.Shared.EventKeyword)
+  - uid: CZGL.Roslyn.Templates.EventTemplate`1.WithKeyword(EventKeyword)
     name: WithKeyword
     nameWithType: EventTemplate(Of TBuilder).WithKeyword
     fullName: CZGL.Roslyn.Templates.EventTemplate(Of TBuilder).WithKeyword
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.EventKeyword
+  - uid: EventKeyword
     name: EventKeyword
     nameWithType: EventKeyword
-    fullName: CZGL.Reflect.Shared.EventKeyword
+    fullName: EventKeyword
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2139,40 +2151,43 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
-  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+- uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  commentId: M:CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
+  isExternal: true
   name: WithAccess(MemberAccess)
   nameWithType: MemberTemplate<TBuilder>.WithAccess(MemberAccess)
-  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess(MemberAccess)
   nameWithType.vb: MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
-  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  fullName.vb: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess(MemberAccess)
   spec.csharp:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate<TBuilder>.WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate<TBuilder>.WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(CZGL.Reflect.Shared.MemberAccess)
+  - uid: CZGL.Roslyn.Templates.MemberTemplate`1.WithAccess(MemberAccess)
     name: WithAccess
     nameWithType: MemberTemplate(Of TBuilder).WithAccess
     fullName: CZGL.Roslyn.Templates.MemberTemplate(Of TBuilder).WithAccess
   - name: (
     nameWithType: (
     fullName: (
-  - uid: CZGL.Reflect.Shared.MemberAccess
+  - uid: MemberAccess
     name: MemberAccess
     nameWithType: MemberAccess
-    fullName: CZGL.Reflect.Shared.MemberAccess
+    fullName: MemberAccess
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

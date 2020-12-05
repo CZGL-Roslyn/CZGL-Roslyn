@@ -84,7 +84,7 @@ items:
       type: System.Type
       description: ''
     return:
-      type: CZGL.Reflect.Shared.MemberAccess
+      type: CZGL.CodeAnalysis.Shared.MemberAccess
       description: ''
     content.vb: >-
       <ExtensionAttribute>
@@ -129,7 +129,7 @@ items:
       type: System.Type
       description: ''
     return:
-      type: CZGL.Reflect.Shared.ClassKeyword
+      type: CZGL.CodeAnalysis.Shared.ClassKeyword
       description: ''
     content.vb: >-
       <ExtensionAttribute>
@@ -673,28 +673,28 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: CZGL.Reflect.Shared.MemberAccess
-  commentId: T:CZGL.Reflect.Shared.MemberAccess
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared.MemberAccess
+  commentId: T:CZGL.CodeAnalysis.Shared.MemberAccess
+  parent: CZGL.CodeAnalysis.Shared
   name: MemberAccess
   nameWithType: MemberAccess
-  fullName: CZGL.Reflect.Shared.MemberAccess
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
+  fullName: CZGL.CodeAnalysis.Shared.MemberAccess
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
 - uid: CZGL.Reflect.ClassAnalysis.GetKeyword*
   commentId: Overload:CZGL.Reflect.ClassAnalysis.GetKeyword
   name: GetKeyword
   nameWithType: ClassAnalysis.GetKeyword
   fullName: CZGL.Reflect.ClassAnalysis.GetKeyword
-- uid: CZGL.Reflect.Shared.ClassKeyword
-  commentId: T:CZGL.Reflect.Shared.ClassKeyword
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared.ClassKeyword
+  commentId: T:CZGL.CodeAnalysis.Shared.ClassKeyword
+  parent: CZGL.CodeAnalysis.Shared
   name: ClassKeyword
   nameWithType: ClassKeyword
-  fullName: CZGL.Reflect.Shared.ClassKeyword
+  fullName: CZGL.CodeAnalysis.Shared.ClassKeyword
 - uid: CZGL.Reflect.ClassAnalysis.IsCanInherited*
   commentId: Overload:CZGL.Reflect.ClassAnalysis.IsCanInherited
   name: IsCanInherited

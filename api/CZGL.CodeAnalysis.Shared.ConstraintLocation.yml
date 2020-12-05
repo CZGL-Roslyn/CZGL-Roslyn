@@ -1,21 +1,21 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CZGL.Reflect.Shared.ConstraintLocation
-  commentId: T:CZGL.Reflect.Shared.ConstraintLocation
+- uid: CZGL.CodeAnalysis.Shared.ConstraintLocation
+  commentId: T:CZGL.CodeAnalysis.Shared.ConstraintLocation
   id: ConstraintLocation
-  parent: CZGL.Reflect.Shared
+  parent: CZGL.CodeAnalysis.Shared
   children:
-  - CZGL.Reflect.Shared.ConstraintLocation.Any
-  - CZGL.Reflect.Shared.ConstraintLocation.End
-  - CZGL.Reflect.Shared.ConstraintLocation.First
-  - CZGL.Reflect.Shared.ConstraintLocation.None
-  - CZGL.Reflect.Shared.ConstraintLocation.Only
+  - CZGL.CodeAnalysis.Shared.ConstraintLocation.Any
+  - CZGL.CodeAnalysis.Shared.ConstraintLocation.End
+  - CZGL.CodeAnalysis.Shared.ConstraintLocation.First
+  - CZGL.CodeAnalysis.Shared.ConstraintLocation.None
+  - CZGL.CodeAnalysis.Shared.ConstraintLocation.Only
   langs:
   - csharp
   - vb
   name: ConstraintLocation
   nameWithType: ConstraintLocation
-  fullName: CZGL.Reflect.Shared.ConstraintLocation
+  fullName: CZGL.CodeAnalysis.Shared.ConstraintLocation
   type: Enum
   source:
     remote:
@@ -27,28 +27,28 @@ items:
     startLine: 10
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n此泛型必须排序的位置，解析泛型约束的标记\n<p>你也可以 <a href=\"https://www.cnblogs.com/whuanle/p/12252754.html#113-泛型的参数名称和泛型限定\">查看具体的约束说明</a></p>\n"
   example: []
   syntax:
-    content: public enum ConstraintLocation
-    content.vb: Public Enum ConstraintLocation
+    content: 'public enum ConstraintLocation : int'
+    content.vb: Public Enum ConstraintLocation As Integer
   modifiers.csharp:
   - public
   - enum
   modifiers.vb:
   - Public
   - Enum
-- uid: CZGL.Reflect.Shared.ConstraintLocation.Only
-  commentId: F:CZGL.Reflect.Shared.ConstraintLocation.Only
+- uid: CZGL.CodeAnalysis.Shared.ConstraintLocation.Only
+  commentId: F:CZGL.CodeAnalysis.Shared.ConstraintLocation.Only
   id: Only
-  parent: CZGL.Reflect.Shared.ConstraintLocation
+  parent: CZGL.CodeAnalysis.Shared.ConstraintLocation
   langs:
   - csharp
   - vb
   name: Only
   nameWithType: ConstraintLocation.Only
-  fullName: CZGL.Reflect.Shared.ConstraintLocation.Only
+  fullName: CZGL.CodeAnalysis.Shared.ConstraintLocation.Only
   type: Field
   source:
     remote:
@@ -60,29 +60,30 @@ items:
     startLine: 15
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n此约束不能与其它约束同时使用\n"
   example: []
   syntax:
-    content: Only = 1
+    content: Only = null
     return:
-      type: CZGL.Reflect.Shared.ConstraintLocation
+      type: CZGL.CodeAnalysis.Shared.ConstraintLocation
+    content.vb: Only = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.ConstraintLocation.First
-  commentId: F:CZGL.Reflect.Shared.ConstraintLocation.First
+- uid: CZGL.CodeAnalysis.Shared.ConstraintLocation.First
+  commentId: F:CZGL.CodeAnalysis.Shared.ConstraintLocation.First
   id: First
-  parent: CZGL.Reflect.Shared.ConstraintLocation
+  parent: CZGL.CodeAnalysis.Shared.ConstraintLocation
   langs:
   - csharp
   - vb
   name: First
   nameWithType: ConstraintLocation.First
-  fullName: CZGL.Reflect.Shared.ConstraintLocation.First
+  fullName: CZGL.CodeAnalysis.Shared.ConstraintLocation.First
   type: Field
   source:
     remote:
@@ -94,29 +95,30 @@ items:
     startLine: 20
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n此约束必须放在首位\n"
   example: []
   syntax:
-    content: First = 2
+    content: First = null
     return:
-      type: CZGL.Reflect.Shared.ConstraintLocation
+      type: CZGL.CodeAnalysis.Shared.ConstraintLocation
+    content.vb: First = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.ConstraintLocation.Any
-  commentId: F:CZGL.Reflect.Shared.ConstraintLocation.Any
+- uid: CZGL.CodeAnalysis.Shared.ConstraintLocation.Any
+  commentId: F:CZGL.CodeAnalysis.Shared.ConstraintLocation.Any
   id: Any
-  parent: CZGL.Reflect.Shared.ConstraintLocation
+  parent: CZGL.CodeAnalysis.Shared.ConstraintLocation
   langs:
   - csharp
   - vb
   name: Any
   nameWithType: ConstraintLocation.Any
-  fullName: CZGL.Reflect.Shared.ConstraintLocation.Any
+  fullName: CZGL.CodeAnalysis.Shared.ConstraintLocation.Any
   type: Field
   source:
     remote:
@@ -128,29 +130,30 @@ items:
     startLine: 25
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n不限定位置\n"
   example: []
   syntax:
-    content: Any = 4
+    content: Any = null
     return:
-      type: CZGL.Reflect.Shared.ConstraintLocation
+      type: CZGL.CodeAnalysis.Shared.ConstraintLocation
+    content.vb: Any = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.ConstraintLocation.End
-  commentId: F:CZGL.Reflect.Shared.ConstraintLocation.End
+- uid: CZGL.CodeAnalysis.Shared.ConstraintLocation.End
+  commentId: F:CZGL.CodeAnalysis.Shared.ConstraintLocation.End
   id: End
-  parent: CZGL.Reflect.Shared.ConstraintLocation
+  parent: CZGL.CodeAnalysis.Shared.ConstraintLocation
   langs:
   - csharp
   - vb
   name: End
   nameWithType: ConstraintLocation.End
-  fullName: CZGL.Reflect.Shared.ConstraintLocation.End
+  fullName: CZGL.CodeAnalysis.Shared.ConstraintLocation.End
   type: Field
   source:
     remote:
@@ -162,29 +165,30 @@ items:
     startLine: 30
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n此约束必须放在最后\n"
   example: []
   syntax:
-    content: End = 8
+    content: End = null
     return:
-      type: CZGL.Reflect.Shared.ConstraintLocation
+      type: CZGL.CodeAnalysis.Shared.ConstraintLocation
+    content.vb: End = Nothing
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: CZGL.Reflect.Shared.ConstraintLocation.None
-  commentId: F:CZGL.Reflect.Shared.ConstraintLocation.None
+- uid: CZGL.CodeAnalysis.Shared.ConstraintLocation.None
+  commentId: F:CZGL.CodeAnalysis.Shared.ConstraintLocation.None
   id: None
-  parent: CZGL.Reflect.Shared.ConstraintLocation
+  parent: CZGL.CodeAnalysis.Shared.ConstraintLocation
   langs:
   - csharp
   - vb
   name: None
   nameWithType: ConstraintLocation.None
-  fullName: CZGL.Reflect.Shared.ConstraintLocation.None
+  fullName: CZGL.CodeAnalysis.Shared.ConstraintLocation.None
   type: Field
   source:
     remote:
@@ -196,13 +200,14 @@ items:
     startLine: 35
   assemblies:
   - CZGL.CodeAnalysis.Shared
-  namespace: CZGL.Reflect.Shared
+  namespace: CZGL.CodeAnalysis.Shared
   summary: "\n没有任何约束\n"
   example: []
   syntax:
-    content: None = 0
+    content: None = null
     return:
-      type: CZGL.Reflect.Shared.ConstraintLocation
+      type: CZGL.CodeAnalysis.Shared.ConstraintLocation
+    content.vb: None = Nothing
   modifiers.csharp:
   - public
   - const
@@ -210,14 +215,14 @@ items:
   - Public
   - Const
 references:
-- uid: CZGL.Reflect.Shared
-  commentId: N:CZGL.Reflect.Shared
-  name: CZGL.Reflect.Shared
-  nameWithType: CZGL.Reflect.Shared
-  fullName: CZGL.Reflect.Shared
-- uid: CZGL.Reflect.Shared.ConstraintLocation
-  commentId: T:CZGL.Reflect.Shared.ConstraintLocation
-  parent: CZGL.Reflect.Shared
+- uid: CZGL.CodeAnalysis.Shared
+  commentId: N:CZGL.CodeAnalysis.Shared
+  name: CZGL.CodeAnalysis.Shared
+  nameWithType: CZGL.CodeAnalysis.Shared
+  fullName: CZGL.CodeAnalysis.Shared
+- uid: CZGL.CodeAnalysis.Shared.ConstraintLocation
+  commentId: T:CZGL.CodeAnalysis.Shared.ConstraintLocation
+  parent: CZGL.CodeAnalysis.Shared
   name: ConstraintLocation
   nameWithType: ConstraintLocation
-  fullName: CZGL.Reflect.Shared.ConstraintLocation
+  fullName: CZGL.CodeAnalysis.Shared.ConstraintLocation
