@@ -1,0 +1,783 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MethodInfoAnalysis
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MethodInfoAnalysis
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CZGL.Reflect.MethodInfoAnalysis">
+  
+  
+  <h1 id="CZGL_Reflect_MethodInfoAnalysis" data-uid="CZGL.Reflect.MethodInfoAnalysis" class="text-break">Class MethodInfoAnalysis
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MethodInfoAnalysis</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CZGL.Reflect.html">CZGL.Reflect</a></h6>
+  <h6><strong>Assembly</strong>: CZGL.Reflect.dll</h6>
+  <h5 id="CZGL_Reflect_MethodInfoAnalysis_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MethodInfoAnalysis</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_ExcludeSystemMethod_System_Collections_Generic_IEnumerable_System_Reflection_MethodInfo__.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod(System.Collections.Generic.IEnumerable%7BSystem.Reflection.MethodInfo%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L61">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_ExcludeSystemMethod_" data-uid="CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_ExcludeSystemMethod_System_Collections_Generic_IEnumerable_System_Reflection_MethodInfo__" data-uid="CZGL.Reflect.MethodInfoAnalysis.ExcludeSystemMethod(System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo})">ExcludeSystemMethod(IEnumerable&lt;MethodInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>去除属于 runtime 的 MethodInfo</p>
+<p>编译器在编译时会加入很多 runtime 方法，这些不是程序员编写的代码</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;MethodInfo&gt; ExcludeSystemMethod(this IEnumerable&lt;MethodInfo&gt; methodInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.MethodInfo</span>&gt;</td>
+        <td><span class="parametername">methodInfos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.MethodInfo</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_GetAccess_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.GetAccess(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L76">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_GetAccess_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetAccess*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_GetAccess_System_Reflection_MethodInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetAccess(System.Reflection.MethodInfo)">GetAccess(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>识别方法的访问权限</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MemberAccess GetAccess(this MethodInfo method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CZGL.CodeAnalysis.Shared.MemberAccess.html">MemberAccess</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_GetGenericeName_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.GetGenericeName(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L153">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_GetGenericeName_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetGenericeName*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_GetGenericeName_System_Reflection_MethodInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetGenericeName(System.Reflection.MethodInfo)">GetGenericeName(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>判断方法是否为泛型方法，并且返回泛型名称</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetGenericeName(this MethodInfo method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_GetKeyword_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.GetKeyword(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L80">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_GetKeyword_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetKeyword*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_GetKeyword_System_Reflection_MethodInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetKeyword(System.Reflection.MethodInfo)">GetKeyword(MethodInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MethodKeyword GetKeyword(this MethodInfo method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CZGL.CodeAnalysis.Shared.MethodKeyword.html">MethodKeyword</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_GetParams_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.GetParams(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L176">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_GetParams_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetParams*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_GetParams_System_Reflection_MethodInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetParams(System.Reflection.MethodInfo)">GetParams(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>解析方法的参数并返回字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetParams(this MethodInfo method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_GetParamType_System_Reflection_ParameterInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.GetParamType(System.Reflection.ParameterInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L222">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_GetParamType_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetParamType*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_GetParamType_System_Reflection_ParameterInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetParamType(System.Reflection.ParameterInfo)">GetParamType(ParameterInfo)</h4>
+  <div class="markdown level1 summary"><p>获取参数的类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetParamType(this ParameterInfo parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.ParameterInfo</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_GetReturn_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.GetReturn(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L97">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_GetReturn_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetReturn*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_GetReturn_System_Reflection_MethodInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.GetReturn(System.Reflection.MethodInfo)">GetReturn(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>获取返回类型字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetReturn(this MethodInfo method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_HasValue_System_Reflection_ParameterInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.HasValue(System.Reflection.ParameterInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L235">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_HasValue_" data-uid="CZGL.Reflect.MethodInfoAnalysis.HasValue*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_HasValue_System_Reflection_ParameterInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.HasValue(System.Reflection.ParameterInfo)">HasValue(ParameterInfo)</h4>
+  <div class="markdown level1 summary"><p>是否为可选参数，是否有默认值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string HasValue(this ParameterInfo parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.ParameterInfo</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>为空则不是可选参数， 没有默认值</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_InRefOut_System_Reflection_ParameterInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.InRefOut(System.Reflection.ParameterInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L202">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_InRefOut_" data-uid="CZGL.Reflect.MethodInfoAnalysis.InRefOut*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_InRefOut_System_Reflection_ParameterInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.InRefOut(System.Reflection.ParameterInfo)">InRefOut(ParameterInfo)</h4>
+  <div class="markdown level1 summary"><p>判断参数是 in、out、ref、params 哪种修饰符</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string InRefOut(this ParameterInfo parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.ParameterInfo</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_IsAsync_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.IsAsync(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L88">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_IsAsync_" data-uid="CZGL.Reflect.MethodInfoAnalysis.IsAsync*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_IsAsync_System_Reflection_MethodInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.IsAsync(System.Reflection.MethodInfo)">IsAsync(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>是否异步方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAsync(this MethodInfo method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_IsNew_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.IsNew(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L20">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_IsNew_" data-uid="CZGL.Reflect.MethodInfoAnalysis.IsNew*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_IsNew_System_Reflection_MethodInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.IsNew(System.Reflection.MethodInfo)">IsNew(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>判断一个方法是否为 new 方法</p>
+<p>不支持 new virtual</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNew(this MethodInfo method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_IsRefReadOnly_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L250">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_IsRefReadOnly_" data-uid="CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_IsRefReadOnly_System_Reflection_MethodInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.IsRefReadOnly(System.Reflection.MethodInfo)">IsRefReadOnly(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>是否为 ref readonly 方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRefReadOnly(this MethodInfo method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis_IsRuntime_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis.IsRuntime(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L50">View Source</a>
+  </span>
+  <a id="CZGL_Reflect_MethodInfoAnalysis_IsRuntime_" data-uid="CZGL.Reflect.MethodInfoAnalysis.IsRuntime*"></a>
+  <h4 id="CZGL_Reflect_MethodInfoAnalysis_IsRuntime_System_Reflection_MethodInfo_" data-uid="CZGL.Reflect.MethodInfoAnalysis.IsRuntime(System.Reflection.MethodInfo)">IsRuntime(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>是否属于 runtime 的 MethodInfo</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRuntime(this MethodInfo method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Reflect_MethodInfoAnalysis.md&amp;value=---%0Auid%3A%20CZGL.Reflect.MethodInfoAnalysis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Reflect/MethodInfoAnalysis.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

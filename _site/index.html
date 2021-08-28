@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CZGL.Roslyn </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="CZGL.Roslyn ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h3 id="czglroslyn">CZGL.Roslyn</h3>
+
+<p>基于 Roslyn 技术的 C# 动态代码构建器以及编译器，开发者可以使用此库动态构建 C# 代码，并且通过指定条件编译代码。</p>
+<ul>
+<li>运行时动态构造代码；</li>
+<li>运行时为程序提供新的模块功能，拓展能力；</li>
+<li>设计函数平台，以代码片段为单位执行；</li>
+<li>语法分析提示，编译错误语法警告，精确到代码行；</li>
+<li>完善的代码标准，避免动态代码语法错误；</li>
+<li>简洁、简单的 API，完整的 Test 测试；</li>
+<li>... ...</li>
+</ul>
+<h3 id="丰富的文档与示例">丰富的文档与示例</h3>
+<p>CZGL.Roslyn 拥有丰富的文档说明和 API 接口说明，让你使用起来得心应手！</p>
+<p>文档 URL：<a href="https://1586052146.gitbook.io/codeanalysis">https://1586052146.gitbook.io/codeanalysis</a></p>
+<p>API URL：<a href="https://czgl-roslyn.github.io/czgl-roslyn">https://czgl-roslyn.github.io/czgl-roslyn</a></p>
+<h3 id="版本更新计划">版本更新计划</h3>
+<ul>
+<li><p>[ ] <strong>0.1.0 α版(正在开发中，当前版本)</strong></p>
+<p>特性：一个具有完整功能的初级版本。</p>
+</li>
+<li><p>[ ] <strong>0.2.0 β（beta）版</strong></p>
+<p>特性：消除了严重的错误和缺陷，完成大量的单元测试等，对代码的可靠性有了极大的提升；能够上线 Nuget 提供用户试用；对用户的需求进行收集，改进程序；</p>
+</li>
+<li><p>[ ] <strong>0.3.0 γ版</strong></p>
+</li>
+</ul>
+<p>该版本已经相当成熟了，根据用户使用 β 版本后的建议和需求进行更新；开始关注性能，进行性能测试已经采取措施对性能进行改进。</p>
+<h3 id="可以做什么">可以做什么</h3>
+<p>最大的特点就是动态代码构造以及动态编译，因此我们可以分为两部分讨论。</p>
+<h4 id="动态代码生成">动态代码生成</h4>
+<ul>
+<li><p>数据库表还原实体，自动生成类模型文件；(EFCore 有这功能)</p>
+</li>
+<li><p>公司内部定义工具集，通过确定的模板，一键生成代码！</p>
+</li>
+<li><p>通过已确定的逻辑功能，快速生成代码导出！</p>
+</li>
+<li><p>编写 AOP 框架，实现动态代理；</p>
+</li>
+<li><p>代码语法检查；</p>
+</li>
+<li><p>生成计划代码，后台管理哪部分代码可执行；</p>
+</li>
+<li><p>工作流程序通过代码生成一次性构建完毕，工作流程直接写到程序集中，提高性能！</p>
+</li>
+<li><p>快速从表格等各种数据来源，生成代码；</p>
+</li>
+<li><p>自定义 UI 生成器，通过拖拉控件生成代码；</p>
+<p>... ...</p>
+</li>
+</ul>
+<h4 id="动态编译">动态编译</h4>
+<ul>
+<li><p>自研云函数平台，用户上传代码即可直接执行；</p>
+</li>
+<li><p>公司后台计划任务，以程序集为单位，自定义计划执行程序集；</p>
+</li>
+<li><p>编写 AOP 框架，动态编译程序集；</p>
+</li>
+<li><p>单文件(.cs)编译，不需要 SDK、IDE！脱离开发环境编译！</p>
+<p>... ...</p>
+</li>
+</ul>
+<h3 id="与-natasha-的关系">与 Natasha 的关系</h3>
+<p>Natsha 是一个非常优秀的动态代码框架，由大帅主导，形成了功能完整、性能强悍，并且兼容 .NET FX 4.6~.NET Core ↑ ，通过了大量性能测试以及高性能代码优化。</p>
+<p>可以以强到不得了来形容。仓库地址：<a href="https://github.com/dotnetcore/Natasha">https://github.com/dotnetcore/Natasha</a></p>
+<p>那为什么 还要写 CZGL.Rolysn 呢？</p>
+<p>1，锻炼技术能力；</p>
+<p>2，与 Natasha 不构成竞品， CZGL.Roslyn 尽可能做的轻量，开发者可以考虑业务大小，大型场景使用 Natasha；快速建设使用 CZGL.Roslyn；Natasha 学习曲线比较大，CZGL.Roslyn 学习上手比较快。</p>
+<p>3，Natasha 功能完整，依赖比较多；CZGL.Roslyn 功能尽可能足够同时保存少量的依赖，体积小；</p>
+<p>4，CZGL.Roslyn 适合写小工具，例如 dotnet-tool、数据库还原实体、为 ML.NET 提供快速代码生成等，适合作为小部件为你的程序提供额外的功能；Natasha 适合作为独立的一个产品去做，围绕 Natasha 构建更多功能；</p>
+<p>论性能，Natasha 优秀；论功能完整性，Natasha 一整套大保健服务... ...</p>
+<p>CZGL.Roslyn 相比 Natasha ，大概就只有 “轻量” 这个特点了，简直被秒杀。。。</p>
+<h3 id="我可以从这个框架学习到什么">我可以从这个框架学习到什么</h3>
+<p>框架特点是简单易用，你可以从中学习到大量的反射知识，以及 Roslyn 知识，甚至可能学习到 EMIT(后面我会使用这种技术优化性能)。</p>
+<p>例如，如何通过取得特性中的属性值？</p>
+<pre><code class="lang-csharp">[Display(Name = &quot;_Id&quot;)]
+public int Id {get;set;}
+</code></pre>
+<p>一个 Type ，如何确定他是类、结构体、委托？</p>
+<p>如果你查阅资料会发现，<code>Type.IsClass</code> 可以识别出类、委托；</p>
+<p>以下代码为什么 JAVA 和 C# 执行结果不同？</p>
+<pre><code class="lang-csharp">public class A
+{
+    public void Test
+    {
+        Console.WriteLine(&quot;A&quot;);
+    }
+}
+public class B:A
+{
+    // 隐藏父类 Test 函数
+    public new void Test
+    {
+        Console.WriteLine(&quot;B&quot;);
+    }
+}
+
+A a = new B();
+a.Test();
+</code></pre>
+<p>目前 CZGL.Roslyn 处于初版，代码还处于非常简单的状态，逻辑也很简单，因此，如果你有意学习 C# 中的反射、动态代码技术等，想了解源代码在生成后如何通过反射获得信息、源代码会被如何编译等，CZGL.Roslyn 就是你最佳的选择。</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1206 @@
+{
+  "homepages": [],
+  "source_base_path": "H:/文章/CZGL.Roslyn/czgl-roslyn",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "Readme.html",
+          "hash": "Lq9FTZBdIgWwMX5lJUHnUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.PropertyAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.PropertyAnalysis.html",
+          "hash": "Ql6M11+QsMXvhU6jxHL/+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.ClassKeyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.ClassKeyword.html",
+          "hash": "yKruJquqpu5Qap/+zzQnuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.ConstraintLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.ConstraintLocation.html",
+          "hash": "vtjIOJ1Yb6Nh3ZTg5gdkmQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.EnumCache-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.EnumCache-1.html",
+          "hash": "CoJKdnUnvUHEp5kioDmAHQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.EnumCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.EnumCache.html",
+          "hash": "hmGirChHVRTOShTBv7gMNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.EventKeyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.EventKeyword.html",
+          "hash": "mwUsfkOWm+kBOP5eumI9JQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.FieldKeyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.FieldKeyword.html",
+          "hash": "MWbkRKdvBgSC1RupkA9wyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.GenericKeyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.GenericKeyword.html",
+          "hash": "49z8IGkr1AmAGYDYf7VsRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.MemberAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.MemberAccess.html",
+          "hash": "WbXcVLx2DO8dn2XJ1qxTJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.MemberDefineNameAttribute.html",
+          "hash": "xZ5dhJJmQQqyojrg8FwoGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.MemberType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.MemberType.html",
+          "hash": "7qbJER7ma4HdaIQLovQAew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.MethodKeyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.MethodKeyword.html",
+          "hash": "bUYjY4wLaESWk2niI3BrNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.NamespaceAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.NamespaceAccess.html",
+          "hash": "JpWv/om0nP0ynoYIDDiJmg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.PropertyKeyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.PropertyKeyword.html",
+          "hash": "4F17ARl76ohymabDnlf/AA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.StructKeyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.StructKeyword.html",
+          "hash": "RzVQ/VBp1ojYo+7GyHjHTQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.Shared.html",
+          "hash": "+Qd4TcP7PQRu8pmcKA7O3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.CodeAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.CodeAnalysis.html",
+          "hash": "qlY6N5zTPY/vTx29mcyh3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.ClassAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.ClassAnalysis.html",
+          "hash": "c2q5Tmpps9HfX5WlZv0HQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.FiledAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.FiledAnalysis.html",
+          "hash": "A+s8gLlVZk24yEsvgjiSxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.GenericeAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.GenericeAnalysis.html",
+          "hash": "Hzqu7Kzf6ke1Vs1E3OdV6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.MethodInfoAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.MethodInfoAnalysis.html",
+          "hash": "+S/vkGFo3w2tGN2/2fz2Fw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.Models.AttributeAnalysisInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.Models.AttributeAnalysisInfo.html",
+          "hash": "yxMeqyeVR4HCNU8MN22WqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.Models.AttributeDefine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.Models.AttributeDefine.html",
+          "hash": "OlczhFJTYjXTuQNpOJj3Mg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.Models.html",
+          "hash": "yrKSKqTLjLieD4BMJR0mvw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.TypeAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.TypeAnalysis.html",
+          "hash": "oC0BNN5HjI8aVpTJbBDvug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.TypeDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.TypeDictionary.html",
+          "hash": "YoJQbk5k0ZUCq9ZJO8eziA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.Units.AccessAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.Units.AccessAnalysis.html",
+          "hash": "tn1Xw7wQyo+rsx2UNtARlw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.Units.AttributeAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.Units.AttributeAnalysis.html",
+          "hash": "w4fbia9nskmtJGktpIw5nA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.Units.GenericeConstraintInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.Units.GenericeConstraintInfo.html",
+          "hash": "DRYE9NxLaBc4DB6RvHM9ug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.Units.KeywordAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.Units.KeywordAnalysis.html",
+          "hash": "B1ELjsYU/Mwv9+CvzuRivQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.Units.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.Units.html",
+          "hash": "T+H0DICma6aFclwYb+Hc8w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Reflect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Reflect.html",
+          "hash": "ArWLO4Ioz0uc29sJijGGUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.AttributeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.AttributeBuilder.html",
+          "hash": "K+0Y5Wxd+f0vRjIWtp3ABQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.ClassBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.ClassBuilder.html",
+          "hash": "bZ1ExIdGABckzlFnYi0Fmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.CodeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.CodeExtensions.html",
+          "hash": "QmiU0XXkbAX6SgPPcWoSmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.CodeSyntax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.CodeSyntax.html",
+          "hash": "nnpiNqu0zEFvih/B9ayWnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.CompilationBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.CompilationBuilder.html",
+          "hash": "R4F0RFbK7HvdLYaVlFEPfw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.CtorBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.CtorBuilder.html",
+          "hash": "hBz+2Lnv0ahAbBqctU0iXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.DelegateBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.DelegateBuilder.html",
+          "hash": "7qw7SaLztD5lAd6MUhT9eA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.DomainOptionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.DomainOptionBuilder.html",
+          "hash": "ReheG+JIjGoM75+h19S+rg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.EnumBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.EnumBuilder.html",
+          "hash": "YJcY3Qyh0n+Yau7hDPtbLQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.EventBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.EventBuilder.html",
+          "hash": "SYyR3clprGGP8MfO9Fq5eA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Extensions.FieldBuilderExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Extensions.FieldBuilderExtension.html",
+          "hash": "x7ECOaTpX9DQdl+ZJaxzuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Extensions.MemberExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Extensions.MemberExtensions.html",
+          "hash": "R1z5AaDMJqLnKO1FybK14A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Extensions.NamespaceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Extensions.NamespaceExtensions.html",
+          "hash": "kYFqtTiZDy8SlXDQb3tNWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Extensions.html",
+          "hash": "TyoVdUU+G3gxfU2ziZkaVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.FieldBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.FieldBuilder.html",
+          "hash": "Fs+PM2KN5zQDssQVnu0Y9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.FieldTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.FieldTemplate-1.html",
+          "hash": "2X3trYuncpT0AJpe5VAIJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.GenericBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.GenericBuilder.html",
+          "hash": "cB56ZkX44GtZPjb9nyKf8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.InterfaceBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.InterfaceBuilder.html",
+          "hash": "vFaFrwiQwSJoygtoUnMgcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.MemberDefineNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.MemberDefineNameAttribute.html",
+          "hash": "e0TMUEjDmGiUENZn4DN6Zw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.MethodBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.MethodBuilder.html",
+          "hash": "NQN9OKJBjTZ0I5EqK9Ocog=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.NamespaceBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.NamespaceBuilder.html",
+          "hash": "AbtLQfCpWU67Oy+KqnCS2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.PropertyBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.PropertyBuilder.html",
+          "hash": "5/DIeEb770Ov61ML1gWGLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.AttributeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.AttributeState.html",
+          "hash": "5/SCwDpynNBm6KLqtWopKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.BaseState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.BaseState.html",
+          "hash": "hIh+28O9n9zWezlAYg6YrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.ClassState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.ClassState.html",
+          "hash": "xSqVs1Xv2jooP4dvdT6MsA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.CompilationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.CompilationState.html",
+          "hash": "v27rknZSZpBbg+hRy6EKoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.CtorState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.CtorState.html",
+          "hash": "E1Yec4cF8HPH1uBDqIwYHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.EnumState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.EnumState.html",
+          "hash": "TiBUJuaP9ZPPUQ++sWfZJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.FieldState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.FieldState.html",
+          "hash": "dLOe2popdLdXyDJPCprGEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.FuncState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.FuncState.html",
+          "hash": "37HXZIQvNJ2bpFX5h0OzIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.GenericState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.GenericState.html",
+          "hash": "eKV8so4HTtypbueI8bcCpw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.MemberState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.MemberState.html",
+          "hash": "p5zn6mJ4GRvU0fWbWzohzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.MethodState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.MethodState.html",
+          "hash": "WX2ZyjA55PnRxgZY5hlbRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.NamespaceState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.NamespaceState.html",
+          "hash": "OZerlZqTz7IZs7avJdpmFg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.PropertyState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.PropertyState.html",
+          "hash": "4EadTWwK6T121gpbs72DqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.VariableState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.VariableState.html",
+          "hash": "uMhced1+R6bao7HyIy4org=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.States.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.States.html",
+          "hash": "w4YTlT4SkLBw+CZa/v4kWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.StructBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.StructBuilder.html",
+          "hash": "xegznLh7Cqb+RQh+sPqSdw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.AttrbuteTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.AttrbuteTemplate-1.html",
+          "hash": "+nJsTofvWkTwivYR2EqNpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.BaseTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.BaseTemplate.html",
+          "hash": "SLzSP+u6jBgGZjAailLzGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.ClassTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.ClassTemplate-1.html",
+          "hash": "aWma5u4OitZurXhrh3ySuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.CtorTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.CtorTemplate-1.html",
+          "hash": "jQynmHZT6wf0/F4DBgApwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.EnumTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.EnumTemplate-1.html",
+          "hash": "9Au5/Pd4Mh1T1kbJyyNp+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.EventTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.EventTemplate-1.html",
+          "hash": "XxgAMP91RRoFEY8kqkp8bQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.FuncTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.FuncTemplate-1.html",
+          "hash": "b45TJv6QPl9Gl8Ozz7igQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.GenericTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.GenericTemplate-1.html",
+          "hash": "pFbMxhAvKm7Kz/2P2XfRKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.MemberTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.MemberTemplate-1.html",
+          "hash": "lfn1qnr9JRzBpLkVfqGpIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.MethodTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.MethodTemplate-1.html",
+          "hash": "8r9a2gxGbCUZF6jk83L6tg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.NamespaceTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.NamespaceTemplate-1.html",
+          "hash": "03EHQHzZ4iSXBLQ7Or7Qmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.PropertyTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.PropertyTemplate-1.html",
+          "hash": "vR1kfKi+2AtaNW2XY1gUuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.VariableTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.VariableTemplate-1.html",
+          "hash": "sGlibqmn+uUxyvauISX0BA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.Templates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.Templates.html",
+          "hash": "UPUPyxnL88A3G1g6SFo+UA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.Roslyn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.Roslyn.html",
+          "hash": "1mVWGdJrsgr8AnKR4AR4sw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.RoslynTool.AttributeTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.RoslynTool.AttributeTool.html",
+          "hash": "X14AKApzF/HIbMbXcVbx9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.RoslynTool.Models.DefineGenericInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.RoslynTool.Models.DefineGenericInfo.html",
+          "hash": "l2qJcPhdH44rzEWNCKr7Nw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.RoslynTool.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.RoslynTool.Models.html",
+          "hash": "KrspGu6JKmG3faaan1LdhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CZGL.RoslynTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CZGL.RoslynTool.html",
+          "hash": "nUyXQP/mGB/5h9sxpMCZ7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "m8nND8xIPy7Fuesj48AHnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "EjpNO0+80XsbIt9yxC0bvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "xYBLg8M2HaLU6gAejAD0kw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "SkG0IlBTyQuevvJD8mKZ8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "OJYxEW7eUivx0s9kzo4pDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 89,
+          "skipped_file_count": 89
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

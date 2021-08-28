@@ -1,0 +1,1291 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ClassTemplate&lt;TBuilder&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ClassTemplate&lt;TBuilder&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1">
+  
+  
+  <h1 id="CZGL_Roslyn_Templates_ClassTemplate_1" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1" class="text-break">Class ClassTemplate&lt;TBuilder&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>类构建器</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="CZGL.Roslyn.Templates.BaseTemplate.html">BaseTemplate</a></div>
+    <div class="level2"><a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html">MemberTemplate</a>&lt;TBuilder&gt;</div>
+    <div class="level3"><span class="xref">ClassTemplate&lt;TBuilder&gt;</span></div>
+      <div class="level4"><a class="xref" href="CZGL.Roslyn.ClassBuilder.html">ClassBuilder</a></div>
+      <div class="level4"><a class="xref" href="CZGL.Roslyn.InterfaceBuilder.html">InterfaceBuilder</a></div>
+      <div class="level4"><a class="xref" href="CZGL.Roslyn.StructBuilder.html">StructBuilder</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1__member">MemberTemplate&lt;TBuilder&gt;._member</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1__TBuilder">MemberTemplate&lt;TBuilder&gt;._TBuilder</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_Name">MemberTemplate&lt;TBuilder&gt;.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_WithAttributes_System_String___">MemberTemplate&lt;TBuilder&gt;.WithAttributes(String[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_WithAttribute_System_String_">MemberTemplate&lt;TBuilder&gt;.WithAttribute(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_GetAttributes">MemberTemplate&lt;TBuilder&gt;.GetAttributes()</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_WithAccess_MemberAccess_">MemberTemplate&lt;TBuilder&gt;.WithAccess(MemberAccess)</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_WithAccess_System_String_">MemberTemplate&lt;TBuilder&gt;.WithAccess(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_ClearAttribute">MemberTemplate&lt;TBuilder&gt;.ClearAttribute()</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_WithGeneric_System_Action_CZGL_Roslyn_Templates_GenericTemplate_CZGL_Roslyn_GenericBuilder___">MemberTemplate&lt;TBuilder&gt;.WithGeneric(Action&lt;GenericTemplate&lt;GenericBuilder&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_WithGeneric_System_Func_CZGL_Roslyn_Templates_GenericTemplate_CZGL_Roslyn_GenericBuilder__CZGL_Roslyn_Templates_GenericTemplate_CZGL_Roslyn_GenericBuilder___">MemberTemplate&lt;TBuilder&gt;.WithGeneric(Func&lt;GenericTemplate&lt;GenericBuilder&gt;, GenericTemplate&lt;GenericBuilder&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_WithGeneric_CZGL_Roslyn_GenericBuilder_">MemberTemplate&lt;TBuilder&gt;.WithGeneric(GenericBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_WithGeneric_System_String_System_String_">MemberTemplate&lt;TBuilder&gt;.WithGeneric(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.MemberTemplate-1.html#CZGL_Roslyn_Templates_MemberTemplate_1_WithGeneric_System_String_System_String_CZGL_Roslyn_GenericBuilder__">MemberTemplate&lt;TBuilder&gt;.WithGeneric(String, String, GenericBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.BaseTemplate.html#CZGL_Roslyn_Templates_BaseTemplate__base">BaseTemplate._base</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.BaseTemplate.html#CZGL_Roslyn_Templates_BaseTemplate_ToFullCode">BaseTemplate.ToFullCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="CZGL.Roslyn.Templates.BaseTemplate.html#CZGL_Roslyn_Templates_BaseTemplate_ToFormatCode">BaseTemplate.ToFormatCode()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CZGL.Roslyn.Templates.html">CZGL.Roslyn.Templates</a></h6>
+  <h6><strong>Assembly</strong>: CZGL.Roslyn.dll</h6>
+  <h5 id="CZGL_Roslyn_Templates_ClassTemplate_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ClassTemplate&lt;TBuilder&gt; : MemberTemplate&lt;TBuilder&gt; where TBuilder : ClassTemplate&lt;TBuilder&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TBuilder</span></td>
+        <td><p><a class="xref" href="CZGL.Roslyn.ClassBuilder.html">ClassBuilder</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1__class.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601._class%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L17">View Source</a>
+  </span>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1__class" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1._class">_class</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly ClassState _class</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CZGL.Roslyn.States.ClassState.html">ClassState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_GetBuilder.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.GetBuilder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L169">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_GetBuilder_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.GetBuilder*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_GetBuilder" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.GetBuilder">GetBuilder()</h4>
+  <div class="markdown level1 summary"><p>获得构建器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TBuilder GetBuilder()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithAccess_NamespaceAccess_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithAccess(NamespaceAccess)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L116">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithAccess_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithAccess_NamespaceAccess_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithAccess(NamespaceAccess)">WithAccess(NamespaceAccess)</h4>
+  <div class="markdown level1 summary"><p>设置访问修饰符(Access Modifiers)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TBuilder WithAccess(NamespaceAccess access = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">NamespaceAccess</span></td>
+        <td><span class="parametername">access</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithBaseClass_System_String_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithBaseClass(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L81">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithBaseClass_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithBaseClass*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithBaseClass_System_String_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithBaseClass(System.String)">WithBaseClass(String)</h4>
+  <div class="markdown level1 summary"><p>继承基类</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithBaseClass(string baseName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">baseName</span></td>
+        <td><p>基类名称</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithCtor.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithCtor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L129">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithCtor_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithCtor" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor">WithCtor()</h4>
+  <div class="markdown level1 summary"><p>添加一个构造函数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual CtorBuilder WithCtor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CZGL.Roslyn.CtorBuilder.html">CtorBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithCtor_System_Action_CZGL_Roslyn_CtorBuilder__.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithCtor(System.Action%7BCZGL.Roslyn.CtorBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L142">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithCtor_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithCtor_System_Action_CZGL_Roslyn_CtorBuilder__" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithCtor(System.Action{CZGL.Roslyn.CtorBuilder})">WithCtor(Action&lt;CtorBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>添加一个构造函数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithCtor(Action&lt;CtorBuilder&gt; builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CZGL.Roslyn.CtorBuilder.html">CtorBuilder</a>&gt;</td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithCtorFromCode_System_String_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithCtorFromCode(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L156">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithCtorFromCode_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithCtorFromCode*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithCtorFromCode_System_String_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithCtorFromCode(System.String)">WithCtorFromCode(String)</h4>
+  <div class="markdown level1 summary"><p>添加一个构造函数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithCtorFromCode(string Code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Code</span></td>
+        <td><p>构造函数代码</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithDelegate_System_Action_CZGL_Roslyn_DelegateBuilder__.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithDelegate(System.Action%7BCZGL.Roslyn.DelegateBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L299">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithDelegate_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithDelegate*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithDelegate_System_Action_CZGL_Roslyn_DelegateBuilder__" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithDelegate(System.Action{CZGL.Roslyn.DelegateBuilder})">WithDelegate(Action&lt;DelegateBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>统计一个委托</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithDelegate(Action&lt;DelegateBuilder&gt; builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CZGL.Roslyn.DelegateBuilder.html">DelegateBuilder</a>&gt;</td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithDelegate_System_Action_CZGL_Roslyn_EventBuilder__.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithDelegate(System.Action%7BCZGL.Roslyn.EventBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L312">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithDelegate_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithDelegate*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithDelegate_System_Action_CZGL_Roslyn_EventBuilder__" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithDelegate(System.Action{CZGL.Roslyn.EventBuilder})">WithDelegate(Action&lt;EventBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>添加一个事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithDelegate(Action&lt;EventBuilder&gt; builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CZGL.Roslyn.EventBuilder.html">EventBuilder</a>&gt;</td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithField_CZGL_Roslyn_FieldBuilder_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithField(CZGL.Roslyn.FieldBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L210">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithField_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithField*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithField_CZGL_Roslyn_FieldBuilder_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithField(CZGL.Roslyn.FieldBuilder)">WithField(FieldBuilder)</h4>
+  <div class="markdown level1 summary"><p>添加一个字段</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithField(FieldBuilder builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CZGL.Roslyn.FieldBuilder.html">FieldBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>字段构建器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithField_System_String_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithField(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L185">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithField_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithField*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithField_System_String_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithField(System.String)">WithField(String)</h4>
+  <div class="markdown level1 summary"><p>添加一个字段</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual FieldBuilder WithField(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>字段名称</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CZGL.Roslyn.FieldBuilder.html">FieldBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithField_System_String_System_Action_CZGL_Roslyn_FieldBuilder__.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithField(System.String%2CSystem.Action%7BCZGL.Roslyn.FieldBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L197">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithField_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithField*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithField_System_String_System_Action_CZGL_Roslyn_FieldBuilder__" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithField(System.String,System.Action{CZGL.Roslyn.FieldBuilder})">WithField(String, Action&lt;FieldBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>添加一个字段</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithField(string name, Action&lt;FieldBuilder&gt; builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CZGL.Roslyn.FieldBuilder.html">FieldBuilder</a>&gt;</td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>字段构建器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithInterface_System_String_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithInterface(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L92">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithInterface_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithInterface*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithInterface_System_String_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithInterface(System.String)">WithInterface(String)</h4>
+  <div class="markdown level1 summary"><p>继承接口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithInterface(string interfaceName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">interfaceName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithInterfaces_System_String___.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithInterfaces(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L103">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithInterfaces_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithInterfaces*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithInterfaces_System_String___" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithInterfaces(System.String[])">WithInterfaces(String[])</h4>
+  <div class="markdown level1 summary"><p>继承接口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithInterfaces(params string[] interfaceNames)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">interfaceNames</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithKeyword_ClassKeyword_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithKeyword(ClassKeyword)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L26">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithKeyword_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithKeyword_ClassKeyword_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(ClassKeyword)">WithKeyword(ClassKeyword)</h4>
+  <div class="markdown level1 summary"><p>类的修饰符关键字，如 static，sealed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithKeyword(ClassKeyword keyword)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ClassKeyword</span></td>
+        <td><span class="parametername">keyword</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithKeyword_System_String_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithKeyword(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L38">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithKeyword_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithKeyword_System_String_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithKeyword(System.String)">WithKeyword(String)</h4>
+  <div class="markdown level1 summary"><p>类的修饰符关键字，如 static，sealed</p>
+<p>关键字拼写错误，可能会导致代码有严重错误</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithKeyword(string keyword = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword</span></td>
+        <td><p>static...</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithMethod_System_Action_CZGL_Roslyn_MethodBuilder__.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithMethod(System.Action%7BCZGL.Roslyn.MethodBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L280">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithMethod_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithMethod*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithMethod_System_Action_CZGL_Roslyn_MethodBuilder__" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithMethod(System.Action{CZGL.Roslyn.MethodBuilder})">WithMethod(Action&lt;MethodBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>添加一个方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithMethod(Action&lt;MethodBuilder&gt; builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CZGL.Roslyn.MethodBuilder.html">MethodBuilder</a>&gt;</td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithMethod_System_String_System_Action_CZGL_Roslyn_MethodBuilder__.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithMethod(System.String%2CSystem.Action%7BCZGL.Roslyn.MethodBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L267">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithMethod_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithMethod*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithMethod_System_String_System_Action_CZGL_Roslyn_MethodBuilder__" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithMethod(System.String,System.Action{CZGL.Roslyn.MethodBuilder})">WithMethod(String, Action&lt;MethodBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>添加一个方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithMethod(string name, Action&lt;MethodBuilder&gt; builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CZGL.Roslyn.MethodBuilder.html">MethodBuilder</a>&gt;</td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithName_System_String_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L53">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithName_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithName*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithName_System_String_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithName(System.String)">WithName(String)</h4>
+  <div class="markdown level1 summary"><p>设置名称</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithProperty_CZGL_Roslyn_PropertyBuilder_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithProperty(CZGL.Roslyn.PropertyBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L250">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithProperty_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithProperty*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithProperty_CZGL_Roslyn_PropertyBuilder_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithProperty(CZGL.Roslyn.PropertyBuilder)">WithProperty(PropertyBuilder)</h4>
+  <div class="markdown level1 summary"><p>添加一个属性</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithProperty(PropertyBuilder builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CZGL.Roslyn.PropertyBuilder.html">PropertyBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>字段构建器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithProperty_System_String_.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithProperty(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L225">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithProperty_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithProperty*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithProperty_System_String_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithProperty(System.String)">WithProperty(String)</h4>
+  <div class="markdown level1 summary"><p>添加一个属性</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual PropertyBuilder WithProperty(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>属性名称</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CZGL.Roslyn.PropertyBuilder.html">PropertyBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithProperty_System_String_System_Action_CZGL_Roslyn_PropertyBuilder__.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithProperty(System.String%2CSystem.Action%7BCZGL.Roslyn.PropertyBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L237">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithProperty_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithProperty*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithProperty_System_String_System_Action_CZGL_Roslyn_PropertyBuilder__" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithProperty(System.String,System.Action{CZGL.Roslyn.PropertyBuilder})">WithProperty(String, Action&lt;PropertyBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>添加一个属性</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithProperty(string name, Action&lt;PropertyBuilder&gt; builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CZGL.Roslyn.PropertyBuilder.html">PropertyBuilder</a>&gt;</td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>属性构建器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1_WithRondomName.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601.WithRondomName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L64">View Source</a>
+  </span>
+  <a id="CZGL_Roslyn_Templates_ClassTemplate_1_WithRondomName_" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithRondomName*"></a>
+  <h4 id="CZGL_Roslyn_Templates_ClassTemplate_1_WithRondomName" data-uid="CZGL.Roslyn.Templates.ClassTemplate`1.WithRondomName">WithRondomName()</h4>
+  <div class="markdown level1 summary"><p>随机生成一个名称</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TBuilder WithRondomName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/new/master/apiSpec/new?filename=CZGL_Roslyn_Templates_ClassTemplate_1.md&amp;value=---%0Auid%3A%20CZGL.Roslyn.Templates.ClassTemplate%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/CZGL-Roslyn/CZGL-Roslyn/blob/master/src/Src/CZGL.Roslyn/Templates/ClassTemplate`.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
