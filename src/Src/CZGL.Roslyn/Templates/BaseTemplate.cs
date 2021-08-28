@@ -1,10 +1,14 @@
 ﻿using CZGL.Roslyn.States;
+using CZGL.Roslyn.Utils;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CZGL.Roslyn.Templates
 {
+    /// <summary>
+    /// 基础模板，所有模板都必须继承此抽象类
+    /// </summary>
     public abstract class BaseTemplate
     {
         /// <summary>
@@ -33,12 +37,30 @@ namespace CZGL.Roslyn.Templates
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        internal virtual void WithRondomName()
+        internal virtual void WithRondomName(string prefix = "N")
         {
-            _base.Name = "N" + Guid.NewGuid().ToString("N");
+            _base.Name = CodeUtil.CreateRondomName(prefix);
         }
 
         #endregion
+
+        /// <summary>
+        /// 获取此构造器设的命名空间表
+        /// </summary>
+        internal IEnumerable<string> Namespaces => _base.Namespaces;
+
+        /// <summary>
+        /// 命名空间名称
+        /// <para>此处添加的命名空间将被统一收集，在构建代码时自动引用命名空间</para>
+        /// </summary>
+        /// <param name="namespaceName"></param>
+        public virtual void WithNamespace(string namespaceName)
+        {
+            if (string.IsNullOrWhiteSpace(namespaceName))
+                return;
+
+            _base.Namespaces.Add(namespaceName);
+        }
 
 
         /// <summary>

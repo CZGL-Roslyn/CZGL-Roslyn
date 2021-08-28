@@ -1,20 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace CZGL.Roslyn.States
 {
     /// <summary>
-    /// 所有结构都具有的属性
+    /// 成员基础结构表示
     /// </summary>
     public class BaseState
     {
         /// <summary>
-        /// 名称
+        /// 成员名称
         /// </summary>
         public string Name { get; set; }
 
+        /// <summary>
+        /// 是否使用了字符串代码生成
+        /// </summary>
         public bool UseCode { get; set; } = false;
-        public string Code { get; set; }
+
+#nullable disable
+
+        /// <summary>
+        /// 字符串代码
+        /// </summary>
+        public string Code { get; set; } = null;
+
+        /// <summary>
+        /// 命名空间收集
+        /// </summary>
+        public HashSet<string> Namespaces = new HashSet<string>();
+
+#nullable disable
     }
 }

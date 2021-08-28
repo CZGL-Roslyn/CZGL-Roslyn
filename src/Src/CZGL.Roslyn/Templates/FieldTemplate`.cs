@@ -1,4 +1,4 @@
-﻿using CZGL.Reflect.Shared;
+﻿using CZGL.CodeAnalysis.Shared;
 using CZGL.Roslyn.States;
 using CZGL.Roslyn.Templates;
 using Microsoft.CodeAnalysis;

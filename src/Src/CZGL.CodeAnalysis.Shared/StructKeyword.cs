@@ -5,17 +5,33 @@ using System.Text;
 namespace CZGL.CodeAnalysis.Shared
 {
     /// <summary>
-    /// 结构体访问修饰符
+    /// 结构体修饰符
     /// </summary>
+    [CLSCompliant(true)]
     public enum StructKeyword
     {
+        /// <summary>
+        /// None
+        /// </summary>
         [MemberDefineName(Name = "")]
         Default = 0,
 
         /// <summary>
-        /// 只能定义在嵌套类中
+        /// readonly
         /// </summary>
         [MemberDefineName(Name = "readonly")]
-        Readonly = 1
+        Readonly = 1,
+
+        /// <summary>
+        /// ref
+        /// </summary>
+        [MemberDefineName(Name = "ref")]
+        Ref = 1 << 1,
+
+        /// <summary>
+        /// readonly ref
+        /// </summary>
+        [MemberDefineName(Name = "readonly ref")]
+        ReadonlyRef = Readonly | Ref
     }
 }
